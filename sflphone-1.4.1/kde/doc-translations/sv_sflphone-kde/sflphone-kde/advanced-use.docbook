@@ -1,0 +1,100 @@
+<chapter id="advanced-use">
+
+	<chapterinfo>
+		<authorgroup>
+			<author
+><firstname
+>Jérémy</firstname
+> <surname
+>Quentin</surname
+> </author>
+         <author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+			<othercredit role="translator"
+> <firstname
+>Stefan</firstname
+> <surname
+>Asserhäll</surname
+> <affiliation
+><address
+><email
+>stefan.asserhall@comhem.se</email
+></address
+></affiliation
+> <contrib
+>Översättare</contrib
+></othercredit
+> 
+		</authorgroup>
+	</chapterinfo>
+
+	<title
+>Avancerad användning av &sflphone-client-kde;</title>
+
+	<sect1 id="advanced-use-hooks">
+		<title
+>Automatisering</title>
+
+		<para
+>En intressant funktion i &sflphone; är automatiseringsmöjligheterna. Automatiseringsmöjligheter anger vissa åtgärder som du kan välja att utföra vid en viss händelse, i synnerhet när ett samtal tas emot eller rings. De två användbara automatiseringsmöjligheter som är implementerade i &sflphone; är webbadressargumentet och formateringen av telefonnummer. </para>
+
+		<sect2 id="advanced-use-hooks-url">
+			<title
+>Webbadressargument</title>
+			<para
+>Funktionen tillåter att en webbadress som skickas med ett visst huvud i SIP- eller IAX-meddelandet från Asterisk-servern avläses, och visas med det valda webbläsarkommandot. </para>
+			<para
+>Gå till sidan <guilabel
+>Automatisering</guilabel
+> i inställningsmenyn för att anpassa den. Markera därefter SIP och/eller IAX-kryssrutorna, om du vill aktivera automatisering för SIP-konton och/eller IAX-konton. Skriv därefter in namnet på det anpassade huvud som Asterisk-servern infogar i inbjudningsmeddelandet för SIP-protokollet (om du inte känner till namnet på det anpassade huvudet, fråga personen som ställde in Asterisk-servern). För IAX finns ett gemensamt huvud för det, alltså behöver du inte ställa in det. Skriv därefter in kommandot för webbläsaren som du vill att webbadressen ska visas med, eller lämna x-www-browser för att använda standardwebbläsaren. </para>
+		</sect2>
+
+		<sect2 id="advanced-use-hooks-formatting">
+			<title
+>Formatering av telefonnummer</title>
+			<para
+>Funktionen låter dig lägga till det valda prefixet i början av telefonnumret som du ringer. </para>
+		</sect2>
+
+	</sect1>
+
+        <sect1 id="advanced-use-macro">
+                <title
+>Makron</title>
+                <para
+>Makron används för att automatisera vissa typer av samtal. Det enklaste användarfallet är att tilldela ett telefonnummer till en snabbtangent. För att göra det måste ett nytt makro skapas från sektionen "Handikappstöd" i inställningsdialogrutan. Därefter kan det tilldelas till en genväg, antingen i själva dialogrutan eller i den särskilda genvägsdialogrutan. Det är också möjligt att lägga till ett makro i verktygsraden med en särskild dialogruta. </para>
+                <para
+>Makron stöder också sekvensen "\n" för att emulera effekten av returtangenten på tangentbordet och knappen "Lyft på luren". Tiden mellan varje tangentnedtryckning går också att ställa in för att motsvara vissa abonnentväxlars inställning av uppringningsplaner (såsom telefonanknytningar eller ljudmenyer). </para>
+        </sect1>
+
+	<sect1 id="advanced-use-codecs">
+		<title
+>Kodare</title>
+
+		<para
+>För att kommunicera röstinformation använder &sflphone; vissa kodare. Du kan välja vilken kodare som ska användas i ljudinställningsrutan. </para>
+		<para
+>I den här rutan visas kodarna som är tillgängliga på systemet med alla sina parametrar. &sflphone; använder den första aktiverade i listan. Du kan alltså ändra ordningen i listan och aktivera eller inaktivera vissa kodare, för att ändra vilken som kommer att användas. För att göra det, markera en kodare och klicka på uppåt- eller neråtpilarna, eller markera/avmarkera bara motsvarande kryssruta. </para>
+
+	</sect1>
+
+        <sect1 id="advanced-use-video">
+                <title
+>Video</title>
+
+                <para
+>Versioner av &sflphone; senare än 1.1.2 har inbyggt stöd för videosamtal. Funktionen fungerar i huvudsak på samma sätt som ljudkodarna. Ett alternativ är också tillgängligt för att inaktivera videoöverföring. </para>
+                <para
+>Under ett videosamtal är vissa visningsalternativ tillgängliga för att ändra proportion eller rotera videon. Genom att klicka på knappen för avancerade inställningar är det också möjligt att byta mellan olika kameror, inaktivera video, strömma en fil eller dela din(a) bildskärm(ar). Att dela en fil är också tillgängligt genom att dra och släppa den ovanpå videofönstret. </para>
+                <para
+>Inställningar av videoenheter kan anpassas från inställningsfönstrets sektion "video". </para>
+
+        </sect1>
+
+		
+		
+</chapter>

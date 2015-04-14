@@ -1,0 +1,663 @@
+<chapter id="basic-use">
+
+<chapterinfo>
+<authorgroup>
+<author
+><firstname
+>Jérémy</firstname
+><surname
+>Quentin</surname
+></author>
+<author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+<othercredit role="translator"
+><firstname
+>Innocenzo</firstname
+><surname
+>Ventre</surname
+><affiliation
+><address
+><email
+>innocenzo.ventre@gmail.com</email
+></address
+></affiliation
+><contrib
+>Traduzione italiana</contrib
+></othercredit
+> 
+</authorgroup>
+</chapterinfo>
+
+<title
+>Uso basilare di &sflphone-client-kde;</title>
+
+<para
+>Anche se &sflphone; è orientato alle aziende, l'interfaccia è molto semplice da usare e puoi usufruire delle funzioni di base senza particolari conoscenze o abilità.</para>
+
+<sect1 id="basic-use-mainwindow">
+<title
+>Presentazione della finestra principale</title>
+
+<para
+>La finestra principale è composta da 4 parti principali: l'elenco delle chiamate in corso, la cronologia, l'elenco dei segnalibri e la rubrica. Per impostazione predefinita, vengono attaccate, ma è possibile separarle utilizzando la maniglia di trascinamento al di sopra di ogni «scheda» dell'applicazione. Puoi notare che questa maniglia è disabilitata nell'elenco delle chiamate in corso. </para>
+<sect2 id="basic-use-call-page">
+<title
+>La pagina per la chiamata</title>
+<para
+>Per alternare le finestre, clicca sulle schede <guilabel
+>Cronologia</guilabel
+>,  <guilabel
+>Segnalibri</guilabel
+> e <guilabel
+>Rubrica</guilabel
+> in basso. Ogni scheda può essere agganciata a sinistra o a destra della pagina chiamata e organizzata in varie configurazioni. </para>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-list.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>L'impostazione predefinita dell'elenco delle chiamate</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+
+<para
+>L'elenco delle chiamate è composto anch'esso da un elenco, chiamate create e conferenze. C'è anche un tastierino opzionale, una finestra per messaggi veloci e controlli del volume. Puoi abilitarli o disabilitarli dal menu <guimenu
+>Visualizza</guimenu
+>. <screenshot
+> <mediaobject>
+<imageobject>
+<imagedata fileref="menu-view.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Il menu visualizza</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+</para>
+</sect2>
+
+<sect2 id="basic-use-history-page">
+<title
+>La pagina cronologia</title>
+<para
+>La cronologia contiene le chiamate effettuate. È possibile ordinarle in diversimodi. Per impostazione predefinita, sono ordinate dalla chiamata più recente alla più vecchia con categorie «intelligenti». Una casella di testo di filtro è disponibile per le ricerche rapide. </para>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="history.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La scheda cronologia</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Per impostazione predefinita, ogni visualizzazione della chiamata, se la chiamata è in arrivo, in uscita o persa come simboli in basso alla destra del widget. È anche possibile visualizzare il nome del contatto collegato utilizzando le informazioni di contatto o il nome fornito dal server telefonico. Se una chiamata ha una registrazione verranno visualizzati i pulsanti ascolta e rimuovi. </para>
+</sect2>
+
+<sect2 id="basic-use-contact-page">
+<title
+>La rubrica</title>
+<para
+>La rubrica consente un accesso rapido alla rubrica di KDE. Per impostazione predefinita, è ordinata alfabeticamente, ma può anche essere visualizzata in vari altri modi. È presente anche una ricerca veloce. I contatti con più numeri di telefono vengono compressi per impostazione predefinita. Per visualizzare tutti i numeri puoi fare doppio clic sull'elemento compresso o attivare l'opzione nella pagina <guilabel
+>Visualizza</guilabel
+> nella finestra di configurazione. Le informazioni visualizzate sono configurabili anche in quella stessa pagina. Gli utenti con molti contatti potrebbero voler visualizzare pochi dettagli per ridurre al minimo la dimensione della rubrica. </para>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="contact-list.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La pagina dei contatti</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+</sect2>
+
+<sect2 id="basic-use-bookmark-page">
+<title
+>La pagina dei segnalibri</title>
+<para
+>La pagina dei <guilabel
+>segnalibri</guilabel
+> permette di salvare alcuni numeri di telefono per un accesso più veloce. Puoi farlo facendo clic con il &RMB; su un contatto o una voce della cronologia e scegliendo l'opzione <guimenuitem
+>segnalibro</guimenuitem
+>. Inoltre visualizza anche i 10 numeri più usati. </para>
+</sect2>
+
+</sect1>
+
+
+<sect1 id="basic-use-call">
+<title
+>Effettuare una chiamata</title>
+
+<sect2 id="basic-use-call-current">
+<title
+>Comporre un numero</title>
+
+
+<para
+>Se conosci il numero della persona da chiamare, puoi digitare direttamente il numero sul tastierino o sul tastierino numerico della tastiera mentre sei in &i18n-current-w;, In seguito fai clic sul pulsante <guibutton
+>Accetta</guibutton
+> nella barra degli strumenti &i18n-actions-p; o nel menu <guibutton
+>Azioni</guibutton
+>, o premendo anche &Enter; sulla tastiera, o facendo doppio clic una volta che hai terminato di comporre il numero.</para>
+
+<para
+>Comportamento da seguire, parti in comune...</para>
+
+</sect2>
+
+<sect2 id="basic-use-call-history">
+<title
+>Chiamare dalla cronologia</title>
+
+
+  <para
+>Se vuoi chiamare qualcuno per cui hai trovato una chiamata persa, o lo avessi appena chiamato, puoi vedere in &i18n-history-w;. L'uso dettagliato di questa finestra e delle sue funzioni (ricerca, &etc;) è descritto in questa sezione. Una volta che sei all'interno, cerca il numero della persona che vuoi chiamare, a questo punto puoi fare doppio clic sulla cronologia, trascinare sull'elenco delle chiamate, premere &Enter; o facendo clic destro su <guimenuitem
+>Richiama</guimenuitem
+>.</para>
+
+</sect2>
+
+<sect2 id="basic-use-call-contact">
+<title
+>Chiamare dalla rubrica</title>
+
+
+<para
+>Se hai configurato i contatti in KAddressBook o in Akonadi, &sflphone-client-kde; dovrebbe importarli automaticamente. Per chiamare un contatto, puoi fare doppio clic, trascinarlo sull'elenco delle chiamate, premere &Enter; o fai doppio clic e seleziona <guimenuitem
+>Chiama</guimenuitem
+>.</para>
+
+<para
+>Se il contatto ha molteplici numeri di telefono, una finestra di dialogo verrà mostrata per selezionare il numero giusto. </para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="multiple-number.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Popup dei numeri multipli</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Se la tua rubrica contiene numeri di telefono incompleti o solo numeri di interni, puoi impostare un «account predefinito» nella scheda «Base» della configurazione dell'account. Questo account verrà usato per chiamare questi numeri. Se hai un numero di telefono incompleto che appartiene a più account, si consiglia di modificare quei contatti per assicurare che il numero sia completo o aggiungere @<replaceable
+>nome host</replaceable
+> alla fine del numero (sostituisci <replaceable
+>nome host</replaceable
+> con un nome host valido).</para>
+
+</sect2>
+
+</sect1>
+
+
+
+<sect1 id="basic-call-state">
+<title
+>Azioni di base per la chiamata</title>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-action.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Azioni per la chiamata</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<sect2 id="basic-use-becalled">
+<title
+>Ricevere una chiamata</title>
+
+<para
+>Quando uno degli account registrati in &sflphone; riceve una chiamata, verrà visualizzata come un nuovo elemento in &i18n-current-w; con l'icona «in arrivo». In quel momento puoi accettare o rifiutare. Per accettare, seleziona la voce e fai clic sul pulsante <guibutton
+>Accetta</guibutton
+> che sostituisce il pulsante <guibutton
+>Chiama</guibutton
+> nella barra e nel menu <guimenu
+>Azioni</guimenu
+>, o fai doppio clic sulla voce, o premi &Enter;. Per rifiutare, selezionala e fai clic sul pulsante rifiuta che sostituisce il pulsante <guibutton
+>Aggancia</guibutton
+> nella barra e nel menu <guimenu
+>Azioni</guimenu
+> o premi &Esc;.</para>
+
+<para
+>Comportamento da seguire, parti in comune...</para>
+
+</sect2>
+
+
+<sect2 id="basic-use-ringing">
+<title
+>Il telefono squilla</title>
+
+
+<para
+>Dopo aver chiamato un numero, normalmente il telefono squilla. A quel punto passerà nello stato di «in attesa» o «occupato», in accordo alla decisione che prenderà il numero chiamato e cioè di accettare o rifiutare la chiamata. Se si trova nello stato di occupato, puoi riagganciare con il pulsante <guibutton
+>Aggancia</guibutton
+> o premendo &Esc;. </para>
+
+<para
+>Se il numero non esiste o se c'è un errore (puoi leggere l'elenco degli errori comuni qui), rimane in uno stato di errore, allora puoi riagganciare tramite il pulsante <guibutton
+>Aggancia</guibutton
+> o premendo &Esc;.</para>
+
+<para
+>Comportamento da seguire, parti in comune...</para>
+
+</sect2>
+
+<sect2 id="basic-use-current">
+<title
+>La chiamata è in corso</title>
+
+
+<para
+>Quando la chiamata è nello stato in corso, puoi quindi comunicare con il contatto collegato. Allo stato attuale, hai a disposizione molte funzioni utili, descritte nel capitolo uso comune. Per terminare la chiamata, selezionala e fai clic sul pulsante <guibutton
+>Aggancia</guibutton
+> nella barra degli strumenti o premendo &Esc;.</para>
+
+</sect2>
+
+<sect2 id="basic-use-recording">
+<title
+>Registrare la chiamata</title>
+
+<para
+>Registrare la chiamata creerà un file <filename
+>.wav</filename
+> nella cartella scelta nella finestra di dialogo per la configurazione audio. La registrazione puoi attivarla premendo il pulsante <guibutton
+>Registra</guibutton
+> nella barra. Il simbolo della chiamata dovrebbe cambiare in;</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-record.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Il simbolo di registrazione</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Quando la chiamata termina, puoi ascoltare la registrazione dalla pagina della cronologia premendo il pulsante play. Dovrebbe apparire questa schermata in sovrapposizione.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-play-record.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La registrazione in sovrapposizione</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+</sect2>
+
+<sect2 id="basic-use-transfer">
+<title
+>La chiamata viene trasferita</title>
+
+
+<para
+>SFLPhone supporta due tipi di trasferimento, diretto e partecipato. La modalità partecipata verrà discussa nel prossimo capitolo. La modalità diretta consiste nell'azione di trasferire una chiamata ad un altro numero. Una volta che la chiamata è trasferita, viene considerata terminata da SFLPhone. Dovrebbe quindi squillare verso il numero a cui hai trasferito il numero. Per trasferire la chiamata, puoi usare il pulsante nella barra <guibutton
+>Trasferisci</guibutton
+>. Dovrebbe apparire questa schermata in sovrapposizione:</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-transfer.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La schermata di trasferimento in sovrapposizione</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+</sect2>
+
+
+</sect1>
+
+<sect1 id="basic-managing-calls">
+<title
+>Gestire le chiamate</title>
+
+<para
+>SFLPhone supporta chiamate multiple contemporaneamente. La gestione delle chiamate multiple offre molte caratteristiche, ma è anche importante capire le loro relazioni. In teoria, solo una chiamata o un gruppo di chiamate, definite qui come conferenze, può essere attivo. Le altre chiamate verranno messe in attesa. Non puoi comunicare tramite una chiamata in attesa, ne tramite messaggio veloce ne tramite voce fino a quando non sarà di nuovo attiva. Fai doppio clic o premi &Enter; per riattivare la chiamata. Le chiamate attive dovrebbero avere come simbolo un'icona verde di colore più acceso rispetto alle chiamate inattive.</para>
+
+<para
+>Le conferenze sono un gruppo di chiamate che comunicano tra di loro. Ogni partecipante alla conversazione può ascoltare gli altri partecipanti. Tuttavia, è importante notare che se la conferenza viene creata in SFLPhone, gli altri partecipanti non ne saranno a conoscenza, quindi è utile in realtà di avvisarli che sono in conferenza. </para>
+
+<para
+>La gestione delle chiamate avviene in gran parte mediante trascinamento della selezione. Trascinando una chiamata su un'altra comporterà la visualizzazione di questa schermata in sovrapposizione.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-drop.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La chiamata in sovrapposizione</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Trascinando una chiamata su «conferenza» aggiungerà la chiamata selezionata alla conferenza sulla quale è stata trascinata. Trascinando la chiamata sul trasferimento attiverà un trasferimento partecipato. I trasferimenti partecipati sposteranno il proprietario della chiamata da quello di partenza al proprietario di quella trasferita. È utile avvertire la persona a cui stai trasferendo la chiamata prima del reale trasferimento. Metti la persona in attesa, e quindi esegui un trasferimento partecipato. La chiamata verrà rimossa e considerata terminata.</para>
+
+<para
+>Trascinando una chiamata su una chiamata in cronologia visualizzerà questa finestra in sovrapposizione:</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="history-drop.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La cronologia in sovrapposizione</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Attiverai un trasferimento diretto. Il telefono della persona a cui staitrasferendo la chiamata dovrebbe squillare. La chiamata verrà rimossa e considerato terminata. Questa funzione è disponibile anche per i contatti:</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="contact-transfer.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>I contatti in sovrapposizione</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+</sect1>
+
+<sect1 id="basic-use-config">
+<title
+>Configurazione account</title>
+
+<para
+>Per la procedura guidata di configurazione dell'account, fai riferimento al capitolo <link linkend="getting-started"
+>Guida introduttiva</link
+> di questo manuale.</para>
+
+<para
+>La configurazione avanzata degli account è disponibile nella sezione <guibutton
+>Account</guibutton
+> della finestra di dialogo della configurazione. La pagina è divisa in due sezioni, l'elenco degli account e le schede per la configurazione.</para>
+
+<sect2 id="account-list">
+<title
+>Elenco degli account</title>
+
+<para
+>L'elenco degli account consente di attivare o disattivare gli account selezionandoli, di cambiare la priorità usando i pulsanti <guibutton
+>su</guibutton
+> e <guibutton
+>giù</guibutton
+>, di aggiungerli e rimuoverli usando i pulsanti <guibutton
+>aggiungi</guibutton
+> e <guibutton
+>rimuovi</guibutton
+>.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-list.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Elenco degli account</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Lo sfondo colorato rappresenta lo stato dell'account. Un colore grigio rappresenta un account disattivato, rosso un account non valido o inaccessibile, giallo un account in fase di registrazione, e verde un account valido e registrato. Le icone rappresentano lo stato attuale per l'account locale. Un piccolo floppy rappresenta un account modificato e non ancora salvato mentre l'icona di ricarica indica un account modificato sul server o da un altro client, come un plasmoide e ha bisogno quindi di essere ricaricato.</para>
+
+</sect2>
+
+<sect2 id="basic-configuration">
+<title
+>Impostazioni di base</title>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-basic.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Finestra di dialogo iniziale per gli account</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Questa scheda permette di configurare le credenziali iniziali di un account SIP. La casella <guilabel
+>risoluzione delle impostazioni predefinite per l'account</guilabel
+> è usata per capire quale priorità ha l'account durante l'esecuzione di una ricerca delle informazioni di un contatto.</para>
+
+<para
+>Le impostazioni nella scheda iniziale sono spesso presenti in altre schede insieme a dettagli più specifici. La scheda <guilabel
+>Credenziali</guilabel
+> permette di configurare credenziali concatenate, questa funzione viene usata raramente e dovresti evitare di utilizzarlo a meno che non se ne ha realmente bisogno.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-credentials.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Credenziali concatenate</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>È anche possibile abilitare il SIP sicuro nella finestra di dialogo sicurezza. La gran parte degli account vengono usati in intranet o in VPN, e per questo insicuri. Al contrario se il tuo è un account sicuro la finestra di dialogo <guilabel
+>Sicurezza</guilabel
+> è qui per te.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-security.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Sicurezza dell'account</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>La finestra di dialogo avanzate contiene qualche configurazione raramente utilizzata come interfaccia di rete predefinita, porte alternative e server STUN.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-advanced.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Impostazioni avanzate</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>La finestra di dialogo della suoneria consente di selezionare una suoneria dall'elenco predefinito o da un file presente su disco.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-ringtone.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Impostazioni suoneria</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Infine, la scheda codec permette di abilitare o disabilitare i codec o di cambiarnepriorità. In questo modo, è possibile avere una qualità di chiamata superiore o un minore carico sulla rete. Alcuni codec video hanno anche dei parametri di configurazione propri.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="audio-codecs.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Impostazioni codec</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+</sect2>
+
+</sect1>
+
+<sect1 id="other-config">
+<title
+>Altre configurazioni</title>
+
+<para
+>SFLPhone KDE ha anche altre impostazioni non relative agli account SIP. Queste impostazioni permettono di configurare come l'applicazione debba apparire e comportarsi.</para>
+
+<sect2 id="display-config">
+<title
+>Aspetto</title>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="display.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Impostazioni aspetto</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>La pagina <guilabel
+>Aspetto</guilabel
+> consente varie configurazioni relative all'aspetto dell'applicazione. La prima sottosezione, <guilabel
+>Aspetto finestra principale</guilabel
+>, configura quando SFLPhone dovrà tornare in primo piano dopo essere minimizzato nel vassoio di sistema. La seconda sottosezione, <guilabel
+>Notifiche</guilabel
+>, configura quando SFLPhone dovrebbe mostrare una notifica. La terza sottosezione, <guilabel
+>Dettagli chiamata visibili</guilabel
+>, abilita o disabilita vari campi d'informazione nella chiamata. Permette anche di selezionare una dimensione minima per gli elementi della finestra di chiamata, per essere più semplici da raggiungere con il mouse. L'ultima sezione, <guilabel
+>Dettagli contatti visibili</guilabel
+> esegue le stesse operazioni precedenti per i contatti.</para>
+
+</sect2>
+
+<sect2 id="audio-config">
+<title
+>Audio</title>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="audio.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Impostazioni aspetto</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>La configurazione dell'audio consente di scegliere tra PulseAudio e ALSA. Inoltre permette di selezionare i dispositivi per varie operazioni, come per la suoneria.</para>
+
+</sect2>
+
+</sect1>
+
+
+</chapter>

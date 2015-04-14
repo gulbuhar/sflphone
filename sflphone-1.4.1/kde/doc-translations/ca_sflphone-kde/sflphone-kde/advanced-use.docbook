@@ -1,0 +1,86 @@
+<chapter id="advanced-use">
+
+	<chapterinfo>
+		<authorgroup>
+			<author
+><firstname
+>Jérémy</firstname
+> <surname
+>Quentin</surname
+> </author>
+         <author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+			&traductor.Antoni.Bella; 
+		</authorgroup>
+	</chapterinfo>
+
+	<title
+>Ús avançat del &sflphone-client-kde;</title>
+
+	<sect1 id="advanced-use-hooks">
+		<title
+>Rutines</title>
+
+		<para
+>Una característica interessant del &sflphone; és la gestió de les rutines. Les rutines designen algunes accions que podeu escollir disparar sobre una senyal en particular, especialment en rebre o enviar una trucada. Les dues rutines més útils que estan implementades al &sflphone; són l'argument de l'URL, i el format del número de telèfon. </para>
+
+		<sect2 id="advanced-use-hooks-url">
+			<title
+>Argument de l'URL</title>
+			<para
+>Aquesta característica permet prendre un URL enviat en una capçalera en particular del missatge SIP o IAX enviat pel servidor Asterisk, i executar-lo amb l'ordre del navegador escollit. </para>
+			<para
+>Per a configurar-ho, aneu a la pàgina <guilabel
+>Rutines</guilabel
+> del menú de configuració. Després marqueu la casella de selecció SIP o/i IAX, si voleu habilitar les rutines amb els comptes SIP o/i IAX. A continuació, escriviu el nom de la capçalera personalitzada que insereix el servidor Asterisk dins del missatge de convit pel protocol SIP (si no coneixeu el nom de la capçalera personalitzada, demaneu-li a la persona que ha configurat el servidor Asterisk). Per a IAX hi ha una capçalera comuna, així que no l'haureu de configurar. A continuació, escriviu l'ordre del navegador amb el que voleu obrir l'URL, o deixeu «x-www-browser» pel navegador per omissió. </para>
+		</sect2>
+
+		<sect2 id="advanced-use-hooks-formatting">
+			<title
+>Formatar el número de telèfon</title>
+			<para
+>Aquesta característica permet afegir el prefix triat al començament del número de telèfon al qual esteu trucant. </para>
+		</sect2>
+
+	</sect1>
+
+        <sect1 id="advanced-use-macro">
+                <title
+>Macros</title>
+                <para
+>Les macros s'utilitzen per automatitzar alguns tipus de trucades. El cas d'ús bàsic és assignar un número de telèfon amb una drecera de teclat. Per fer-ho, s'ha de crear una macro nova a la secció «Accessibilitat» del diàleg de configuració. Després es podrà assignar a una drecera, ja sigui en el diàleg en si o en el diàleg dedicat a les dreceres. També és possible afegir una macro a la barra d'eines utilitzant el diàleg dedicat. </para>
+                <para
+>Les macros també admeten la seqüència d'escapament «\ n» per emular l'efecte de la tecla &Intro; al teclat i del botó «Despenja» a la &IGU;. El temps entre cada pulsació de tecla també es pot configurar per a que coincideixi amb alguna configuració del pla de marcatge PXB (com ara extensions de telèfon o menú d'àudio). </para>
+        </sect1>
+
+	<sect1 id="advanced-use-codecs">
+		<title
+>Còdecs</title>
+
+		<para
+>Per a comunicar la informació de la veu, &sflphone; utilitza alguns còdecs. Podeu triar quin còdec utilitzar al plafó de configuració de l'àudio. </para>
+		<para
+>En aquest plafó podreu veure els còdecs disponibles al vostre sistema amb tots els seus paràmetres. &sflphone; activarà el primer de la llista. De manera que en podeu canviar l'ordre, i activar/desactivar alguns més, per tal de canviar el que s'haurà d'utilitzar. Per a fer-ho, seleccioneu un còdec i feu clic a les fletxes amunt/avall, o simplement marqueu/desmarqueu la casella de selecció corresponent. </para>
+
+	</sect1>
+
+        <sect1 id="advanced-use-video">
+                <title
+>Vídeo</title>
+
+                <para
+>Les versions del &sflphone; majors que 1.1.2 s'han construït implementant les trucades de vídeo. Aquesta característica majoritàriament funciona de la mateixa manera com els còdecs de l'àudio. Una opció que també està disponible és el deshabilitar la transmissió del vídeo. </para>
+                <para
+>Durant una trucada de vídeo, hi haurà disponibles algunes opcions de visualització per tal de canviar la relació d'aspecte o girar el vídeo. En prémer el botó d'arranjament avançat, també és possible canviar a una altra càmera, deshabilitar el vídeo, enviar el flux a un fitxer o compartir la vostra pantalla/es. La compartició d'un fitxer també és possible fent un arrossega i deixa a la part superior de la finestra de vídeo. </para>
+                <para
+>Els ajustaments dels dispositius de vídeo es poden configurar des de la secció «Vídeo» de la finestra de configuració. </para>
+
+        </sect1>
+
+		
+		
+</chapter>

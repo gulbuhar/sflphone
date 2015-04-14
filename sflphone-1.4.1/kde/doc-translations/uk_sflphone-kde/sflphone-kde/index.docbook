@@ -1,0 +1,149 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
+  <!ENTITY sflphone-client-kde "SFLPhone KDE Client">
+  <!ENTITY kappname "&sflphone-client-kde;">
+  <!ENTITY sflphonerelease "1.1.0">
+  <!ENTITY i18n-current-w "Вікно поточних викликів">
+  <!ENTITY i18n-history-w "Вікно журналу викликів">
+  <!ENTITY i18n-address-w "Вікно адресної книги">
+  <!ENTITY i18n-actions-p "частина інструментів">
+  <!ENTITY i18n-screen-p "екран">
+  <!ENTITY i18n-dialpad-p "панель набирання">
+  <!ENTITY i18n-pt-home "домашній телефон">
+  <!ENTITY i18n-pt-cell "мобільний телефон">
+  <!ENTITY i18n-pt-work "робочий телефон">
+
+  <!ENTITY sflphone "SFLphone">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Ukrainian "INCLUDE">
+
+  <!-- chapters in separate docbook files -->
+  <!ENTITY introduction SYSTEM "introduction.docbook">
+  <!ENTITY getting-started SYSTEM "getting-started.docbook">
+  <!ENTITY basic-use SYSTEM "basic-use.docbook">
+  <!ENTITY common-use SYSTEM "common-use.docbook">
+  <!ENTITY advanced-use SYSTEM "advanced-use.docbook">
+  <!ENTITY credits SYSTEM "credits.docbook">
+]>
+
+<book id="sflphone-kde" lang="&language;">
+<bookinfo>
+  <title
+>Підручник користувача &sflphone-client-kde;</title>
+  <date
+>10 травня 2009 року</date>
+  <releaseinfo
+>&sflphonerelease;</releaseinfo>
+
+  <authorgroup>
+    <author
+><firstname
+>J&eacute;r&eacute;my</firstname
+> <surname
+>Quentin</surname
+> <affiliation
+> <address
+><email
+>jeremy.quentin@savoirfairelinux.com</email
+></address>
+      </affiliation>
+    </author>
+  </authorgroup>
+
+  <copyright>
+    <year
+>2009</year>
+    <holder
+>Savoir faire linux</holder>
+  </copyright>
+
+  <legalnotice
+>&FDLNotice;</legalnotice>
+
+  <abstract>
+    <para
+>&sflphone-client-kde; — клієнтська частина &kde; до &sflphone;, надійного комп’ютерного телефону промислового рівня.</para>
+  </abstract>
+
+  <keywordset>
+    <keyword
+>KDE</keyword>
+    <keyword
+>SFLPhone</keyword>
+    <keyword
+>клієнт</keyword>
+    <keyword
+>телефон</keyword>
+    <keyword
+>промисловий</keyword>
+  </keywordset>
+
+</bookinfo>
+
+
+&introduction;
+&getting-started;
+&basic-use;
+&common-use;
+&advanced-use;
+&credits;
+
+<appendix id="app-bibliography">
+<title
+>Бібліографія</title>
+
+<para
+>(... Ще не написано ...)</para>
+
+<bibliography id="bibliography">
+
+<biblioentry>
+<title
+><ulink url="info://sflphone-client-kde/Top"
+>Підручник з &sflphone-client-kde;</ulink
+></title>
+<authorgroup>
+<author
+><firstname
+>J&eacute;r&eacute;my</firstname
+><surname
+>Quentin</surname
+></author>
+</authorgroup>
+</biblioentry>
+
+<biblioentry>
+<title
+><ulink url="http://en.wikipedia.org/wiki/Session_Initiation_Protocol"
+>Вікі SIP</ulink
+></title>
+</biblioentry>
+
+<biblioentry>
+<title
+><ulink url="http://en.wikipedia.org/wiki/IAX"
+>Вікі IAX</ulink
+></title>
+</biblioentry>
+
+<biblioentry>
+<title
+><ulink url="http://www.asterisk.org/"
+>Сторінка Asterisk</ulink
+></title>
+</biblioentry>
+
+<biblioentry>
+<title
+><ulink url="http://en.wikipedia.org/wiki/STUN"
+>Вікі STUN</ulink
+></title>
+</biblioentry>
+
+</bibliography>
+
+</appendix>
+
+<!-- &documentation.index; -->
+
+</book>

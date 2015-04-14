@@ -1,0 +1,9 @@
+<chapter id="introduction">
+<title
+>Introdução</title>
+
+
+<para
+>Este manual de utilizador pretende descrever o conteúdo e o uso do telefone por 'software' &sflphone-client-kde; &sflphonerelease;. O &sflphone-client-kde; é um cliente para o &kde; do &sflphone;. Ele comunica com o sistema através de &DBus;. O &sflphone; pretende ser um telefone empresarial robusto. Oferece funções como a transferência de chamadas, suspensão das mesmas, várias linhas e suporte para várias contas. É compatível com o SIP e o IAX2. A camada de áudio do &sflphone; está assente sobre uma interface nativa do ALSA ou do PulseAudio. </para>
+
+</chapter>

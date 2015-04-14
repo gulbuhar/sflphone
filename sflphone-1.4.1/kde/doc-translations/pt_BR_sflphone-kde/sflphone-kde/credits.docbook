@@ -1,0 +1,79 @@
+<chapter id="credits">
+  <title
+>Créditos e licença</title>
+
+  <!--<itemizedlist>
+    <title
+>Program Copyright:</title>
+    <listitem
+><para
+>Albert Astals Cid<email
+>aacid@kde.org</email
+> </para
+></listitem>
+    <listitem
+><para
+>Pino Toscano <email
+>pino@kde.org</email
+> Current maintainer</para
+></listitem>
+    <listitem
+><para
+>Enrico Ros<email
+>eros.kde@email.it</email
+> developer</para
+></listitem>
+  </itemizedlist>
+
+  <itemizedlist>
+    <title
+>Documentation Copyright:</title>
+    <listitem
+><para
+>Albert Astals Cid<email
+>aacid@kde.org</email
+> Author</para
+></listitem>
+    <listitem
+><para
+>Titus Laska<email
+>titus.laska@gmx.de</email
+> Some updates and additions</para
+></listitem>
+    <listitem
+><para
+>Pino Toscano <email
+>pino@kde.org</email
+></para
+></listitem>
+  </itemizedlist
+>-->
+
+  <itemizedlist>
+    <title
+>Programa:</title>
+    <listitem>
+      <para
+>O aplicativo inicialmente foi escrito por Jérémy Quentin <email
+>jeremy.quentin@savoirfairelinux.com</email
+>. </para>
+    </listitem>
+  </itemizedlist>
+
+  <itemizedlist>
+    <title
+>Documentação:</title>
+    <listitem>
+      <para
+>O conteúdo inicial deste manual foi escrito por Jérémy Quentin <email
+>jeremy.quentin@savoirfairelinux.com</email
+>. </para>
+    </listitem>
+  </itemizedlist>
+
+  <para
+>Tradução de Marcus Gama <email
+>marcus.gama@gmail.com</email
+></para
+> 
+&underFDL; &underGPL; </chapter>

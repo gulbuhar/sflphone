@@ -1,0 +1,78 @@
+<chapter id="advanced-use">
+
+	<chapterinfo>
+		<authorgroup>
+			<author
+><firstname
+>Jérémy</firstname
+> <surname
+>Quentin</surname
+> </author>
+         <author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+			<othercredit role="translator"
+><firstname
+>Innocenzo</firstname
+><surname
+>Ventre</surname
+><affiliation
+><address
+><email
+>innocenzo.ventre@gmail.com</email
+></address
+></affiliation
+><contrib
+>Traduzione italiana</contrib
+></othercredit
+> 
+		</authorgroup>
+	</chapterinfo>
+
+	<title
+>Uso avanzato di &sflphone-client-kde;</title>
+
+	<sect1 id="advanced-use-hooks">
+		<title
+>Collegamenti</title>
+
+		<para
+>Un'interessante funzione di &sflphone; è il gestore dei collegamenti. I collegamenti corrispondono a delle azioni a scelta da attivare su un segnale particolare, in particolar modo quando ricevi o invii una chiamata. I collegamenti più utili implementati in &sflphone; sono l'argomento per l'URL e la formattazione dei numeri di telefono. </para>
+
+		<sect2 id="advanced-use-hooks-url">
+			<title
+>Argomento per l'URL</title>
+			<para
+>Questa funzione permette di catturare un URL inviato con una particolare intestazione in un messaggio SIP o IAX inviato dal server Asterisk, e lo esegue con il comando del browser prescelto. </para>
+			<para
+>Per la configurazione, entra nella pagina <guilabel
+>Collegamenti</guilabel
+> del menu di configurazione. In seguito seleziona la casella SIP e/o IAX, se vuoi abilitare i collegamenti con gli account SIP e/o IAX. Quindi digita il nome dell'intestazione personalizzata che il server Asterisk inserisce nel messaggio di invito per il protocollo SIP (se non conosci il nome dell'intestazione personalizzata, chiedi all'amministratore del server Asterisk). Per IAX c'è un header comune a questo scopo, quindi non è necessario configurarlo. Quindi digita il comando del browser che desideri avere per aprire gli URL, o lascia x-www-browser per il browser predefinito. </para>
+		</sect2>
+
+		<sect2 id="advanced-use-hooks-formatting">
+			<title
+>Formattazioni del numero di telefono</title>
+			<para
+>Questa funzione permette di aggiungere un prefisso di tua scelta all'inizio del numero di telefono che stai chiamando. </para>
+		</sect2>
+
+	</sect1>
+
+	<sect1 id="advanced-use-codecs">
+		<title
+>Codec</title>
+
+		<para
+>Per comunicare le informazioni vocali, &sflphone; usa diversi codec. Puoi scegliere quale codec usare nel pannello di configurazione audio. </para>
+		<para
+>In questo pannello potrai vedere i codec disponibili sul sistema con tutti i loroparametri. &sflphone; userà il primo attivo in elenco. Così puoi cambiare l'ordine dell'elenco, e attivarne / disattivarne alcuni, di cambiare quale verrà utilizzato. Per far questo, seleziona un codec e fai clic sulle frecce su / giù, o semplicemente seleziona / deseleziona la casella di controllo corrispondente. </para>
+
+	</sect1>
+
+		
+		
+</chapter>

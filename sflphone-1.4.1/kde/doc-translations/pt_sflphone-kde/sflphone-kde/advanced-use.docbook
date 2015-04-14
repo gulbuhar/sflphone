@@ -1,0 +1,78 @@
+<chapter id="advanced-use">
+
+	<chapterinfo>
+		<authorgroup>
+			<author
+><firstname
+>Jérémy</firstname
+> <surname
+>Quentin</surname
+> </author>
+         <author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+			<othercredit role="translator"
+><firstname
+>José</firstname
+><surname
+>Pires</surname
+><affiliation
+><address
+><email
+>zepires@gmail.com</email
+></address
+></affiliation
+><contrib
+>Tradução</contrib
+></othercredit
+> 
+		</authorgroup>
+	</chapterinfo>
+
+	<title
+>Utilização avançada do &sflphone-client-kde;</title>
+
+	<sect1 id="advanced-use-hooks">
+		<title
+>Rotinas</title>
+
+		<para
+>Uma funcionalidade interessante do &sflphone; é a gestão de rotinas. As rotinas definem algumas acções que poderá optar por activar com base num dado sinal, especialmente quando receber ou efectuar uma chamada. As duas rotinas úteis que estão implementadas no &sflphone; são o argumento do URL e a formatação dos números telefónicos. </para>
+
+		<sect2 id="advanced-use-hooks-url">
+			<title
+>Argumento de URL</title>
+			<para
+>Esta funcionalidade permite-lhe capturar um URL enviado num dado cabeçalho da mensagem SIP ou IAX enviada pelo servidor Asterisk, executando-a com o comando escolhido no navegador. </para>
+			<para
+>Para a configurar, vá à página de <guilabel
+>Rotinas</guilabel
+> do menu de configuração. Depois assinale as opções SIP e/ou IAX, caso queira activar as rotinas com contas de SIP e/ou com contas de IAX. Depois, indique o nome do cabeçalho personalizado que o seu servidor Asterisk introduz com a mensagem de convite do protocolo SIP (se não souber o nome do cabeçalho personalizado, peça a quem configurou o servidor Asterisk). Para o IAX, existe um cabeçalho comum para isso, pelo que não terá de o configurar. Depois, escreva o comando do navegador com que deseja abrir o URL, ou então deixe 'x-www-browser' para usar o navegador predefinido. </para>
+		</sect2>
+
+		<sect2 id="advanced-use-hooks-formatting">
+			<title
+>Formatação dos números telefónicos</title>
+			<para
+>Esta funcionalidade permite-lhe adicionar o perfil escolhido ao início do número de telefone que estiver a chamar. </para>
+		</sect2>
+
+	</sect1>
+
+	<sect1 id="advanced-use-codecs">
+		<title
+>Codificadores</title>
+
+		<para
+>Para comunicar a informação de voz, o &sflphone; usa alguns codificadores. Poderá escolher o codificador a usar no painel de configuração do áudio. </para>
+		<para
+>Neste painel, irá ver os codificadores disponíveis no seu sistema, bem como todos os seus parâmetros. O &sflphone; irá usar o primeiro activado na lista. Como tal, poderá alterar a ordem na lista e activar/desactivar alguns, por forma a mudar o que será usado. Para o fazer, seleccione um codificador e carregue nas setas cima/baixo ou marque/desmarque a opção correspondente. </para>
+
+	</sect1>
+
+		
+		
+</chapter>

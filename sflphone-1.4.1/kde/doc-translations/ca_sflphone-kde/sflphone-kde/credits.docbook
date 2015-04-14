@@ -1,0 +1,77 @@
+<chapter id="credits">
+  <title
+>Crèdits i llicència</title>
+
+  <!--<itemizedlist>
+    <title
+>Program Copyright:</title>
+    <listitem
+><para
+>Albert Astals Cid<email
+>aacid@kde.org</email
+> </para
+></listitem>
+    <listitem
+><para
+>Pino Toscano <email
+>pino@kde.org</email
+> Current maintainer</para
+></listitem>
+    <listitem
+><para
+>Enrico Ros<email
+>eros.kde@email.it</email
+> developer</para
+></listitem>
+  </itemizedlist>
+
+  <itemizedlist>
+    <title
+>Documentation Copyright:</title>
+    <listitem
+><para
+>Albert Astals Cid<email
+>aacid@kde.org</email
+> Author</para
+></listitem>
+    <listitem
+><para
+>Titus Laska<email
+>titus.laska@gmx.de</email
+> Some updates and additions</para
+></listitem>
+    <listitem
+><para
+>Pino Toscano <email
+>pino@kde.org</email
+></para
+></listitem>
+  </itemizedlist
+>-->
+
+  <itemizedlist>
+    <title
+>Programa:</title>
+    <listitem>
+      <para
+>L'aplicació inicial va ser escrita per en Jérémy Quentin <email
+>jeremy.quentin@savoirfairelinux.com</email
+>. </para>
+    </listitem>
+  </itemizedlist>
+
+  <itemizedlist>
+    <title
+>Documentació:</title>
+    <listitem>
+      <para
+>El contingut inicial d'aquest manual va ser escrit per en Jérémy Quentin <email
+>jeremy.quentin@savoirfairelinux.com</email
+>. </para>
+    </listitem>
+  </itemizedlist>
+
+  <para
+>Traductor de la documentació: &credits.Antoni.Bella;</para
+> 
+&underFDL; &underGPL; </chapter>

@@ -1,0 +1,675 @@
+<chapter id="basic-use">
+
+<chapterinfo>
+<authorgroup>
+<author
+><firstname
+>Jérémy</firstname
+><surname
+>Quentin</surname
+></author>
+<author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+&traductor.Antoni.Bella; 
+</authorgroup>
+</chapterinfo>
+
+<title
+>Ús bàsic del &sflphone-client-kde;</title>
+
+<para
+>Encara que el &sflphone; està orientat a l'empresa, la seva interfície és molt fàcil d'usar i es poden utilitzar les característiques bàsiques sense cap habilitat o coneixement en particular.</para>
+
+<sect1 id="basic-use-mainwindow">
+<title
+>Presentació de la finestra principal</title>
+
+<para
+>La finestra principal es compon de quatre parts principals: la llista actual de trucada, la llista de l'historial, la llista de preferits i la llista de contactes. Per omissió, s'apleguen, però és possible separar-les utilitzant la característica arrossega i deixa sobre la nansa a la part superior de cada «pestanya» de l'aplicació. Tingueu en compte que aquesta nansa està deshabilitada a la llista de les trucades en curs. </para>
+<sect2 id="basic-use-call-page">
+<title
+>La pàgina Trucades</title>
+<para
+>Per a canviar entre les finestres, feu clic a les pestanyes <guilabel
+>Historial</guilabel
+>, <guilabel
+>Preferits</guilabel
+> i <guilabel
+>Llibreta d'adreces</guilabel
+> a la part inferior de la pantalla. Cada pestanya es pot acoblar a l'esquerra o a la dreta de la pàgina <guilabel
+>Trucades</guilabel
+> i disposades amb pestanyes en diverses configuracions. </para>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-list.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La llista de trucades per omissió</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+
+<para
+>La llista de les trucades en curs es compon de la pròpia llista, trucada a l'amfitrió i els congressos. També hi ha un teclat de marcatge opcional, el quadre de missatge instantani i els controls de volum. Es poden habilitar o deshabilitar des del menú <guimenu
+>Visualitza</guimenu
+>. <screenshot
+> <mediaobject>
+<imageobject>
+<imagedata fileref="menu-view.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>El menú Visualitza</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+</para>
+</sect2>
+
+<sect2 id="basic-use-history-page">
+<title
+>La pàgina Historial</title>
+<para
+>La llista de l'historial acull les trucades anteriors. És possible ordenar-les de múltiples maneres. Per omissió, s'ordenen des de la trucada més recent a la més antiga amb categories «intel·ligents». Hi ha disponible un filtre de quadre de text per a realitzar cerques ràpides. </para>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="history.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La pestanya Historial</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Per omissió, cada trucada mostra si la és entrant, sortint o perduda amb emblemes a la part inferior dreta de l'estri. També mostra el nom del qui truca utilitzant la informació del contacte o el nom proporcionat pel servidor del telèfon. Si una trucada té un enregistrament, es mostraran els botons <guibutton
+>Reprodueix</guibutton
+> i <guibutton
+>Suprimeix</guibutton
+>. </para>
+</sect2>
+
+<sect2 id="basic-use-contact-page">
+<title
+>La pàgina Contactes</title>
+<para
+>La llista de contactes proporciona un fàcil accés als contactes de la llibreta d'adreces del &kde;. Per omissió, està ordenada per ordre alfabètic, però també es pot mostrar en diversos altres ordres. També es proporciona un camp de text de cerca ràpida. Els contactes amb diversos números de telèfon per omissió es contrauen. Per mostrar tots els números podeu fer doble clic sobre l'element plegat a la llista o activar l'opció a la pàgina <guilabel
+>Mostra</guilabel
+> del diàleg de configuració. La informació que es mostra també és configurable des de la mateixa pàgina. Els usuaris amb molts contactes podrien voler mostrar detalls mínims per a reduir la mida dels contactes. </para>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="contact-list.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La pestanya Contactes</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+</sect2>
+
+<sect2 id="basic-use-presence">
+   <title
+>Presència del contacte</title>
+   <para
+>Els comptes SIP admeten una característica anomenada «presència». Aquesta permet als usuaris de telèfons per programari el realitzar un seguiment sobre l'estat actual dels altres usuaris («al telèfon», «disponible», «ocupat», i així successivament). Es pot comparar amb la llista d'amics en línia de la missatgeria instantània habitual, però és més restringida. Cada «amic» se l'ha de seguir de forma individual i utilitzar aquesta característica basada en el número de telèfon amb IP2IP o DNS pot consumir més energia, el qual redueix la vida de la bateria del portàtil. A partir de 2014, també resultarà ser poc fiable i múltiples PBX com Asterisk només admeten un subconjunt del protocol. </para>
+   <para
+>El &sflphone-client-kde; només farà un seguiment dels números de telèfon si marqueu «Habilita la indicació de presència» per a un compte, si el número de telèfon ja ha estat trucat i si està com a preferit o si forma part de manera explicita d'una col·lecció de contactes a seguir. </para>
+   <para
+>El publicar la presència permet que alguns comptes publiquin un missatge de presència i l'estat (ja sigui en línia o fora de línia) a altres telèfons per programari. Si un compte ho admet (i teniu habilitada la presència), el &sflphone-client-kde; mostrarà un estri a la barra d'estat per establir el missatge de presència. Es poden configurar alguns missatges predefinits al diàleg de configuració, però també es poden utilitzar personalitzats. Per omissió és «Connectat». Un estat de presència connectat no vol dir que pugueu fer una trucada o que el compte està connectat. Com &sflphone; també implementa les trucades a través de túnels SSH i adreces amfitrió, el &sflphone; sempre està connectat, en teoria. Un cop més, les proves empíriques demostren que aquesta característica no funciona molt bé en la gran majoria de PBX i registradors. Els registradors basats en <ulink url="http://en.wikipedia.org/wiki/FreeSWITCH"
+>FreeSWITCH</ulink
+> semblen tenir el millor suport. Aquesta informació també es pot perdre quan les trucades es desvien a través de servidors i PBX intermediaris. </para>
+   <para
+>Quan la tasca de subscripció de la presència funciona tal com s'espera, els contactes, les trucades de l'historial i els números preferits tindran ja sigui un tint o halo vermell o verd al seu voltant. Aquesta informació també s'utilitzarà pel motor de compleció automàtica per a donar millors resultats. </para>
+</sect2>
+
+<sect2 id="basic-use-bookmark-page">
+<title
+>La pàgina Preferits</title>
+<para
+>La pàgina <guilabel
+>Preferits</guilabel
+> permet desar alguns números de telèfon per a ser més accessibles. Això es realitza fent clic amb el &BDR; sobre un contacte o un element de l'historial i prement l'opció <guimenuitem
+>Preferit</guimenuitem
+>. També mostra els 10 números més utilitzats. </para>
+</sect2>
+
+</sect1>
+
+
+<sect1 id="basic-use-call">
+<title
+>Fer una trucada</title>
+
+<sect2 id="basic-use-call-current">
+<title
+>Marcar un número</title>
+
+
+<para
+>Si coneixeu el número de la persona a la que voleu trucar, simplement marqueu-lo al teclat de marcatge o al vostre teclat mentre us trobeu a la &i18n-current-w;, a continuació, feu clic al botó <guibutton
+>Accepta</guibutton
+> a la &i18n-actions-p; de la barra d'eines o al menú <guimenu
+>Accions</guimenu
+> o premeu &Intro; en el vostre teclat, o feu doble clic sobre el número a trucar una vegada que l'hagueu acabat de marcar.</para>
+
+<para
+>El següent comportament, part comuna...</para>
+
+</sect2>
+
+<sect2 id="basic-use-call-history">
+<title
+>Trucar des de l'Historial de les trucades</title>
+
+
+  <para
+>Si voleu trucar a algú de qui teniu una trucada perduda, o si ja l'heu cridat abans, podeu anar a la &i18n-history-w;. L'ús detallat d'aquesta finestra i les seves característiques (cerca, &etc;), es descriu en aquesta secció. Una vegada allà, trobeu el número o nom de la persona que voleu marcar, després podreu fer doble clic sobre la trucada a l'historial, fer un arrossega i deixa sobre la llista de trucades en curs, prémer &Intro; o fer clic dret i prémer <guimenuitem
+>Truca una altra vegada</guimenuitem
+>.</para>
+
+</sect2>
+
+<sect2 id="basic-use-call-contact">
+<title
+>Trucar des de la llibreta d'adreces</title>
+
+
+<para
+>Si heu configurat els contactes, ja sigui al KAddressBook o Akonadi, el &sflphone-client-kde; els hauria d'importar automàticament. Per trucar a un contacte, és possible fer doble clic sobre seu, fer un arrossega i deixa sobre la llista de la trucades en curs, prémer &Intro; o fent clic dret i seleccionant <guimenuitem
+>Truca</guimenuitem
+>.</para>
+
+<para
+>Si el contacte conté múltiples números de telèfon, es mostrarà un diàleg per a seleccionar el número correcte. </para>
+
+<para
+>A partir de la versió 1.4.0, el &sflphone-client-kde; també pot actuar com un complet gestor dels contactes (orientat a les característiques relacionades amb el telèfon). És possible afegir, gestionar i configurar la col·lecció de l'Akonadi directament des de la secció «Llibreta d'adreces» del diàleg de configuració. També és possible afegir i eliminar contactes directament des de la interfície principal. </para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="multiple-number.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Emergent amb múltiples números</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Si la vostra llibreta d'adreces conté números de telèfon incomplets o només extensions de telèfon, és possible establir un «compte per omissió» a la pestanya «Bàsic» del diàleg de configuració del compte. Aquest compte s'utilitzarà per trucar a aquests números. Si teniu un número de telèfon incomplet pertanyent a múltiples comptes, s'aconsella editar aquests contactes per assegurar-vos que el número està complet o afegir @<replaceable
+>amfitrió</replaceable
+> al final del número (substituïu <replaceable
+>amfitrió</replaceable
+> amb un amfitrió de servidor vàlid).</para>
+
+</sect2>
+
+</sect1>
+
+
+
+<sect1 id="basic-call-state">
+<title
+>Accions de trucada bàsiques</title>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-action.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Accions de trucada</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<sect2 id="basic-use-becalled">
+<title
+>Rebre una trucada</title>
+
+<para
+>Quan algú del compte registrat al &sflphone; rep una trucada entrant, es mostrarà com un element nou a la &i18n-current-w; amb la icona de «entrant». La podeu acceptar o rebutjar. Per acceptar-la, seleccioneu l'element i feu clic al botó <guibutton
+>Accepta</guibutton
+> que ha substituït al botó <guibutton
+>Truca</guibutton
+> a la barra d'eines i al menú <guimenu
+>Accions</guimenu
+> o feu doble clic sobre l'element, o premeu &Intro;. Per a rebutjar-la, seleccioneu-la i feu clic al botó <guibutton
+>Rebutja</guibutton
+> que ha substituït al botó <guibutton
+>Penja</guibutton
+> a la barra d'eines i al menú <guimenu
+>Accions</guimenu
+> o prement la tecla &Esc;.</para>
+
+<para
+>El següent comportament, part comuna...</para>
+
+</sect2>
+
+
+<sect2 id="basic-use-ringing">
+<title
+>La trucada està sonant</title>
+
+
+<para
+>Un cop hagueu trucat a un nombre, la trucada normalment es trobarà en estat sonant. A continuació, passarà a l'estat en curs o ocupat, d'acord amb la decisió de a qui es truca per acceptar o rebutjar la trucada. Si es troba en estat d'ocupat, podeu penjar amb el botó <guibutton
+>Penja</guibutton
+> o prement la tecla &Esc;. </para>
+
+<para
+>Si no existeix el número o apareix algun altre error (vegeu aquí la llista d'errors comuns), es troba en estat de fallada, després podreu penjar amb el botó <guibutton
+>Penja</guibutton
+> o prement la tecla &Esc;.</para>
+
+<para
+>El següent comportament, part comuna...</para>
+
+</sect2>
+
+<sect2 id="basic-use-current">
+<title
+>La trucada és en curs</title>
+
+
+<para
+>Una vegada que la trucada està en estat en curs, ara podreu comunicar-vos amb algú. Disposeu d'un munt de característiques útils, quan en l'estat en curs, es descriu al capítol d'ús comú. Per a finalitzar la trucada, seleccioneu-la i feu clic al botó <guibutton
+>Penja</guibutton
+> a la barra d'eines o prement la tecla &Esc;.</para>
+
+</sect2>
+
+<sect2 id="basic-use-recording">
+<title
+>La trucada s'està enregistrant</title>
+
+<para
+>L'enregistrament d'una trucada crearà un fitxer <filename
+>.wav</filename
+> al directori triat al diàleg de configuració de l'àudio. L'enregistrament es pot activar prement el botó <guibutton
+>Enregistra</guibutton
+> de la barra d'eines. L'emblema de trucada de canviar a:</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-record.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>L'emblema d'enregistrada</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Una vegada que la trucada ha finalitzat, podeu reproduir l'enregistrament des de la pàgina de l'historial prement el botó de reproducció. Hauria d'aparèixer aquesta superposició.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-play-record.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La superposició de l'enregistrada</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+</sect2>
+
+<sect2 id="basic-use-transfer">
+<title
+>La trucada es comença a transferir</title>
+
+
+<para
+>Suport &sflphone; accepta dos tipus de transferència, directa i assistida. De l'assistida en parlarem a la següent secció. La transferència directa és l'acció de transferir una trucada a un altre número. Una vegada que la trucada és transferida, es considerarà finalitzada al &sflphone;. Aquesta començarà a sonar en el nombre a la que és transferida. Per transferir una trucada, premeu el botó <guibutton
+>Transfereix</guibutton
+> de la barra d'eines. S'ha de presentar aquesta superposició:</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-transfer.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La superposició de la transferència</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+</sect2>
+
+
+</sect1>
+
+<sect1 id="basic-managing-calls">
+<title
+>Gestionar les trucades</title>
+
+<para
+>El &sflphone; admet múltiples trucades alhora. La gestió de múltiples trucades ofereix moltes característiques, però també és important entendre la relació entre aquestes. En teoria, sols poden estar actives 1 trucada o grup de trucades, denominades aquí com a congressos. La resta de les trucades passaran a estar en espera. Una trucada en espera no pot comunicar-se, ja sigui per missatge instantani o de veu a menys que s'activi de nou. Feu doble clic o premeu &Intro; per tornar a activar la trucada. La trucada activa hauria de tenir com emblema una icona verda, el qual restarà més saturat sobre les trucades inactives.</para>
+
+<para
+>Els congressos són un grup de trucades intercomunicades. Cada participant d'una conversa pot sentir a tots els altres participants. No obstant, és important tenir en compte que si s'ha creat un congrés al &sflphone;, els altres participants no sabran d'ell, pel que és útil explicar-los realment que es troben en un congrés. </para>
+
+<para
+>La gestió de les trucades és majoritàriament utilitzant arrossega i deixa. Arrossegant una trucada sobre una altra produirà aquesta superposició que es mostra.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-drop.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Superposició de la trucada</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Deixar anar la trucada sobre un «congrés» l'afegirà al congrés. Si aquesta trucada no forma part d'una conferència, es crearà. Deixar anar la trucada sobre una transferència donarà lloc a una transferència assistida. Les transferències assistides donaran la propietat de la trucada que s'ha deixat anar al propietari de la trucada on s'està deixant anar. És útil si voleu adonar-vos de la persona a la que transferireu la trucada abans de transferir-la. Poseu a la persona en espera, truqueu a la segona, a continuació, realitzeu una transferència assistida. La trucada serà suprimida i es considerarà finalitzada.</para>
+
+<para
+>Deixar anar una trucada sobre una trucada de l'historial mostrarà aquesta superposició:</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="history-drop.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Superposició de l'historial</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Això donarà lloc a una transferència. El telèfon de la persona amb qui realitzeu la transferència començarà a sonar. La trucada serà suprimida i es considerarà finalitzada. Aquesta característica també està disponible pels contactes:</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="contact-transfer.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Superposició del contacte</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+</sect1>
+
+<sect1 id="basic-use-config">
+<title
+>Configuracions pel compte</title>
+
+<para
+>Per a l'assistent de configuració del compte, podeu consultar el capítol <link linkend="getting-started"
+>Primers passos</link
+> d'aquest manual.</para>
+
+<para
+>La configuració avançada dels comptes està disponible a la secció <guibutton
+>Comptes</guibutton
+> del diàleg de configuració. La pàgina està dividida en dues seccions, les pestanyes llista de comptes i configuracions.</para>
+
+<sect2 id="account-list">
+<title
+>La llista de comptes</title>
+
+<para
+>La llista de comptes permet habilitar o deshabilitar el compte marcant-lo, moveu la prioritat del compte utilitzant el botons <guibutton
+>Amunt</guibutton
+> i <guibutton
+>Avall</guibutton
+>, afegiu-ne i suprimiu-ne utilitzant els botons <guibutton
+>Afegeix</guibutton
+> i <guibutton
+>Suprimeix</guibutton
+>.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-list.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Llista de comptes</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>El fons tenyit representa l'estat del compte. Normal representa un compte deshabilitat, vermell un compte no vàlid o inaccessible, groc un compte en el procés de registre en si i verd un vàlid. Les icones representen l'estat local actual del compte. Una mica fluix representa un compte modificat i sense desar i la icona de recàrrega un compte que ha estat canviat al servidor o per un altre client, igual que al plasmoide i necessita tornar-se a carregar.</para>
+
+</sect2>
+
+<sect2 id="basic-configuration">
+<title
+>Arranjament bàsic</title>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-basic.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>El diàleg Bàsic del compte</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Aquesta pestanya permet configurar les credencials bàsiques d'un compte SIP. La casella de selecció <guilabel
+>Compte a resoldre per omissió</guilabel
+> s'utilitza per a saber si aquest compte té prioritat a l'hora de realitzar una cerca quant a la informació del contacte.</para>
+
+<para
+>Els ajustaments a la pestanya Bàsic sovint estan presents en una altra pestanya amb detalls més avançats. La pestanya <guilabel
+>Credencials</guilabel
+> permet configurar les vostres credencials en cadenes, aquesta característica s'utilitza molt poc i s'ha d'evitar el seu ús a menys que realment la necessiteu.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-credentials.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Canviar les credencials</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>També és possible habilitar SIP segur al diàleg de seguretat. La majoria dels comptes s'utilitzen en una intranet o utilitzant una VPN, pel que no estan segurs. Però si el vostre compte hi és, el diàleg <guilabel
+>Seguretat</guilabel
+> es troba aquí per a vós.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-security.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Seguretat del compte</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>El diàleg de configuració avançada s'utilitza poques vegades com la interfície de xarxa per omissió, el port alternatiu i el servidor STUN.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-advanced.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Arranjament avançat</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>El diàleg to de la trucada permet seleccionar un to pel timbre des de la llista per omissió o des d'un fitxer al disc.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-ringtone.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Paràmetres pel to de la trucada</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Finalment, la pestanya còdecs permet habilitar o deshabilitar els còdecs o canviar la seva prioritat. D'aquesta manera, és possible tenir la trucada de major qualitat o estalviar amplada de banda. Alguns còdecs de vídeo també tenen paràmetres de configuració pel vostre compte.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="audio-codecs.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Paràmetres pels còdecs</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+</sect2>
+
+</sect1>
+
+<sect1 id="other-config">
+<title
+>Altres configuracions</title>
+
+<para
+>El &sflphone-client-kde; també disposa de paràmetres no relacionats amb els comptes SIP. Aquests ajustaments permeten configurar com cercarà i es comportarà l'aplicació.</para>
+
+<sect2 id="display-config">
+<title
+>Mostra</title>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="display.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Paràmetres per a la visualització</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>La pàgina <guilabel
+>Mostra</guilabel
+> permet diverses configuracions relacionades amb la forma com es mostra l'aspecte de l'aplicació. La primera subsecció, configura si es <guilabel
+>Mostra la finestra principal</guilabel
+> quan emergeix la &IGU; del &sflphone; o si el trobareu minimitzat a la safata del sistema. La segona, <guilabel
+>Notificacions</guilabel
+>, configura quan haurà de mostrar el &sflphone; una notificació emergent. La tercera, <guilabel
+>Detalls visibles de les trucades</guilabel
+>, habilita o deshabilita diversos camps informatius a l'element de la trucada. També permet triar una mida mínima pels elements de les trucades, de manera que siguin més fàcils d'apuntar amb el ratolí. L'última secció, <guilabel
+>Detalls visibles dels contactes</guilabel
+> fa el mateix pels elements de contacte.</para>
+
+</sect2>
+
+<sect2 id="audio-config">
+<title
+>Àudio</title>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="audio.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Paràmetres per a la visualització</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>La configuració de l'àudio permet seleccionar PulseAudio i ALSA. També permet seleccionar els dispositius per a diverses operacions, com quan el telèfon sona.</para>
+
+</sect2>
+
+</sect1>
+
+
+</chapter>

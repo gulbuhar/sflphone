@@ -1,0 +1,78 @@
+<chapter id="advanced-use">
+
+	<chapterinfo>
+		<authorgroup>
+			<author
+><firstname
+>Jérémy</firstname
+> <surname
+>Quentin</surname
+> </author>
+         <author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+			<othercredit role="translator"
+><firstname
+>Burkhard</firstname
+><surname
+>Lück</surname
+><affiliation
+><address
+><email
+>lueck@hube-lueck.de</email
+></address
+></affiliation
+><contrib
+>Übersetzung</contrib
+></othercredit
+> 
+		</authorgroup>
+	</chapterinfo>
+
+	<title
+>Fortgeschrittene Anwendung von &sflphone-client-kde;</title>
+
+	<sect1 id="advanced-use-hooks">
+		<title
+>Hooks</title>
+
+		<para
+>Eine interessante Funktion von &sflphone; ist die Verarbeitung von Hooks. Hooks kennzeichnen einige Aktionen, die für die Auslösung eines bestimmten Signals speziell beim Empfang oder Senden eines Anrufs ausgewählt werden können. </para>
+
+		<sect2 id="advanced-use-hooks-url">
+			<title
+>URL-Argument</title>
+			<para
+>Mit dieser Funktion können Sie eine URL aus einem bestimmten Vorspann der SIP- oder AIX-Nachricht, die vom Asterisk-Server gesendet wurde, extrahieren und sie mit dem gewählten Befehl für den Browser ausführen. </para>
+			<para
+>Um diese Funktion einzustellen, gehen Sie auf die Seite <guilabel
+>Hooks</guilabel
+> des Einrichtungsmenüs. Markieren Sie dann die Ankreuzfelder, um Hooks mit SIP- oder IAX-Konten zu aktivieren. Geben Sie dann den Namen des benutzerdefinierten Vorspannfelds ein, das der Asterix-Server in der Einladungsnachricht für das SIP-Protokoll sendet. Kennen Sie diesen Namen nicht, fragen Sie den Systemverwalter des Asterix-Servers. Bei IAX ist dafür bereits ein Vorspannfeld definiert, daher ist hier nichts einzutragen. Geben Sie dann den Befehl für den Browser an, mit dem Sie die URL öffnen möchten oder lassen Sie die Einstellung x-www-browser für den Standard-Browser. </para>
+		</sect2>
+
+		<sect2 id="advanced-use-hooks-formatting">
+			<title
+>Formatierung der Telefonnummer</title>
+			<para
+>Mit dieser Funktion können Sie das ausgewählte Präfix jeder Telefonnummer voranstellen, die Sie anrufen. </para>
+		</sect2>
+
+	</sect1>
+
+	<sect1 id="advanced-use-codecs">
+		<title
+>Codecs</title>
+
+		<para
+>Zur Kommunikation von Sprachinformationen verwendet &sflphone; einige Codecs. Die Codecs, die benutzt werden sollen, können Sie in der Audio-Einrichtung auswählen. </para>
+		<para
+>Hier sehen Sie alle auf Ihrem System verfügbaren Codecs mit allen Parametern. &sflphone; verwendet den ersten aktivierten Codec in der Liste. Sie können die Reihenfolge der Einträge in der Liste ändern und Codecs aktivieren oder deaktivieren, um den verwendeten Codec zu ändern. Wählen Sie einen Codec und klicken Sie auf die Pfeile hoch/runter oder markieren Sie das zugehörige Ankreuzfeld. </para>
+
+	</sect1>
+
+		
+		
+</chapter>

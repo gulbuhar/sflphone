@@ -1,0 +1,262 @@
+<chapter id="getting-started">
+
+<chapterinfo>
+<authorgroup>
+   <author
+><firstname
+>Jérémy</firstname
+> <surname
+>Quentin</surname
+> </author>
+   <author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+<othercredit role="translator"
+> <firstname
+>Stefan</firstname
+> <surname
+>Asserhäll</surname
+> <affiliation
+><address
+><email
+>stefan.asserhall@comhem.se</email
+></address
+></affiliation
+> <contrib
+>Översättare</contrib
+></othercredit
+> 
+</authorgroup>
+</chapterinfo>
+
+<title
+>Komma igång med &sflphone-client-kde;</title>
+
+<para
+>När &sflphone-client-kde; startas för första gången, visas en kontoinställningsguide. Guiden hjälper dig att skapa ett konto för &sflphone; att använda. Du måste slutföra guiden innan du går till huvudfönstret i &sflphone-client-kde;, eftersom det inte fungerar utan att ha ställt in minst ett konto. Du kan fortfarande ändra alla kontots inställningar i huvudfönstret efter guiden har slutförts. Du kan också starta guiden från huvudfönstret när som helst. Vi beskriver nu guidens olika alternativ. </para>
+
+<simplelist>
+<member
+><link linkend="gettingstarted-wizard-welcome"
+>Introduktionssidan i guiden.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-createorregister"
+>Sidan med registreringstypen.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-create"
+>Skapa ett nytt konto.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-register"
+>Registrera ett befintligt konto.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-stun"
+>STUN-inställningarna.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-finish"
+>Avslutningssidan.</link
+></member>
+</simplelist>
+
+<sect1 id="gettingstarted-wizard-welcome">
+<title
+>Välkomstsidan</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-welcome.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Introduktionssidan i guiden</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+
+<para
+>Du kan navigera i guiden med knapparna <guibutton
+>Nästa</guibutton
+>, <guibutton
+>Föregående</guibutton
+> och <guibutton
+>Avbryt</guibutton
+>. Om du klickar på <guibutton
+>Avbryt</guibutton
+> stängs guiden utan att lägga till kontot. Klicka på knappen <guibutton
+>Nästa</guibutton
+> för att börja ställa in kontot.</para>
+
+</sect1>
+
+
+<sect1 id="gettingstarted-wizard-createorregister">
+<title
+>Skapa eller registrera</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-createorregister.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Sidan med registreringstypen</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Nu kan du välja att skapa ett nytt värdkonto hos sflphone.org eller registrera ett befintligt konto som du äger. Om du använder &sflphone; för första gången och vill få allt att fungera på enklast möjliga sätt, bör du välja <guilabel
+>skapa ett nytt konto</guilabel
+>. Det skapar ett konto och lägger till det i &sflphone;. Om du redan har ett SIP- eller IAX-konto skapat med &sflphone; eller på något annat sätt, kan du lägga till det i &sflphone; genom att välja <guilabel
+>registrera ett befintligt konto</guilabel
+>. </para>
+
+</sect1>
+
+<sect1 id="gettingstarted-wizard-create">
+<title
+>Skapa ett nytt konto</title>
+
+<para
+>Om du väljer att skapa ett konto på sflphone.org, behöver guiden en mycket begränsad mängd information för att skapa kontot, skapar det automatiskt och lägger till informationen om det nya kontot i &sflphone;. Det skapar ett SIP-konto, så därefter kommer du att kunna använda det nya kontot från vilket system som helst med vilken programvara som helst som hanterar SIP-konton, genom att använda informationen om det nya kontot som visas i slutet av processen eller kan nås från huvudfönstret.</para>
+
+<sect2 id="gettingstarted-wizard-create-email">
+<title
+>E-postadress</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-create-email.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Sidan E-postadress</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Den första informationen som efterfrågas är din e-postadress. Den är inte nödvändig, så du kan bara hoppa över steget genom att klicka på knappen <guibutton
+>Nästa</guibutton
+>, men den gör det möjligt att ta emot vissa underrättelser om röst- eller textmeddelanden som du tar emot medan du är borta.</para>
+
+
+</sect2>
+
+</sect1>
+
+<sect1 id="gettingstarted-wizard-register">
+<title
+>Registrera ett befintligt konto</title>
+
+<para
+>Om du redan har skapat ett SIP- eller IAX-konto med &sflphone; från en annan dator eller med en annan programvara, eller om du vill använda ett befintligt konto, kan det registreras med guiden för att kunna använda det med den här instansen av &sflphone;. Guiden frågar dig efter kontots grundläggande information för att hitta det. Informationen beskrivs i det här avsnittet.</para>
+
+
+
+<sect2 id="gettingstarted-wizard-register-siporiax">
+<title
+>SIP eller IAX</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-register-siporiax.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Sidan Kontotyp</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>&sflphone; hanterar två samtalsprotokoll, SIP och IAX2. Guiden frågar nu vilket av dessa kontot gäller. Om du redan har skapat ett konto, välj bara rätt typ. Om du vill skapa ett utan &sflphone; och du undrar vilken typ du ska välja, kan du titta i <ulink url="http://www.voip-info.org/wiki/view/IAX+versus+SIP"
+>detta dokument</ulink
+> för att veta vilket som passar dina behov bäst.</para>
+
+</sect2>
+
+<sect2 id="gettingstarted-wizard-register-settings">
+<title
+>Kontoinställningar</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-register-settings.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Inställningssidan</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Guiden behöver en del information för att hitta kontot. Alias finns bara av bekvämlighetsskäl, du kan välja vilket som helst. Det används bara i &sflphone; på det här systemet, inte i kontot. Server är den som är värd för kontot. Användare är kontots användarnamn. I motsats till alias, måste det vara användarnamnet som valdes när kontot skapades. Lösenord är också det som valdes för kontot. Röstbrevlådans nummer används av knappen Röstbrevlåda för att du inte ska behöva skriva in numret för ofta. Normalt är det 888.</para>
+
+</sect2>
+
+</sect1>
+
+<sect1 id="gettingstarted-wizard-stun">
+<title
+>Inställningar av STUN</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-stun.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Sidan STUN</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Om du registrerar ett SIP-konto eller skapar det på sflphone.org (vilket också hur som helst innebär att registrera ett SIP-konto), föreslår guiden att du ska aktivera STUN. Du kan behöva göra det om du är ansluten via en brandvägg. Det är i själva verket inte ett alternativ för själva kontot, utan för inställningen av &sflphone;. Det gäller för alla konton. Om du aktiverar alternativet, måste du välja STUN-server att använda (t.ex. stunserver.org).</para>
+
+</sect1>
+
+
+<sect1 id="gettingstarted-wizard-finish">
+<title
+>Avslutningssidan</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-finish.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Den sista sidan</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Avslutningssidan summerar informationen du har angivit i guiden. Den har inte gjort någonting ännu, så du kan fortfarande avbryta genom att klicka på knappen <guibutton
+>Avbryt</guibutton
+>. Om du klickar på <guibutton
+>Slutför</guibutton
+>, skickas all information och kontot skapas om du valde att skapa det eller registreras om du registrerade ett befintligt konto. Eftersom informationen inte har skickats i detta steg, kan det inte veta om registreringen kommer att lyckas. För att kontrollera det när du väl är i huvudfönstret, gå till sidan med kontoinställningar för att se tillståndet hos dina konton.</para>
+
+</sect1>
+
+</chapter>
+

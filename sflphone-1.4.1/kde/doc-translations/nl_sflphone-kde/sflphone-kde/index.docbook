@@ -1,0 +1,149 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
+  <!ENTITY sflphone-client-kde "SFLPhone KDE Client">
+  <!ENTITY kappname "&sflphone-client-kde;">
+  <!ENTITY sflphonerelease "1.1.0">
+  <!ENTITY i18n-current-w "Venster met huidige oproepen">
+  <!ENTITY i18n-history-w "Verster met oproepgeschiedenis">
+  <!ENTITY i18n-address-w "Adresboekvenster">
+  <!ENTITY i18n-actions-p "deel met hulpjes">
+  <!ENTITY i18n-screen-p "scherm">
+  <!ENTITY i18n-dialpad-p "kiesklavier">
+  <!ENTITY i18n-pt-home "huistelefoon">
+  <!ENTITY i18n-pt-cell "mobiele telefoon">
+  <!ENTITY i18n-pt-work "werktelefoon">
+
+  <!ENTITY sflphone "SFLphone">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Dutch "INCLUDE">
+
+  <!-- chapters in separate docbook files -->
+  <!ENTITY introduction SYSTEM "introduction.docbook">
+  <!ENTITY getting-started SYSTEM "getting-started.docbook">
+  <!ENTITY basic-use SYSTEM "basic-use.docbook">
+  <!ENTITY common-use SYSTEM "common-use.docbook">
+  <!ENTITY advanced-use SYSTEM "advanced-use.docbook">
+  <!ENTITY credits SYSTEM "credits.docbook">
+]>
+
+<book id="sflphone-kde" lang="&language;">
+<bookinfo>
+  <title
+>Gebruikershandleiding van &sflphone-client-kde;</title>
+  <date
+>2009-05-10</date>
+  <releaseinfo
+>&sflphonerelease;</releaseinfo>
+
+  <authorgroup>
+    <author
+><firstname
+>J&eacute;r&eacute;my</firstname
+> <surname
+>Quentin</surname
+> <affiliation
+> <address
+><email
+>jeremy.quentin@savoirfairelinux.com</email
+></address>
+      </affiliation>
+    </author>
+  </authorgroup>
+
+  <copyright>
+    <year
+>2009</year>
+    <holder
+>Savoir faire linux</holder>
+  </copyright>
+
+  <legalnotice
+>&FDLNotice;</legalnotice>
+
+  <abstract>
+    <para
+>&sflphone-client-kde; is een &kde;-client voor &sflphone;, een robuuste bureaubladtelefoon voor het grootbedrijf.</para>
+  </abstract>
+
+  <keywordset>
+    <keyword
+>KDE</keyword>
+    <keyword
+>SFLPhone</keyword>
+    <keyword
+>client</keyword>
+    <keyword
+>telefoon</keyword>
+    <keyword
+>zakelijk</keyword>
+  </keywordset>
+
+</bookinfo>
+
+
+&introduction;
+&getting-started;
+&basic-use;
+&common-use;
+&advanced-use;
+&credits;
+
+<appendix id="app-bibliography">
+<title
+>Bibliografie</title>
+
+<para
+>(... nog niet geschreven ...)</para>
+
+<bibliography id="bibliography">
+
+<biblioentry>
+<title
+><ulink url="info://sflphone-client-kde/Top"
+>Handboek &sflphone-client-kde;</ulink
+></title>
+<authorgroup>
+<author
+><firstname
+>J&eacute;r&eacute;my</firstname
+><surname
+>Quentin</surname
+></author>
+</authorgroup>
+</biblioentry>
+
+<biblioentry>
+<title
+><ulink url="http://en.wikipedia.org/wiki/Session_Initiation_Protocol"
+>SIP-wiki</ulink
+></title>
+</biblioentry>
+
+<biblioentry>
+<title
+><ulink url="http://en.wikipedia.org/wiki/IAX"
+>IAX-wiki</ulink
+></title>
+</biblioentry>
+
+<biblioentry>
+<title
+><ulink url="http://www.asterisk.org/"
+>Webpagina van Asterisk</ulink
+></title>
+</biblioentry>
+
+<biblioentry>
+<title
+><ulink url="http://en.wikipedia.org/wiki/STUN"
+>STUN-wiki</ulink
+></title>
+</biblioentry>
+
+</bibliography>
+
+</appendix>
+
+<!-- &documentation.index; -->
+
+</book>

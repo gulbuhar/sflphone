@@ -1,0 +1,79 @@
+<chapter id="credits">
+  <title
+>Riconoscimenti e licenza</title>
+
+  <!--<itemizedlist>
+    <title
+>Program Copyright:</title>
+    <listitem
+><para
+>Albert Astals Cid<email
+>aacid@kde.org</email
+> </para
+></listitem>
+    <listitem
+><para
+>Pino Toscano <email
+>pino@kde.org</email
+> Current maintainer</para
+></listitem>
+    <listitem
+><para
+>Enrico Ros<email
+>eros.kde@email.it</email
+> developer</para
+></listitem>
+  </itemizedlist>
+
+  <itemizedlist>
+    <title
+>Documentation Copyright:</title>
+    <listitem
+><para
+>Albert Astals Cid<email
+>aacid@kde.org</email
+> Author</para
+></listitem>
+    <listitem
+><para
+>Titus Laska<email
+>titus.laska@gmx.de</email
+> Some updates and additions</para
+></listitem>
+    <listitem
+><para
+>Pino Toscano <email
+>pino@kde.org</email
+></para
+></listitem>
+  </itemizedlist
+>-->
+
+  <itemizedlist>
+    <title
+>Programma:</title>
+    <listitem>
+      <para
+>L'applicazione iniziale è stata scritta da Jérémy Quentin <email
+>jeremy.quentin@savoirfairelinux.com</email
+>. </para>
+    </listitem>
+  </itemizedlist>
+
+  <itemizedlist>
+    <title
+>Documentazione:</title>
+    <listitem>
+      <para
+>La documentazione iniziale presente in questo manuale è stata scritta da Jérémy Quentin <email
+>jeremy.quentin@savoirfairelinux.com</email
+>. </para>
+    </listitem>
+  </itemizedlist>
+
+  <para
+>Traduzione italiana di Innocenzo Ventre<email
+>innocenzo.ventre@gmail.com</email
+></para
+> 
+&underFDL; &underGPL; </chapter>

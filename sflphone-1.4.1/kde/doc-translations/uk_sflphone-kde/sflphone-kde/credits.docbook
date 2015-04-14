@@ -1,0 +1,79 @@
+<chapter id="credits">
+  <title
+>Подяки і ліцензія</title>
+
+  <!--<itemizedlist>
+    <title
+>Program Copyright:</title>
+    <listitem
+><para
+>Albert Astals Cid<email
+>aacid@kde.org</email
+> </para
+></listitem>
+    <listitem
+><para
+>Pino Toscano <email
+>pino@kde.org</email
+> Current maintainer</para
+></listitem>
+    <listitem
+><para
+>Enrico Ros<email
+>eros.kde@email.it</email
+> developer</para
+></listitem>
+  </itemizedlist>
+
+  <itemizedlist>
+    <title
+>Documentation Copyright:</title>
+    <listitem
+><para
+>Albert Astals Cid<email
+>aacid@kde.org</email
+> Author</para
+></listitem>
+    <listitem
+><para
+>Titus Laska<email
+>titus.laska@gmx.de</email
+> Some updates and additions</para
+></listitem>
+    <listitem
+><para
+>Pino Toscano <email
+>pino@kde.org</email
+></para
+></listitem>
+  </itemizedlist
+>-->
+
+  <itemizedlist>
+    <title
+>Програма:</title>
+    <listitem>
+      <para
+>Початкову версію програми було написано Jérémy Quentin <email
+>jeremy.quentin@savoirfairelinux.com</email
+>. </para>
+    </listitem>
+  </itemizedlist>
+
+  <itemizedlist>
+    <title
+>Документація:</title>
+    <listitem>
+      <para
+>Початкову версію цього підручника було написано Jérémy Quentin <email
+>jeremy.quentin@savoirfairelinux.com</email
+>. </para>
+    </listitem>
+  </itemizedlist>
+
+  <para
+>Переклад українською: Юрій Чорноіван<email
+>yurchor@ukr.net</email
+></para
+> 
+&underFDL; &underGPL; </chapter>

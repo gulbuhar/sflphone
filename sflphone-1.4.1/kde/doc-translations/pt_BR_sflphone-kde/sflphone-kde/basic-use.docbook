@@ -1,0 +1,661 @@
+<chapter id="basic-use">
+
+<chapterinfo>
+<authorgroup>
+<author
+><firstname
+>Jérémy</firstname
+><surname
+>Quentin</surname
+></author>
+<author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+<othercredit role="translator"
+><firstname
+>Marcus</firstname
+><surname
+>Gama</surname
+><affiliation
+><address
+><email
+>marcus.gama@gmail.com</email
+></address
+></affiliation
+><contrib
+>Tradução</contrib
+></othercredit
+> 
+</authorgroup>
+</chapterinfo>
+
+<title
+>Utilização básica do &sflphone-client-kde;</title>
+
+<para
+>Ainda que o &sflphone; seja vocacionado para empresas, a sua interface é muito simples de usar e você poderá utilizar as funcionalidades básicas sem qualquer conhecimento em particular.</para>
+
+<sect1 id="basic-use-mainwindow">
+<title
+>Apresentação da janela principal</title>
+
+<para
+>A janela principal é composta por quatro partes principais: a lista de chamadas em curso, a lista do histórico, a lista de favoritos e a lista de contatos. Por padrão, estas listas encontram-se empilhadas, mas é possível separá-las com a pega de arrastamento em cima de cada "página" da aplicação. Repare que esta pega está desativada na lista de chamadas em curso. </para>
+<sect2 id="basic-use-call-page">
+<title
+>A página da chamada</title>
+<para
+>Para alternar entre as janelas, clique nas abas <guilabel
+>Histórico</guilabel
+>, <guilabel
+>Favoritos</guilabel
+> e <guilabel
+>Livro de endereços</guilabel
+> no fundo da tela. Cada página pode ser acoplada à esquerda ou direita da página de chamada e colocada em abas de diversas maneiras. </para>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-list.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>A lista de chamada padrão</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+
+<para
+>A lista de chamada atual é composta da lista em si e das chamadas e conferências hospedadas. Existe também um discador opcional, uma caixa de mensagem instantânea e controles de volume. Eles podem ser ativados ou desativados a partir do menu <guimenu
+>Exibir</guimenu
+>. <screenshot
+> <mediaobject>
+<imageobject>
+<imagedata fileref="menu-view.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>O menu exibir</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+</para>
+</sect2>
+
+<sect2 id="basic-use-history-page">
+<title
+>A página do Histórico</title>
+<para
+>A lista de histórico armazena as chamadas anteriores. É possível ordená-la de diversas maneiras. Por padrão, ela é ordenada da chamada mais recente para a mais antiga com categorias "inteligentes". Uma caixa de filtragem está disponível para buscas rápidas. </para>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="history.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>A aba do Histórico</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Por padrão, cada chamada exibe se ela é recebida, realizada ou caiu como emblemas no widget ao fundo e à direita. Ele também exibe o nome contatado usando informações do contato ou o nome fornecido pelo servidor de telefonia. Se uma chamada possui uma gravação, os botões para reproduzir e remover serão exibidos. </para>
+</sect2>
+
+<sect2 id="basic-use-contact-page">
+<title
+>A página de Contatos</title>
+<para
+>A lista de contatos oferece um acesso simples aos contatos do livro de endereços do KDE. Por padrão, ela aparece ordenado em ordem alfabética, mas também poderão ser usados outros critérios de ordenação. Também existe um campo de texto para pesquisa rápida. Os contatos com vários números de telefone estão recolhidos por padrão. É possível fazer duplo-clique sobre eles para mostrar todos os números ou ativar a opção na página <guilabel
+>Visualização</guilabel
+> da janela de configuração. As informações que aparecem podem também ser configuradas nessa página. Os usuários com diversos contatos poderão querer mostrar o mínimo de detalhes para reduzir o tamanho dos contatos. </para>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="contact-list.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>A aba de Contato</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+</sect2>
+
+<sect2 id="basic-use-bookmark-page">
+<title
+>A página de Favoritos</title>
+<para
+>A página de <guilabel
+>Favoritos</guilabel
+> permite gravar alguns números de telefone para serem mais acessíveis. Isso é feito ao clicar com o &RMB; sobre um contato ou um item do histórico e pressionar a opção <guimenuitem
+>Favorito</guimenuitem
+>. Ela também mostra os 10 números mais usados. </para>
+</sect2>
+
+</sect1>
+
+
+<sect1 id="basic-use-call">
+<title
+>Fazer uma chamada</title>
+
+<sect2 id="basic-use-call-current">
+<title
+>Discar o número de uma pessoa</title>
+
+
+<para
+>Se você souber o número das pessoas que deseja chamar, basta digitá-lo no teclado do programa ou no seu próprio teclado enquanto estiver na &i18n-current-w;, depois clique no botão <guibutton
+>Aceitar</guibutton
+> da barra do &i18n-actions-p; ou no menu <guimenu
+>Ações</guimenu
+>, ou ainda pressione &Enter; no seu teclado ou faça duplo-clique para chamar, assim que tiver terminado a discagem.</para>
+
+<para
+>Seguinte comportamento, parte comum...</para>
+
+</sect2>
+
+<sect2 id="basic-use-call-history">
+<title
+>Chamar a partir do histórico</title>
+
+
+  <para
+>Se você quiser ligar para alguém para o qual caiu a ligação ou que tenha ligado anteriormente, você poderá ir à &i18n-history-w;. A utilização detalhada desta janela e das suas funcionalidades (pesquisa, &etc;) está descrita nesta seção. Assim que estiver nela, encontre o número ou nome da pessoa para quem deseja ligar, então você pode dar um duplo-clique no histórico de chamadas, arrastar e soltá-la na lista de chamadas atuais, pressionar &Enter; ou executar um clique direito e pressionar <guimenuitem
+>Chamar novamente</guimenuitem
+>.</para>
+
+</sect2>
+
+<sect2 id="basic-use-call-contact">
+<title
+>Chamar a partir do livro de endereços</title>
+
+
+<para
+>Se você tiver configurado seus contatos no KAddressBook ou no Akonadi, o &sflphone-client-kde; deve automaticamente importá-los. Para chamar um contato, é possível dar um duplo-clique nele, arrastá-lo e soltá-lo na lista de chamada atual, pressionar &Enter; ou executar um clique-direito e selecionar <guimenuitem
+>Chamar</guimenuitem
+>.</para>
+
+<para
+>Se o contato possuir vários números, uma janela será exibida para selecionar o número correto. </para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="multiple-number.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Janela de contexto de vários números</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Se o seu livro de endereços contiver números de telefone incompletos, ou somente ramais de telefones, é possível definir uma "conta padrão" na página "Básico" da janela de configuração da conta. Esta conta será usada para chamar estes números. Se você tiver um número de telefone incompleto pertencendo a várias contas, é recomendável editar estes contatos para certificar-se de que o número esteja completo ou adicionar @<replaceable
+>nome da máquina</replaceable
+> ao final do número (substitua <replaceable
+>nome da máquina</replaceable
+> com o nome da máquina válido do servidor).</para>
+
+</sect2>
+
+</sect1>
+
+
+
+<sect1 id="basic-call-state">
+<title
+>Ações básicas de chamada</title>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-action.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Ações de chamada</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<sect2 id="basic-use-becalled">
+<title
+>Receber uma chamada</title>
+
+<para
+>Quando uma das contas registadas no &sflphone; receber uma chamada, será apresentada como um item novo na &i18n-current-w; com o ícone "recebendo". Você poderá então optar por aceitá-la ou recusá-la. Para a aceitar, selecione o item e clique no botão <guibutton
+>Aceitar</guibutton
+>, que substituiu o botão <guibutton
+>Chamar</guibutton
+> na barra de ferramentas e no menu <guimenu
+>Ações</guimenu
+>, ou faça duplo-clique sobre o item ou ainda pressione &Enter;. Para recusá-la, selecione-a e clique no botão Recusar, que substituiu o botão de <guibutton
+>Suspensão</guibutton
+> na barra de ferramentas e no menu de Ações, ou então pressione &Esc;.</para>
+
+<para
+>Seguinte comportamento, parte comum...</para>
+
+</sect2>
+
+
+<sect2 id="basic-use-ringing">
+<title
+>A chamada está tocando</title>
+
+
+<para
+>Assim que tiver ligado para um número, a chamada fica normalmente no estado de tocando. Irá então passar para o estado Em curso ou Ocupado, de acordo com a decisão da outra pessoa para aceitar ou rejeitar a chamada. Se estiver no estado Ocupado, você poderá simplesmente suspendê-la com o botão <guibutton
+>Suspender</guibutton
+> ou pressionar &Esc;. </para>
+
+<para
+>Se o número não existir ou se tiver ocorrido outro erro qualquer (veja a lista dos erros comuns aqui), ficará no estado de falha, podendo suspender a chamada em questão com o botão <guibutton
+>Suspender</guibutton
+> ou pressionar &Esc;.</para>
+
+<para
+>Seguinte comportamento, parte comum...</para>
+
+</sect2>
+
+<sect2 id="basic-use-current">
+<title
+>A chamada está em curso</title>
+
+
+<para
+>Se a chamada estiver em curso, você poderá agora se comunicar com a outra pessoa. Você terá um conjunto de funcionalidades úteis quando estiver em curso, descritas no capítulo de utilização comum. Para terminar a chamada, selecione-a e clique no botão <guibutton
+>Suspender</guibutton
+> ou pressione &Esc;.</para>
+
+</sect2>
+
+<sect2 id="basic-use-recording">
+<title
+>A chamada está sendo gravada</title>
+
+<para
+>A gravação de uma chamada criará um arquivo <filename
+>.wav</filename
+> na pasta escolhida na janela de configuração de áudio. A gravação pode ser ativada pressionando o botão <guibutton
+>Gravar</guibutton
+> na barra de ferramentas. O emblema da chamada deve mudar para:</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-record.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>O emblema de gravação</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Uma vez que a chamada tenha terminado, você pode reproduzir a gravação a partir da página de histórico pressionando o botão para isso. Esta janela deve aparecer.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-play-record.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>A janela de gravação</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+</sect2>
+
+<sect2 id="basic-use-transfer">
+<title
+>A chamada está sendo transferida</title>
+
+
+<para
+>O SFLPhone suporta dois tipos de transferência: direta e participativa. A participativa será discutida na próxima seção. A transferência direta é a ação de transferir uma chamada para outro número. Uma vez que a chamada seja transferida, ela é considerada terminada pelo SFLPhone. Ele deve iniciar a tocar no número para o qual você transferiu a chamada. Para transferir uma chamada, pressione o botão <guibutton
+>Transferir</guibutton
+> na barra de ferramentas. Esta janela deve aparecer:</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-transfer.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>A janela de transferência</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+</sect2>
+
+
+</sect1>
+
+<sect1 id="basic-managing-calls">
+<title
+>Gerenciar chamadas</title>
+
+<para
+>O SFLPhone suporta várias chamadas ao mesmo tempo. O gerenciamento de várias chamadas oferece muitas funcionalidades, mas é também importante entender a relação entre elas. Em teoria, somente uma chamada ou grupo de chamadas, referidos aqui como conferência, pode estar ativa. Outras chamadas estarão em espera. Uma chamada em espera não pode se comunicar, seja por mensagem instantânea ou por voz, a menos que ela esteja ativa novamente. Dê um duplo-clique ou pressione &Enter; para reativar uma chamada. Uma chamada ativa deve ter um emblema de ícone verde mais saturado do que as chamadas inativas.</para>
+
+<para
+>Conferências são um grupo de chamadas interconectadas. Cada participante de uma conversação pode ouvir todos os outros participantes. No entanto, é importante notar que se uma conferência foi criada no SFLPhone, os outros participantes poderiam não saber disso, assim é útil informá-los de fato que eles estão em uma conferência. </para>
+
+<para
+>O gerenciamento de chamada é feito principalmente usando o arrastar e soltar. Arrastar uma chamada para outra faz com que uma janela seja exibida.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-drop.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Janela de chamada</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Soltar a chamada em "conferência" adicionará a chamada que está sendo solta à conferência. Se já não existir uma conferência, ela será criada. Soltar uma chamada em transferência iniciará uma transferência participativa. Transferência participativas transferirão a posse da chamada do transferidor para o destinatário da transferência. Você coloca a pessoa em espera, chama o destinatário da transferência, e então realiza a transferência participativa. A chamada então será removida e considerada terminada.</para>
+
+<para
+>Soltar uma chamada em um histórico de chamada exibirá esta janela:</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="history-drop.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Janela do Histórico</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Ela iniciará uma transferência direta. O telefone da pessoa para o qual está transferindo deverá tocar. A chamada será removida e considerada terminada. Esta funcionalidade está também disponível para os contatos:</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="contact-transfer.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Janela de Contato</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+</sect1>
+
+<sect1 id="basic-use-config">
+<title
+>Configurações da conta</title>
+
+<para
+>Para o assistente de configuração da conta, por favor veja o capítulo <link linkend="getting-started"
+>Iniciando</link
+> deste manual.</para>
+
+<para
+>A configuração avançada de contas está disponível na seção <guibutton
+>Conta</guibutton
+> da janela de configuração. A página está dividida em duas seções: as abas de lista de contas de configurações.</para>
+
+<sect2 id="account-list">
+<title
+>A lista de contas</title>
+
+<para
+>A lista de contas permite ativar ou desativar uma conta selecionando-as, mover a prioridade da conta usando os botões <guibutton
+>acima</guibutton
+> e <guibutton
+>abaixo</guibutton
+>, adicionar e remover contas usando os botões <guibutton
+>adicionar</guibutton
+> e <guibutton
+>remover</guibutton
+>.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-list.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Lista de contas</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>O fundo pintado representa o estado da conta. O normal representa uma conta desativada, vermelho uma conta inválida ou inacessível, amarelo uma conta em processo de registro e verde uma conta válida e registrada. O ícone representa o estado atual da conta. Um pequeno disco flexível representa uma conta modificada e não salva e um ícone de recarregar uma conta que foi mudada no servidor por outro cliente, como o plasmoide, e precisa ser recarregada.</para>
+
+</sect2>
+
+<sect2 id="basic-configuration">
+<title
+>Configurações básicas</title>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-basic.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Janela de Conta básica</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Esta aba permite configurar as credenciais básicas de uma conta SIP. A caixa <guilabel
+>resolução de conta padrão</guilabel
+> é usada para saber se a conta tem prioridade ao realizar a pesquisa de informações de contato.</para>
+
+<para
+>As configurações na aba básica estão frequentemente presentes em outras abas com detalhes mais avançados. A aba <guilabel
+>credencial</guilabel
+> permite configurar credenciais em cadeia. Esta funcionalidade raramente é usada e você deve evitar usá-la a menos que realmente precise.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-credentials.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Credenciais em cadeia</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>É também possível ativar o SIP Seguro na janela de segurança. A maioria das contas são usadas em uma Intranet ou usando uma VPN, assim elas não são seguras. Mas se sua conta é, a janela <guilabel
+>Segurança</guilabel
+> está aqui para você.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-security.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Segurança da conta</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>A janela avançada possui algumas configurações raramente usadas como a interface de rede padrão, portas alternativas e servidor STUN.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-advanced.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Configurações avançadas</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>A janela de toque permite selecionar um toque a partir de uma lista padrão ou de um arquivo em seu disco.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-ringtone.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Configurações de toque</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Finalmente, a aba de codec permite ativar ou desativar codecs ou mudar sua prioridade. Desta maneira, é possível ter uma qualidade de chamada maior ou economizar banda de rede. Alguns codecs de vídeo possuem parâmetros de configuração próprios.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="audio-codecs.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Configurações de codec</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+</sect2>
+
+</sect1>
+
+<sect1 id="other-config">
+<title
+>Outras configurações</title>
+
+<para
+>O SFLPhone para KDE possui também configurações não relacionadas com contas SIP. Estas configurações permite configurar como o aplicativo se parece e se comporta.</para>
+
+<sect2 id="display-config">
+<title
+>Tela</title>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="display.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Configurações da tela</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>A página <guilabel
+>tela</guilabel
+> permite várias configurações relacionadas a como o aplicativo se parece. A primeira subseção, <guilabel
+>Tela da janela principal</guilabel
+> configura quando o SFLPhone exibirá a interface e quando ele é minimizado na área de notificação. A segunda, <guilabel
+>Notificações</guilabel
+>, configura quando o SFLPhone deve exibir uma notificação instantânea. A terceira, <guilabel
+>Detalhes de chamada visíveis</guilabel
+> ativa ou desativa diversos campos de informação no item de chamada. Ela também permite selecionar um tamanho mínimo para itens de chamada, para tornar mais fácil clicá-lo com o mouse. A última seção, <guilabel
+>Detalhes de contato visíveis</guilabel
+> faz o mesmo para os itens de contato.</para>
+
+</sect2>
+
+<sect2 id="audio-config">
+<title
+>Áudio</title>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="audio.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Configurações da tela</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>A configuração de áudio permite que você selecione entre o PulseAudio e o ALSA. Ela também torna possível selecionar dispositivos para diversas operações, como a chamada.</para>
+
+</sect2>
+
+</sect1>
+
+
+</chapter>

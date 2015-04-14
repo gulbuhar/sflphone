@@ -1,0 +1,149 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
+  <!ENTITY sflphone-client-kde "SFLPhone KDE Client">
+  <!ENTITY kappname "&sflphone-client-kde;">
+  <!ENTITY sflphonerelease "1.1.0">
+  <!ENTITY i18n-current-w "Janela das chamadas em curso">
+  <!ENTITY i18n-history-w "Janela do histórico de chamadas">
+  <!ENTITY i18n-address-w "Janela da lista telefónica">
+  <!ENTITY i18n-actions-p "área de ferramentas">
+  <!ENTITY i18n-screen-p "tela">
+  <!ENTITY i18n-dialpad-p "teclado">
+  <!ENTITY i18n-pt-home "telefone pessoal">
+  <!ENTITY i18n-pt-cell "telefone celular">
+  <!ENTITY i18n-pt-work "telefone do trabalho">
+
+  <!ENTITY sflphone "SFLphone">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Brazilian-Portuguese "INCLUDE">
+
+  <!-- chapters in separate docbook files -->
+  <!ENTITY introduction SYSTEM "introduction.docbook">
+  <!ENTITY getting-started SYSTEM "getting-started.docbook">
+  <!ENTITY basic-use SYSTEM "basic-use.docbook">
+  <!ENTITY common-use SYSTEM "common-use.docbook">
+  <!ENTITY advanced-use SYSTEM "advanced-use.docbook">
+  <!ENTITY credits SYSTEM "credits.docbook">
+]>
+
+<book id="sflphone-kde" lang="&language;">
+<bookinfo>
+  <title
+>Manual de Usuário do &sflphone-client-kde;</title>
+  <date
+>10/05/2009</date>
+  <releaseinfo
+>&sflphonerelease;</releaseinfo>
+
+  <authorgroup>
+    <author
+><firstname
+>J&eacute;r&eacute;my</firstname
+> <surname
+>Quentin</surname
+> <affiliation
+> <address
+><email
+>jeremy.quentin@savoirfairelinux.com</email
+></address>
+      </affiliation>
+    </author>
+  </authorgroup>
+
+  <copyright>
+    <year
+>2009</year>
+    <holder
+>Savoir faire linux</holder>
+  </copyright>
+
+  <legalnotice
+>&FDLNotice;</legalnotice>
+
+  <abstract>
+    <para
+>O &sflphone-client-kde; é um cliente para o &kde; do &sflphone;, um telefone por computador empresarial robusto.</para>
+  </abstract>
+
+  <keywordset>
+    <keyword
+>KDE</keyword>
+    <keyword
+>SFLPhone</keyword>
+    <keyword
+>cliente</keyword>
+    <keyword
+>telefone</keyword>
+    <keyword
+>empresa</keyword>
+  </keywordset>
+
+</bookinfo>
+
+
+&introduction;
+&getting-started;
+&basic-use;
+&common-use;
+&advanced-use;
+&credits;
+
+<appendix id="app-bibliography">
+<title
+>Bibliografia</title>
+
+<para
+>(... a ser escrito ...)</para>
+
+<bibliography id="bibliography">
+
+<biblioentry>
+<title
+><ulink url="info://sflphone-client-kde/Top"
+>Manual do &sflphone-client-kde;</ulink
+></title>
+<authorgroup>
+<author
+><firstname
+>J&eacute;r&eacute;my</firstname
+><surname
+>Quentin</surname
+></author>
+</authorgroup>
+</biblioentry>
+
+<biblioentry>
+<title
+><ulink url="http://en.wikipedia.org/wiki/Session_Initiation_Protocol"
+>Wiki do SIP</ulink
+></title>
+</biblioentry>
+
+<biblioentry>
+<title
+><ulink url="http://en.wikipedia.org/wiki/IAX"
+>Wiki do IAX</ulink
+></title>
+</biblioentry>
+
+<biblioentry>
+<title
+><ulink url="http://www.asterisk.org/"
+>Página Web do Asterisk</ulink
+></title>
+</biblioentry>
+
+<biblioentry>
+<title
+><ulink url="http://en.wikipedia.org/wiki/STUN"
+>Wiki do STUN</ulink
+></title>
+</biblioentry>
+
+</bibliography>
+
+</appendix>
+
+<!-- &documentation.index; -->
+
+</book>

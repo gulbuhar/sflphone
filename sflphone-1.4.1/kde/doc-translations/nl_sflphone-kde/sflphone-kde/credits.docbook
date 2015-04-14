@@ -1,0 +1,75 @@
+<chapter id="credits">
+  <title
+>Dankbetuigingen en licentie</title>
+
+  <!--<itemizedlist>
+    <title
+>Program Copyright:</title>
+    <listitem
+><para
+>Albert Astals Cid<email
+>aacid@kde.org</email
+> </para
+></listitem>
+    <listitem
+><para
+>Pino Toscano <email
+>pino@kde.org</email
+> Current maintainer</para
+></listitem>
+    <listitem
+><para
+>Enrico Ros<email
+>eros.kde@email.it</email
+> developer</para
+></listitem>
+  </itemizedlist>
+
+  <itemizedlist>
+    <title
+>Documentation Copyright:</title>
+    <listitem
+><para
+>Albert Astals Cid<email
+>aacid@kde.org</email
+> Author</para
+></listitem>
+    <listitem
+><para
+>Titus Laska<email
+>titus.laska@gmx.de</email
+> Some updates and additions</para
+></listitem>
+    <listitem
+><para
+>Pino Toscano <email
+>pino@kde.org</email
+></para
+></listitem>
+  </itemizedlist
+>-->
+
+  <itemizedlist>
+    <title
+>Programma:</title>
+    <listitem>
+      <para
+>De initiële toepassing is geschreven door Jérémy Quentin <email
+>jeremy.quentin@savoirfairelinux.com</email
+>. </para>
+    </listitem>
+  </itemizedlist>
+
+  <itemizedlist>
+    <title
+>Documentatie:</title>
+    <listitem>
+      <para
+>De initiële inhoud van dit handboek is geschreven door Jérémy Quentin <email
+>jeremy.quentin@savoirfairelinux.com</email
+>. </para>
+    </listitem>
+  </itemizedlist>
+
+  &meld.fouten;&vertaling.freek; 
+&underFDL; &underGPL; </chapter>

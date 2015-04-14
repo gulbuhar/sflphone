@@ -1,0 +1,689 @@
+<chapter id="basic-use">
+
+<chapterinfo>
+<authorgroup>
+<author
+><firstname
+>Jérémy</firstname
+><surname
+>Quentin</surname
+></author>
+<author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+<othercredit role="translator"
+> <firstname
+>Stefan</firstname
+> <surname
+>Asserhäll</surname
+> <affiliation
+><address
+><email
+>stefan.asserhall@comhem.se</email
+></address
+></affiliation
+> <contrib
+>Översättare</contrib
+></othercredit
+> 
+</authorgroup>
+</chapterinfo>
+
+<title
+>Grundläggande användning av &sflphone-client-kde;</title>
+
+<para
+>Även om &sflphone; är avsett för företag, är gränssnittet mycket lättanvänt och de grundläggande funktionerna kan användas utan några särskilda färdigheter eller kunskaper.</para>
+
+<sect1 id="basic-use-mainwindow">
+<title
+>Presentation av huvudfönstret</title>
+
+<para
+>Huvudfönstret består av fyra huvuddelar: listan med pågående samtal, historiklistan, bokmärkeslistan och kontaktlistan. Normalt är de ovanpå varandra, men det är möjligt att skilja dem åt genom att använda greppet längst upp på varje "flik" i programmet för att dra och släppa dem.Observera att greppet är inaktiverat på listan med pågående samtal. </para>
+<sect2 id="basic-use-call-page">
+<title
+>Sidan Samtal</title>
+<para
+>För att byta mellan fönstren, klicka på flikarna <guilabel
+>Historik</guilabel
+>, <guilabel
+>Bokmärke</guilabel
+> och <guilabel
+>Adressbok</guilabel
+> längst ner på skärmen. Varje flik kan dockas till vänster eller höger om samtalssidan och flikarna kan konfigureras på olika sätt. <screenshot
+><mediaobject
+><imageobject
+><imagedata fileref="call-list.png" format="PNG"/></imageobject
+><caption
+><para
+>Normal samtalslista</para
+></caption
+></mediaobject
+></screenshot
+> Listan med aktuella samtal består av själva listan, samt värdsamtal och konferenssamtal. Det finns också en valfri nummerruta, en ruta för direktmeddelanden och volymkontroller. De kan aktiveras eller inaktiveras i menyn <guimenu
+>Visa</guimenu
+>. </para>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-list.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Den förinställda samtalslistan</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+
+<para
+>Listan över pågående samtal består av själva listan, värdsamtal och konferenssamtal. Det finns också en valfritt nummerruta, ruta för direktmeddelanden och volymkontroller. De kan aktiveras eller inaktiveras i menyn <guimenu
+>Visa</guimenu
+>. <screenshot
+> <mediaobject>
+<imageobject>
+<imagedata fileref="menu-view.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Menyn Visa</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+</para>
+</sect2>
+
+<sect2 id="basic-use-history-page">
+<title
+>Sidan Historik</title>
+<para
+>Historiklistan innehåller tidigare samtal. Det är möjligt att sortera den på flera sätt. Normalt är den ordnad från det nyaste till det äldsta samtalet med "smarta" kategorier. En textruta för filtrering är tillgänglig för snabbsökningar. </para>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="history.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Fliken Historik</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Normalt visar varje samtal om det är inkommande, utgående eller missat med ikoner längst ner till höger i den grafiska komponenten. Det visar också samtalspartnern genom att använda kontaktinformationen eller namnet som telefonservern tillhandahåller. Om ett samtal har en inspelning, visas uppspelnings- och borttagningsknapparna. </para>
+</sect2>
+
+<sect2 id="basic-use-contact-page">
+<title
+>Sidan Kontakt</title>
+<para
+>Kontaktlistan tillhandahåller ett enkelt sätt att komma åt kontakter i KDE:s adressbok. Den är normalt sorterad i alfabetisk ordning, men kan också visas med diverse andra sorteringsordningar. Ett textfält för snabbsökning tillhandahålls också. Kontakter med flera telefonnummer är normalt ihopdragna. Det är möjligt att dubbelklicka på dem för att visa alla nummer, eller aktivera alternativet på sidan <guilabel
+>Visning</guilabel
+> i inställningsdialogrutan. Informationen som visas går också att ställa in på samma sida. Användare med många kontakter bör välja att visa minimal information för att reducera kontakternas storlek. </para>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="contact-list.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Fliken Kontakt</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+</sect2>
+
+<sect2 id="basic-use-presence">
+   <title
+>Kontaktnärvaro</title>
+   <para
+>SIP-konton stöder en funktion som kallas 'närvaro'. Den låter användare av programvarutelefoner följa andra användares aktuella status ("talar i telefon", "klar", "upptagen", och så vidare). Den kan jämföras med en vanlig kompislista för direktmeddelanden, men är mer begränsad. Varje "kompis" måste följas individuellt och att använda funktionen tillsammans med IP2IP- eller DNS-baserade telefonnummer kan förbruka extra energi, vilket reducerar batteritiden för bärbara datorer. För tillfället, under 2014, kan den också visa sig vara otillförlitlig och multipla abonnentväxlar såsom Asterisk stöder bara en delmängd av protokollet. </para>
+   <para
+>&sflphone-client-kde; följer bara telefonnummer om 'Aktivera närvarostöd' är markerat för ett konto, att telefonnumret redan har ringts upp och att det antingen har ett bokmärke eller är en del av en explicit följd kontaktsamling. </para>
+   <para
+>Närvaropublicering låter vissa konton publicera ett närvaromeddelande och status (antingen uppkopplat eller nerkopplat) till andra programvarutelefoner. Om ett konto stöder det (och har närvaro aktiverat), visar &sflphone-client-kde; en grafisk komponent i statusraden för att ange närvaromeddelandet. Vissa fördefinierade meddelanden kan ställas in i inställningsdialogrutan, men ett eget kan också användas. Standardvärdet är "Uppkopplad". Närvarostatus uppkopplad betyder inte att det går att ringa ett samtal eller att kontot är uppkopplat eller inte. Eftersom &sflphone; också stöder anrop via ssh-tunnlar och adresser på den lokala värddatorn, är &sflphone; teoretiskt alltid uppkopplad. Återigen visar empirisk utprovning att funktionen inte fungerar särskilt bra på den stora majoriteten abonnentväxlar och registrerare. Freeswitch-baserade registrerare verkat ha det bästa stödet. Informationen kan också gå förlorad när samtal skickas via en proxy eller mellanliggande abbonentväxel. </para>
+   <para
+>När närvaroprenumereringen fungerar som förväntat, har kontakter, tidigare samtal och bokmärkta nummer antingen en röd eller grön färgton eller omgivande halo. Informationen används också av gränssnittet för automatisk komplettering för att ge bättre resultat. </para>
+</sect2>
+
+<sect2 id="basic-use-bookmark-page">
+<title
+>Sidan Bokmärke</title>
+<para
+>Sidan <guilabel
+>Bokmärke</guilabel
+> gör det möjligt att spara vissa telefonnummer för att göra dem mer lättillgängliga. Det görs genom att högerklicka på en kontakt eller historikpost och välja alternativet <guimenuitem
+>Bokmärke</guimenuitem
+>. Den visar också de tio mest använda numren. </para>
+</sect2>
+
+</sect1>
+
+
+<sect1 id="basic-use-call">
+<title
+>Ringa ett samtal</title>
+
+<sect2 id="basic-use-call-current">
+<title
+>Slå numret</title>
+
+
+<para
+>Om du vet numret till personen du vill ringa, kan du bara skriva in det med nummerrutan eller på tangentbordet medan &i18n-current-w; visas, och därefter klicka på knappen <guibutton
+>Acceptera</guibutton
+> i verktygsraden för &i18n-actions-p; eller i menyn <guimenu
+>Åtgärder</guimenu
+>, trycka på returtangenten på tangentbordet, eller dubbelklicka på numret som ska ringas när du väl har skrivit in det.</para>
+
+<para
+>Följande beteende, vanliga delen...</para>
+
+</sect2>
+
+<sect2 id="basic-use-call-history">
+<title
+>Ringa från samtalshistorik</title>
+
+
+  <para
+>Om du vill ringa upp någon som du tidigare missade ett samtal från, eller som du redan ringt upp tidigare, kan du gå till &i18n-history-w;. Detaljerad användning av fönstret och dess funktioner (sökning, etc.) beskrivs i det här avsnittet. När det väl visas, leta rätt på numret eller namnet på personen du vill ringa upp. Därefter kan du dubbelklicka på det, dra och släppa det på listan över pågående samtal,  trycka på returtangenten på tangentbordet, eller högerklicka och välja <guimenuitem
+>Ring igen</guimenuitem
+>.</para>
+
+</sect2>
+
+<sect2 id="basic-use-call-contact">
+<title
+>Ringa från adressboken</title>
+
+
+<para
+>Om du har lagt till kontakter antingen i adressboken eller Akonadi, bör &sflphone-client-kde; importera dem automatiskt. För att ringa en kontakt, går det att dubbelklicka på den, släppa den på listan över pågående samtal, trycka på returtangenten eller högerklicka och välja <guimenuitem
+>Ring</guimenuitem
+>.</para>
+
+<para
+>Om kontakten har flera telefonnummer visas en dialogruta för att välja rätt nummer. </para>
+
+<para
+>Med början från version 1.4.0 kan &sflphone-client-kde; också agera som en fullständig kontakthanterare (inriktad på telefonrelaterade funktioner). Det är möjligt att lägga till, hantera och anpassa Akonadi-samlingar direkt från sektion "Adressbok" i inställningsdialogrutan. Det är också möjligt att lägga till och ta bort kontakter direkt ifrån huvudgränssnittet. </para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="multiple-number.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Meddelanderuta för flera nummer</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Om adressboken innehåller ofullständiga telefonnummer eller bara anslutningar, är det möjligt att ange ett "standardkonto" under fliken "Enkla" i dialogrutan för kontoinställning. Detta konto används för att ringa dessa nummer. Om du har ofullständiga telefonnummer som hör till flera konton, är rådet att redigera kontakterna för att försäkra att numret är fullständigt eller lägga till @<replaceable
+>värddator</replaceable
+> sist i numret (ersätt <replaceable
+>värddator</replaceable
+> med ett giltigt servernamn).</para>
+
+</sect2>
+
+</sect1>
+
+
+
+<sect1 id="basic-call-state">
+<title
+>Enkel samtalshantering</title>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-action.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Samtalshantering</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<sect2 id="basic-use-becalled">
+<title
+>Ta emot ett samtal</title>
+
+<para
+>När ett av kontona registrerade i &sflphone; tar emot ett inkommande samtal, visas det som en ny post i &i18n-current-w; med ikonen "inkommande". Du kan antingen acceptera eller avvisa det. För att acceptera det, markera posten och klicka på knappen <guibutton
+>Acceptera</guibutton
+>, som ersätter knappen <guibutton
+>Ring</guibutton
+> i verktygsraden och menyn <guimenu
+>Åtgärder</guimenu
+>, dubbelklicka på posten, eller tryck på returtangenten. För att avvisa det, markera det och klicka på avvisningsknappen som ersätter knappen <guibutton
+>Lägg på</guibutton
+> i verktygsraden och menyn <guimenu
+>Åtgärder</guimenu
+>, eller tryck på Esc.</para>
+
+<para
+>Följande beteende, vanliga delen...</para>
+
+</sect2>
+
+
+<sect2 id="basic-use-ringing">
+<title
+>Samtalet rings</title>
+
+
+<para
+>När ett nummer väl rings upp, är samtalet normalt i tillståndet ringer. Det går därefter vidare till tillståndet aktivt eller upptaget beroende på samtalspartnerns beslut om att acceptera eller avvisa samtalet. Om det är i tillståndet upptaget, kan du bara lägga på med knappen <guibutton
+>Lägg på</guibutton
+> eller genom att trycka på Esc. </para>
+
+<para
+>Om numret inte finns eller om något annat fel uppstod (see listan med vanliga fel här), får samtalet tillståndet felaktigt. Därefter kan du lägga på med knappen Lägg på eller genom att trycka på Esc.</para>
+
+<para
+>Följande beteende, vanliga delen...</para>
+
+</sect2>
+
+<sect2 id="basic-use-current">
+<title
+>Samtalet är aktivt</title>
+
+
+<para
+>När samtalet är i det aktiva tillståndet, kan man kommunicera med samtalspartnern. Det finns ett antal användbara funktioner i det aktiva tillståndet som beskrivs i kapitlet om vanlig användning. För att avsluta samtalet, markera det och klicka på knappen <guibutton
+>Lägg på</guibutton
+> i verktygsraden, eller tryck på Esc.</para>
+
+</sect2>
+
+<sect2 id="basic-use-recording">
+<title
+>Samtalet spelas in</title>
+
+<para
+>Inspelning av ett samtal skapar en <filename
+>.wav</filename
+>-fil i katalogen som valts i dialogrutan för ljudinställning. Inspelningen kan aktiveras genom att klicka på knappen <guibutton
+>Spela in</guibutton
+> i verktygsraden. Samtalsikonen ska ändras till:</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-record.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Inspelningsikonen</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>När samtalet väl är slut, kan du lyssna på inspelningen från historiksidan genom att klicka på uppspelningsknappen. Denna överlagring ska visas:</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-play-record.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Överlagring för inspelning</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+</sect2>
+
+<sect2 id="basic-use-transfer">
+<title
+>Samtalet vidarekopplas</title>
+
+
+<para
+>&sflphone; stöder två typer av vidarekoppling, direkt och assisterad. Assisterad beskrivs i nästa avsnitt. Direkt vidarekoppling är när ett samtal kopplas vidare till ett annat nummer. När samtalet väl har vidarekopplats, anses det var slut av &sflphone;. Det ska börja ringa på numret som du kopplade det vidare till. Klicka på knappen <guibutton
+>Vidarekoppla</guibutton
+> i verktygsraden för att koppla vidare ett samtal. Denna överlagring ska visas:</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-transfer.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Överlagring för vidarekoppling</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+</sect2>
+
+
+</sect1>
+
+<sect1 id="basic-managing-calls">
+<title
+>Hantera samtal</title>
+
+<para
+>&sflphone; stöder flera samtidiga samtal. Hantering av flera samtal erbjuder många funktioner, men det är också viktigt att förstå förhållandet mellan dem. Teoretiskt kan bara ett samtal eller en grupp av samtal pågå. Andra samtal är parkerade. Ett parkerat samtal kan inte användas för kommunikation, vare sig via direktmeddelande eller röst om det inte återupptas. Dubbelklicka eller tryck på returtangenten för att återuppta samtalet. Ett pågående samtal ska ha en grön ikon som är mörkare än parkerade samtal.</para>
+
+<para
+>Ett konferenssamtal är en grupp av samtal som kommunicerar inbördes. Varje deltagare i konversationen kan höra alla andra deltagare. Dock är det viktigt att påpeka att om ett konferenssamtal har skapats i &sflphone;, känner inte övriga deltagare till det, så det är nödvändigt att tala om för dem att de deltar i ett konferenssamtal. </para>
+
+<para
+>Samtalshantering sker i huvudsak med dra och släpp. Att dra ett samtal till ett annat samtal, gör att denna överlagring visas:</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-drop.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Överlagring för samtal</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Om ett samtal släpps på "konferenssamtal" läggs samtalet som släpps till i konferenssamtalet för det samtal som det släpps på. Om det senare inte ingår i ett konferenssamtal, skapas ett. Om ett samtal släpps på vidarekoppling påbörjas en assisterad vidarekoppling. Assisterade vidarekopplingar ger ägarskap för samtalet som släpps till ägaren av samtalet som det släpps på. Det är användbart om du vill underrätta personen som du vidarekopplar samtalet till innan det verkligen vidarekopplas. Personens samtal parkeras, den andra rings upp, och därefter görs en assisterad vidarekoppling. Samtalet tas därefter bort och anses vara avslutat.</para>
+
+<para
+>Att släppa ett samtal på ett samtal i historiken gör att denna överlagring visas:</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="history-drop.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Överlagring för historik</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Det gör att en direkt vidarekoppling sker. Den persons telefon som du vidarekopplar till ska börja ringa. Samtalet kommer att tas bort och anses avslutat. Funktionen är också tillgänglig för kontakter:</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="contact-transfer.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Överlagring för kontakt</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+</sect1>
+
+<sect1 id="basic-use-config">
+<title
+>Kontoinställningar</title>
+
+<para
+>Se kapitlet <link linkend="getting-started"
+>Komma igång</link
+> i den här handboken, för information om guiden för kontoinställning.</para>
+
+<para
+>Avancerad inställning av konton är tillgänglig på sidan <guibutton
+>Konto</guibutton
+> i inställningsdialogrutan. Sidan är delad i två sektioner, kontolistan och inställningsflikarna.</para>
+
+<sect2 id="account-list">
+<title
+>Kontolistan</title>
+
+<para
+>Kontolistan gör det möjligt att aktivera eller inaktivera konton genom att markera dem, ändra kontons prioritet med knapparna <guibutton
+>Upp</guibutton
+> och <guibutton
+>Ner</guibutton
+>, samt lägga till och ta bort dem med knapparna <guibutton
+>Lägg till</guibutton
+> och <guibutton
+>Ta bort</guibutton
+>.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-list.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Kontolista</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Den färgade bakgrunden representerar kontots tillstånd. Normal färg representerar ett inaktiverat konto, rött ett ogiltigt eller ej tillgängligt konto, gult ett konto som håller på att registreras och grönt ett giltigt, registrerat konto. Ikonerna representerar kontots nuvarande lokala status. En liten diskett representerar ett ändrat och ej sparat konto, och uppdateringsikonen ett konto som har ändrats på servern eller av en annan klient, såsom Plasmoiden, och behöver uppdateras.</para>
+
+</sect2>
+
+<sect2 id="basic-configuration">
+<title
+>Grundinställningar</title>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-basic.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Enkel kontodialogruta</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Fliken låter dig ställa in enkla behörighetsvärden för ett SIP-konto. Kryssrutan <guilabel
+>förvald kontoupplösning</guilabel
+> används för att veta om kontot ska prioriteras när uppslagning av kontaktinformation utförs.</para>
+
+<para
+>Inställningarna under fliken Enkla finns ofta också under den andra fliken med mer avancerade alternativ. Fliken <guilabel
+>Identitetsuppgifter</guilabel
+> gör det möjligt att ställa in identitetskedjor. Funktionen används sällan, och bör inte användas om den inte verkligen behövs.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-credentials.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Identitetskedjor</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Det är också möjligt att aktivera säker SIP i säkerhetsdialogrutan. De flesta konton används i ett internt nätverk eller med VPN, så de är inte säkrade. Men om ditt konto är det, finns dialogrutan <guilabel
+>Säkerhet</guilabel
+> här för dig.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-security.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Kontosäkerhet</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Den avancerade dialogrutan innehåller några sällan använda alternativ såsom förvalt nätverksgränssnitt, alternativa portar och STUN-server.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-advanced.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Avancerade inställningar</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Dialogrutan för ringsignal gör det möjligt att välja en ringsignal från standardlistan eller från en fil på hårddisken.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-ringtone.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Inställningar av ringsignal</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Till sist, möjliggör kodningsfliken att kodare aktiveras eller inaktiveras, eller att deras prioritet ändras. På så sätt är det möjligt att ringa samtal med högre kvalitet eller spara bandbredd. Vissa videokodare har också egna inställningsparametrar.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="audio-codecs.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Kodningsinställningar</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+</sect2>
+
+</sect1>
+
+<sect1 id="other-config">
+<title
+>Andra inställningar</title>
+
+<para
+>&sflphone-client-kde; har också inställningar som inte har med SIP-konton att göra. Dessa inställningar gör det möjligt att ställa in programmets utseende och beteende.</para>
+
+<sect2 id="display-config">
+<title
+>Visning</title>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="display.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Visningsinställningar</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Sidan <guilabel
+>Visning</guilabel
+> tillåter diverse inställningar som hör ihop med hur programmet ser ut. Den första delsektionen, <guilabel
+>Visa huvudfönster</guilabel
+> ställer in när &sflphone; visa det grafiska användargränssnittet när det är minimerat i systembrickan. Den andra, <guilabel
+>Underrättelser</guilabel
+>, ställer in när &sflphone; ska visa en meddelanderuta med en underrättelse. Den tredje, <guilabel
+>Synlig samtalsinformation</guilabel
+> aktiverar eller inaktiverar diverse informationsfält i samtalsobjekt. Den tillåter också att en minimal storlek för samtalsobjekt, för att göra det lättare att träffa dem med musen. Den sista sektionen, <guilabel
+>Synlig kontaktinformation</guilabel
+> gör samma sak för kontaktobjekt.</para>
+
+</sect2>
+
+<sect2 id="audio-config">
+<title
+>Ljud</title>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="audio.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Visningsinställningar</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Ljudinställningen låter dig välja mellan PulseAudio och ALSA. Den möjliggör också val av enheter för diverse händelser, såsom ringsignalen.</para>
+
+</sect2>
+
+</sect1>
+
+
+</chapter>

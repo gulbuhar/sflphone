@@ -1,0 +1,262 @@
+<chapter id="getting-started">
+
+<chapterinfo>
+<authorgroup>
+   <author
+><firstname
+>Jérémy</firstname
+> <surname
+>Quentin</surname
+> </author>
+   <author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+<othercredit role="translator"
+><firstname
+>Burkhard</firstname
+><surname
+>Lück</surname
+><affiliation
+><address
+><email
+>lueck@hube-lueck.de</email
+></address
+></affiliation
+><contrib
+>Übersetzung</contrib
+></othercredit
+> 
+</authorgroup>
+</chapterinfo>
+
+<title
+>Einführung zu &sflphone-client-kde;</title>
+
+<para
+>Wenn Sie &sflphone-client-kde; zum ersten Mal starten, wird ein Einrichtungsassistent angezeigt. Dieser Assistent hilft Ihnen, ein Konto für &sflphone; einzurichten. Sie sollten alle notwendigen Daten im Assistenten eingeben, ehe Sie zum Hauptfenster von &sflphone-client-kde; gehen, da das Programm ohne mindestens ein Konto nicht funktioniert. Sie können später immer noch alle Einstellungen für des Konto vom Hauptfenster aus erreichen. Dazu können Sie den Assistenten jederzeit wieder starten. Im folgenden werden die verschiedenen Einstellungen im Assistenten beschrieben. </para>
+
+<simplelist>
+<member
+><link linkend="gettingstarted-wizard-welcome"
+>Die Einführungsseite des Assistenten.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-createorregister"
+>Die Seite Kontentyp.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-create"
+>Erstellung eines neuen Kontos.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-register"
+>Registrierung eines existierenden Kontos.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-stun"
+>Die STUN-Einstellungen</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-finish"
+>Die Seite Zusammenfassung.</link
+></member>
+</simplelist>
+
+<sect1 id="gettingstarted-wizard-welcome">
+<title
+>Der Startbildschirm</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-welcome.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Die Einführungsseite des Assistenten</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+
+<para
+>In diesem Assistenten können Sie mit den Knöpfen <guibutton
+>Weiter</guibutton
+>, <guibutton
+>Zurück</guibutton
+> und <guibutton
+>Abbrechen</guibutton
+> navigieren. Wenn Sie auf <guibutton
+>Abbrechen</guibutton
+> drücken, wird der Assistent geschlossen, ohne ein Konto anzulegen. Klicken Sie auf <guibutton
+>Weiter</guibutton
+>, um mit der Einrichtung des Kontos zu beginnen.</para>
+
+</sect1>
+
+
+<sect1 id="gettingstarted-wizard-createorregister">
+<title
+>Erstellen oder registrieren</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-createorregister.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Die Seite Kontentyp</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Sie können jetzt ein neues Konto bei sflphone.org erstellen oder ein bereits vorhandenes eigenes Konto registrieren. Benutzen Sie &sflphone; zum ersten Mal und möchten die Einrichtung möglichst schnell und einfach erledigen, sollten Sie <guilabel
+>Neues Konto erstellen</guilabel
+> auswählen. Damit wird das Konto erstellt und zu &sflphone; hinzugefügt. Haben Sie bereits ein SIP- oder AIX-Konto, das mit &sflphone; oder anders angelegt wurde, können Sie es zu &sflphone; hinzufügen, indem Sie <guilabel
+>Vorhandenes Konto registrieren</guilabel
+> wählen. </para>
+
+</sect1>
+
+<sect1 id="gettingstarted-wizard-create">
+<title
+>Erstellung eines neuen Kontos</title>
+
+<para
+>Möchten Sie ein neues Konto bei sflphone.org anlegen, benötigt der Assistent einige Informationen, um das Konto automatisch zu erstellen und zu &sflphone; hinzuzufügen. Es wird ein SIP-Konto erstellt, daher können Sie dieses neue Konto von jedem System und mit jeder Software nutzen, die mit mit SIP-Konten umgehen kann. Die Information für das neue Konto werden am Ende im Assistenten angezeigt und können jederzeit vom Hauptfenster aufgerufen werden.</para>
+
+<sect2 id="gettingstarted-wizard-create-email">
+<title
+>E-Mail-Adresse</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-create-email.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Die Seite „E-Mail-Adresse“</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Als erstes sollten Sie Ihre E-Mail-Adresse eingeben. Dies ist nicht zwingend erforderlich, so dass Sie diesen Schritt mit <guibutton
+>Weiter</guibutton
+> überspringen können. Über eine E-Mail-Adresse können Sie jedoch Sprach- oder Textnachrichten bei Abwesenheit erhalten.</para>
+
+
+</sect2>
+
+</sect1>
+
+<sect1 id="gettingstarted-wizard-register">
+<title
+>Registrierung eines existierenden Kontos</title>
+
+<para
+>Haben Sie bereits ein SIP- oder IAX-Konto mit &sflphone; auf einem anderen Rechner oder einer anderen Software erstellt oder möchten Sie ein anderes bereits vorhandenes Konto nutzen, können Sie es mit dem Assistenten registrieren, um es mit &sflphone; zu nutzen. Der Assistent fragt dann die wichtigsten Informationen ab, um das Konto zu finden. Diese Informationen werden in diesem Abschnitt beschrieben.</para>
+
+
+
+<sect2 id="gettingstarted-wizard-register-siporiax">
+<title
+>SIP oder IAX</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-register-siporiax.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Die Seite Kontotyp</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>&sflphone; verarbeitet zwei Protokolle für Anrufe, SIP und AIX. Wählen Sie jetzt die Art des zu verwendenden Protokolls für Ihr Konto aus. Haben Sie bereits ein Konto, geben Sie das dafür benutzte Protokoll ein. Möchten Sie ein Konto ohne &sflphone; erstellen und sind sich unsicher, welche Art Sie wählen sollen, lesen Sie bitte <ulink url="http://www.voip-info.org/wiki/view/IAX+versus+SIP"
+>dieses Dokument</ulink
+>, um zu erfahren, was am besten für Ihre Zwecke geeignet ist.</para>
+
+</sect2>
+
+<sect2 id="gettingstarted-wizard-register-settings">
+<title
+>Konto-Einstellungen</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-register-settings.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Die Einstellungsseite</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Der Assistent braucht eine wenige Informationen, um Ihr Konto zu identifizieren. Als Alias kein ein beliebiger Name eingesetzt werden. Er wird nur für &sflphone; auf diesem System, nicht im Konto benutzt. Als Server geben Sie den Rechner Ihres Kontos und auch einen Benutzernamen an. Anders als beim Alias muss hier der Benutzername, der bei der Erstellung des Kontos angegeben wurde, eingetragen werden. Die Nummer der Mailbox wird für den Mailbox-Knopf verwendet, damit Sie diese Nummer nicht immer wieder eintippen müssen. Normalerweise hat die Mailbox die Nummer 888.</para>
+
+</sect2>
+
+</sect1>
+
+<sect1 id="gettingstarted-wizard-stun">
+<title
+>STUN-Einstellungen</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-stun.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Die Seite STUN</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Wenn Sie ein SIP-Konto registrieren oder ein SIP-Konto bei sflphone.org anlegen, ist im Assistenten als Voreinstellung STUN aktiviert. Sie können dies verwenden, wenn Sie über eine Firewall verbunden sind. Tatsächlich ist dies keine besondere Einstellung für diese Konto, aber bei einer Einrichtung für &sflphone; wird diese Einstellung für alle Konten benutzt. Aktivieren Sie diese Einstellung, müssen Sie auch einen STUN-Server auswählen, wie &eg; stunserver.org.</para>
+
+</sect1>
+
+
+<sect1 id="gettingstarted-wizard-finish">
+<title
+>Die Seite Zusammenfassung</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-finish.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Die Schlußseite</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Auf der letzten Seite des Assistenten werden alle Informationen zusammengefasst, die Sie eingegeben haben. Es wurden noch keine Daten übermittelt, so dass Sie den Assistenten immer noch <guibutton
+>Abbrechen</guibutton
+> können. Wenn Sie auf <guibutton
+>Fertigstellen</guibutton
+> klicken, werden alle Informationen gesendet und das Konto angelegt oder registriert. Um zu überprüfen, ob die Registrierung erfolgreich war, sehen Sie auf der Seite Konto-Einrichtung nach dem Status Ihres Kontos.</para>
+
+</sect1>
+
+</chapter>
+

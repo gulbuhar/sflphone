@@ -1,0 +1,262 @@
+<chapter id="getting-started">
+
+<chapterinfo>
+<authorgroup>
+   <author
+><firstname
+>Jérémy</firstname
+> <surname
+>Quentin</surname
+> </author>
+   <author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+<othercredit role="translator"
+><firstname
+>Юрій</firstname
+><surname
+>Чорноіван</surname
+><affiliation
+><address
+><email
+>yurchor@ukr.net</email
+></address
+></affiliation
+><contrib
+>Переклад українською</contrib
+></othercredit
+> 
+</authorgroup>
+</chapterinfo>
+
+<title
+>Перші кроки у роботі з &sflphone-client-kde;</title>
+
+<para
+>Під час першого запуску &sflphone-client-kde; буде виконано майстер налаштовування. За допомогою цього майстра ви зможете визначити параметри облікового запису, який слід використовувати у &sflphone;. Вам слід виконати настанови майстра, перш ніж користуватися основним вікном &sflphone-client-kde;, оскільки програмою не можна користуватися без принаймні одного налаштованого облікового запису. Параметри вже налаштованого облікового запису після завершення роботи майстра можна змінити за допомогою головного вікна програми. Ви також можете будь-коли запустити майстер з головного вікна програми. Нижче нами описано налаштовування за допомогою майстра. </para>
+
+<simplelist>
+<member
+><link linkend="gettingstarted-wizard-welcome"
+>Вступна сторінка майстра.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-createorregister"
+>Сторінка типу реєстрації.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-create"
+>Створення облікового запису.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-register"
+>Реєстрація вже створеного облікового запису.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-stun"
+>Параметри STUN.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-finish"
+>Сторінка підсумків.</link
+></member>
+</simplelist>
+
+<sect1 id="gettingstarted-wizard-welcome">
+<title
+>Вітальна сторінка</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-welcome.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Вступна сторінка майстра</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+
+<para
+>Навігацію у вікні майстра можна здійснювати за допомогою кнопок <guibutton
+>Далі</guibutton
+>, <guibutton
+>Назад</guibutton
+> і <guibutton
+>Скасувати</guibutton
+>. Якщо буде натиснуто кнопку <guibutton
+>Скасувати</guibutton
+>, роботу майстра буде завершено без додавання облікового запису. Натисніть кнопку <guibutton
+>Далі</guibutton
+>, щоб розпочати налаштовування облікового запису.</para>
+
+</sect1>
+
+
+<sect1 id="gettingstarted-wizard-createorregister">
+<title
+>Створення або реєстрація</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-createorregister.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Сторінка типу реєстрації</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>На цій сторінці ви можете наказати програмі створити новий обліковий запис на sflphone.org або зареєструвати вже створений обліковий запис. Якщо ви використовуєте &sflphone; вперше і не хочете ускладнювати свою роботу, вам слід вибрати варіант <guilabel
+>Створити обліковий запис</guilabel
+>. Програма створить обліковий запис і додасть його до списку облікових записів &sflphone;. Якщо у вас вже є обліковий запис SIP або IAX, створений за допомогою &sflphone; або у інший спосіб, ви можете додати його до списку облікових записів &sflphone;: просто виберіть варіант <guilabel
+>Зареєструвати вже створений обліковий запис</guilabel
+>. </para>
+
+</sect1>
+
+<sect1 id="gettingstarted-wizard-create">
+<title
+>Створення облікового запису</title>
+
+<para
+>Якщо ви вибрали варіант створення облікового запису на sflphone.org, майстрові знадобиться зовсім небагато даних для створення облікового запису, після чого майстер автоматично створить обліковий запис і додасть його до списку у &sflphone;. Буде створено обліковий запис SIP, ви зможете користуватися цим обліковим записом у будь-яких інших системах за допомогою будь-якого програмного забезпечення, здатного працювати з обліковими записами SIP. Параметри нового облікового запису буде показано на останній сторінці майстра, їх можна буде змінити за допомогою основного вікна програми.</para>
+
+<sect2 id="gettingstarted-wizard-create-email">
+<title
+>Адреса електронної пошти</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-create-email.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Сторінка адреси електронної пошти</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Спочатку вам потрібно буде вказати адресу вашої скриньки електронної пошти. Вказувати цю адресу не обов’язково, ви можете просто пропустити цей крок, натиснувши кнопку <guibutton
+>Далі</guibutton
+>. За допомогою вказаної поштової скриньки ви зможете отримувати сповіщення щодо голосових і текстових повідомлень, які надходитимуть вам, коли ви перебуватимете поза мережею.</para>
+
+
+</sect2>
+
+</sect1>
+
+<sect1 id="gettingstarted-wizard-register">
+<title
+>Реєстрація вже створеного облікового запису</title>
+
+<para
+>Якщо вами вже було створено обліковий запис SIP або IAX за допомогою &sflphone; на іншому комп’ютері або за допомогою іншого програмного забезпечення або ви хочете скористатися вже створеним обліковим записом, ви можете зареєструвати його за допомогою майстра, щоб користуватися ним у локальній версії &sflphone;. Майстром буде запропоновано вказати основні параметри облікового запису. Потрібні програмі дані описано у цьому розділі.</para>
+
+
+
+<sect2 id="gettingstarted-wizard-register-siporiax">
+<title
+>SIP або IAX</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-register-siporiax.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Сторінка типу облікового запису</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>&sflphone; може працювати з двома протоколами викликів, SIP і IAX2. Майстер попросить вас вказати тип вашого облікового запису. Якщо у вас вже є обліковий запис, просто виберіть відповідний йому тип. Якщо вам хочеться створити обліковий запис без &sflphone; і ви не знаєте, яким типом краще скористатися, можете ознайомитися з <ulink url="http://www.voip-info.org/wiki/view/IAX+versus+SIP"
+>цим документом</ulink
+>, щоб дізнатися більше про можливості обох протоколів.</para>
+
+</sect2>
+
+<sect2 id="gettingstarted-wizard-register-settings">
+<title
+>Параметри облікового запису</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-register-settings.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Сторінка параметрів</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Для визначення вашого облікового запису майстрові знадобиться трохи даних. Псевдонім визначається лише з міркувань зручності. Його буде застосовано лише у &sflphone; на локальній системі, дані не передаватимуться на сервер. "Сервер" — сервер, на якому зберігатимуться дані облікового запису. "Користувач" — назва облікового запису у системі. На відміну від псевдоніма у полі "Користувач" має бути вказано ім’я користувача, використане під час створення облікового запису. "Пароль" також має збігатися з паролем, визначеним під час створення облікового запису. Номер поштової скриньки використовуватиметься для кнопки поштової скриньки, щоб уникнути потреби у надто частому введенні цього номера. Зазвичай, цим номером є номер 888.</para>
+
+</sect2>
+
+</sect1>
+
+<sect1 id="gettingstarted-wizard-stun">
+<title
+>Параметри STUN</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-stun.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Сторінка STUN</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Якщо вами зареєстровано обліковий запис SIP або створено обліковий запис на sflphone.org (що теж означає реєстрацію облікового запису SIP), майстер запропонує вам увімкнути STUN. Вмикати STUN слід, якщо з’єднання відбувається з використанням брандмауера. Насправді, це параметр не самого облікового запису, але налаштування &sflphone;; його буде застосовано до всіх облікових записів. Якщо ви позначите відповідний пункт, вам слід вибрати сервер STUN, яким ви хочете скористатися (приклад: stunserver.org).</para>
+
+</sect1>
+
+
+<sect1 id="gettingstarted-wizard-finish">
+<title
+>Сторінка підсумків</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-finish.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Остання сторінка</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>На останній сторінці буде наведено резюме даних, які було вказано під час процедури роботи майстра. До підтвердження даних ніяких дій з налаштовування не буде виконано, ви можете відкинути ці дані натисканням кнопки <guibutton
+>Скасувати</guibutton
+>. Якщо ви натиснете кнопку <guibutton
+>Завершити</guibutton
+>, всі дані буде записано, програма створить обліковий запис, якщо було вибрано варіант створення, і зареєстровано, якщо ви реєструєте вже створений обліковий запис. Оскільки до цього кроку ніяких даних не надсилається, ви не можете наперед дізнатися, чи буде успішною реєстрація. Щоб перевірити, чи вдалася реєстрація, у головному вікні програми відкрийте сторінку параметрів, щоб переглянути стан ваших облікових записів.</para>
+
+</sect1>
+
+</chapter>
+

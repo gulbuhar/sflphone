@@ -1,0 +1,250 @@
+<chapter id="getting-started">
+
+<chapterinfo>
+<authorgroup>
+   <author
+><firstname
+>Jérémy</firstname
+> <surname
+>Quentin</surname
+> </author>
+   <author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+&traductor.Antoni.Bella; 
+</authorgroup>
+</chapterinfo>
+
+<title
+>Primers passos amb el &sflphone-client-kde;</title>
+
+<para
+>Quan inicieu el &sflphone-client-kde; per primera vegada, obtindreu un assistent de configuració pel compte. Aquest assistent us ajudarà a configurar un compte per utilitzar-lo amb &sflphone;. Haureu de completar-lo abans d'anar a la finestra principal del &sflphone-client-kde;, ja que no funcionarà sense almenys crear un compte. Una vegada completat l'assistent encara podreu canviar tota la configuració del compte des de la finestra principal. També podeu iniciar l'assistent des de la finestra principal en qualsevol moment. A continuació es descriuen les diferents opcions d'aquest assistent. </para>
+
+<simplelist>
+<member
+><link linkend="gettingstarted-wizard-welcome"
+>La pàgina d'introducció a l'assistent.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-createorregister"
+>La pàgina tipus de registre.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-create"
+>Crear un compte nou.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-register"
+>Registrar un compte existent.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-stun"
+>Els paràmetres de l'STUN.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-finish"
+>La pàgina conclusió.</link
+></member>
+</simplelist>
+
+<sect1 id="gettingstarted-wizard-welcome">
+<title
+>La pàgina de benvinguda</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-welcome.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La pàgina d'introducció a l'assistent</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+
+<para
+>Podeu navegar en aquest assistent utilitzant els botons <guibutton
+>Següent</guibutton
+>, <guibutton
+>Anterior</guibutton
+> i <guibutton
+>Cancel·la</guibutton
+>. Si feu clic al botó <guibutton
+>Cancel·la</guibutton
+>, l'assistent es tancarà sense afegir el compte. Feu clic al botó <guibutton
+>Següent</guibutton
+> per iniciar la configuració del compte.</para>
+
+</sect1>
+
+
+<sect1 id="gettingstarted-wizard-createorregister">
+<title
+>Crear o registrar</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-createorregister.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La pàgina tipus de registre</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Ara podeu optar per crear un nou compte allotjat per sflphone.org o registrar un compte existent que ja teniu. Si utilitzeu &sflphone; per primera vegada i voleu que les coses funcionin de la forma més senzilla possible, haureu de triar <guilabel
+>Crea un compte nou</guilabel
+>. Es crearà un compte i s'afegirà al &sflphone;. Si ja disposeu d'un compte SIP o IAX creat amb &sflphone; o de qualsevol altra manera, el podeu afegir al &sflphone; triant <guilabel
+>Registra un compte existent</guilabel
+>. </para>
+
+</sect1>
+
+<sect1 id="gettingstarted-wizard-create">
+<title
+>Crear un compte nou</title>
+
+<para
+>Si opteu crear un compte sobre sflphone.org, l'assistent necessitarà molt poca informació per crear-lo, el crearà automàticament i hi afegirà la informació del nou compte al &sflphone;. Crearà un compte SIP, de manera que serà capaç d'utilitzar aquest nou compte des de qualsevol altre sistema, amb qualsevol programari per a la gestió de comptes SIP, utilitzant la informació del nou compte que es mostrarà al final del procés o que és accessible des de la finestra principal.</para>
+
+<sect2 id="gettingstarted-wizard-create-email">
+<title
+>Adreça de correu electrònic</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-create-email.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La pàgina adreça de correu electrònic</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>La primera informació que us demanarà és la vostra adreça de correu electrònic. Aquesta no és obligatòria, de manera que simplement podeu ometre aquest pas fent clic al botó <guibutton
+>Següent</guibutton
+>. Però permetrà la rebuda d'algunes notificacions sobre la veu o els missatges de text que rebeu mentre esteu absent.</para>
+
+
+</sect2>
+
+</sect1>
+
+<sect1 id="gettingstarted-wizard-register">
+<title
+>Registrar un compte existent</title>
+
+<para
+>Si ja heu creat un compte SIP o IAX amb &sflphone; des d'un altre ordinador o amb un altre programari, o si voleu utilitzar un compte existent, podeu registrar-vos amb aquest assistent per a poder utilitzar-lo amb aquesta instància del &sflphone;. L'assistent us demanarà la informació bàsica del compte per tal d'emprar-lo. Aquesta informació es descriu en aquesta secció.</para>
+
+
+
+<sect2 id="gettingstarted-wizard-register-siporiax">
+<title
+>SIP o IAX</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-register-siporiax.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La pàgina tipus de compte</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>El &sflphone; gestiona dos protocols per a trucades, SIP i IAX2. L'assistent us demanarà quin és el vostre compte. Si ja disposeu d'un compte creat, simplement trieu el tipus correcte. Si voleu crear-ne un sense &sflphone; i us pregunteu quin tipus triar, podeu mirar <ulink url="http://www.voip-info.org/wiki/view/IAX+versus+SIP"
+>aquest document</ulink
+> per conèixer quin s'adapta millor a les vostres necessitats.</para>
+
+</sect2>
+
+<sect2 id="gettingstarted-wizard-register-settings">
+<title
+>Paràmetres del compte</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-register-settings.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La pàgina arranjament</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>L'assistent necessita algunes dades per trobar el vostre compte. El sobrenom només és per conveniència, podeu triar qualsevol. Només s'aplicarà al &sflphone; sobre aquest sistema, no en el compte. El servidor és el que hostatja el vostre compte. L'usuari serà el nom d'usuari del compte. A diferència del sobrenom, el qual serà el nom d'usuari triat mentre es creava el compte. La contrasenya també serà triada pel compte. El número de la bústia de veu serà utilitzat pel botó <guibutton
+>Bústia de veu</guibutton
+> per evitar que tingueu que escriure aquest número massa sovint. En general és el 888.</para>
+
+</sect2>
+
+</sect1>
+
+<sect1 id="gettingstarted-wizard-stun">
+<title
+>Paràmetres de l'STUN</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-stun.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La pàgina STUN</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Si registreu un compte SIP o el creeu a sflphone.org (el qual també vol dir registrar un compte SIP després de tot), l'assistent proposarà que habiliteu STUN. Possiblement ho voldreu fer si esteu connectat al darrere d'un tallafocs. En realitat, aquesta no és una opció d'aquest compte en particular, però la configuració del &sflphone; s'aplicarà a qualsevol compte. Si habiliteu aquesta opció, haureu de triar el servidor STUN que voleu utilitzar (&pex;: stunserver.org).</para>
+
+</sect1>
+
+
+<sect1 id="gettingstarted-wizard-finish">
+<title
+>La pàgina conclusió</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-finish.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La pàgina final</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>La pàgina conclusió resumeix la informació que heu enviat durant el procés de l'assistent. Encara no heu fet res, de manera que el podeu ometre fent clic al botó <guibutton
+>Cancel·la</guibutton
+>. Si feu clic a <guibutton
+>Finalitza</guibutton
+>, ara s'enviarà tota la informació i es crearà el compte, tant si heu triat crear-lo o registrar-lo si esteu registrant un compte existent. Atès que no heu enviat la informació en aquest pas, no podeu saber si el registre ha tingut èxit. Per a comprovar-ho, una vegada us trobeu a la finestra principal, aneu a la pàgina de configuració del compte per veure l'estat dels vostres comptes.</para>
+
+</sect1>
+
+</chapter>
+

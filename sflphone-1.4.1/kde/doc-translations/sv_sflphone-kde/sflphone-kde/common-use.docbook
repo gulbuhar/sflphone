@@ -1,0 +1,201 @@
+<chapter id="common-use">
+
+<chapterinfo>
+<authorgroup>
+   <author
+><firstname
+>Jérémy</firstname
+> <surname
+>Quentin</surname
+> </author>
+   <author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+<othercredit role="translator"
+> <firstname
+>Stefan</firstname
+> <surname
+>Asserhäll</surname
+> <affiliation
+><address
+><email
+>stefan.asserhall@comhem.se</email
+></address
+></affiliation
+> <contrib
+>Översättare</contrib
+></othercredit
+> 
+</authorgroup>
+</chapterinfo>
+
+<title
+>Vanlig användning av &sflphone-client-kde;</title>
+
+<sect1 id="common-use-current">
+<title
+>Hantera ett samtal</title>
+
+<para
+>Det finns en mängd funktioner som kan användas för ett aktivt samtal i &sflphone;. Här är beskrivningen av dem. </para>
+
+<sect2 id="common-use-current-new">
+<title
+>Ringa ett nytt samtal</title>
+
+<para
+>Du kan ha många samtal i parallell, även om bara ett är aktivt (dvs. kan användas för att tala) och de övriga parkeras. För att ringa ett nytt samtal medan ett är aktivt klicka på knappen Ring nytt samtal. Då skapas ett nytt tomt objekt som automatiskt markeras. Skriv därefter in telefonnumret du vill ringa och klicka på <guibutton
+>Ring</guibutton
+> eller tryck på returtangenten för att ringa samtalet. Du kan också gå till &i18n-history-w; eller &i18n-address-w; och markera ett giltigt samtal, så läggs det till och rings upp i &i18n-current-w;. När ett nytt samtal rings upp, parkeras alla övriga, så att två samtal inte kan blandas ihop. Om du vill gå tillbaka till ett samtalen som är parkerat, dubbelklicka bara på motsvarande objekt så går det tillbaka till aktivt tillstånd, medan det tidigare parkeras. </para>
+
+</sect2>
+
+<sect2 id="common-use-current-hold">
+<title
+>Parkera ett samtal</title>
+
+<para
+>Om du vill parkera det aktiva samtalet, behöver du bara klicka på knappen Parkera. Samtalets ikon ändras då och kommunikation med samtalspartnern stoppas. Därefter kan du ringa ett nytt samtal, vidarekoppla det parkerade (se <xref linkend="common-use-current-transfer"/>) ... För att återuppta kommunikationen, dubbelklicka bara på objektet eller klicka på knappen för att sluta parkera. </para>
+
+</sect2>
+
+<sect2 id="common-use-current-transfer">
+<title
+>Vidarekoppla ett samtal</title>
+
+<para
+>Om du vill vidarekoppla det aktiva samtalet till ett annat telefonnummer, klicka på knappen <guibutton
+>Vidarekoppla</guibutton
+>, så ändras objektet för att låta dig skriva in numret som du vill vidarekoppla samtalet till. När du väl har skrivit in det, klicka på knappen för giltig vidarekoppling eller tryck på returtangenten för att utföra själva vidarekopplingen. Samtalet kan parkeras medan numret skrivs in (se <xref linkend="common-use-current-hold"/>). </para>
+
+</sect2>
+
+<sect2 id="common-use-current-record">
+<title
+>Spela in ett samtal</title>
+
+<para
+>Om du vill spela in det aktiva samtalet, klicka på knappen <guibutton
+>Spela in</guibutton
+>. Knappen markeras, och lampan kanske tänds. Eftersom &sflphone; bara spelar in aktiva samtal (dvs. inte parkerade), är lampan tänd om det markerade samtalet är aktivt och kan spelas in, och släckt om det inte är fallet. Men om knappen är markerad, kommer &sflphone; att spela in så fort kommunikation pågår. </para>
+
+</sect2>
+
+</sect1>
+
+<sect1 id="common-use-mailbox">
+<title
+>Ringa röstbrevlåda</title>
+
+<para
+>Du kan ringa din röstbrevlåda genom att skriva in kontots nummer till röstbrevlådan, men om du har registrerat numret i kontoinställningarna kan du bara klicka på knappen Röstbrevlåda. Det ringer upp röstbrevlådan för det första registrerade kontot.</para>
+
+<para
+>I båda fall kan du därefter skriva in röstbrevlådans lösenord utan att oroa dig för personer i närheten, eftersom &sflphone; inte visar vad du skriver in om det uppringda numret är det registrerade numret till röstbrevlådan för det aktuella samtalets konto. </para>
+
+</sect1>
+
+<sect1 id="common-use-address">
+<title
+>Använd adressboken</title>
+
+<para
+>&sflphone-client-kde; kommunicerar med &kde;:s adressbok och samlar in alla telefonnummer som motsvarar din begäran och valda alternativ. Här förklarar vi hur det anpassas och används.</para>
+
+
+<sect2 id="common-use-address-kde">
+<title
+>Anpassa &kde;:s adressbok</title>
+
+<para
+>Eftersom det är helt konstruerat för &kde;, letar &sflphone-client-kde; efter kontakter i &kde;:s adressbok. Du måste alltså först ställa in den. Välj <menuchoice
+><guimenu
+>Program</guimenu
+><guisubmenu
+>Office</guisubmenu
+><guimenuitem
+>Kontakthantering</guimenuitem
+></menuchoice
+> i K-menyn. Nu visas huvudfönstret för &kde;:s adressbok. Här kan du lägga till och hantera kontakter. Tryck på <keycap
+>F1</keycap
+> för att visa programmets hjälpsida om du har några problem med det. </para>
+
+<para
+>&sflphone-client-kde; tittar i den vanliga adressboken, vilket betyder att det tittar på kontakter som visas i kontaktlistan till vänster i fönstret. Adressböckerna som är markerade nere till vänster i fönstret söks igenom. Om du lägger till några kontakter, kan du behöva starta om &sflphone-client-kde; innan du kan se dem. </para>
+
+
+</sect2>
+
+
+<sect2 id="common-use-address-config">
+<title
+>Anpassa &sflphone-client-kde;</title>
+
+<para
+>Nu kan du gå till inställningsdialogrutan för att välja hur &sflphone; ska hantera sökningar i adressboken. Steget är dock valfritt, eftersom de förvalda inställningarna gör det möjligt att använda funktionen utan ytterligare inställning. </para>
+
+<para
+>Inställningen av maximalt antal resultat gör det möjligt att välja hur många telefonnummer som kan visas när du letar efter en kontakt. &kde;:s adressbok kan innehålla mängder av kontakter, särskilt om den är ansluten till <acronym
+>LDAP</acronym
+>-kataloger, och du vill inte att tusentals kontakter visas så fort du skriver in en bokstav att söka efter.</para>
+
+<para
+>&kde;:s adressbok kan innehålla ett foto av kontakten. &sflphone-client-kde; kan visa det i sökresultatet, men eftersom det kan ta lite längre tid kan du välja att inaktivera funktionen.</para>
+
+<para
+>Varje telefonnummer i &kde;:s adressbok är länkad till en kontakt, och har en telefonnummertyp för att skilja mellan arbetstelefon, hemtelefon och mobiltelefon. Du kan välja att bara visa vissa av dessa nummer. Markera typerna som du är intresserad av och avmarkera de övriga.</para>
+
+</sect2>
+
+<sect2 id="common-use-address-use">
+<title
+>Sök i adressboken</title>
+
+<para
+>Nu när allting är inställt kan du gå till &i18n-address-w;, och därefter skriva in några bokstäver i namnet som du vill ringa upp. Alla telefonnummer som motsvarar din begäran och deras typ visas. När resultatlistan är större än det maximala värdet som valts i inställningarna, visas bara början av listan med den maximala storleken, samt ett varningsmeddelande för att tala om för dig att det önskade numret kan finnas i resten av listan, och därmed inte visas. I detta fall måste du skriva in några fler bokstäver för att förbättra sökningens precision. När du väl har hittat rätt nummer, dubbelklicka på objektet för att ringa upp det. </para>
+
+</sect2>
+
+
+</sect1>
+
+
+
+<sect1 id="common-use-config">
+<title
+>Inställningsdialogrutan</title>
+
+<para
+>Det finns många alternativ i &sflphone;. Alla är samlade och sorterade i inställningsdialogrutan. Du kan nå den genom att välja <menuchoice
+><guimenu
+>Inställningar</guimenu
+> <guimenuitem
+>Anpassa &sflphone;...</guimenuitem
+></menuchoice
+>. Här visas några i många fall användbara alternativ.</para>
+
+<sect2 id="common-use-config-address">
+<title
+>Allmänna inställningar</title>
+
+<para
+>Här kan du välja samtalshistorikens kapacitet. </para>
+
+</sect2>
+
+</sect1>
+
+
+
+
+
+
+
+
+
+
+
+</chapter>

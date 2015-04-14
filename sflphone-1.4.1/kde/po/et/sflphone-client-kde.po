@@ -1,0 +1,2767 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Marek Laane <bald@smail.ee>, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-09-12 02:05+0000\n"
+"PO-Revision-Date: 2013-01-14 20:38+0200\n"
+"Last-Translator: Marek Laane <bald@smail.ee>\n"
+"Language-Team: Estonian <kde-et@linux.ee>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Marek Laane"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "bald@smail.ee"
+
+#. i18n: ectx: Menu (Actions)
+#: data/sflphone-client-kdeui.rc:5
+msgid "Actions"
+msgstr "Toimingud"
+
+#. i18n: ectx: Menu (View)
+#: data/sflphone-client-kdeui.rc:20
+msgid "View"
+msgstr "Vaade"
+
+#. i18n: ectx: Menu (Settings)
+#: data/sflphone-client-kdeui.rc:30
+msgid "Settings"
+msgstr "Seadistused"
+
+#: src/accountwizard.cpp:190 src/accountwizard.cpp:352
+#: src/actioncollection.cpp:202
+msgid "Account creation wizard"
+msgstr "Konto loomise nõustaja"
+
+#: src/accountwizard.cpp:247 src/accountwizard.cpp:268
+#: src/accountwizard.cpp:283 src/accountwizard.cpp:619
+msgid "This assistant is now finished."
+msgstr "Nõustaja on töö lõpetanud."
+
+#: src/accountwizard.cpp:264
+#, kde-format
+msgid ""
+"Creation of account has failed for the reason:\n"
+"%1"
+msgstr ""
+"Konto loomine nurjus järgmisel põhjusel:\n"
+"%1"
+
+#: src/accountwizard.cpp:324
+#, kde-format
+msgid "Alias: %1"
+msgstr "Alias: %1"
+
+#: src/accountwizard.cpp:325
+#, kde-format
+msgid "Server: %1"
+msgstr "Server: %1"
+
+#: src/accountwizard.cpp:326
+#, kde-format
+msgid "Password: %1"
+msgstr "Parool: %1"
+
+#: src/accountwizard.cpp:327
+#, kde-format
+msgid "Protocol: %1"
+msgstr "Protokoll: %1"
+
+#: src/accountwizard.cpp:328
+#, kde-format
+msgid "Voicemail number: %1"
+msgstr "Kõneposti number: %1"
+
+#: src/accountwizard.cpp:329
+#, kde-format
+msgctxt "SIP Account username"
+msgid "Username: %1"
+msgstr "Kasutajanimi: %1"
+
+#: src/accountwizard.cpp:353
+msgid "Welcome to the Account creation wizard of SFLphone"
+msgstr "Tere tulemast kasutama SFLphone'i konto loomise nõustajat"
+
+#: src/accountwizard.cpp:355
+msgid "This installation wizard will help you configure an account."
+msgstr "See nõustaja aitab sul kontot seadistada."
+
+#: src/accountwizard.cpp:358
+msgid "Always display this dialog when there is no accounts"
+msgstr ""
+
+#: src/accountwizard.cpp:390
+msgid "VoIP Protocols"
+msgstr "VoIP protokollid"
+
+#: src/accountwizard.cpp:391
+msgid "Select an account type"
+msgstr "Vali konto tüüp"
+
+#: src/accountwizard.cpp:393
+msgid "SIP (Session Initiation Protocol)"
+msgstr "SIP (Session Initiation Protocol)"
+
+#: src/accountwizard.cpp:394
+msgid "IAX2 (InterAsterix Exchange)"
+msgstr "IAX2 (InterAsterix Exchange)"
+
+#: src/accountwizard.cpp:430
+msgid "SIP account settings"
+msgstr "SIP konto seadistused"
+
+#: src/accountwizard.cpp:431 src/accountwizard.cpp:512
+msgid "Please fill the following information"
+msgstr "Palun määra järgmine teave"
+
+#: src/accountwizard.cpp:433 src/accountwizard.cpp:514
+msgid "Alias"
+msgstr "Alias"
+
+#: src/accountwizard.cpp:434 src/accountwizard.cpp:515
+msgid "Server"
+msgstr "Server"
+
+#. i18n: ectx: property (text), widget (QLabel, label_credential_password)
+#: src/accountwizard.cpp:435 src/accountwizard.cpp:516
+#: src/conf/dlgaccountsbase.ui:1122
+msgid "Password"
+msgstr "Parool"
+
+#: src/accountwizard.cpp:436 src/accountwizard.cpp:517
+msgid "Voicemail number"
+msgstr "Kõneposti number"
+
+#: src/accountwizard.cpp:437
+msgid "Secure with ZRTP"
+msgstr "Turvamine ZRTP-ga"
+
+#: src/accountwizard.cpp:438 src/accountwizard.cpp:518
+msgctxt "SIP Account Username"
+msgid "Username"
+msgstr "Kasutajanimi"
+
+#: src/accountwizard.cpp:447
+msgid "Anything, used only locally"
+msgstr "Kõik muu (kasutatakse ainult kohalikult)"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit3_server)
+#: src/accountwizard.cpp:448 src/conf/dlgaccountsbase.ui:309
+msgid "Example: sip.sflphone.org or 192.168.0.2"
+msgstr "Näide: sip.sflphone.org või 192.168.0.2"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit4_user)
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit_credential_auth)
+#: src/accountwizard.cpp:449 src/conf/dlgaccountsbase.ui:329
+#: src/conf/dlgaccountsbase.ui:1142
+msgid "Usually your extension number"
+msgstr "Tavaliselt sinu aparaadi number"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit5_password)
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit_credential_password)
+#: src/accountwizard.cpp:450 src/conf/dlgaccountsbase.ui:349
+#: src/conf/dlgaccountsbase.ui:1158
+msgid "SIP password, ask your network administrator"
+msgstr "SIP parool (küsi oma võrguadministraatorilt)"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit6_mailbox)
+#: src/accountwizard.cpp:451 src/conf/dlgaccountsbase.ui:366
+msgid "Usually the same as the username"
+msgstr "Tavaliselt kasutajanimega sama"
+
+#: src/accountwizard.cpp:511
+msgid "IAX2 account settings"
+msgstr "IAX2 konto seadistused"
+
+#: src/accountwizard.cpp:578
+msgid "Network Address Translation (NAT)"
+msgstr "Võrguaadresside tõlkimine (NAT)"
+
+#: src/accountwizard.cpp:579
+msgid "You should probably enable this if you are behind a firewall."
+msgstr "See tasuks sisse lülitada siis, kui oled tulemüüri taga."
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_stun)
+#: src/accountwizard.cpp:581 src/conf/dlgaccountsbase.ui:542
+msgid "Enable STUN"
+msgstr "STUN-i lubamine"
+
+#: src/accountwizard.cpp:582
+msgid "STUN Server"
+msgstr "STUN server"
+
+#: src/accountwizard.cpp:620
+msgid ""
+"After checking the settings you chose, click \"Finish\" to create the "
+"account. This may take a while to complete."
+msgstr ""
+"Pärast valitud seadistuste ülevaatamist klõpsa konto loomiseks nupule "
+"\"Lõpeta\". See võib võtta veidi aega."
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pTransferB)
+#: src/actioncollection.cpp:91 src/delegates/contactdelegate.cpp:182
+#: src/delegates/historydelegate.cpp:270 src/delegates/historydelegate.cpp:271
+#: src/sflphoneview.cpp:85 src/widgets/ui/transfer.ui:105
+msgid "Transfer"
+msgstr "Edasisuunamine"
+
+#: src/actioncollection.cpp:92 src/sflphoneview.cpp:86
+msgid "Record"
+msgstr "Salvesta"
+
+#: src/actioncollection.cpp:93
+msgid "Hold"
+msgstr "Ootele"
+
+#: src/actioncollection.cpp:94
+msgid "Refuse"
+msgstr "Keeldu"
+
+#: src/actioncollection.cpp:95 src/sflphoneview.cpp:83 src/sflphoneview.cpp:88
+msgid "Hang up"
+msgstr "Lõpeta"
+
+#: src/actioncollection.cpp:96
+msgid "Unhold"
+msgstr "Ootelt ära"
+
+#: src/actioncollection.cpp:97
+msgid "Pickup"
+msgstr "Võta vastu"
+
+#: src/actioncollection.cpp:98
+#, fuzzy
+#| msgid "Mute"
+msgctxt "Mute the current audio capture device"
+msgid "Mute"
+msgstr "Tummaks"
+
+#: src/actioncollection.cpp:99
+msgctxt "Mute the current audio playback device"
+msgid "Mute Playback"
+msgstr ""
+
+#: src/actioncollection.cpp:100
+msgid "Dial"
+msgstr ""
+
+#: src/actioncollection.cpp:111
+msgid "Rotate left"
+msgstr ""
+
+#: src/actioncollection.cpp:112
+msgid "Rotate right"
+msgstr ""
+
+#: src/actioncollection.cpp:113 src/actioncollection.cpp:114
+msgid "Flip"
+msgstr ""
+
+#: src/actioncollection.cpp:115
+#, fuzzy
+#| msgid "Mute"
+msgid "Mute"
+msgstr "Tummaks"
+
+#: src/actioncollection.cpp:116
+#, fuzzy
+#| msgid "Stop preview"
+msgid "Preview"
+msgstr "Peata eelvaatlus"
+
+#: src/actioncollection.cpp:117
+msgid "Keep aspect ratio"
+msgstr ""
+
+#: src/actioncollection.cpp:118
+msgid "Fullscreen"
+msgstr ""
+
+#: src/actioncollection.cpp:192
+#, fuzzy
+#| msgid "Configure SFLphone"
+msgid "Configure SFLPhone-KDE"
+msgstr "SFLphone'i seadistamine"
+
+#: src/actioncollection.cpp:194
+msgid "Display dialpad"
+msgstr "Telefoniklahvide näitamine"
+
+#: src/actioncollection.cpp:195
+msgid "Display text message box"
+msgstr "Tekstisõnumi kasti näitamine"
+
+#: src/actioncollection.cpp:196
+msgid "Display volume controls"
+msgstr "Helitugevuse juhiste näitamine"
+
+#: src/actioncollection.cpp:197
+msgid "Paste"
+msgstr "Aseta"
+
+#: src/actioncollection.cpp:198
+msgid "Display Contact"
+msgstr "Kontakti näitamine"
+
+#: src/actioncollection.cpp:199
+msgid "Display history"
+msgstr "Ajaloo näitamine"
+
+#: src/actioncollection.cpp:200
+msgid "Display bookmark"
+msgstr "Järjehoidjate näitamine"
+
+#: src/actioncollection.cpp:201
+#, fuzzy
+#| msgid "Configure Shortcut"
+msgid "Configure Toolbars"
+msgstr "Kiirklahvide seadistamine"
+
+#: src/actioncollection.cpp:203
+#, fuzzy
+#| msgid "Add Contact"
+msgid "Add new contact"
+msgstr "Lisa kontakt"
+
+#: src/actioncollection.cpp:209
+msgid "Configure SFLphone"
+msgstr "SFLphone'i seadistamine"
+
+#: src/actioncollection.cpp:237
+msgid "Configure Shortcut"
+msgstr "Kiirklahvide seadistamine"
+
+#: src/canvasobjectmanager.cpp:224
+#, fuzzy
+#| msgid "SFLphone"
+msgid "SFLPhone"
+msgstr "SFLphone"
+
+#: src/conf/configurationdialog.cpp:115
+msgid "Accounts"
+msgstr "Kontod"
+
+#: src/conf/configurationdialog.cpp:126
+msgctxt "History settings"
+msgid "History"
+msgstr "Ajalugu"
+
+#: src/conf/configurationdialog.cpp:135
+msgctxt "User interterface settings"
+msgid "Display"
+msgstr "Vaade"
+
+#: src/conf/configurationdialog.cpp:144
+msgid "Audio"
+msgstr "Heli"
+
+#: src/conf/configurationdialog.cpp:153
+msgid "Address Book"
+msgstr "Aadressiraamat"
+
+#: src/conf/configurationdialog.cpp:162
+msgid "Hooks"
+msgstr "Haagid"
+
+#: src/conf/configurationdialog.cpp:171
+msgid "Accessibility"
+msgstr "Hõlbustus"
+
+#: src/conf/configurationdialog.cpp:181 src/widgets/videodock.cpp:129
+msgctxt "Video conversation"
+msgid "Video"
+msgstr "Video"
+
+#: src/conf/configurationdialog.cpp:191
+msgctxt "SIP Presence"
+msgid "Presence"
+msgstr ""
+
+#: src/conf/dlgaccessibility.cpp:45
+msgid ""
+"This page allows to create macros that can then be called using keyboard "
+"shortcuts or added to the toolbar. To create one, assign a name and a "
+"character sequence. The sequence can be numeric or any character than can be "
+"interpreted as one (ex: \"A\" would be interpreted as 2)"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DlgAccessibility)
+#: src/conf/dlgaccessibility.ui:14
+msgid "Accessibility settings"
+msgstr "Hõlbustusseadistused"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_enableAutoCompletion)
+#: src/conf/dlgaccessibility.ui:20
+msgid "Auto completion"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoCompleteMergeNumbers)
+#: src/conf/dlgaccessibility.ui:29
+msgid "Merge numbers from different accounts"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoCompleteUseAccount)
+#: src/conf/dlgaccessibility.ui:36
+msgid "Call number using their original accounts"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_pT2SBG)
+#: src/conf/dlgaccessibility.ui:46
+msgid "Text to Speech"
+msgstr "Teksti ettelugemine"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableVoiceFeedback)
+#. i18n: ectx: label, entry (enableVoiceFeedback), group (main)
+#. i18n: ectx: label, entry (displayContactDock), group (main)
+#. i18n: ectx: label, entry (displayHistoryDock), group (main)
+#. i18n: ectx: label, entry (displayBookmarkDock), group (main)
+#: src/conf/dlgaccessibility.ui:52 src/klib/sflphone-client-kde.kcfg:238
+#: src/klib/sflphone-client-kde.kcfg:279 src/klib/sflphone-client-kde.kcfg:283
+#: src/klib/sflphone-client-kde.kcfg:287
+msgid "Enable audio feedback from common actions"
+msgstr "Levinud toimingute ettelugemise lubamine"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableReadLabel)
+#. i18n: ectx: label, entry (enableReadLabel), group (main)
+#: src/conf/dlgaccessibility.ui:59 src/klib/sflphone-client-kde.kcfg:242
+msgid "Automatically read label when an overlay is being displayed"
+msgstr "Pealiselemendi automaatne ettelugemine vastava dialoogi kuvamisel"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableReadDetails)
+#. i18n: ectx: label, entry (enableReadDetails), group (main)
+#: src/conf/dlgaccessibility.ui:66 src/klib/sflphone-client-kde.kcfg:246
+msgid "Automatically read the call details when it is selected"
+msgstr "Kõne üksikasjade automaatne ettelugemine selle valimisel"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/dlgaccessibility.ui:82
+msgid "Macro"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (RightToolButton, m_pRemoveTB)
+#. i18n: ectx: property (text), widget (RightToolButton, m_pRemove)
+#: src/conf/dlgaccessibility.ui:112 src/conf/dlgpresence.ui:81
+#, fuzzy
+#| msgctxt "Remove selected account"
+#| msgid "Remove"
+msgid "Remove"
+msgstr "Eemalda"
+
+#. i18n: ectx: property (text), widget (LeftToolButton, m_pAddTB)
+#. i18n: ectx: property (text), widget (CenterToolButton, m_pAdd)
+#: src/conf/dlgaccessibility.ui:126 src/conf/dlgpresence.ui:71
+#, fuzzy
+#| msgctxt "Add new account"
+#| msgid "Add"
+msgid "Add"
+msgstr "Lisa"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pNameL)
+#: src/conf/dlgaccessibility.ui:210
+#, fuzzy
+#| msgctxt "Sort by Name"
+#| msgid "Name"
+msgid "Name*"
+msgstr "Nimi"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pNameLE)
+#: src/conf/dlgaccessibility.ui:217
+msgid "Identifier for this macro (toolbar text)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, m_pCategoryL)
+#: src/conf/dlgaccessibility.ui:230
+msgid "Category*"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, m_mSequenceL)
+#: src/conf/dlgaccessibility.ui:247
+msgid "Sequence*"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pSequenceLE)
+#: src/conf/dlgaccessibility.ui:254
+msgid "The key sequence to be executed"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, m_pDelayL)
+#: src/conf/dlgaccessibility.ui:267
+msgid "Delay"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, spinbox_tls_timeout_msec)
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_pDelaySB)
+#: src/conf/dlgaccessibility.ui:274 src/conf/dlgaccountsbase.ui:1505
+msgid "ms"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, m_pDescriptionL)
+#: src/conf/dlgaccessibility.ui:290
+#, fuzzy
+#| msgid "Registration"
+msgid "Description"
+msgstr "Registreerimine"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pDescriptionLE)
+#: src/conf/dlgaccessibility.ui:297
+msgid "A description for this macro"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/conf/dlgaccessibility.ui:328
+#, fuzzy
+#| msgid "Configure Shortcut"
+msgid "Shortcut"
+msgstr "Kiirklahvide seadistamine"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pInfoL)
+#: src/conf/dlgaccessibility.ui:361
+msgid "Info"
+msgstr ""
+
+#: src/conf/dlgaccounts.cpp:110
+msgid ""
+"To add an account, press the \"Add\" button below. Use the ⬆ up and ⬇ down "
+"button to change the default account priority."
+msgstr ""
+
+#: src/conf/dlgaccounts.cpp:118
+msgid "Usually called \"ca.crt\" or \"cacert.pem\""
+msgstr ""
+
+#: src/conf/dlgaccounts.cpp:119
+msgid "A .pem or .crt"
+msgstr ""
+
+#: src/conf/dlgaccounts.cpp:120
+msgid "A .key file"
+msgstr ""
+
+#: src/conf/dlgaccounts.cpp:642
+#, fuzzy
+#| msgid "New account%1"
+msgid "New account"
+msgstr "Uus konto %1"
+
+#: src/conf/dlgaccounts.cpp:642
+#, kde-format
+msgid "New account%1"
+msgstr "Uus konto %1"
+
+#: src/conf/dlgaccounts.cpp:657
+#, fuzzy, kde-format
+#| msgid "Are you sure you want to clear history?"
+msgid "Are you sure you want to remove %1?"
+msgstr "Kas tõesti puhastada ajalugu?"
+
+#: src/conf/dlgaccounts.cpp:657
+#, fuzzy
+#| msgid "Remove the selected account"
+msgid "Remove account"
+msgstr "Valitud konto eemaldamine"
+
+#: src/conf/dlgaccounts.cpp:700
+msgid "Warning, caps lock is turned on!"
+msgstr "Ettevaatust, Caps Lock on sees!"
+
+#. i18n: ectx: property (text), widget (QLabel, label_message)
+#: src/conf/dlgaccounts.cpp:704 src/conf/dlgaccountsbase.ui:460
+msgid "Fields marked with \"*\" are compulsory and required"
+msgstr "Väljad tähistusega \"*\" tuleb kindlasti täita"
+
+#. i18n: ectx: property (whatsThis), widget (CategorizedTreeView, treeView_accountList)
+#: src/conf/dlgaccountsbase.ui:92
+msgid ""
+"By default, when you place a call, sflphone will use the first account in "
+"this list which is \"registered\". Change the order of the accounts using "
+"the \"Up\" and \"Down\" arrows. Enable/disable them by checking/unchecking "
+"them on the left of the item. Add or remove some with \"Plus\" and \"Sub\" "
+"buttons. Edit the selected account with the form on the right."
+msgstr ""
+"Vaikimisi kasutab sflphone kõne tegemisel esimest nimekirjas olevat kontot, "
+"mis on \"registreeritud\". Kontode järjekorda saab muuta nooltega \"Üles\" "
+"ja \"Alla\". Neid saab sisse ja välja lülitada kirjest vasakul märget tehes "
+"või seda eemaldades. Lisada või eemaldada saab kontosid nuppudega \"Pluss\" "
+"ja \"Miinus\". Valitud kontot saab muuta paremal asuvas vormis."
+
+#. i18n: ectx: property (toolTip), widget (LeftToolButton, button_accountUp)
+#: src/conf/dlgaccountsbase.ui:123
+msgid "Get this account up"
+msgstr "Konto liigutamine ülespoole"
+
+#. i18n: ectx: property (whatsThis), widget (LeftToolButton, button_accountUp)
+#. i18n: ectx: property (whatsThis), widget (CenterToolButton, button_accountDown)
+#. i18n: ectx: property (whatsThis), widget (LeftToolButton, button_audiocodecUp)
+#. i18n: ectx: property (whatsThis), widget (RightToolButton, button_audiocodecDown)
+#: src/conf/dlgaccountsbase.ui:126 src/conf/dlgaccountsbase.ui:142
+#: src/conf/dlgaccountsbase.ui:861 src/conf/dlgaccountsbase.ui:877
+msgid ""
+"By default, when you place a call, sflphone will use the first account in "
+"this list which is \"registered\". Change the order of the accounts using "
+"the \"Up\" and \"Down\" arrows."
+msgstr ""
+"Vaikimisi kasutab sflphone kõne tegemisel esimest nimekirjas olevat kontot, "
+"mis on \"registreeritud\". Kontode järjekorda saab muuta nooltega \"Üles\" "
+"ja \"Alla\"."
+
+#. i18n: ectx: property (text), widget (LeftToolButton, button_accountUp)
+#: src/conf/dlgaccountsbase.ui:129
+msgctxt "Move account up"
+msgid "Up"
+msgstr "Üles"
+
+#. i18n: ectx: property (toolTip), widget (CenterToolButton, button_accountDown)
+#: src/conf/dlgaccountsbase.ui:139
+msgid "Get this account down"
+msgstr "Konto liigutamine allapoole"
+
+#. i18n: ectx: property (text), widget (CenterToolButton, button_accountDown)
+#: src/conf/dlgaccountsbase.ui:145
+msgctxt "Move account down"
+msgid "Down"
+msgstr "Alla"
+
+#. i18n: ectx: property (toolTip), widget (CenterToolButton, button_accountAdd)
+#: src/conf/dlgaccountsbase.ui:167
+msgid "Add a new account"
+msgstr "Uue konto lisamine"
+
+#. i18n: ectx: property (whatsThis), widget (CenterToolButton, button_accountAdd)
+#: src/conf/dlgaccountsbase.ui:170
+msgid ""
+"This button enables you to initialize a new account. You will then be able "
+"to edit it using the form on the right."
+msgstr ""
+"See nupp võimaldab luua uue konto. Seejärel saab selle üksikasju muuta "
+"paremal asuvas vormis."
+
+#. i18n: ectx: property (text), widget (CenterToolButton, button_accountAdd)
+#: src/conf/dlgaccountsbase.ui:173
+msgctxt "Add new account"
+msgid "Add"
+msgstr "Lisa"
+
+#. i18n: ectx: property (toolTip), widget (RightToolButton, button_accountRemove)
+#: src/conf/dlgaccountsbase.ui:189
+msgid "Remove the selected account"
+msgstr "Valitud konto eemaldamine"
+
+#. i18n: ectx: property (whatsThis), widget (RightToolButton, button_accountRemove)
+#: src/conf/dlgaccountsbase.ui:192
+msgid ""
+"This button will remove the selected account in the list below. Be sure you "
+"really don't need it anymore. If you think you might use it again later, "
+"just uncheck it."
+msgstr ""
+"See nupp eemaldab valitud konto nimekirjast. Mõtle järele, kas sa tõesti ei "
+"vaja seda kontot enam. Kui arvad, et sul võib seda veel vaja minna, eemalda "
+"lihtsalt selle eest märge."
+
+#. i18n: ectx: property (text), widget (RightToolButton, button_accountRemove)
+#: src/conf/dlgaccountsbase.ui:198
+msgctxt "Remove selected account"
+msgid "Remove"
+msgstr "Eemalda"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_basic)
+#: src/conf/dlgaccountsbase.ui:229
+msgctxt "Basic settings"
+msgid "Basic"
+msgstr "Põhiline"
+
+#. i18n: ectx: property (text), widget (QLabel, label1_alias)
+#: src/conf/dlgaccountsbase.ui:240
+msgid "Alias*"
+msgstr "Alias*"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit1_alias)
+#: src/conf/dlgaccountsbase.ui:262
+msgid "Anything, used only to select the account"
+msgstr "Kõik, mida kasutatakse konto valimiseks"
+
+#. i18n: ectx: property (text), widget (QLabel, label2_protocol)
+#: src/conf/dlgaccountsbase.ui:269
+msgid "Protocol"
+msgstr "Protokoll"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, edit2_protocol)
+#: src/conf/dlgaccountsbase.ui:280
+msgid "SIP"
+msgstr "SIP"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, edit2_protocol)
+#: src/conf/dlgaccountsbase.ui:285
+msgid "IAX"
+msgstr "IAX"
+
+#. i18n: ectx: property (text), widget (QLabel, label3_server)
+#: src/conf/dlgaccountsbase.ui:293
+msgctxt "SIP server"
+msgid "Server*"
+msgstr "Server*"
+
+#. i18n: ectx: property (text), widget (QLabel, label4_user)
+#: src/conf/dlgaccountsbase.ui:319
+msgctxt "Account username"
+msgid "Username*"
+msgstr "Kasutajanimi*"
+
+#. i18n: ectx: property (text), widget (QLabel, label5_password)
+#: src/conf/dlgaccountsbase.ui:336
+msgctxt "Account password"
+msgid "Password*"
+msgstr "Parool*"
+
+#. i18n: ectx: property (text), widget (QLabel, label6_mailbox)
+#: src/conf/dlgaccountsbase.ui:356
+msgctxt "Account voice mail address"
+msgid "Voicemail"
+msgstr "Kõnepost"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pDefaultAccount)
+#: src/conf/dlgaccountsbase.ui:373
+msgid "Default account for contact with only extensions as phone number"
+msgstr ""
+"Kontakti vaikimisi konto, kus telefoninumbriks on ainult aparaadi numbrid"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pAutoAnswer)
+#: src/conf/dlgaccountsbase.ui:380
+msgid "Auto answer"
+msgstr "Automaatvastaja"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pPresenceCK)
+#: src/conf/dlgaccountsbase.ui:390
+msgid "Enable presence support"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label7_state)
+#: src/conf/dlgaccountsbase.ui:397
+msgid "Status"
+msgstr "Olek"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_advanced)
+#: src/conf/dlgaccountsbase.ui:471
+msgctxt "Advanced settings"
+msgid "Advanced"
+msgstr "Muu"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/dlgaccountsbase.ui:477
+msgid "Registration"
+msgstr "Registreerimine"
+
+#. i18n: ectx: property (text), widget (QLabel, label_regExpire)
+#: src/conf/dlgaccountsbase.ui:483
+msgid "Registration expire"
+msgstr "Registreerimise aegumine"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pUserAgentL)
+#: src/conf/dlgaccountsbase.ui:513
+#, fuzzy
+#| msgctxt "SIP Account Username"
+#| msgid "Username"
+msgid "User agent"
+msgstr "Kasutajanimi"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: src/conf/dlgaccountsbase.ui:526
+msgid "STUN"
+msgstr "STUN"
+
+#. i18n: ectx: property (text), widget (QLabel, label_commonSettings)
+#: src/conf/dlgaccountsbase.ui:532
+msgid "STUN parameters will be applied on each SIP account created."
+msgstr "STUN-i parameetreid rakendatakse kõigile loodatavatele SIP kontodele."
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, line_stun)
+#: src/conf/dlgaccountsbase.ui:552
+msgid "Choose STUN server (example: stunserver.org)"
+msgstr "Vali STUN-i server (näide: stunserver.org)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
+#: src/conf/dlgaccountsbase.ui:562
+msgid "DTMF"
+msgstr "DTMF"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pDTMFOverRTP)
+#: src/conf/dlgaccountsbase.ui:568
+msgid "Over RTP"
+msgstr "Üle RTP"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pDTMFOverSIP)
+#: src/conf/dlgaccountsbase.ui:575
+msgid "Over SIP"
+msgstr "Üle SIP"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: src/conf/dlgaccountsbase.ui:599
+msgid "Network"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/conf/dlgaccountsbase.ui:605
+msgid "Network Interface"
+msgstr "Võrguliides"
+
+#. i18n: ectx: property (text), widget (QLabel, label_ni_local_address)
+#: src/conf/dlgaccountsbase.ui:614
+msgid "Local address"
+msgstr "Kohalik aadress"
+
+#. i18n: ectx: property (text), widget (QLabel, label_ni_local_port)
+#: src/conf/dlgaccountsbase.ui:624
+msgid "Local port"
+msgstr "Kohalik port"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pProxyLE)
+#: src/conf/dlgaccountsbase.ui:638
+msgid "SIP proxy server (if none, leave blank)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pProxyCK)
+#: src/conf/dlgaccountsbase.ui:645
+msgid "Proxy"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: ectx: property (text), widget (QLabel, label_published_address)
+#: src/conf/dlgaccountsbase.ui:655 src/conf/dlgaccountsbase.ui:675
+msgid "Published address"
+msgstr "Avaldatav aadress"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_pa_same_as_local)
+#: src/conf/dlgaccountsbase.ui:661
+msgid "Same as local parameters"
+msgstr "Sama kohalike parameetritega"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_pa_custom)
+#: src/conf/dlgaccountsbase.ui:668
+msgid "Set published address and port"
+msgstr "Avaldatava aadressi ja pordi määramine"
+
+#. i18n: ectx: property (text), widget (QLabel, label_pa_published_port)
+#: src/conf/dlgaccountsbase.ui:682
+msgid "Published port"
+msgstr "Avaldatav port"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, lineEdit_pa_published_address)
+#: src/conf/dlgaccountsbase.ui:696
+msgid "IP address or hostname"
+msgstr "IP-aadress või masinanimi"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_7)
+#: src/conf/dlgaccountsbase.ui:719
+#, fuzzy
+#| msgid "Device Configuration"
+msgid "RTP configuration"
+msgstr "Seadme seadistused"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMinAudioPortL)
+#: src/conf/dlgaccountsbase.ui:732
+msgid "Minimum audio port"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMinVideoPortL)
+#. i18n: ectx: property (text), widget (QLabel, m_pMaxVideoPortL)
+#: src/conf/dlgaccountsbase.ui:773 src/conf/dlgaccountsbase.ui:787
+#, fuzzy
+#| msgid "Minimum item height"
+msgid "Minimum video port"
+msgstr "Elemendi minimaalne kõrgus"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMaxAudioPortL)
+#: src/conf/dlgaccountsbase.ui:780
+msgid "Maximum audio port"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_codec)
+#: src/conf/dlgaccountsbase.ui:811
+msgid "Codecs"
+msgstr "Koodekid"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#: src/conf/dlgaccountsbase.ui:817
+msgid "Audio codecs"
+msgstr "Helikoodekid"
+
+#. i18n: ectx: property (text), widget (QLabel, label_frequency)
+#: src/conf/dlgaccountsbase.ui:826
+msgid "Sample rate:"
+msgstr "Diskreetimissagedus:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_frequency_value)
+#. i18n: ectx: property (text), widget (QLabel, label_bitrate_value)
+#: src/conf/dlgaccountsbase.ui:833 src/conf/dlgaccountsbase.ui:899
+msgid "-"
+msgstr "-"
+
+#. i18n: ectx: property (toolTip), widget (LeftToolButton, button_audiocodecUp)
+#. i18n: ectx: property (toolTip), widget (LeftToolButton, m_pVCodecUpPB)
+#: src/conf/dlgaccountsbase.ui:858 src/conf/dlgaccountsbase.ui:956
+msgid "Increase codec priority"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (LeftToolButton, button_audiocodecUp)
+#: src/conf/dlgaccountsbase.ui:864
+msgctxt "Move audio codec up"
+msgid "Up"
+msgstr "Üles"
+
+#. i18n: ectx: property (toolTip), widget (RightToolButton, button_audiocodecDown)
+#. i18n: ectx: property (toolTip), widget (RightToolButton, m_pVCodecDownPB)
+#: src/conf/dlgaccountsbase.ui:874 src/conf/dlgaccountsbase.ui:966
+msgid "Decrease codec priority"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (RightToolButton, button_audiocodecDown)
+#: src/conf/dlgaccountsbase.ui:880
+msgctxt "Move audio codec down"
+msgid "Down"
+msgstr "Alla"
+
+#. i18n: ectx: property (text), widget (QLabel, label_bitrate)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/conf/dlgaccountsbase.ui:892 src/conf/dlgaccountsbase.ui:924
+msgid "Bitrate:"
+msgstr "Bitikiirus:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_pVideoCodecGB)
+#: src/conf/dlgaccountsbase.ui:909
+msgid "Video codecs"
+msgstr "Videokoodekid"
+
+#. i18n: ectx: property (text), widget (LeftToolButton, m_pVCodecUpPB)
+#: src/conf/dlgaccountsbase.ui:959
+msgctxt "Move video codec up"
+msgid "Up"
+msgstr "Üles"
+
+#. i18n: ectx: property (text), widget (RightToolButton, m_pVCodecDownPB)
+#: src/conf/dlgaccountsbase.ui:969
+msgctxt "Move video codec down"
+msgid "Down"
+msgstr "Alla"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pEnableVideo)
+#: src/conf/dlgaccountsbase.ui:981
+msgid "Enable video when supported"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_credentials)
+#: src/conf/dlgaccountsbase.ui:1005
+msgid "Credential"
+msgstr "Mandaadid"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pInfoL)
+#: src/conf/dlgaccountsbase.ui:1036
+msgid ""
+"This tab help manage accounts with multiple credentials. If you have "
+"multiple accounts. Do not use this feature, just create multiple accounts in "
+"SFLPhone. Nor use this dialog if you only have one set of credentials. In "
+"that case, the \"Basic\" tab will provide everything you need."
+msgstr ""
+"Siin kaardil saab hallata mitme mandaadiga kontosid. Kui sul on mitu kontot, "
+"siis ära kasuta seda, vaid loo lihtsalt SLFphone'is kõik oma kontod. Samuti "
+"ära kasuta seda dialoogi, kui sul on ainult üks mandaat. Sel juhul piisab "
+"täiesti kaardist \"Põhiline\"."
+
+#. i18n: ectx: property (text), widget (LeftToolButton, button_add_credential)
+#: src/conf/dlgaccountsbase.ui:1080
+msgctxt "Add new credential"
+msgid "Add"
+msgstr "Lisa"
+
+#. i18n: ectx: property (text), widget (RightToolButton, button_remove_credential)
+#: src/conf/dlgaccountsbase.ui:1087
+msgctxt "Remove selected credential"
+msgid "Remove"
+msgstr "Eemalda"
+
+#. i18n: ectx: property (title), widget (QGroupBox, group_credential)
+#: src/conf/dlgaccountsbase.ui:1102
+msgid "Details"
+msgstr "Üksikasjad"
+
+#. i18n: ectx: property (text), widget (QLabel, label_credential_realm)
+#: src/conf/dlgaccountsbase.ui:1108
+msgid "Realm"
+msgstr "Tsoon"
+
+#. i18n: ectx: property (text), widget (QLabel, labe_credential_auth)
+#: src/conf/dlgaccountsbase.ui:1115
+msgid "Auth. name"
+msgstr "Aut. nimi"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit_credential_realm)
+#: src/conf/dlgaccountsbase.ui:1132
+msgid "Usually *"
+msgstr "Tavaliselt *"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_security)
+#: src/conf/dlgaccountsbase.ui:1185
+msgid "Security"
+msgstr "Turve"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupbox_STRP_keyexchange)
+#: src/conf/dlgaccountsbase.ui:1224
+msgid "Encrypt media streams (SRTP)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_ZTRP_send_hello)
+#: src/conf/dlgaccountsbase.ui:1243
+msgid "Send Hello Hash in SDP"
+msgstr "Tervitusräsi saatmine SDP-s"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_ZRTP_warn_supported)
+#: src/conf/dlgaccountsbase.ui:1250
+msgid "Ask user to confirm SAS"
+msgstr "Kasutajal palutakse kinnitada SAS"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_ZRTP_Ask_user)
+#: src/conf/dlgaccountsbase.ui:1257
+msgid "Warn if ZRTP is not supported"
+msgstr "Hoiatus, kui ZRTP ei ole toetatud"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_ZRTP_display_SAS)
+#: src/conf/dlgaccountsbase.ui:1264
+msgid "Display SAS once for hold events"
+msgstr "SAS ühekordne näitamine ootel sündmuste puhul"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_SDES_fallback_rtp)
+#: src/conf/dlgaccountsbase.ui:1271
+msgid "Fallback on RTP on SDES failure"
+msgstr "SDES nurjumise korral minnale üle RTP-le"
+
+#. i18n: ectx: property (title), widget (QGroupBox, group_security_tls)
+#: src/conf/dlgaccountsbase.ui:1287
+msgid "Encrypt negotiation (TLS)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_listener)
+#: src/conf/dlgaccountsbase.ui:1299
+#, fuzzy
+#| msgid "Global TLS listener*"
+msgid "Global TLS listener port"
+msgstr "Üldine TLS jälgija*"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_authority)
+#: src/conf/dlgaccountsbase.ui:1326
+msgid "Authority certificate list"
+msgstr "Keskuse sertifikaadiloend"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_endpoint)
+#: src/conf/dlgaccountsbase.ui:1336
+msgid "Public endpoint certificate"
+msgstr "Avalik lõppkasutaja sertifikaat"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_private_key)
+#: src/conf/dlgaccountsbase.ui:1346
+msgid "Private key"
+msgstr "Privaatvõti"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_private_key_password)
+#: src/conf/dlgaccountsbase.ui:1356
+msgid "Private key password"
+msgstr "Privaatvõtme parool"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit_tls_private_key_password)
+#: src/conf/dlgaccountsbase.ui:1376
+msgid "Only necessary if the key have a password"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_method)
+#: src/conf/dlgaccountsbase.ui:1386
+msgid "TLS protocol method"
+msgstr "TLS protokolli meetod"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_cipher)
+#: src/conf/dlgaccountsbase.ui:1409
+msgid "TLS cipher list"
+msgstr "TLS šifriloend"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_outgoing)
+#: src/conf/dlgaccountsbase.ui:1419
+msgid "Outgoing TLS server name"
+msgstr "TLS väljuva serveri nimi"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit_tls_outgoing)
+#: src/conf/dlgaccountsbase.ui:1426
+#, fuzzy
+#| msgid "Usually the same as the username"
+msgid "Usually the SIP server hostname"
+msgstr "Tavaliselt kasutajanimega sama"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_timeout)
+#: src/conf/dlgaccountsbase.ui:1433
+#, fuzzy
+#| msgid "Negotiation timeout (s:ms)"
+msgid "Negotiation timeout"
+msgstr "Läbirääkimiste aegumine (s:ms)"
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, spinbox_tls_timeout_sec)
+#: src/conf/dlgaccountsbase.ui:1452
+msgid "s"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_tls_incoming)
+#: src/conf/dlgaccountsbase.ui:1459
+msgid "Verify incoming certificates (server side)"
+msgstr "Sisenevate sertifikaatide verifitseerimine (serveripoolselt)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_tls_answer)
+#: src/conf/dlgaccountsbase.ui:1466
+msgid "Verify answer certificates (client side)"
+msgstr "Vastussertifikaatide verifitseerimine (kliendipoolselt)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_tls_requier_cert)
+#: src/conf/dlgaccountsbase.ui:1473
+msgid "Require a certificate for incoming TLS connections"
+msgstr "Sertifikaadi nõudmine siseneva TLS ühenduse korral"
+
+#. i18n: ectx: property (text), widget (QLabel, label_timeout2)
+#: src/conf/dlgaccountsbase.ui:1533
+msgid "<center>:</center>"
+msgstr "<center>:</center>"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMoveCertL)
+#: src/conf/dlgaccountsbase.ui:1585
+msgid ""
+"A good security practice is to move the certificates to a common directory. "
+"SELinux recommend ~/.cert for this. Do you wish to move the certificate "
+"there?"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pMoveCertPB)
+#: src/conf/dlgaccountsbase.ui:1599
+msgid "Move to ~/.cert"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pCancelMove)
+#. i18n: ectx: property (text), widget (QPushButton, m_pCancelFix)
+#: src/conf/dlgaccountsbase.ui:1606 src/conf/dlgaccountsbase.ui:1684
+msgid "No thanks"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMoveCertL_2)
+#: src/conf/dlgaccountsbase.ui:1663
+msgid ""
+"Your certification access is too permissive. Certificates should only be "
+"readable by the owner."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pFixCertPB)
+#: src/conf/dlgaccountsbase.ui:1677
+msgid "Fix the permissions"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_ringtone)
+#. i18n: ectx: property (title), widget (QGroupBox, m_pEnableRingtoneGB)
+#. i18n: ectx: property (text), widget (QLabel, alsaRingtoneDeviceL)
+#: src/conf/dlgaccountsbase.ui:1735 src/conf/dlgaccountsbase.ui:1741
+#: src/conf/dlgaudiobase.ui:130
+msgid "Ringtone"
+msgstr "Helin"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pUseCustomFileCK)
+#: src/conf/dlgaccountsbase.ui:1750
+msgid "Use custom file"
+msgstr "Kohandatud faili kasutamine"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/conf/dlgaddressbookbase.ui:30
+#, fuzzy
+#| msgid "Actions"
+msgid "Collections"
+msgstr "Toimingud"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pEditCollection)
+#: src/conf/dlgaddressbookbase.ui:61
+#, fuzzy
+#| msgid "Actions"
+msgid "Edit collection"
+msgstr "Toimingud"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pAddCollection)
+#: src/conf/dlgaddressbookbase.ui:68
+#, fuzzy
+#| msgid "Actions"
+msgid "Add collection"
+msgstr "Toimingud"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/dlgaddressbookbase.ui:78
+#, fuzzy
+#| msgid "Contact"
+msgid "Contact Filter"
+msgstr "Kontakt"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_hideContactWithoutPhone)
+#: src/conf/dlgaddressbookbase.ui:84
+msgid "Hide contacts without phone numbers"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, m_pPhonetypeL)
+#: src/conf/dlgaddressbookbase.ui:91
+msgid "Use contact from the following phone number category:"
+msgstr "Järgmise telefoninumbri kategooria kontakti kasutamine:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: src/conf/dlgaddressbookbase.ui:109
+msgid "Visible Contact Details"
+msgstr "Kontakti nähtavad üksikasjad"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOrganisation)
+#: src/conf/dlgaddressbookbase.ui:115 src/conf/dlgdisplay.cpp:40
+msgid "Display organisation"
+msgstr "Organisatsiooni näitamine"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayEmail)
+#: src/conf/dlgaddressbookbase.ui:122
+msgid "Display email address"
+msgstr "E-posti aadressi näitamine"
+
+#. i18n: ectx: property (text), widget (QLabel, label_interface)
+#: src/conf/dlgaudiobase.ui:32
+msgid "Sound manager"
+msgstr "Helihaldur"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_alsa)
+#: src/conf/dlgaudiobase.ui:64
+msgid "ALSA Settings"
+msgstr "ALSA seadistused"
+
+#. i18n: ectx: property (text), widget (QLabel, label1_alsaPugin)
+#: src/conf/dlgaudiobase.ui:79
+msgid "ALSA plugin"
+msgstr "ALSA plugin"
+
+#. i18n: ectx: property (text), widget (QLabel, label2_in)
+#: src/conf/dlgaudiobase.ui:96
+msgid "Input"
+msgstr "Sisend"
+
+#. i18n: ectx: property (text), widget (QLabel, label3_out)
+#: src/conf/dlgaudiobase.ui:113
+msgid "Output"
+msgstr "Väljund"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_pulseAudio)
+#: src/conf/dlgaudiobase.ui:153
+msgid "PulseAudio Settings"
+msgstr "PulseAudio seadistused"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_pulseAudioVolumeAlter)
+#: src/conf/dlgaudiobase.ui:162
+msgid "Mute other applications during a call"
+msgstr "Teiste rakenduste vaigistamine kõne ajal"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1_recordGeneral)
+#: src/conf/dlgaudiobase.ui:182
+msgid "Recording"
+msgstr "Salvestamine"
+
+#. i18n: ectx: property (clickMessage), widget (KUrlRequester, KUrlRequester_destinationFolder)
+#: src/conf/dlgaudiobase.ui:194
+msgid "Destination folder"
+msgstr "Sihtkataloog"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pAlwaysRecordCK)
+#: src/conf/dlgaudiobase.ui:201
+msgid "Always record calls"
+msgstr "Kõned salvestatakse alati"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/dlgaudiobase.ui:211
+#, fuzzy
+#| msgid "PulseAudio Settings"
+msgid "Audio settings"
+msgstr "PulseAudio seadistused"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pSuppressNoise)
+#: src/conf/dlgaudiobase.ui:217
+msgid "Enable noise reduction"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableRoomTone)
+#: src/conf/dlgaudiobase.ui:224
+msgid "Enable dial tone"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pCPlayDTMFCk)
+#: src/conf/dlgaudiobase.ui:231
+#, fuzzy
+#| msgid "Mute"
+msgid "Mute DTMF"
+msgstr "Tummaks"
+
+#: src/conf/dlgdisplay.cpp:36
+#, fuzzy
+#| msgid "Display Contact"
+msgid "Display Icon"
+msgstr "Kontakti näitamine"
+
+#: src/conf/dlgdisplay.cpp:37
+#, fuzzy
+#| msgid "Display history"
+msgid "Display Security"
+msgstr "Ajaloo näitamine"
+
+#: src/conf/dlgdisplay.cpp:38
+#, fuzzy
+#| msgid "Display all"
+msgid "Display Call Number"
+msgstr "Kõige näitamine"
+
+#: src/conf/dlgdisplay.cpp:39
+#, fuzzy
+#| msgid "Display all"
+msgid "Display Peer Name"
+msgstr "Kõige näitamine"
+
+#: src/conf/dlgdisplay.cpp:41
+#, fuzzy
+#| msgctxt "Sort by Department"
+#| msgid "Department"
+msgid "Display department"
+msgstr "Osakond"
+
+#: src/conf/dlgdisplay.cpp:42
+#, fuzzy
+#| msgid "Display all"
+msgid "Display e-mail"
+msgstr "Kõige näitamine"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/conf/dlgdisplaybase.ui:26
+msgid "Display Main Window"
+msgstr "Peaakna näitamine"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOnStart)
+#: src/conf/dlgdisplaybase.ui:35
+msgid "On start"
+msgstr "Käivitamisel"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOnCalls)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_notifOnCalls)
+#: src/conf/dlgdisplaybase.ui:45 src/conf/dlgdisplaybase.ui:74
+msgid "On incoming calls"
+msgstr "Siseneva kõne korral"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/dlgdisplaybase.ui:65
+msgid "Notifications"
+msgstr "Märguanded"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_notifOnMessages)
+#: src/conf/dlgdisplaybase.ui:84
+msgid "On messages"
+msgstr "Sõnumite korral"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: src/conf/dlgdisplaybase.ui:94
+msgid "Visible Call Details"
+msgstr "Kõne nähtavad üksikasjad"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_limitMinimumRowHeight)
+#: src/conf/dlgdisplaybase.ui:105
+msgid "Minimum item height"
+msgstr "Elemendi minimaalne kõrgus"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1_history_2)
+#: src/conf/dlggeneralbase.ui:26
+msgid "Call History"
+msgstr "Kõnede ajalugu"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pKeepHistory)
+#: src/conf/dlggeneralbase.ui:35
+#, fuzzy
+#| msgid "Keep my history for at least"
+msgid "Keep history forever"
+msgstr "Ajalugu säilitatakse vähemalt"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/conf/dlggeneralbase.ui:61
+msgid "Automatically remove calls after"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/conf/dlggeneralbase.ui:93
+#, fuzzy
+#| msgctxt "Keep my history for at least *** days"
+#| msgid "days"
+msgid "days"
+msgstr "päeva"
+
+#. i18n: ectx: property (text), widget (QPushButton, toolButton_historyClear)
+#: src/conf/dlggeneralbase.ui:115
+msgid "Clear History"
+msgstr "Puhasta ajalugu"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/dlggeneralbase.ui:140
+#, fuzzy
+#| msgctxt "User interterface settings"
+#| msgid "Display"
+msgid "Display"
+msgstr "Vaade"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayHistoryStatus)
+#: src/conf/dlggeneralbase.ui:146
+msgid "Display incoming, outgoing and missed for history items"
+msgstr "Ajaloos näidatakse sisenevaid, väljuvaid ja vastamata kõnesid"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_highlightMissedOutgoingCalls)
+#: src/conf/dlggeneralbase.ui:153
+msgid "Highlight missed outgoing calls"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_highlightMissedIncomingCalls)
+#: src/conf/dlggeneralbase.ui:160
+#, fuzzy
+#| msgid "On incoming calls"
+msgid "Highlight missed incoming calls"
+msgstr "Siseneva kõne korral"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_urlArgument)
+#: src/conf/dlghooksbase.ui:20
+msgid "URL Argument"
+msgstr "URL-i argument"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/conf/dlghooksbase.ui:26
+msgid "Custom commands on incoming calls with URL"
+msgstr "Kohandatud käsk sisenevate URL-iga kõnede jaoks"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableHooksSIP)
+#: src/conf/dlghooksbase.ui:63
+msgid "Trigger on specific SIP header"
+msgstr "Päästik konkreetse SIP päise jaoks"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableHooksIAX)
+#: src/conf/dlghooksbase.ui:83
+msgid "Trigger on IAX2 URL"
+msgstr "Päästik IAX2 URL-i jaoks"
+
+#. i18n: ectx: property (text), widget (QLabel, label_command)
+#: src/conf/dlghooksbase.ui:105
+msgid "Command to run"
+msgstr "Käivitatav käsk"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/conf/dlghooksbase.ui:128
+#, no-c-format
+msgid "%s will be replaced with the passed URL."
+msgstr "%s asendatakse edastatud URL-iga."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_phoneNumberFormatting)
+#: src/conf/dlghooksbase.ui:138
+msgid "Phone Number Rewriting"
+msgstr "Telefoninumbri ümberkirjutamine"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_addPrefix)
+#: src/conf/dlghooksbase.ui:159
+msgid "Prefix dialed numbers with"
+msgstr "Valitud numbritele lisatakse prefiks"
+
+#: src/conf/dlgpresence.cpp:51
+msgid ""
+"In this table, it is possible to manage different presence states. The "
+"\"Message\" and \"Present\" values will be exported to the server for every "
+"accounts that support it. The other fields are designed to make presence "
+"status management easier. Please note that some SIP registrar have "
+"incomplete presence status (publishing) support."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (LeftToolButton, m_pDown)
+#: src/conf/dlgpresence.ui:51
+#, fuzzy
+#| msgctxt "Move account down"
+#| msgid "Down"
+msgid "Move Down"
+msgstr "Alla"
+
+#. i18n: ectx: property (text), widget (CenterToolButton, m_pUp)
+#: src/conf/dlgpresence.ui:61
+msgid "Move Up"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_trackBookmarkPresence)
+#: src/conf/dlgpresence.ui:90
+msgid "Track bookmarked number presence"
+msgstr ""
+
+#: src/conf/dlgvideo.cpp:51 src/conf/dlgvideo.cpp:85
+msgid "Stop preview"
+msgstr "Peata eelvaatlus"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pPreviewPB)
+#: src/conf/dlgvideo.cpp:88 src/conf/dlgvideobase.ui:58
+msgid "Start preview"
+msgstr "Käivita eelvaatlus"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DlgVideoBase)
+#: src/conf/dlgvideobase.ui:14
+msgid "Video settings"
+msgstr "Video seadistused"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_pConfGB)
+#: src/conf/dlgvideobase.ui:23
+msgid "Device Configuration"
+msgstr "Seadme seadistused"
+
+#: src/delegates/historydelegate.cpp:269
+msgid "Conference"
+msgstr "Konverents"
+
+#: src/errormessage.cpp:22
+msgid ""
+"An unknown error occurred. SFLPhone KDE will now exit. If the problem "
+"persist, please report a bug.\n"
+"\n"
+"It is known that this message can be caused by trying to open SFLPhone KDE "
+"while the SFLPhone daemon is exiting. If so, waiting 15 seconds and trying "
+"again will solve the issue."
+msgstr ""
+"Tekkis tundmatu tõrge. KDE SFLphone lõpetab nüüd töö. Kui probleem püsib, "
+"anna palun veast teada.\n"
+"\n"
+"On teada, et niisuguse teate võib põhjustada katse KDE SFLphine'i avada, kui "
+"SFLphone'i deemon parajasti tööd lõpetab. Sellisel juhul oota 15 sekundit ja "
+"ürita uuest ning probleem peakski olema lahendatud."
+
+#: src/errormessage.cpp:27
+msgid ""
+"The SFLPhone daemon (sflphoned) is not available. Please be sure it is "
+"installed correctly or launch it manually. \n"
+"\n"
+"Check in your distribution repository if the sflphone daemon (sometime "
+"called \"sflphone-common\") is available.\n"
+"Help for building SFLPhone daemon from source are present at https://"
+"projects.savoirfairelinux.com/projects/sflphone/wiki/How_to_build"
+msgstr ""
+"SFLphone'i deemon (sflphoned) ei ole saadaval. Palun kontrolli, kas see on "
+"ikka korralikult paigaldatud, või käivita see käsitsi.\n"
+"\n"
+"Kontrolli, kas SFLphone'i deemon (mõnikord kannab nime \"sflphone-common\") "
+"on ikka saadaval sinu distributsiooni tarkvarahoidlas.\n"
+"Abi SFLphone'i deemoni ehitamise kohta lähtekoodist leiab aadressil https://"
+"projects.savoirfairelinux.com/projects/sflphone/wiki/How_to_build"
+
+#: src/eventmanager.cpp:200 src/eventmanager.cpp:220
+#: src/widgets/tips/removeconferencetip.cpp:29
+msgid "Remove the call from the conference, the call will be put on hold"
+msgstr ""
+
+#: src/eventmanager.cpp:205 src/eventmanager.cpp:225
+#, fuzzy, kde-format
+#| msgid "Call from %1, number %2"
+msgid "Call %1 using %2"
+msgstr "Kõne kontaktilt %1, number %2"
+
+#: src/eventmanager.cpp:211 src/eventmanager.cpp:215 src/eventmanager.cpp:231
+#: src/eventmanager.cpp:235
+#, fuzzy, kde-format
+#| msgid "Call"
+msgid "Call %1"
+msgstr "Kõne"
+
+#: src/eventmanager.cpp:520
+msgid "Missed"
+msgstr ""
+
+#: src/eventmanager.cpp:522
+msgid "Cancelled"
+msgstr ""
+
+#: src/eventmanager.cpp:525 src/widgets/tips/tipcollection.cpp:123
+msgid "Call ended"
+msgstr "Kõne lõppes"
+
+#: src/eventmanager.cpp:572
+#, kde-format
+msgid "%1 is not unregistered"
+msgstr ""
+
+#: src/implementation.cpp:335
+msgid "Online"
+msgstr ""
+
+#: src/implementation.cpp:336
+msgid "I am available"
+msgstr ""
+
+#: src/implementation.cpp:341
+msgid "Away"
+msgstr ""
+
+#: src/implementation.cpp:342
+msgid "I am away"
+msgstr ""
+
+#: src/implementation.cpp:346
+msgid "Busy"
+msgstr ""
+
+#: src/implementation.cpp:347
+msgid "I am busy"
+msgstr ""
+
+#: src/implementation.cpp:351
+msgid "DND"
+msgstr ""
+
+#: src/implementation.cpp:352
+msgid "Please do not disturb me"
+msgstr ""
+
+#: src/klib/dataengine/sflphoneengine.cpp:283
+msgid "Current_account"
+msgstr "Aktiivne_konto"
+
+#: src/klib/helperfunctions.cpp:62
+msgid "No registered accounts"
+msgstr "Registreeritud kontosid pole"
+
+#: src/klib/macromodel.cpp:97 src/klib/macromodel.cpp:298
+msgctxt "Other category"
+msgid "Other"
+msgstr ""
+
+#: src/klib/macromodel.cpp:193
+msgid "Macros"
+msgstr ""
+
+#: src/klib/macromodel.cpp:297
+msgctxt "New macro"
+msgid "New"
+msgstr ""
+
+#: src/klib/minimalhistorybackend.cpp:188
+msgid "Are you sure you want to clear history?"
+msgstr "Kas tõesti puhastada ajalugu?"
+
+#: src/klib/minimalhistorybackend.cpp:188
+msgid "Clear history"
+msgstr "Ajaloo puhastamine"
+
+#. i18n: ectx: label, entry (enableHistory), group (main)
+#. i18n: ectx: label, entry (requireLegacyHistoryImport), group (main)
+#: src/klib/sflphone-client-kde.kcfg:12 src/klib/sflphone-client-kde.kcfg:15
+msgid "Defines whether sflphone should keep a history of calls."
+msgstr "Määramine, kas sflphone peaks säilitama kõnede ajaloo."
+
+#. i18n: ectx: label, entry (historyMax), group (main)
+#: src/klib/sflphone-client-kde.kcfg:19
+msgid "Defines the number of days the history has to be kept."
+msgstr "Päevade arvu määramine, kui kaua ajalugu säilitatakse."
+
+#. i18n: ectx: label, entry (displayCallIcon), group (main)
+#: src/klib/sflphone-client-kde.kcfg:25
+msgid "Should CallIcon be visible by default for calls"
+msgstr "Kas kõnede puhul peaks vaikimisi näha olema CallIcon"
+
+#. i18n: ectx: label, entry (displayCallPeer), group (main)
+#: src/klib/sflphone-client-kde.kcfg:29
+msgid "Should CallPeer be visible by default for calls"
+msgstr "Kas kõnede puhul peaks vaikimisi näha olema CallPeer"
+
+#. i18n: ectx: label, entry (displayCallNumber), group (main)
+#: src/klib/sflphone-client-kde.kcfg:33
+msgid "Should CallNumber be visible by default for calls"
+msgstr "Kas kõnede puhul peaks vaikimisi näha olema CallNumber"
+
+#. i18n: ectx: label, entry (displayCallSecure), group (main)
+#: src/klib/sflphone-client-kde.kcfg:37
+msgid "Should CallSecure be visible by default for calls"
+msgstr "Kas kõnede puhul peaks vaikimisi näha olema CallSecure"
+
+#. i18n: ectx: label, entry (displayCallOrganisation), group (main)
+#: src/klib/sflphone-client-kde.kcfg:41
+msgid "If a contact is present, display the organisation"
+msgstr "Kui kontakt on olemas, näidatakse organisatsiooni"
+
+#. i18n: ectx: label, entry (displayCallDepartment), group (main)
+#: src/klib/sflphone-client-kde.kcfg:45
+msgid "If a contact is present, display the department"
+msgstr "Kui kontakt on olemas, näidatakse osakonda"
+
+#. i18n: ectx: label, entry (displayCallEmail), group (main)
+#: src/klib/sflphone-client-kde.kcfg:49
+msgid "If a contact is present, display the email"
+msgstr "Kui kontakt on olemas, näidatakse e-posti aadressi"
+
+#. i18n: ectx: label, entry (limitMinimumRowHeight), group (main)
+#. i18n: ectx: label, entry (minimumRowHeight), group (main)
+#: src/klib/sflphone-client-kde.kcfg:53 src/klib/sflphone-client-kde.kcfg:57
+msgid "The minimum number of pixel for a call item"
+msgstr "Kõneelemendi minimaalne pikslite arv"
+
+#. i18n: ectx: label, entry (displayHistoryStatus), group (main)
+#: src/klib/sflphone-client-kde.kcfg:61
+msgid "Display incoming, outgoing or missed"
+msgstr "Sisenevate, väljuvate või vastamata kõnede näitamine"
+
+#. i18n: ectx: label, entry (displayAccountWizard), group (main)
+#: src/klib/sflphone-client-kde.kcfg:65
+#, fuzzy
+#| msgid "This installation wizard will help you configure an account."
+msgid "Display the account wizard when there is no configured accounts"
+msgstr "See nõustaja aitab sul kontot seadistada."
+
+#. i18n: ectx: label, entry (notifOnCalls), group (main)
+#: src/klib/sflphone-client-kde.kcfg:72
+msgid "Defines whether user should be notified when receiving a call."
+msgstr "Määramine, kas anda kasutajale märku, kui saadakse kõne"
+
+#. i18n: ectx: label, entry (notifOnMessages), group (main)
+#: src/klib/sflphone-client-kde.kcfg:76
+msgid "Defines whether user should be notified when receiving a message."
+msgstr "Määramine, kas anda kasutajale märku, kui saadakse sõnum"
+
+#. i18n: ectx: label, entry (displayOnStart), group (main)
+#: src/klib/sflphone-client-kde.kcfg:80
+msgid "Defines whether the main window should be displayed on start."
+msgstr "Määramine, kas peaakent näidatakse käivitamisel"
+
+#. i18n: ectx: label, entry (displayOnCalls), group (main)
+#: src/klib/sflphone-client-kde.kcfg:84
+msgid ""
+"Defines whether the main window should be displayed when receiving a message."
+msgstr "Määramine, kas peaakent näidatakse sõnumi saamisel"
+
+#. i18n: ectx: label, entry (displayDialpad), group (main)
+#: src/klib/sflphone-client-kde.kcfg:88
+msgid "Defines whether the dialpad is being shown by default"
+msgstr "Määramine, kas vaikimisi näidatakse telefoniklahvistikku"
+
+#. i18n: ectx: label, entry (displayMessageBox), group (main)
+#: src/klib/sflphone-client-kde.kcfg:92
+msgid "Defines whether the text message box is visible"
+msgstr "Määramine, kas näidatakse tekstisõnumi kasti"
+
+#. i18n: ectx: label, entry (displayVolume), group (main)
+#: src/klib/sflphone-client-kde.kcfg:96
+msgid "Defines whether the volume widgets are visible by default"
+msgstr "Määramine, kas vaikimisi näidatakse helitugevuse vidinaid"
+
+#. i18n: ectx: label, entry (displayMenu), group (main)
+#: src/klib/sflphone-client-kde.kcfg:100
+msgid ""
+"Defines whether the main menu is visible by default, it can be restored with "
+"\"Ctrl+m\""
+msgstr ""
+"Määramine, kas vaikimisi on näha peamenüü; selle saab taastada kiirklahviga "
+"\"Ctrl+m\""
+
+#. i18n: ectx: label, entry (displayDataRange), group (main)
+#: src/klib/sflphone-client-kde.kcfg:103
+msgid "Defines whether call history is restricted to a specific date range"
+msgstr "Määramine, kas kõnede ajalugu on piiratud konkreetse ajavahemikuga"
+
+#. i18n: ectx: label, entry (displayPopularAsBookmark), group (main)
+#: src/klib/sflphone-client-kde.kcfg:107
+msgid ""
+"Defines whether or not to display the 10 most popular phone number as "
+"bookmark automagically"
+msgstr ""
+"Määramine, kas automaagiliselt näidatakse järjehoidjatena 10 kõige "
+"populaarsemat telefoninumbrit"
+
+#. i18n: ectx: label, entry (historySortMode), group (main)
+#: src/klib/sflphone-client-kde.kcfg:110
+msgid "Define sorting order for history list"
+msgstr "Ajalooloendi sortimiskorra määramine"
+
+#. i18n: ectx: label, entry (contactSortMode), group (main)
+#: src/klib/sflphone-client-kde.kcfg:113
+msgid "Define sorting order for contact list"
+msgstr "Kontaktiloendi sortimiskorra määramine"
+
+#. i18n: ectx: label, entry (displayContactCallHistory), group (main)
+#: src/klib/sflphone-client-kde.kcfg:116
+msgid "Defines if the individual contact history list is visible"
+msgstr "Määramine, kas näidatakse iga kontakti ajalooloendit"
+
+#. i18n: ectx: label, entry (keepVideoAspectRatio), group (main)
+#. i18n: ectx: label, entry (displayVideoPreview), group (main)
+#: src/klib/sflphone-client-kde.kcfg:122 src/klib/sflphone-client-kde.kcfg:126
+msgid "Enforce video aspect ratio or allow stretching"
+msgstr ""
+
+#. i18n: ectx: label, entry (autoHideDiapadForVideo), group (main)
+#: src/klib/sflphone-client-kde.kcfg:130
+msgid "Save main window space by hiding the dialpad when the video is docked"
+msgstr ""
+
+#. i18n: ectx: label, entry (interface), group (main)
+#: src/klib/sflphone-client-kde.kcfg:138
+msgid "Defines the audio output to use."
+msgstr "Kasutatava heliväljundi määramine"
+
+#. i18n: ectx: label, entry (alsaPlugin), group (main)
+#: src/klib/sflphone-client-kde.kcfg:145
+msgid "Defines which ALSA plugin to use."
+msgstr "Kasutatava ALSA plugina määramine"
+
+#. i18n: ectx: label, entry (alsaInputDevice), group (main)
+#: src/klib/sflphone-client-kde.kcfg:148
+msgid "Defines which ALSA Input device to use."
+msgstr "Kasutatava ALSA sisendseadme määramine"
+
+#. i18n: ectx: label, entry (alsaOutputDevice), group (main)
+#: src/klib/sflphone-client-kde.kcfg:151
+msgid "Defines which ALSA Output device to use."
+msgstr "Kasutatava ALSA väljundseadme määramine"
+
+#. i18n: ectx: label, entry (alsaRingtoneDevice), group (main)
+#: src/klib/sflphone-client-kde.kcfg:154
+msgid "Defines which ALSA Ringtone device to use."
+msgstr "Kasutatava ALSA helinaseadme määramine"
+
+#. i18n: ectx: label, entry (pulseAudioVolumeAlter), group (main)
+#: src/klib/sflphone-client-kde.kcfg:157
+msgid "Defines whether pulse audio can mute other applications during a call."
+msgstr "Määramine, kas PulseAudio võib kõne ajal vaigistada teised rakendused"
+
+#. i18n: ectx: label, entry (enableRoomTone), group (main)
+#: src/klib/sflphone-client-kde.kcfg:160
+msgid "Enable or disables the \"buzzzzz\" sound"
+msgstr ""
+
+#. i18n: ectx: label, entry (enableAddressBook), group (main)
+#. i18n: ectx: label, entry (phoneTypeList), group (main)
+#: src/klib/sflphone-client-kde.kcfg:168 src/klib/sflphone-client-kde.kcfg:176
+msgid "Defines whether the search in KDE Address Book is enabled"
+msgstr "Määramine, kas otsing KDE aadressiraamatus on lubatud"
+
+#. i18n: ectx: label, entry (disabledCollectionList), group (main)
+#: src/klib/sflphone-client-kde.kcfg:172
+msgid "List of disabled address book collections"
+msgstr ""
+
+#. i18n: ectx: label, entry (displayOrganisation), group (main)
+#. i18n: ectx: label, entry (displayEmail), group (main)
+#. i18n: ectx: label, entry (hideContactWithoutPhone), group (main)
+#: src/klib/sflphone-client-kde.kcfg:181 src/klib/sflphone-client-kde.kcfg:186
+#: src/klib/sflphone-client-kde.kcfg:191
+msgid "Defines whether to display the organisation of the contact list item"
+msgstr "Määramine, kas näidatakse kontaktiloendi kirje organisatsiooni"
+
+#. i18n: ectx: label, entry (defaultAccountId), group (main)
+#: src/klib/sflphone-client-kde.kcfg:196
+msgid ""
+"Default account used for contact lookup if only partial (only extension) "
+"contacts info is available"
+msgstr ""
+"Vaikimisi konto kontakti otsimiseks, kui saadaval on ainult osaline kontakti "
+"info (ainult aparaadi number)"
+
+#. i18n: ectx: label, entry (bookmarkList), group (main)
+#: src/klib/sflphone-client-kde.kcfg:212
+msgid "List of bookmarked clients"
+msgstr "Järjehoidjatesse lisatud klientide loend"
+
+#. i18n: ectx: label, entry (enableHooksSIP), group (main)
+#: src/klib/sflphone-client-kde.kcfg:218
+msgid "Defines whether to enable hooks for SIP accounts."
+msgstr "Määramine, kas kasutada SIP kontode puhul haake"
+
+#. i18n: ectx: label, entry (enableHooksIAX), group (main)
+#: src/klib/sflphone-client-kde.kcfg:221
+msgid "Defines whether to enable hooks for IAX accounts."
+msgstr "Määramine, kas kasutada IAX kontode puhul haake"
+
+#. i18n: ectx: label, entry (hooksSIPHeader), group (main)
+#: src/klib/sflphone-client-kde.kcfg:224
+msgid "Defines which header to catch for SIP accounts hooks."
+msgstr "Määramine, millist päist kasutada SIP kontode haakide puhul"
+
+#. i18n: ectx: label, entry (hooksCommand), group (main)
+#: src/klib/sflphone-client-kde.kcfg:227
+msgid "Defines which command to execute."
+msgstr "Määramine, milline käsk käivitada"
+
+#. i18n: ectx: label, entry (addPrefix), group (main)
+#: src/klib/sflphone-client-kde.kcfg:230
+msgid "Defines whether to add a prefix for outgoing calls."
+msgstr "Määramine, kas lisada väljuvatele kõnedele prefiks"
+
+#. i18n: ectx: label, entry (prepend), group (main)
+#: src/klib/sflphone-client-kde.kcfg:233
+msgid "Defines the prefix to add."
+msgstr "Lisatava prefiksi määramine"
+
+#. i18n: ectx: label, entry (enableAutoCompletion), group (main)
+#: src/klib/sflphone-client-kde.kcfg:252
+msgid "Enable auto completion widget"
+msgstr ""
+
+#. i18n: ectx: label, entry (autoCompleteMergeNumbers), group (main)
+#: src/klib/sflphone-client-kde.kcfg:256
+msgid ""
+"If there is multiple instance of the same number, merge them and use the "
+"default account"
+msgstr ""
+
+#. i18n: ectx: label, entry (autoCompleteUseAccount), group (main)
+#: src/klib/sflphone-client-kde.kcfg:260
+msgid ""
+"Call numbers back with their original account instead of the default one"
+msgstr ""
+
+#. i18n: ectx: label, entry (trackBookmarkPresence), group (main)
+#: src/klib/sflphone-client-kde.kcfg:266
+msgid "Track bookmarked contacts presence"
+msgstr ""
+
+#. i18n: ectx: label, entry (presenceStatusList), group (main)
+#: src/klib/sflphone-client-kde.kcfg:271
+msgid "List of presence status"
+msgstr ""
+
+#. i18n: ectx: label, entry (presenceAutoTrackedCollections), group (main)
+#: src/klib/sflphone-client-kde.kcfg:274
+msgid "List of item collections automatically tracked"
+msgstr ""
+
+#: src/main.cpp:58
+#, fuzzy
+#| msgid "SFLphone"
+msgid "SFLPhone-KDE"
+msgstr "SFLphone"
+
+#: src/main.cpp:60
+msgid "An enterprise grade KDE SIP and IAX phone"
+msgstr ""
+
+#: src/main.cpp:62
+#, fuzzy
+#| msgid "(C) 2009-2012 Savoir-faire Linux"
+msgid "(C) 2009-2014 Savoir-faire Linux"
+msgstr "(C) 2009-2012: Savoir-faire Linux"
+
+#: src/main.cpp:67
+#, fuzzy
+#| msgid "Emmanuel Lepage Vallee"
+msgid "Emmanuel Lepage Vallée"
+msgstr "Emmanuel Lepage Vallee"
+
+#: src/main.cpp:68
+msgid "Jérémy Quentin"
+msgstr "Jérémy Quentin"
+
+#: src/sflphone.cpp:110
+msgid "Home"
+msgstr ""
+
+#: src/sflphone.cpp:111
+msgid "Work"
+msgstr ""
+
+#: src/sflphone.cpp:112
+msgid "Msg"
+msgstr ""
+
+#: src/sflphone.cpp:113
+msgid "Pref"
+msgstr ""
+
+#: src/sflphone.cpp:114
+#, fuzzy
+#| msgid "Voicemail"
+msgid "Voice"
+msgstr "Kõnepost"
+
+#: src/sflphone.cpp:115
+msgid "Fax"
+msgstr ""
+
+#: src/sflphone.cpp:116
+msgid "Cell"
+msgstr ""
+
+#: src/sflphone.cpp:117
+#, fuzzy
+#| msgctxt "Video conversation"
+#| msgid "Video"
+msgid "Video"
+msgstr "Video"
+
+#: src/sflphone.cpp:118
+msgid "Bbs"
+msgstr ""
+
+#: src/sflphone.cpp:119
+msgid "Modem"
+msgstr ""
+
+#: src/sflphone.cpp:120
+msgid "Car"
+msgstr ""
+
+#: src/sflphone.cpp:121
+msgid "Isdn"
+msgstr ""
+
+#: src/sflphone.cpp:122
+msgid "Pcs"
+msgstr ""
+
+#: src/sflphone.cpp:123
+msgid "Pager"
+msgstr ""
+
+#: src/sflphone.cpp:124
+msgid "Preferred"
+msgstr ""
+
+#: src/sflphone.cpp:188
+#, fuzzy
+#| msgid "Call"
+msgctxt "Call tab"
+msgid "Call"
+msgstr "Kõne"
+
+#: src/sflphone.cpp:238
+msgid "SFLphone"
+msgstr "SFLphone"
+
+#: src/sflphone.cpp:289
+msgctxt "The presence state is \"Online\""
+msgid "Online"
+msgstr ""
+
+#: src/sflphone.cpp:308
+#, fuzzy
+#| msgid "Account"
+msgid "Account:"
+msgstr "Konto"
+
+#: src/sflphone.cpp:326
+msgid ""
+"The SFLPhone daemon (sflphoned) is not available. Please be sure it is "
+"installed correctly or launch it manually"
+msgstr ""
+"SFLphone'i deemon (sflphoned) ei ole saadaval. Palun kontrolli, kas see on "
+"ikka korralikult paigaldatud, või käivita see käsitsi."
+
+#: src/sflphone.cpp:515 src/sflphone.cpp:517
+msgid "New incoming call"
+msgstr "Uus sisenev kõne"
+
+#: src/sflphone.cpp:515 src/sflphone.cpp:517
+#, kde-format
+msgid ""
+"New call from:\n"
+"%1"
+msgstr ""
+"Uus kõne kontaktilt:\n"
+"%1"
+
+#: src/sflphone.cpp:557 src/sflphone.cpp:618
+msgid "Call"
+msgstr "Kõne"
+
+#: src/sflphone.cpp:560 src/widgets/contactdock.cpp:264
+#: src/widgets/historydock.cpp:346 src/widgets/historydock.cpp:348
+msgid "Bookmark"
+msgstr "Järjehoidja"
+
+#: src/sflphone.cpp:563
+msgid "Contact"
+msgstr "Kontakt"
+
+#: src/sflphone.cpp:566
+msgid "History"
+msgstr "Ajalugu"
+
+#: src/sflphoneaccessibility.cpp:42
+msgid "List all current calls"
+msgstr "Kõigi aktiivsete kõnede loend"
+
+#: src/sflphoneaccessibility.cpp:50
+msgid "Get current call details"
+msgstr "Aktiivse kõne üksikasjad"
+
+#: src/sflphoneaccessibility.cpp:76
+#, kde-format
+msgid "You currently have <numid>%1</numid> call"
+msgid_plural "You currently have <numid>%1</numid> calls"
+msgstr[0] "Praegu käib <numid>%1</numid> kõne"
+msgstr[1] "Praegu käib <numid>%1</numid> kõnet"
+
+#: src/sflphoneaccessibility.cpp:78
+#, kde-format
+msgid "Call from %1, number %2"
+msgstr "Kõne kontaktilt %1, number %2"
+
+#: src/sflphoneaccessibility.cpp:82
+#, fuzzy
+#| msgid "You currently have <numid>%1</numid> call"
+#| msgid_plural "You currently have <numid>%1</numid> calls"
+msgid "You currently have no call"
+msgstr "Praegu käib <numid>%1</numid> kõne"
+
+#: src/sflphoneaccessibility.cpp:104
+#, kde-format
+msgid "The current call is %1"
+msgstr "Aktiivne kõne on %1"
+
+#: src/sflphoneaccessibility.cpp:106
+#, kde-format
+msgid ",Your peer is %1"
+msgstr ", sinu vestluskaaslane on %1"
+
+#: src/sflphoneaccessibility.cpp:108
+#, kde-format
+msgid ", the peer phone number is %1 "
+msgstr ", vestluskaaslane telefoninumber on %1 "
+
+#: src/sflphoneaccessibility.cpp:110
+#, kde-format
+msgid ", the phone number is %1 "
+msgstr ", telefoninumber on %1 "
+
+#: src/sflphoneaccessibility.cpp:114
+#, kde-format
+msgid " and you have been talking since %1 seconds"
+msgstr " ja sa oled kõnelnud %1 sekundit"
+
+#: src/sflphonecmd.cpp:51
+msgid "Place a call to a given number"
+msgstr ""
+
+#: src/sflphonecmd.cpp:52
+msgid ""
+"Send a text to &lt;number&gt;, use --message to set the content, then hangup"
+msgstr ""
+
+#: src/sflphonecmd.cpp:53
+msgid "Used in combination with --send-text"
+msgstr ""
+
+#: src/sflphoneview.cpp:81
+msgid "New call"
+msgstr "Uus kõne"
+
+#: src/sflphoneview.cpp:82
+#, fuzzy
+#| msgid "New call"
+msgid "Place call"
+msgstr "Uus kõne"
+
+#: src/sflphoneview.cpp:84
+msgid "Hold on"
+msgstr "Ootele"
+
+#: src/sflphoneview.cpp:87
+msgid "Pick up"
+msgstr "Võta vastu"
+
+#: src/sflphoneview.cpp:89
+msgid "Hold off"
+msgstr "Jätka"
+
+#: src/sflphoneview.cpp:90
+msgid "Give up transfer"
+msgstr "Ära suuna edasi"
+
+#: src/sflphoneview.cpp:91
+msgid "Voicemail"
+msgstr "Kõnepost"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pSendMessageLE)
+#: src/ui/SFLPhoneView_base.ui:69
+msgid "Send text message"
+msgstr "Tekstisõnu saatmine"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_pSendMessagePB)
+#: src/ui/SFLPhoneView_base.ui:79
+msgid "Send"
+msgstr "Saada"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, slider_recVol)
+#: src/ui/SFLPhoneView_base.ui:124
+msgid "Mic volume"
+msgstr "Mikrofoni helitugevus"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, slider_sndVol)
+#: src/ui/SFLPhoneView_base.ui:174
+msgid "Speakers volume"
+msgstr "Kõlarite helitugevus"
+
+#: src/widgets/autocompletion.cpp:48
+msgid "Use ⬆ up and ⬇ down arrows to select one of these numbers"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (FilterLineEdit, m_pFilterLE)
+#: src/widgets/bookmarkdock.cpp:91 src/widgets/contactdock.cpp:108
+#: src/widgets/historydock.cpp:178 src/widgets/ui/contactdock.ui:90
+#: src/widgets/ui/dockbase.ui:90
+msgid "Filter"
+msgstr "Filter"
+
+#: src/widgets/bookmarkdock.cpp:97
+msgid "Show most called contacts"
+msgstr "Kõige sagedamini helistatud kontaktide näitamine"
+
+#: src/widgets/bookmarkdock.cpp:103
+#, fuzzy
+#| msgid "Bookmark"
+msgctxt "Bookmark dock"
+msgid "Bookmark"
+msgstr "Järjehoidja"
+
+#: src/widgets/bookmarkdock.cpp:158 src/widgets/contactdock.cpp:237
+#: src/widgets/historydock.cpp:324
+msgid "Call Again"
+msgstr "Helista uuesti"
+
+#: src/widgets/bookmarkdock.cpp:162 src/widgets/contactdock.cpp:242
+msgid "Edit contact"
+msgstr "Muuda kontakti"
+
+#: src/widgets/bookmarkdock.cpp:166 src/widgets/contactdock.cpp:247
+#: src/widgets/historydock.cpp:337
+msgid "Copy"
+msgstr "Kopeeri"
+
+#: src/widgets/bookmarkdock.cpp:170 src/widgets/contactdock.cpp:252
+#: src/widgets/historydock.cpp:341
+msgid "Send Email"
+msgstr "Saada e-kiri"
+
+#: src/widgets/bookmarkdock.cpp:175 src/widgets/contactdock.cpp:258
+msgid "Add Phone Number"
+msgstr "Lisa telefoninumber"
+
+#: src/widgets/bookmarkdock.cpp:180
+#, fuzzy
+#| msgid "Remove bookmark"
+msgid "Remove Bookmark"
+msgstr "Eemalda järjehoidja"
+
+#: src/widgets/bookmarkdock.cpp:296 src/widgets/contactdock.cpp:372
+msgid "Enter a new number"
+msgstr "Uue numbri lisamine"
+
+#: src/widgets/bookmarkdock.cpp:296 src/widgets/contactdock.cpp:372
+msgid "New number:"
+msgstr "Uus number:"
+
+#: src/widgets/contactdock.cpp:101 src/widgets/historydock.cpp:182
+msgctxt "Sort by Name"
+msgid "Name"
+msgstr "Nimi"
+
+#: src/widgets/contactdock.cpp:101
+msgctxt "Sort by Organisation"
+msgid "Organisation"
+msgstr "Organisatsioon"
+
+#: src/widgets/contactdock.cpp:101
+msgctxt "Sort by Recently used"
+msgid "Recently used"
+msgstr "Viimati kasutatud"
+
+#: src/widgets/contactdock.cpp:101
+msgctxt "Sort by Group"
+msgid "Group"
+msgstr "Rühm"
+
+#: src/widgets/contactdock.cpp:101
+msgctxt "Sort by Department"
+msgid "Department"
+msgstr "Osakond"
+
+#: src/widgets/contactdock.cpp:147
+#, fuzzy
+#| msgid "Contact"
+msgctxt "Contact tab"
+msgid "Contact"
+msgstr "Kontakt"
+
+#: src/widgets/contactdock.cpp:269
+msgid "Delete"
+msgstr ""
+
+#: src/widgets/contactdock.cpp:392
+#, fuzzy, kde-format
+#| msgid "Are you sure you want to clear history?"
+msgid "Are you sure you want to permanently delete %1?"
+msgstr "Kas tõesti puhastada ajalugu?"
+
+#: src/widgets/contactdock.cpp:393
+#, fuzzy
+#| msgid "Edit contact"
+msgid "Delete contact"
+msgstr "Muuda kontakti"
+
+#: src/widgets/groupedtoolbutton.cpp:105
+#, kde-format
+msgctxt "@info:tooltip of custom toolbar button"
+msgid "%1"
+msgstr ""
+
+#: src/widgets/historydock.cpp:137
+msgid "From:"
+msgstr "Alates:"
+
+#: src/widgets/historydock.cpp:138
+msgctxt "To date:"
+msgid "To:"
+msgstr "Kuni:"
+
+#: src/widgets/historydock.cpp:141
+msgid "Display all"
+msgstr "Kõige näitamine"
+
+#: src/widgets/historydock.cpp:182
+msgctxt "Sort by date"
+msgid "Date"
+msgstr "Kuupäev"
+
+#: src/widgets/historydock.cpp:182
+msgctxt "Sort by Popularity"
+msgid "Popularity"
+msgstr "Populaarsus"
+
+#: src/widgets/historydock.cpp:182
+msgctxt "Sort by Length"
+msgid "Length"
+msgstr "Pikkus"
+
+#: src/widgets/historydock.cpp:182
+msgctxt "sort by spent time"
+msgid "Spent time"
+msgstr ""
+
+#: src/widgets/historydock.cpp:198
+#, fuzzy
+#| msgid "History"
+msgctxt "History tab"
+msgid "History"
+msgstr "Ajalugu"
+
+#: src/widgets/historydock.cpp:328
+msgid "Add Number to Contact"
+msgstr "Lisa kontaktile number"
+
+#: src/widgets/historydock.cpp:333
+msgid "Add Contact"
+msgstr "Lisa kontakt"
+
+#: src/widgets/historydock.cpp:352
+msgid "Remove bookmark"
+msgstr "Eemalda järjehoidja"
+
+#: src/widgets/kphonenumberselector.cpp:48
+msgid "Select phone number"
+msgstr "Telefoninumbri valimine"
+
+#: src/widgets/kphonenumberselector.cpp:48
+msgid ""
+"This contact has many phone numbers, please select the one you wish to call"
+msgstr ""
+"Sel kontaktil on palju telefoninumbreid, palun vali see, millele soovid "
+"helistada"
+
+#: src/widgets/playeroverlay.cpp:46
+msgid "Are you sure you want to delete this recording?"
+msgstr "Kas tõesti kustutada see salvestis?"
+
+#: src/widgets/playeroverlay.cpp:46
+msgid "Delete recording"
+msgstr "Salvestise kustutamine"
+
+#: src/widgets/securityprogress.cpp:237
+#, kde-format
+msgid "%1 tip"
+msgid_plural "%1 tips"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/widgets/securityprogress.cpp:238
+#, kde-format
+msgid "%1 warning"
+msgid_plural "%1 warnings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/widgets/securityprogress.cpp:242
+#, kde-format
+msgid "%1 issue"
+msgid_plural "%1 issues"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/widgets/securityprogress.cpp:243
+#, kde-format
+msgid "%1 error"
+msgid_plural "%1 errors"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/widgets/tips/conftip.cpp:32
+msgid ""
+"Do you know you can create conferences or transfer the call by drag and "
+"dropping one call on an other one?"
+msgstr ""
+"Kas tead, et võib luua konverentskõnesid või suunata kõne edasi üht kõnet "
+"teise peale lohistades?"
+
+#: src/widgets/tips/connectionlosttip.cpp:33
+#, fuzzy
+#| msgid "Account ****** has disconnected, trying to reconnect in 10 seconds"
+msgid "There was a network error, trying to reconnect in 60 seconds."
+msgstr ""
+"Konto ****** on ühenduse katkestanud, püütakse taasühenduda 10 sekundi pärast"
+
+#: src/widgets/tips/dialpadtip.cpp:32
+msgid ""
+"Use the dialpad below or start typing a number. Press enter or double click "
+"on the call to launch the call. Press escape or \"Hang Up\" to end the call."
+msgstr ""
+
+#: src/widgets/tips/tipcollection.cpp:133
+msgid "Peer is busy"
+msgstr "Teine pool on hõivatud"
+
+#: src/widgets/tips/tipcollection.cpp:167
+#, fuzzy
+#| msgid "Get this account down"
+msgid "An account went down"
+msgstr "Konto liigutamine allapoole"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ContactDock)
+#. i18n: ectx: property (windowTitle), widget (QWidget, DockBase)
+#: src/widgets/ui/contactdock.ui:14 src/widgets/ui/dockbase.ui:14
+msgid "Dock"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, m_pSortByL)
+#: src/widgets/ui/contactdock.ui:26 src/widgets/ui/dockbase.ui:26
+msgid "Sort by:"
+msgstr "Sortimise alus:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pElapsed)
+#. i18n: ectx: property (text), widget (QLabel, m_pLeft)
+#: src/widgets/ui/player.ui:28 src/widgets/ui/player.ui:42
+msgid "0:00"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, m_pDelete)
+#. i18n: ectx: property (text), widget (QToolButton, m_pPlay)
+#. i18n: ectx: property (text), widget (QToolButton, m_pPlayPause)
+#. i18n: ectx: property (text), widget (QToolButton, m_pStop)
+#: src/widgets/ui/player.ui:64 src/widgets/ui/player.ui:71
+#: src/widgets/ui/playeroverlay.ui:54 src/widgets/ui/playeroverlay.ui:77
+msgid "..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pPresentRB)
+#: src/widgets/ui/presence.ui:17
+msgid "Present"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pAbsentRB)
+#: src/widgets/ui/presence.ui:27
+msgid "Absent"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pCustomMessageCK)
+#: src/widgets/ui/presence.ui:34 src/widgets/videodock.cpp:109
+msgid "Custom"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/widgets/ui/screensharingwidget.ui:35
+#, fuzzy
+#| msgctxt "User interterface settings"
+#| msgid "Display"
+msgid "Display id:"
+msgstr "Vaade"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/widgets/ui/screensharingwidget.ui:42
+msgid "x"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: src/widgets/ui/screensharingwidget.ui:62
+msgid ","
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/widgets/ui/screensharingwidget.ui:69
+msgid "Offset (x,y):"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/widgets/ui/screensharingwidget.ui:79
+msgid "Size (width,height):"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: src/widgets/ui/screensharingwidget.ui:95
+msgid "Screen:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, m_pTitleL)
+#: src/widgets/ui/transfer.ui:20
+msgid ""
+"<html><head/><body><p align=\"center\"><span style=\" font-size:xx-large; "
+"font-weight:600;\">Transfer</span></p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_pTransferGB)
+#: src/widgets/ui/transfer.ui:66
+msgid "Transfer to:"
+msgstr "Edasisuunamine numbrile:"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pNumberLE)
+#: src/widgets/ui/transfer.ui:128
+#, fuzzy
+#| msgid "Enter a new number"
+msgid "Enter a number"
+msgstr "Uue numbri lisamine"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_pAttTransferGB)
+#: src/widgets/ui/transfer.ui:196
+#, fuzzy
+#| msgid "Transfer to:"
+msgid "Transfer to existing calls:"
+msgstr "Edasisuunamine numbrile:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/widgets/ui/videodevicesetting.ui:33
+msgid "Rate"
+msgstr "Kiirus"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/widgets/ui/videodevicesetting.ui:40
+msgid "Channel"
+msgstr "Kanal"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/widgets/ui/videodevicesetting.ui:67
+msgid "Resolution"
+msgstr "Eraldusvõime"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/widgets/ui/videodevicesetting.ui:77
+#, fuzzy
+#| msgid "Device:"
+msgid "Device"
+msgstr "Seade:"
+
+#: src/widgets/videodock.cpp:158
+msgid "Device:"
+msgstr "Seade:"
+
+#: src/widgets/videodock.cpp:257
+msgid "Full screen video"
+msgstr ""
+
+#~ msgid "Account"
+#~ msgstr "Konto"
+
+#~ msgid "Please select one of the following options"
+#~ msgstr "Palun vali üks järgmistest võimalustest"
+
+#~ msgid "Create a free SIP/IAX2 account on sflphone.org"
+#~ msgstr "Vaba SIP/IAX2 konto loomine sflphone.org-is"
+
+#~ msgid "Register an existing SIP or IAX2 account"
+#~ msgstr "Olemasoleva SIP või IAX2 konto registreerimine"
+
+#~ msgid "Optional email address"
+#~ msgstr "E-posti aadress"
+
+#~ msgid "This email address will be used to send your voicemail messages."
+#~ msgstr ""
+#~ "Seda e-posti aadressi kasutatakse sulle kõneposti sõnumite saatmiseks."
+
+#~ msgid "Email address"
+#~ msgstr "E-posti aadress"
+
+#~ msgid "Should CallCodec be visible by default for calls"
+#~ msgstr "Kas kõnede puhul peaks vaikimisi näha olema CallCodec"
+
+#~ msgid ""
+#~ "TLS transport can be used along with UDP for those calls that would "
+#~ "require secure sip transactions (aka SIPS). You can configure a different "
+#~ "TLS transport for each account. However each of them will run on a "
+#~ "dedicated port, different one from each other."
+#~ msgstr ""
+#~ "TLS edastusviisi saab kasutada koos UDP-ga nende kõnede puhul, mis "
+#~ "nõuavad turvalist SIP ülekannet (SIPS). Igale kontole võib seadistada eri "
+#~ "TLS edastusviisi. Siiski töötavad nad kõik omaette pordi kaudu, üksteist "
+#~ "segamata."
+
+#~ msgid "*Apply to all accounts"
+#~ msgstr "*Rakendatakse kõigile kontodele"
+
+#~ msgid "SFLphone KDE Client"
+#~ msgstr "KDE SFLphone'i klient"
+
+#~ msgid "Enable TLS"
+#~ msgstr "TLS lubamine"
+
+#~ msgid "SRTP key exchange"
+#~ msgstr "SRTP võtme vahetamine"
+
+#, fuzzy
+#~| msgid "Mute"
+#~ msgctxt "Mute the current audio device"
+#~ msgid "Mute"
+#~ msgstr "Tummaks"
+
+#, fuzzy
+#~| msgid "Unmute"
+#~ msgctxt "Unmute the current audio device"
+#~ msgid "Unmute"
+#~ msgstr "Heliga"
+
+#~ msgid "%1 number"
+#~ msgid_plural "%1 numbers"
+#~ msgstr[0] "%1 number"
+#~ msgstr[1] "%1 numbrit"
+
+#, fuzzy
+#~| msgid "Published address"
+#~ msgid "Publish status"
+#~ msgstr "Avaldatav aadress"
+
+#~ msgid "ALSA"
+#~ msgstr "ALSA"
+
+#~ msgid "PulseAudio"
+#~ msgstr "PulseAudio"
+
+#~ msgid "Using account '%1' (%2)"
+#~ msgstr "Kasutatakse kontot \"%1\" (%2)"
+
+#~ msgid "Default account"
+#~ msgstr "Vaikimisi konto"
+
+#~ msgctxt "Default TLS method"
+#~ msgid "Default"
+#~ msgstr "Vaikimisi"
+
+#~ msgid "TLSv1"
+#~ msgstr "TLSv1"
+
+#~ msgid "SSLv2"
+#~ msgstr "SSLv2"
+
+#~ msgid "SSLv3"
+#~ msgstr "SSLv3"
+
+#~ msgid "SSLv23"
+#~ msgstr "SSLv23"
+
+#~ msgctxt "Disabled security"
+#~ msgid "Disabled"
+#~ msgstr "Keelatud"
+
+#~ msgid "ZRTP"
+#~ msgstr "ZRTP"
+
+#~ msgid "SDES"
+#~ msgstr "SDES"
+
+#~ msgid "Enable address book"
+#~ msgstr "Aadressiraamatu lubamine"
+
+#~ msgid "Always display phone number"
+#~ msgstr "Telefoninumbrit näidatakse alati"
+
+#, fuzzy
+#~| msgid "Select phone number"
+#~ msgid "%1 phone number"
+#~ msgid_plural "%1 phone numbers"
+#~ msgstr[0] "Telefoninumbri valimine"
+#~ msgstr[1] "Telefoninumbri valimine"
+
+#~ msgid ""
+#~ "Defines if the contact tree should be expanded by default to show all "
+#~ "numbers"
+#~ msgstr ""
+#~ "Määramine, kas kontaktipuud laiendatakse vaikimisi kõigi numbrite "
+#~ "näitamiseks"
+
+#~ msgid "Current account:"
+#~ msgstr "Aktiivne konto:"
+
+#~ msgid "Call back"
+#~ msgstr "Helista tagasi"
+
+#~ msgid "Enter transfer number"
+#~ msgstr "Numbri lisamine, kuhu suunata"
+
+#~ msgid ""
+#~ "Please enter a transfer number and press Enter, press Escape to cancel"
+#~ msgstr ""
+#~ "Palun sisesta edasisuunamisnumber ja vajuta Enter, loobumiseks vajuta "
+#~ "Escape"
+
+#~ msgctxt "Unknown peer"
+#~ msgid "Unknown"
+#~ msgstr "Tundmatu"
+
+#~ msgid "Your call have been transferred to %1"
+#~ msgstr "Sinu kõne on edasi suunatud numbrile %1"
+
+#~ msgid "Calls"
+#~ msgstr "Kõned"
+
+#~ msgid "Popular"
+#~ msgstr "Populaarsed"
+
+#~ msgid "<b>Conference</b>"
+#~ msgstr "<b>Konverents</b>"
+
+#~ msgid "<b>Unknown</b>"
+#~ msgstr "<b>Tundmatu</b>"
+
+#~ msgid "Contacts"
+#~ msgstr "Kontaktid"
+
+#~ msgctxt "Unknown category"
+#~ msgid "Unknown"
+#~ msgstr "Tundmatu"
+
+#~ msgid "TODO"
+#~ msgstr "TODO"
+
+#, fuzzy
+#~| msgid ""
+#~| "Use the dialpad below or start typing a number. Use the dialpad below or "
+#~| "start typing a number. Use the dsadasdialpad below or start typing a "
+#~| "number. Use thasdasde dialpad below or sasdasdtart typing a number. "
+#~ msgid ""
+#~ "Use the dialpad below or start typing a number. Use the dialpad below or "
+#~ "start typing a number. Use the dialpad below or start typing a number. "
+#~ "Use the dialpad below or start typing a number. "
+#~ msgstr "Kasuta allolevat klahvistikku või hakka numbrit kirjutama."
+
+#~ msgctxt "SIP server"
+#~ msgid "Server"
+#~ msgstr "Server"
+
+#~ msgctxt "Account password"
+#~ msgid "Password"
+#~ msgstr "Parool"

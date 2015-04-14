@@ -1,0 +1,9 @@
+<chapter id="introduction">
+<title
+>Inledning</title>
+
+
+<para
+>Den här användarhandboken är avsedd som en beskrivning av innehållet i och användningen av &sflphone-client-kde;. &sflphonerelease; IP-telefon. &sflphone-client-kde; är en &kde;-klient för &sflphone;. Den kommunicerar med kärnan via &DBus;. &sflphone; är avsett som en stabil företagsklassad skrivbordstelefon. Den tillhandahåller funktioner som stöd för vidarekoppling av samtal, möjlighet att parkera samtal, flera linjer och flera konton. Den är kompatibel med SIP och IAX2. Ljuddelen i &sflphone; är byggd på ett inbyggt ALSA-gränssnitt och ett inbyggt PulseAudio-gränssnitt. </para>
+
+</chapter>

@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+<!DOCTYPE refentry PUBLIC "-//KDE//DTD DocBook XML V4.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
+<!ENTITY % Catalan  "INCLUDE">
+]>
+
+<refentry lang="&language;">
+<refentryinfo>
+<title
+>Manual d'usuari KDE</title>
+<author
+><firstname
+>Jérémy</firstname
+> <surname
+>Quentin</surname
+> <affiliation
+> <address
+><email
+>jeremy.quentin@savoirfairelinux.com</email
+></address>
+  </affiliation>
+</author>
+<author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> <affiliation
+> <address
+><email
+>emmanuel.lepage@savoirfairelinux.com</email
+></address>
+  </affiliation>
+</author>
+<date
+>3 d'agost de 2012</date>
+<productname
+>Entorn d'escriptori K</productname>
+</refentryinfo>
+
+<refmeta>
+<refentrytitle
+><command
+>sflphone-client-kde</command
+></refentrytitle>
+<manvolnum
+>1</manvolnum>
+</refmeta>
+
+<refnamediv>
+<refname
+><command
+>sflphone-client-kde</command
+></refname>
+<refpurpose
+>Veu compatible amb SIP i IAX2 sobre el client softphone IP pel KDE.</refpurpose>
+</refnamediv>
+
+<refsynopsisdiv>
+<cmdsynopsis>
+<command
+>sflphone-client-kde</command>
+</cmdsynopsis>
+</refsynopsisdiv>
+
+<refsect1>
+<title
+>Descripció</title>
+<para
+>SFLphone està destinat a ser un telèfon d'escriptori de classe empresarial robust. Proporciona funcions com la transferència de trucades, trucada en espera, múltiples línies, suport per a múltiples comptes. La capa d'àudio del SFLphone es basa en una interfície nativa d'ALSA i una altra nativa de PulseAudio. El sflphone-client-kde és un client del KDE pel SFLphone. Es comunica amb la banda del nucli mitjançant D-Bus. </para>
+</refsect1>
+
+
+<refsect1>
+<title
+>Errors</title>
+<para
+>Informeu dels errors a https://projects.savoirfairelinux.com/projects/sflphone/issues/new.</para>
+</refsect1>
+
+
+<refsect1>
+<title
+>Vegeu també</title>
+<para
+>sflphoned(1)</para>
+<para
+>Hi ha disponible documentació d'usuari més detallada des de <ulink url="help:/sflphone-client-kde"
+>help:/sflphone-client-kde</ulink
+> (introduïu aquest <acronym
+>URL</acronym
+> dins del Konqueror, o executeu <userinput
+><command
+>khelpcenter</command
+> <parameter
+>help:/sflphone-client-kde</parameter
+></userinput
+>).</para>
+<para
+>També hi ha informació addicional disponible <ulink url="http://sflphone.org/"
+>al lloc web del SFLPhone</ulink
+>.</para>
+</refsect1>
+
+
+<refsect1>
+<title
+>Autors</title>
+<para
+>El mantenidor de SFLPhone és Emmanuel Milou: emmanuel.milou@savoirfairelinux.com. El responsable del manteniment del client SFLPhone pel KDE és en Jérémy Quentin: jeremy.quentin@savoirfairelinux.com. Hi ha disponible una llista completa dels autors i col·laboradors en el complet manual d'usuari abans esmentat.</para>
+</refsect1>
+
+
+<refsect1>
+<title
+>Llicència</title>
+<para
+>Aquest programa és programari lliure. El podeu redistribuir i/o modificar sota els termes de la Llicència pública general de GNU versió 3, publicada per la Free Software Foundation.</para>
+<para
+>En els sistemes Debian GNU/Linux, el text complet de la Llicència pública general de GNU es pot trobar a «/usr/share/common-licenses/GPL».</para>
+</refsect1>
+
+
+</refentry>

@@ -1,0 +1,79 @@
+<chapter id="credits">
+  <title
+>Danksagungen und Lizenz</title>
+
+  <!--<itemizedlist>
+    <title
+>Program Copyright:</title>
+    <listitem
+><para
+>Albert Astals Cid<email
+>aacid@kde.org</email
+> </para
+></listitem>
+    <listitem
+><para
+>Pino Toscano <email
+>pino@kde.org</email
+> Current maintainer</para
+></listitem>
+    <listitem
+><para
+>Enrico Ros<email
+>eros.kde@email.it</email
+> developer</para
+></listitem>
+  </itemizedlist>
+
+  <itemizedlist>
+    <title
+>Documentation Copyright:</title>
+    <listitem
+><para
+>Albert Astals Cid<email
+>aacid@kde.org</email
+> Author</para
+></listitem>
+    <listitem
+><para
+>Titus Laska<email
+>titus.laska@gmx.de</email
+> Some updates and additions</para
+></listitem>
+    <listitem
+><para
+>Pino Toscano <email
+>pino@kde.org</email
+></para
+></listitem>
+  </itemizedlist
+>-->
+
+  <itemizedlist>
+    <title
+>Programm:</title>
+    <listitem>
+      <para
+>Die erste Version des Programms wurde von Jérémy Quentin <email
+>jeremy.quentin@savoirfairelinux.com</email
+> geschrieben. </para>
+    </listitem>
+  </itemizedlist>
+
+  <itemizedlist>
+    <title
+>Dokumentation:</title>
+    <listitem>
+      <para
+>Der erste Inhalt für diese Handbuch wurde von Jérémy Quentin <email
+>jeremy.quentin@savoirfairelinux.com</email
+> geschrieben. </para>
+    </listitem>
+  </itemizedlist>
+
+  <para
+>Übersetzung Burkhard Lück <email
+>lueck@hube-lueck.de</email
+></para
+> 
+&underFDL; &underGPL; </chapter>

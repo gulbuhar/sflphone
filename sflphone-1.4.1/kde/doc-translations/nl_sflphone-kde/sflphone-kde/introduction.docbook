@@ -1,0 +1,9 @@
+<chapter id="introduction">
+<title
+>Inleiding</title>
+
+
+<para
+>Dit gebruikershandboek is bedoeld om de inhoud en het gebruik van de &sflphone-client-kde; &sflphonerelease; softphone te beschrijven. &sflphone-client-kde; is een &kde;-client voor &sflphone;. Het communiceert met de kern sflphone-daemon via &DBus;. &sflphone; is bedoeld om een robuuste bureaubladtelefoon voor het grootbedrijf te zijn. Het biedt functies zoals ondersteuning van overdracht van de oproep, oproep in wachtstand, meerdere lijnen, meerdere accounts. Het is SIP en IAX2 compatibel. De geluidslaag van &sflphone; is gebouwd op het standaard ALSA-interface en een standaard PulseAudio-interface. </para>
+
+</chapter>

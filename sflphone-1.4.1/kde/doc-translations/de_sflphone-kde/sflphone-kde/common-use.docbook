@@ -1,0 +1,205 @@
+<chapter id="common-use">
+
+<chapterinfo>
+<authorgroup>
+   <author
+><firstname
+>Jérémy</firstname
+> <surname
+>Quentin</surname
+> </author>
+   <author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+<othercredit role="translator"
+><firstname
+>Burkhard</firstname
+><surname
+>Lück</surname
+><affiliation
+><address
+><email
+>lueck@hube-lueck.de</email
+></address
+></affiliation
+><contrib
+>Übersetzung</contrib
+></othercredit
+> 
+</authorgroup>
+</chapterinfo>
+
+<title
+>Allgemeine Anwendung von &sflphone-client-kde;</title>
+
+<sect1 id="common-use-current">
+<title
+>Behandlung eines Anrufs</title>
+
+<para
+>Es gibt viele Funktionen, die Sie mit einem aktuellen Anruf mit &sflphone; ausführen können. Im folgenden finden Sie einige Beschreibungen. </para>
+
+<sect2 id="common-use-current-new">
+<title
+>Neuen Anruf ausführen</title>
+
+<para
+>Sie können gleichzeitig viele Anrufe verarbeiten, auch wenn es nur einen aktuellen Anruf gibt und alle anderen gehalten werden. Um einen neuen Anruf vorzunehmen, während Sie gerade einen andern Anruf ausführen, klicken Sie auf den Knopf <guibutton
+>Anruf durchführen</guibutton
+>. Dann wird ein neuer leerer Eintrag erstellt und automatisch ausgewählt. Geben Sie dann die  Nummer ein, die Sie anrufen möchten , und klicken Sie auf den Knopf <guibutton
+>Anrufen</guibutton
+> oder drücken Sie die &Enter;taste. Sie können auch zur Karteikarte Verlauf oder zur Karteikarte Kontakte gehen und einen Anruf auswählen. Dann wird der Anruf in der Karteikarte Anruf eingefügt. Wenn ein Anruf gestartet wird, wird der andere Anruf auf Halten gesetzt, so dass Sie keine Anrufe vermischen können. Möchten Sie zurück zum gehaltenen Anruf gehen, doppelklicken Sie auf den zugehörigen Eintrag, dann wird der Anruf aktuell und der andere Anruf auf Halten gesetzt. </para>
+
+</sect2>
+
+<sect2 id="common-use-current-hold">
+<title
+>Telefonanrufe halten</title>
+
+<para
+>Möchten Sie einen aktuellen Anruf auf Halten setzen, klicken Sie auf den gleichnamigen Knopf. Das Symbol für diesen Anruf ändert sich dann und die Kommunikation mit der Gegenstelle wird angehalten. Sie können dann einen neuen Anruf vornehmen oder einen gehaltenen Anruf weiter stellen, siehe <xref linkend="common-use-current-transfer"/>. Um eine Kommunikation fortzusetzen, doppelklicken Sie auf den Eintrag oder klicken Sie auf den Knopf <guibutton
+>Halten aufheben</guibutton
+>. </para>
+
+</sect2>
+
+<sect2 id="common-use-current-transfer">
+<title
+>Telefonanrufe weiterleiten</title>
+
+<para
+>Möchten Sie den aktuellen Anruf zu einer anderen Telefonnummer weiterleiten, klicken Sie auf den Knopf <guibutton
+>Weiterleiten</guibutton
+>, dann wird das Symbol geändert und Sie können die Nummer eingeben, zu dem Sie den Anruf weiterleiten möchten. dann drücken Sie die &Enter;taste, um den Anruf tatsächlich weiter zustellen. Sie können einen Anruf auf Halten setzen, während Sie die Nummer eingeben, siehe <xref linkend="common-use-current-hold"/>. </para>
+
+</sect2>
+
+<sect2 id="common-use-current-record">
+<title
+>Telefonanrufe aufnehmen</title>
+
+<para
+>Möchten Sie den aktuellen Anruf aufnehmen, klicken Sie auf <guibutton
+>Aufnehmen</guibutton
+>. Der Knopf bleibt gedrückt und wird hervorgehoben. Da &sflphone; nur Anrufe aufnehmen kann. die aktuell sind und nicht gehalten werden, ist die Hervorhebung an, wenn der ausgewählte Anruf aktuell ist und aufgenommen werden kann, ansonsten ist die Hervorhebung aus. Ist der Knopf gedrückt, beginnt &sflphone; die Aufnahme sobald die Kommunikation begonnen wird. </para>
+
+</sect2>
+
+</sect1>
+
+<sect1 id="common-use-mailbox">
+<title
+>Mailbox anrufen</title>
+
+<para
+>Sie rufen Ihre Mailbox auf, indem Sie deren Nummer eingeben. Haben Sie diese Nummer in den Konto-Einstellungen angegeben, können Sie einfach auf den Mailbox-Knopf drücken. Dann wird die Mailbox des ersten registrierten Kontos angerufen.</para>
+
+<para
+>In beiden Fällen können Sie das Passwort für Ihre Mailbox ohne Bedenken eingeben, da die das Passwort bei der Eingabe nicht angezeigt wird, wenn die angerufenen Nummer zu einer registrierten Mailbox für das Konto des aktuellen Anrufs gehört. </para>
+
+</sect1>
+
+<sect1 id="common-use-address">
+<title
+>Verwendung des Adressbuchs</title>
+
+<para
+>&sflphone-client-kde; kommuniziert mit dem &kde;-Adressbuch und sammelt all Telefonnummern, die zu Ihrer Anfrage und den gewählten Einstellungen passt. In folgenden wird erläutert, wie das Adressbuch eingerichtet und benutzt wird.</para>
+
+
+<sect2 id="common-use-address-kde">
+<title
+>Einrichtung des &kde;-Adressbuchs</title>
+
+<para
+>Da &sflphone-client-kde; für &kde; entwickelt wurde, sucht es nach den Kontakten im &kde;-Adressbuch. Daher müssen Sie diese zuerst einrichten. Wählen Sie <menuchoice
+><guimenu
+>Anwendungen</guimenu
+><guisubmenu
+>Büroprogramme</guisubmenu
+><guimenuitem
+>Adressbuch</guimenuitem
+></menuchoice
+> aus dem &kmenu;. Dann wird das Hauptfenster des &kde;-Adressbuchs geöffnet. Sie können dort Kontakte hinzufügen und Sie bearbeiten. Drücken Sie bei Problemen die Taste <keycap
+>F1</keycap
+>, um das Handbuch zu lesen. </para>
+
+<para
+>&sflphone-client-kde; sucht im Standard-Adressbuch, d. h. es sucht in den Kontakten in der Kontaktliste, die links im Fenster angezeigt werden. Die ausgewählten Adressbücher unten links im Fenster werden durchsucht. Wenn Sie Kontakte hinzufügen, müssen Sie &sflphone-client-kde; neu starten, damit sie gefunden werden. </para>
+
+
+</sect2>
+
+
+<sect2 id="common-use-address-config">
+<title
+>&sflphone-client-kde; einrichten</title>
+
+<para
+>Sie können jetzt im Einrichtungsdialog einstellen, wie &sflphone; Ihre Suchen im Adressbuch bearbeitet. Dieser Schritt ist jedoch optional, da Sie mit den Standardeinstellungen diese Funktion ohne weiteres benutzen können. </para>
+
+<para
+>Mit der Einstellung für die maximale Anzahl von Ergebnissen können Sie angeben, wie viele Telefonnummern angezeigt werden, wenn Sie nach einem Kontakt suchen. Im &kde;-Adressbuch können viele Kontakte enthalten sein, besonders wenn es mit <acronym
+>LDAP</acronym
+>-Ordner verbunden ist. Sie möchten nicht tausende von Kontakten angezeigt bekommen, sobald Sie Buchstaben für die Suche eingeben.</para>
+
+<para
+>Im &kde;-Adressbuch können Fotos für Ihre Kontakte vorhanden sein. Sie können in &sflphone-client-kde; im Suchergebnis angezeigt werden, da das aber länger dauert, können Sie diese Funktion auch abschalten.</para>
+
+<para
+>Jede Telefonnummer im &kde;-Adressbuch ist mit einem Kontakt verknüpft, für den es mehrere Arten von Telefonnummern wie Privat, Arbeit und Mobil. Sie können auswählen, dass nur bestimmte Arten von Telefonnummern angezeigt werden. Kreuzen Sie die Arten an, die Sie benutzen möchten, und wählen Sie die anderen ab.</para>
+
+</sect2>
+
+<sect2 id="common-use-address-use">
+<title
+>Suche im Adressbuch</title>
+
+<para
+>Wenn alles eingerichtet ist, gehen Sie zur Karteikarte Kontakte und geben Sie einige Buchstaben des Namens ein, den Sie anrufen möchten. Dann werden alle Telefonnummern und deren Art angezeigt, die zu Ihrer Abfrage passen. Ist die Liste der Ergebnisse länger als das Maximum, das in den Einstellungen festgelegt ist, wird nur der Anfang der Liste angezeigt, dazu ein Hinweis, dass die gesuchte Nummer möglicherweise in den nicht sichtbaren Teilen der Liste enthalten sein kann. Dann sollten Sie zusätzliche Buchstaben eingeben, um die Suche weiter einzugrenzen. Haben Sie die richtige Nummer gefunden, doppelklicken Sie darauf, um den Anruf zu starten. </para>
+
+</sect2>
+
+
+</sect1>
+
+
+
+<sect1 id="common-use-config">
+<title
+>Einrichtungsdialog</title>
+
+<para
+>Es gibt viele Einstellungen für &sflphone;. Alle sind im Einrichtungsdialog zusammengefasst. Diesen Dialog öffnen Sie mit <menuchoice
+><guimenu
+>Einstellungen</guimenu
+><guimenuitem
+>&sflphone; einrichten ...</guimenuitem
+></menuchoice
+>. Im folgenden werden einige häufig genutzte Einstellungen erläutert.</para>
+
+<sect2 id="common-use-config-address">
+<title
+>Allgemeine Einstellungen</title>
+
+<para
+>Hier können Sie die Größe des Verlaufs der Anrufe auswählen. </para>
+
+</sect2>
+
+</sect1>
+
+
+
+
+
+
+
+
+
+
+
+</chapter>

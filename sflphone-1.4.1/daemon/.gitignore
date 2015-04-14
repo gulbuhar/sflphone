@@ -1,0 +1,32 @@
+build-aux/
+aclocal.m4
+build-aux
+
+configure
+src/client/dbus/org.sflphone.SFLphone.service
+src/sflphoned
+
+# Ignore sub-modules stuff
+## libiax2
+libs/libiax2/doc/html
+libs/libiax2/config.*
+libs/libiax2/autom4te.cache
+libs/libiax2/src/.libs
+libs/libiax2/libtool
+libs/libiax2/ltmain.sh
+libs/libiax2/iax-config
+libs/libiax2/configure
+libs/libiax2/iax2-config
+
+libs/pjproject-2.2.1/pjlib-util/build/os-auto.mak
+libs/pjproject-2.2.1/pjlib/build/os-auto.mak
+libs/pjproject-2.2.1/pjlib/include/pj/compat/m_auto.h
+libs/pjproject-2.2.1/pjlib/include/pj/compat/os_auto.h
+libs/pjproject-2.2.1/pjlib/include/pj/config_site.h
+libs/pjproject-2.2.1/pjmedia/build/os-auto.mak
+libs/pjproject-2.2.1/pjmedia/include/pjmedia-codec/config_auto.h
+libs/pjproject-2.2.1/pjmedia/include/pjmedia/config_auto.h
+libs/pjproject-2.2.1/pjsip/build/os-auto.mak
+libs/pjproject-2.2.1/pjsip/include/pjsip/sip_autoconf.h
+libs/pjproject-2.2.1/third_party/build/os-auto.mak
+libs/pjproject-2.2.1/third_party/build/portaudio/os-auto.mak

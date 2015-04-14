@@ -1,0 +1,262 @@
+<chapter id="getting-started">
+
+<chapterinfo>
+<authorgroup>
+   <author
+><firstname
+>Jérémy</firstname
+> <surname
+>Quentin</surname
+> </author>
+   <author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+<othercredit role="translator"
+><firstname
+>Innocenzo</firstname
+><surname
+>Ventre</surname
+><affiliation
+><address
+><email
+>innocenzo.ventre@gmail.com</email
+></address
+></affiliation
+><contrib
+>Traduzione italiana</contrib
+></othercredit
+> 
+</authorgroup>
+</chapterinfo>
+
+<title
+>Guida introduttiva a &sflphone-client-kde;</title>
+
+<para
+>Quando avvii &sflphone-client-kde; per la prima volta, si avvierà una procedura guidata di configurazione dell'account. Questa procedura guidata ti aiuterà ad impostare un account per &sflphone; da usare. È necessario che completi la procedura guidata prima di andare alla finestra principale, &sflphone-client-kde; non funzionerà senza almeno un account impostato. Puoi ancora modificare tutte le impostazioni dell'account dalla finestra principale dopo aver completato la procedura guidata. Puoi anche avviare la procedura guidata dalla finestra principale in qualsiasi momento. Passiamo ora a descrivere le diverse opzioni di questa procedura guidata. </para>
+
+<simplelist>
+<member
+><link linkend="gettingstarted-wizard-welcome"
+>La pagina di introduzione della procedura guidata.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-createorregister"
+>La pagina tipo di registrazione.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-create"
+>Creazione di un nuovo account.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-register"
+>Registra un account esistente.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-stun"
+>Impostazioni STUN.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-finish"
+>La pagina conclusiva.</link
+></member>
+</simplelist>
+
+<sect1 id="gettingstarted-wizard-welcome">
+<title
+>Pagina di benvenuto</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-welcome.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La pagina di introduzione della procedura guidata</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+
+<para
+>Puoi navigare in questa procedura guidata usando i pulsanti <guibutton
+>Avanti</guibutton
+>, <guibutton
+>Indietro</guibutton
+> e <guibutton
+>Annulla</guibutton
+>. Se fai clic sul pulsante <guibutton
+>Annulla</guibutton
+>, la procedura guidata verrà chiusa senza aggiungere l'account. Fai clic sul pulsante <guibutton
+>Avanti</guibutton
+> per iniziare la configurazione dell'account.</para>
+
+</sect1>
+
+
+<sect1 id="gettingstarted-wizard-createorregister">
+<title
+>Crea o registra</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-createorregister.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La pagina tipo di registrazione</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Puoi scegliere di creare un nuovo account sul sito sflphone.org o registrare un account esistente. Se usi &sflphone; per la prima volta e vuoi che le cose funzionino nella maniera più semplice possibile, dovresti scegliere <guilabel
+>crea un nuovo account</guilabel
+>. Verrà creato un account e aggiunto a &sflphone;. Se hai già creato un account SIP o IAX con &sflphone; o in qualche altro modo, puoi aggiungerlo scegliendo <guilabel
+>registra un account esistente</guilabel
+>. </para>
+
+</sect1>
+
+<sect1 id="gettingstarted-wizard-create">
+<title
+>Creazione di un nuovo account</title>
+
+<para
+>Se scegli di creare un account su sflphone.org, la procedura guidata avrà bisogno di poche informazioni per creare l'account, crealo automaticamente e aggiungi le informazioni del nuovo account in &sflphone;. Verrà creato un account SIP, e quindi sarai in grado di usare questo nuovo account da ogni altro sistema, con un qualsiasi software che supporti account SIP, usando le informazioni del nuovo account visualizzato alla fine del processo o raggiungibile dalla finestra principale.</para>
+
+<sect2 id="gettingstarted-wizard-create-email">
+<title
+>Indirizzo di posta elettronica</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-create-email.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La pagina dell'indirizzo di posta elettronica</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>La prima informazione che ti verrà chiesta è il tuo indirizzo di posta elettronica. Non è obbligatorio, così puoi saltare questo passaggio facendo clic sul pulsante <guibutton
+>Avanti</guibutton
+>. Ma ti permetterà di ricevere alcune notifiche riguardo messaggi di testo o vocali che ricevi mentre non sei al computer.</para>
+
+
+</sect2>
+
+</sect1>
+
+<sect1 id="gettingstarted-wizard-register">
+<title
+>Registra un account esistente</title>
+
+<para
+>Se hai già creato un account SIP o IAX con &sflphone; da un altro computer o con un altro software, o se vuoi usare un account esistente, puoi registrarlo con la procedura guidata per poterlo usare con questa istanza di &sflphone;. La procedura guidata ti chiederà le informazioni di base di questo account, al fine di individuarlo nuovamente. Queste informazioni sono descritte in questa sezione.</para>
+
+
+
+<sect2 id="gettingstarted-wizard-register-siporiax">
+<title
+>SIP o IAX</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-register-siporiax.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La pagina tipo di account</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>&sflphone; gestisce due protocolli per le chiamate, SIP e IAX2. La procedura guidata ti chiederà ora di quale di questi tipi è il tuo account. Se hai già creato un account, basta scegliere il tipo giusto. Se vuoi crearne uno senza &sflphone; e ti chiedi quale tipo scegliere, puoi far riferimento a <ulink url="http://www.voip-info.org/wiki/view/IAX+versus+SIP"
+>questo documento</ulink
+> per capire meglio quale rispecchia i tuoi bisogni.</para>
+
+</sect2>
+
+<sect2 id="gettingstarted-wizard-register-settings">
+<title
+>Impostazioni account</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-register-settings.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La pagina impostazioni</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>La procedura guidata ha bisogno di alcune informazioni per trovare il tuo account. L'alias è solo per comodità, potete scegliere uno qualunque. Verrà applicato solo su &sflphone; in questo sistema, non per l'account. Il «Server» sta per il server che ospita il tuo account.Il «Nome utente» è il nome utente dell'account. Diversamente dall'alias, deve essere ilnome utente scelto durante la creazione dell'account. La «Password» è la password scelta per l'account. Il «Numero della casella» verrà utilizzato dal pulsante casella di posta per evitarti didover digitare il numero troppo spesso. Di solito è 888.</para>
+
+</sect2>
+
+</sect1>
+
+<sect1 id="gettingstarted-wizard-stun">
+<title
+>Impostazioni STUN</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-stun.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La pagina STUN</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Se registri un account SIP o lo crei su sflphone.org (che dopotutto significa comunque registrare un account SIP), la procedura guidata ti propone di abilitare lo STUN. Potresti volerlo fare se sei connesso a internet tramite un firewall. In realtà, non è un'opzione per questo account in particolare, ma della configurazione di &sflphone;; verrà applicata per ogni account. Se attivi questa opzione, devi scegliere il server STUN che vuoi usare (&eg;: stunserver.org).</para>
+
+</sect1>
+
+
+<sect1 id="gettingstarted-wizard-finish">
+<title
+>La pagina conclusiva</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-finish.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>La pagina finale</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>La pagina conclusiva riassume le informazioni inserite durante il processo della procedura guidata. Non è stato ancora fatto nulla e in modo da poter ancora annullare tutto facendo clic sul pulsante <guibutton
+>Annulla</guibutton
+>. Se fai clic sul pulsante <guibutton
+>Fine</guibutton
+>, invierà tutte le informazioni e creerà l'account, se hai scelto di crearlo o di registrarti se stavi registrando un account esistente.</para>
+
+</sect1>
+
+</chapter>
+

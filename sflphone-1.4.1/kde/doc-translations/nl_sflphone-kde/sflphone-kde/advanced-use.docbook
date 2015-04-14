@@ -1,0 +1,64 @@
+<chapter id="advanced-use">
+
+	<chapterinfo>
+		<authorgroup>
+			<author
+><firstname
+>Jérémy</firstname
+> <surname
+>Quentin</surname
+> </author>
+         <author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+			&ged.vertaald;&Freek.de.Kruijf; 
+		</authorgroup>
+	</chapterinfo>
+
+	<title
+>Geavanceerd gebruik van &sflphone-client-kde;</title>
+
+	<sect1 id="advanced-use-hooks">
+		<title
+>Aanhaken</title>
+
+		<para
+>An interesting feature of &sflphone; is the hook handle. Hooks designate some actions you can choose to trigger on a particular signal, especially when receiving or sending a call. The two useful hooks that are implemented in &sflphone; are the URL argument, and the phone number formatting. </para>
+
+		<sect2 id="advanced-use-hooks-url">
+			<title
+>URL-argument</title>
+			<para
+>This feature permits you to grab an URL sent in a particular header of the SIP or IAX message sent by Asterisk server, and execute it with the chosen browser command. </para>
+			<para
+>To configure it, go to the <guilabel
+>Hooks</guilabel
+> page of the configuration menu. Then check the SIP or/and IAX checkbox, if you want to enable hooks with SIP accounts or/and with IAX accounts. Then type the name of custom header that your Asterisk server inserts into the invite message for the SIP protocol (if you do not know the name of the custom header, ask the one who configured the Asterisk server). For IAX there is a common header for that, so you do not have to configure it. Then type the command of the browser you want to have the URL opened with, or leave x-www-browser for the default browser. </para>
+		</sect2>
+
+		<sect2 id="advanced-use-hooks-formatting">
+			<title
+>indelingen van een telefoonnummer</title>
+			<para
+>This feature permits you to add the chosen prefix at the beginning of the phone number you are calling. </para>
+		</sect2>
+
+	</sect1>
+
+	<sect1 id="advanced-use-codecs">
+		<title
+>Codecs</title>
+
+		<para
+>Om met geluid te communiceren maakt &sflphone; gebruik van enige codecs. U kunt kiezen welke codec te gebruiken in het instellingen paneel voor geluid. </para>
+		<para
+>In this panel you will see the codecs available on your system with all their parameters. &sflphone; will use the first activated one in the list. So you can change the order of the list, and activate/deactivate some ones, to change which one will be used. To do that, select a codec and click on the up/down arrows, or just check/uncheck the corresponding checkbox. </para>
+
+	</sect1>
+
+		
+		
+</chapter>

@@ -1,0 +1,9 @@
+<chapter id="introduction">
+<title
+>Einführung</title>
+
+
+<para
+>Dieses Benutzerhandbuch beschreibt das Programm &sflphone-client-kde; &sflphonerelease; und seine Anwendung. &sflphone-client-kde; ist ein Dienstprogramm für &sflphone; und kommuniziert damit durch den sflphone-Dienst über D-Bus. &sflphone; ist ein robustes Telefon für die Arbeitsfläche für den Unternehmensbereich mit Funktionen wie Rufweiterleitung, Halten einer Verbindung, mehrere Leitungen und Konten. Es ist kompatibel zu SIP und IAX2. Die Audiofunktionen von &sflphone; basieren auf nativen ALSA- oder PulseAudio-Schnittstellen. </para>
+
+</chapter>

@@ -1,0 +1,203 @@
+<chapter id="common-use">
+
+<chapterinfo>
+<authorgroup>
+   <author
+><firstname
+>Jérémy</firstname
+> <surname
+>Quentin</surname
+> </author>
+   <author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+<othercredit role="translator"
+><firstname
+>Marcus</firstname
+><surname
+>Gama</surname
+><affiliation
+><address
+><email
+>marcus.gama@gmail.com</email
+></address
+></affiliation
+><contrib
+>Tradução</contrib
+></othercredit
+> 
+</authorgroup>
+</chapterinfo>
+
+<title
+>Utilização normal do &sflphone-client-kde;</title>
+
+<sect1 id="common-use-current">
+<title
+>Lidando com uma chamada</title>
+
+<para
+>Existe um conjunto de funcionalidades que você poderá aplicar numa chamada atual com o &sflphone;. Aqui está a sua descrição. </para>
+
+<sect2 id="common-use-current-new">
+<title
+>Efetuar uma nova chamada</title>
+
+<para
+>Você poderá ter diversas chamadas em paralelo, mesmo que só uma esteja em curso (ie: poderá percorrê-las todas) e as outras estejam suspensas. Para colocar uma nova chamada quando estiver com uma chamada em curso, clique no botão <guibutton
+>Colocar uma nova chamada</guibutton
+> para que crie um item vazio novo selecionado automaticamente; depois digite o número de telefone que deseja chamar e clique em <guibutton
+>Chamar</guibutton
+> ou pressione Enter para colocar a chamada. Você poderá também ir à &i18n-history-w; ou à &i18n-address-w; e validar a chamada, sendo adicionado um toque na &i18n-current-w;. Quando for colocada uma nova chamada, todas as outras são colocadas em espera, para que não se misture duas chamadas. Se quiser voltar a uma das chamadas em espera, basta fazer duplo-clique sobre o item correspondente para voltar ao estado em curso, enquanto a anterior será suspensa. </para>
+
+</sect2>
+
+<sect2 id="common-use-current-hold">
+<title
+>Reter uma chamada</title>
+
+<para
+>Se você quiser colocar a chamada atual em espera, basta clicar no botão Suspender. O ícone da chamada irá então mudar e a comunicação com a outra pessoa será colocada em pausa. Você poderá então colocar uma nova chamada, transferir a chamada suspensa (ver em <xref linkend="common-use-current-transfer"/>)... Para restaurar a comunicação, basta fazer duplo-clique sobre o item ou clicar no botão Retomar. </para>
+
+</sect2>
+
+<sect2 id="common-use-current-transfer">
+<title
+>Transferir uma chamada</title>
+
+<para
+>Se você quiser transferir a chamada atual para outro número de telefone, clique no botão <guibutton
+>Transferir</guibutton
+>, para que o item mude e lhe permita indicar o número para onde transferir a outra pessoa. Assim que digitar o número clique no botão 'Validar a transferência' ou pressione &Enter; para transferir de fato a chamada. Você poderá colocar a chamada em espera enquanto digita o número (veja em <xref linkend="common-use-current-hold"/>). </para>
+
+</sect2>
+
+<sect2 id="common-use-current-record">
+<title
+>Gravar uma chamada</title>
+
+<para
+>Se você quiser gravar a chamada atual, clique no botão <guibutton
+>Gravar</guibutton
+>, para que este fique ativado e a luz fique acesa. Uma vez que o &sflphone; só grava as chamadas quando estejam em curso (&ie;: não suspensas), a luz ficará ativada se a chamada atual estiver em curso e puder ser gravada, ficando desligada em caso contrário. Contudo, se o botão for ativado, o &sflphone; irá gravar assim que a comunicação iniciar. </para>
+
+</sect2>
+
+</sect1>
+
+<sect1 id="common-use-mailbox">
+<title
+>Caixa de correio de chamadas</title>
+
+<para
+>Você poderá chamar a sua caixa de correio com o número da caixa da sua conta. Se tiver registrado este número na configuração da conta, poderá clicar no botão da Caixa de Correio. Irá chamar a caixa de correio da primeira conta registrada.</para>
+
+<para
+>Em ambos os casos, você poderá então digitar a senha da sua caixa do correio sem se preocupar com as pessoas ao redor, uma vez que o &sflphone; não irá mostrar o que está sendo digitado, caso o número chamado seja o número da caixa de correio registrada da conta da chamada atual. </para>
+
+</sect1>
+
+<sect1 id="common-use-address">
+<title
+>Usar o livro de endereços</title>
+
+<para
+>O &sflphone-client-kde; se comunica com o Livro de Endereços do &kde; e obtém todos os números de telefone que corresponderem ao seu pedido e às opções escolhidas. Aqui iremos explicar como configurá-lo e usá-lo.</para>
+
+
+<sect2 id="common-use-address-kde">
+<title
+>Configurar o Livro de Endereços do &kde;</title>
+
+<para
+>Como foi desenhado inteiramente para o &kde;, o &sflphone-client-kde; procura pelos seus contatos no Livro de Endereços do &kde;. Assim, você terá que configurá-lo primeiro. Escolha <menuchoice
+><guimenu
+>Aplicações</guimenu
+><guisubmenu
+>Escritório</guisubmenu
+><guimenuitem
+>Livro de Endereços</guimenuitem
+></menuchoice
+> no &kmenu;. Você estará agora na janela principal do livro de endereços do &kde;. Poderá adicionar contatos e tratar dos mesmos a partir daí. Clique em <keycap
+>F1</keycap
+> para ver esta página de ajuda, caso tenha algum problema com o livro de endereços. </para>
+
+<para
+>O &sflphone-client-kde; procura no livro de endereços padrão, o que significa que irá procurar nos contatos apresentados na lista de contatos à esquerda da janela. Os livros de endereços selecionados na parte inferior esquerda da janela serão pesquisados. Se adicionar alguns contatos, poderá ter que reiniciar o &sflphone-client-kde; antes de poder vê-los. </para>
+
+
+</sect2>
+
+
+<sect2 id="common-use-address-config">
+<title
+>Configurar o &sflphone-client-kde;</title>
+
+<para
+>Você poderá então ir à janela de configuração para escolher como o &sflphone; irá tratar as suas pesquisas no livro de endereços. Este passo é opcional, contudo, uma vez que a configuração padrão lhe permite usar a funcionalidade sem mais configurações. </para>
+
+<para
+>A definição do número máximo de resultados permite-lhe escolher quantos números de telefone poderão ser mostrados quando procurar por um contato. O livro de endereços do &kde; poderá conter vários contatos, especialmente se estiverem conectados a diretórios de <acronym
+>LDAP</acronym
+> e você não ira querer ver milhares de contatos apresentados assim que escrever uma letra a pesquisar.</para>
+
+<para
+>O livro de endereços do &kde; poderá conter uma fotografia dos seus contatos. O &sflphone-client-kde; poderá mostrá-la no resultado das suas pesquisas mas, uma vez que isto poderá levar mais algum tempo, você poderá optar por desativar essa funcionalidade.</para>
+
+<para
+>Cada número de telefone no livro de endereços do &kde; está associado a um contato e tem um tipo para diferenciar os números de trabalho, da residência e de celular. Você poderá optar por mostrar apenas alguns desses números. Assinale os tipos em que está interessado e desmarque os outros.</para>
+
+</sect2>
+
+<sect2 id="common-use-address-use">
+<title
+>Procurar no Livro de Endereços</title>
+
+<para
+>Agora que está tudo configurado, você poderá ir à &i18n-address-w; e escrever depois algumas letras do nome que deseja contatar. Você verá todos os números de telefone que correspondem ao seu pedido e ao seu tipo. Quando o tamanho da lista resultante for maior que o máximo definido na configuração, só irá mostrar o início da lista com o tamanho máximo, mostrando uma mensagem de aviso que lhe permite saber que o seu número desejado poderá estar no resto da lista e, como tal, não será apresentado. Nesse caso, deverá escrever mais algumas letras para melhorar a precisão da pesquisa. Assim que tiver encontrado o número exato, faça duplo-clique sobre o item para chamá-lo. </para>
+
+</sect2>
+
+
+</sect1>
+
+
+
+<sect1 id="common-use-config">
+<title
+>Janela de Configuração</title>
+
+<para
+>Existem diversas opções no &sflphone;. Todas elas estão presentes e ordenadas na Janela de Configuração. Você poderá acessá-la se escolher <menuchoice
+><guimenu
+>Configurações</guimenu
+><guimenuitem
+>Configurar o &sflphone;...</guimenuitem
+></menuchoice
+>. Aqui estão algumas das opções mais comuns.</para>
+
+<sect2 id="common-use-config-address">
+<title
+>Configurações gerais</title>
+
+<para
+>Aqui você poderá escolher a capacidade do histórico de chamadas. </para>
+
+</sect2>
+
+</sect1>
+
+
+
+
+
+
+
+
+
+
+
+</chapter>

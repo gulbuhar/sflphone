@@ -1,0 +1,9 @@
+<chapter id="introduction">
+<title
+>Introducció</title>
+
+
+<para
+>Aquest manual d'usuari està dissenyat per a descriure el contingut i l'ús del &sflphone-client-kde; &sflphonerelease;. El &sflphone-client-kde; és un client del &kde; per a &sflphone;. Es comunica amb la banda del nucli, el dimoni sflphoned, mitjançant &DBus;. El &sflphone; està destinat a ser un telèfon d'escriptori de classe empresarial robust. Proporciona funcions com la transferència de trucades, trucada en espera, múltiples línies, suport per a múltiples comptes. És compatible amb SIP i IAX2. La capa d'àudio del &sflphone; es basa en una interfície nativa d'ALSA i una altra nativa de PulseAudio. </para>
+
+</chapter>

@@ -1,0 +1,9 @@
+<chapter id="introduction">
+<title
+>Introduzione</title>
+
+
+<para
+>Questo manuale descrive i contenuti e l'uso del telefono software &sflphone-client-kde; &sflphonerelease;. &sflphone-client-kde; è un client per &sflphone; per &kde;. Comunica con l'applicazione principale, il demone sflphone attraverso &DBus;. &sflphone; è pensato per essere un telefono desktop di classe enterprise. Offre funzioni come il trasferimento di chiamata, chiamate in attesa, gestione di più linee, il supporto a più account. È compatibile con SIP e IAX2. Lo strato audio di &sflphone; è costruito sulle interfacce native sia di ALSA che di PulseAudio. </para>
+
+</chapter>

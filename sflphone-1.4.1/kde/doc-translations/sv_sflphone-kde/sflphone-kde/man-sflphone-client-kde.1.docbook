@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<!DOCTYPE refentry PUBLIC "-//KDE//DTD DocBook XML V4.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
+<!ENTITY % Swedish "INCLUDE">
+]>
+
+<refentry lang="&language;">
+<refentryinfo>
+<title
+>KDE:s användarhandbok</title>
+<author
+><firstname
+>Jérémy</firstname
+> <surname
+>Quentin</surname
+> <affiliation
+> <address
+><email
+>jeremy.quentin@savoirfairelinux.com</email
+></address>
+  </affiliation>
+</author>
+<author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> <affiliation
+> <address
+><email
+>emmanuel.lepage@savoirfairelinux.com</email
+></address>
+  </affiliation>
+</author>
+<date
+>3:e augusti, 2012</date>
+<productname
+>K-skrivbordsmiljö</productname>
+</refentryinfo>
+
+<refmeta>
+<refentrytitle
+><command
+>sflphone-client-kde</command
+></refentrytitle>
+<manvolnum
+>1</manvolnum>
+</refmeta>
+
+<refnamediv>
+<refname
+><command
+>sflphone-client-kde</command
+></refname>
+<refpurpose
+>KDE-klient för IP-telefoni kompatibel med SIP och IAX2.</refpurpose>
+</refnamediv>
+
+<refsynopsisdiv>
+<cmdsynopsis>
+<command
+>sflphone-client-kde</command>
+</cmdsynopsis>
+</refsynopsisdiv>
+
+<refsect1>
+<title
+>Beskrivning</title>
+<para
+>SFL-telefon är avsett som en stabil företagsklassad skrivbordstelefon. Den tillhandahåller funktioner som stöd för vidarekoppling av samtal, möjlighet att parkera samtal, flera linjer och flera konton. Ljuddelen i SFL-telefon är byggd på ett inbyggt ALSA-gränssnitt och ett inbyggt PulseAudio-gränssnitt. Programmet sflphone-client-kde är en KDE-klient för SFL-telefon, som kommunicerar med kärnan via D-Bus. </para>
+</refsect1>
+
+
+<refsect1>
+<title
+>Fel</title>
+<para
+>Rapportera fel till https://projects.savoirfairelinux.com/projects/sflphone/issues/new.</para>
+</refsect1>
+
+
+<refsect1>
+<title
+>Se också</title>
+<para
+>sflphoned(1)</para>
+<para
+>Mer detaljerad användardokumentation är tillgänglig från <ulink url="help:/sflphone-client-kde"
+>help:/sflphone-client-kde</ulink
+> (skriv antingen in webbadressen i Konqueror eller kör <userinput
+><command
+>khelpcenter</command
+> <parameter
+>help:/sflphone-client-kde</parameter
+></userinput
+>).</para>
+<para
+>Ytterligare information finns också tillgänglig på <ulink url="http://sflphone.org/"
+>webbsidan för SFL-telefon</ulink
+>.</para>
+</refsect1>
+
+
+<refsect1>
+<title
+>Upphovsmän</title>
+<para
+>Underhåll av SFL-telefon sköts av Emmanuel Milou : emmanuel.milou@savoirfairelinux.com. Underhåll av KDE-klienten för SFL-telefon sköts av Jérémy Quentin : jeremy.quentin@savoirfairelinux.com. En fullständig lista över upphovsmän och bidragsgivare är tillgänglig i den fullständiga användarhandboken som nämns ovan.</para>
+</refsect1>
+
+
+<refsect1>
+<title
+>Licens</title>
+<para
+>Detta program är fri programvara. Du kan distribuera det och/eller ändra det under villkoren i GNU General Public License version 3, publicerad av Free Software Foundation.</para>
+<para
+>På Debian GNU/Linux system finns den fullständiga texten för GNU General Public License i `/usr/share/common-licenses/GPL'.</para>
+</refsect1>
+
+
+</refentry>

@@ -1,0 +1,2484 @@
+# Translation of sflphone-client-kde.po to Brazilian Portuguese
+# Copyright (C) 2012-2014 This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2012.
+# André Marcelo Alvarenga <alvarenga@kde.org>, 2012, 2013, 2014.
+# Marcus Gama <marcus.gama@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: sflphone-client-kde\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-09-12 02:05+0000\n"
+"PO-Revision-Date: 2014-07-23 21:28-0300\n"
+"Last-Translator: André Marcelo Alvarenga <alvarenga@kde.org>\n"
+"Language-Team: Brazilian Portuguese <kde-i18n-pt_br@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "André Marcelo Alvarenga"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "alvarenga@kde.org"
+
+#. i18n: ectx: Menu (Actions)
+#: data/sflphone-client-kdeui.rc:5
+msgid "Actions"
+msgstr "Ações"
+
+#. i18n: ectx: Menu (View)
+#: data/sflphone-client-kdeui.rc:20
+msgid "View"
+msgstr "Exibir"
+
+#. i18n: ectx: Menu (Settings)
+#: data/sflphone-client-kdeui.rc:30
+msgid "Settings"
+msgstr "Configurações"
+
+#: src/accountwizard.cpp:190 src/accountwizard.cpp:352
+#: src/actioncollection.cpp:202
+msgid "Account creation wizard"
+msgstr "Assistente de criação de conta"
+
+#: src/accountwizard.cpp:247 src/accountwizard.cpp:268
+#: src/accountwizard.cpp:283 src/accountwizard.cpp:619
+msgid "This assistant is now finished."
+msgstr "Este assistente terminou agora."
+
+#: src/accountwizard.cpp:264
+#, kde-format
+msgid ""
+"Creation of account has failed for the reason:\n"
+"%1"
+msgstr ""
+"Ocorreu uma falha na criação da conta pelo seguinte motivo:\n"
+"%1"
+
+#: src/accountwizard.cpp:324
+#, kde-format
+msgid "Alias: %1"
+msgstr "Nome de exibição: %1"
+
+#: src/accountwizard.cpp:325
+#, kde-format
+msgid "Server: %1"
+msgstr "Servidor: %1"
+
+#: src/accountwizard.cpp:326
+#, kde-format
+msgid "Password: %1"
+msgstr "Senha: %1"
+
+#: src/accountwizard.cpp:327
+#, kde-format
+msgid "Protocol: %1"
+msgstr "Protocolo: %1"
+
+#: src/accountwizard.cpp:328
+#, kde-format
+msgid "Voicemail number: %1"
+msgstr "Número do correio de voz: %1"
+
+#: src/accountwizard.cpp:329
+#, kde-format
+msgctxt "SIP Account username"
+msgid "Username: %1"
+msgstr "Nome de usuário: %1"
+
+#: src/accountwizard.cpp:353
+msgid "Welcome to the Account creation wizard of SFLphone"
+msgstr "Bem-vindo ao assistente de criação de contas do SFLphone"
+
+#: src/accountwizard.cpp:355
+msgid "This installation wizard will help you configure an account."
+msgstr "Este assistente de instalação irá ajudá-lo a configurar uma conta."
+
+#: src/accountwizard.cpp:358
+msgid "Always display this dialog when there is no accounts"
+msgstr "Sempre mostrar esta janela quando não existirem contas"
+
+#: src/accountwizard.cpp:390
+msgid "VoIP Protocols"
+msgstr "Protocolos de VoIP"
+
+#: src/accountwizard.cpp:391
+msgid "Select an account type"
+msgstr "Selecione um tipo de conta"
+
+#: src/accountwizard.cpp:393
+msgid "SIP (Session Initiation Protocol)"
+msgstr "SIP (Session Initiation Protocol)"
+
+#: src/accountwizard.cpp:394
+msgid "IAX2 (InterAsterix Exchange)"
+msgstr "IAX2 (InterAsterix Exchange)"
+
+#: src/accountwizard.cpp:430
+msgid "SIP account settings"
+msgstr "Configurações da conta SIP"
+
+#: src/accountwizard.cpp:431 src/accountwizard.cpp:512
+msgid "Please fill the following information"
+msgstr "Preencha as informações a seguir"
+
+#: src/accountwizard.cpp:433 src/accountwizard.cpp:514
+msgid "Alias"
+msgstr "Nome de exibição"
+
+#: src/accountwizard.cpp:434 src/accountwizard.cpp:515
+msgid "Server"
+msgstr "Servidor"
+
+#. i18n: ectx: property (text), widget (QLabel, label_credential_password)
+#: src/accountwizard.cpp:435 src/accountwizard.cpp:516
+#: src/conf/dlgaccountsbase.ui:1122
+msgid "Password"
+msgstr "Senha"
+
+#: src/accountwizard.cpp:436 src/accountwizard.cpp:517
+msgid "Voicemail number"
+msgstr "Número do correio de voz"
+
+#: src/accountwizard.cpp:437
+msgid "Secure with ZRTP"
+msgstr "Seguro com ZRTP"
+
+#: src/accountwizard.cpp:438 src/accountwizard.cpp:518
+msgctxt "SIP Account Username"
+msgid "Username"
+msgstr "Nome de usuário"
+
+#: src/accountwizard.cpp:447
+msgid "Anything, used only locally"
+msgstr "Qualquer coisa, usado apenas localmente"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit3_server)
+#: src/accountwizard.cpp:448 src/conf/dlgaccountsbase.ui:309
+msgid "Example: sip.sflphone.org or 192.168.0.2"
+msgstr "Exemplo: sip.sflphone.org ou 192.168.0.2"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit4_user)
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit_credential_auth)
+#: src/accountwizard.cpp:449 src/conf/dlgaccountsbase.ui:329
+#: src/conf/dlgaccountsbase.ui:1142
+msgid "Usually your extension number"
+msgstr "Normalmente o seu número de extensão"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit5_password)
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit_credential_password)
+#: src/accountwizard.cpp:450 src/conf/dlgaccountsbase.ui:349
+#: src/conf/dlgaccountsbase.ui:1158
+msgid "SIP password, ask your network administrator"
+msgstr "Senha SIP, peça ao administrador da sua rede"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit6_mailbox)
+#: src/accountwizard.cpp:451 src/conf/dlgaccountsbase.ui:366
+msgid "Usually the same as the username"
+msgstr "Normalmente igual ao nome de usuário"
+
+#: src/accountwizard.cpp:511
+msgid "IAX2 account settings"
+msgstr "Configurações da conta IAX2"
+
+#: src/accountwizard.cpp:578
+msgid "Network Address Translation (NAT)"
+msgstr "Network Address Translation (NAT)"
+
+#: src/accountwizard.cpp:579
+msgid "You should probably enable this if you are behind a firewall."
+msgstr "Você provavelmente deve ativar isto se estiver atrás de um firewall."
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_stun)
+#: src/accountwizard.cpp:581 src/conf/dlgaccountsbase.ui:542
+msgid "Enable STUN"
+msgstr "Ativar o STUN"
+
+#: src/accountwizard.cpp:582
+msgid "STUN Server"
+msgstr "Servidor STUN"
+
+#: src/accountwizard.cpp:620
+msgid ""
+"After checking the settings you chose, click \"Finish\" to create the "
+"account. This may take a while to complete."
+msgstr ""
+"Depois de verificar as configurações escolhidas, clique em \"Concluir\" para "
+"criar a conta. Isto poderá demorar um pouco para completar."
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pTransferB)
+#: src/actioncollection.cpp:91 src/delegates/contactdelegate.cpp:182
+#: src/delegates/historydelegate.cpp:270 src/delegates/historydelegate.cpp:271
+#: src/sflphoneview.cpp:85 src/widgets/ui/transfer.ui:105
+msgid "Transfer"
+msgstr "Transferir"
+
+#: src/actioncollection.cpp:92 src/sflphoneview.cpp:86
+msgid "Record"
+msgstr "Gravar"
+
+#: src/actioncollection.cpp:93
+msgid "Hold"
+msgstr "Aguardar"
+
+#: src/actioncollection.cpp:94
+msgid "Refuse"
+msgstr "Recusar"
+
+#: src/actioncollection.cpp:95 src/sflphoneview.cpp:83 src/sflphoneview.cpp:88
+msgid "Hang up"
+msgstr "Desligar"
+
+#: src/actioncollection.cpp:96
+msgid "Unhold"
+msgstr "Retornar"
+
+#: src/actioncollection.cpp:97
+msgid "Pickup"
+msgstr "Selecionar"
+
+#: src/actioncollection.cpp:98
+msgctxt "Mute the current audio capture device"
+msgid "Mute"
+msgstr "Sem áudio"
+
+#: src/actioncollection.cpp:99
+msgctxt "Mute the current audio playback device"
+msgid "Mute Playback"
+msgstr "Silenciar"
+
+#: src/actioncollection.cpp:100
+msgid "Dial"
+msgstr "Discar"
+
+#: src/actioncollection.cpp:111
+msgid "Rotate left"
+msgstr "Girar à esquerda"
+
+#: src/actioncollection.cpp:112
+msgid "Rotate right"
+msgstr "Girar à direita"
+
+#: src/actioncollection.cpp:113 src/actioncollection.cpp:114
+msgid "Flip"
+msgstr "Inverter"
+
+#: src/actioncollection.cpp:115
+msgid "Mute"
+msgstr "Sem áudio"
+
+#: src/actioncollection.cpp:116
+msgid "Preview"
+msgstr "Visualização"
+
+#: src/actioncollection.cpp:117
+msgid "Keep aspect ratio"
+msgstr "Manter proporção"
+
+#: src/actioncollection.cpp:118
+msgid "Fullscreen"
+msgstr "Tela inteira"
+
+#: src/actioncollection.cpp:192
+msgid "Configure SFLPhone-KDE"
+msgstr "Configurar o SFLPhone-KDE"
+
+#: src/actioncollection.cpp:194
+msgid "Display dialpad"
+msgstr "Mostrar o teclado"
+
+#: src/actioncollection.cpp:195
+msgid "Display text message box"
+msgstr "Mostrar o campo da mensagem de texto"
+
+#: src/actioncollection.cpp:196
+msgid "Display volume controls"
+msgstr "Mostrar os controles de volume"
+
+#: src/actioncollection.cpp:197
+msgid "Paste"
+msgstr "Colar"
+
+#: src/actioncollection.cpp:198
+msgid "Display Contact"
+msgstr "Mostrar o contato"
+
+#: src/actioncollection.cpp:199
+msgid "Display history"
+msgstr "Mostrar o histórico"
+
+#: src/actioncollection.cpp:200
+msgid "Display bookmark"
+msgstr "Mostrar o favorito"
+
+#: src/actioncollection.cpp:201
+msgid "Configure Toolbars"
+msgstr "Configurar barras de ferramentas"
+
+#: src/actioncollection.cpp:203
+msgid "Add new contact"
+msgstr "Adicionar novo contato"
+
+#: src/actioncollection.cpp:209
+msgid "Configure SFLphone"
+msgstr "Configurar o SFLphone"
+
+#: src/actioncollection.cpp:237
+msgid "Configure Shortcut"
+msgstr "Configurar atalho"
+
+#: src/canvasobjectmanager.cpp:224
+msgid "SFLPhone"
+msgstr "SFLPhone"
+
+#: src/conf/configurationdialog.cpp:115
+msgid "Accounts"
+msgstr "Contas"
+
+#: src/conf/configurationdialog.cpp:126
+msgctxt "History settings"
+msgid "History"
+msgstr "Histórico"
+
+#: src/conf/configurationdialog.cpp:135
+msgctxt "User interterface settings"
+msgid "Display"
+msgstr "Visualização"
+
+#: src/conf/configurationdialog.cpp:144
+msgid "Audio"
+msgstr "Áudio"
+
+#: src/conf/configurationdialog.cpp:153
+msgid "Address Book"
+msgstr "Livro de endereços"
+
+#: src/conf/configurationdialog.cpp:162
+msgid "Hooks"
+msgstr "Rotinas"
+
+#: src/conf/configurationdialog.cpp:171
+msgid "Accessibility"
+msgstr "Acessibilidade"
+
+#: src/conf/configurationdialog.cpp:181 src/widgets/videodock.cpp:129
+msgctxt "Video conversation"
+msgid "Video"
+msgstr "Vídeo"
+
+#: src/conf/configurationdialog.cpp:191
+msgctxt "SIP Presence"
+msgid "Presence"
+msgstr "Presença"
+
+#: src/conf/dlgaccessibility.cpp:45
+msgid ""
+"This page allows to create macros that can then be called using keyboard "
+"shortcuts or added to the toolbar. To create one, assign a name and a "
+"character sequence. The sequence can be numeric or any character than can be "
+"interpreted as one (ex: \"A\" would be interpreted as 2)"
+msgstr ""
+"Esta página permite-lhe criar macros que podem ser chamadas com o uso de "
+"atalhos de teclado ou adicionadas à barra de ferramentas. Para criar uma, "
+"atribua um nome e uma sequência de caracteres. A sequência pode ser numérica "
+"ou de qualquer caractere que possa ser interpretado como uma (p.ex: \"A\" "
+"será interpretado como 2)"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DlgAccessibility)
+#: src/conf/dlgaccessibility.ui:14
+msgid "Accessibility settings"
+msgstr "Configurações da acessibilidade"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_enableAutoCompletion)
+#: src/conf/dlgaccessibility.ui:20
+msgid "Auto completion"
+msgstr "Complementação automática"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoCompleteMergeNumbers)
+#: src/conf/dlgaccessibility.ui:29
+msgid "Merge numbers from different accounts"
+msgstr "Mesclar os números das diferentes contas"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoCompleteUseAccount)
+#: src/conf/dlgaccessibility.ui:36
+msgid "Call number using their original accounts"
+msgstr "Ligar ao número usando suas contas originais"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_pT2SBG)
+#: src/conf/dlgaccessibility.ui:46
+msgid "Text to Speech"
+msgstr "Texto a falar"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableVoiceFeedback)
+#. i18n: ectx: label, entry (enableVoiceFeedback), group (main)
+#. i18n: ectx: label, entry (displayContactDock), group (main)
+#. i18n: ectx: label, entry (displayHistoryDock), group (main)
+#. i18n: ectx: label, entry (displayBookmarkDock), group (main)
+#: src/conf/dlgaccessibility.ui:52 src/klib/sflphone-client-kde.kcfg:238
+#: src/klib/sflphone-client-kde.kcfg:279 src/klib/sflphone-client-kde.kcfg:283
+#: src/klib/sflphone-client-kde.kcfg:287
+msgid "Enable audio feedback from common actions"
+msgstr "Ativar o retorno de áudio para as ações comuns"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableReadLabel)
+#. i18n: ectx: label, entry (enableReadLabel), group (main)
+#: src/conf/dlgaccessibility.ui:59 src/klib/sflphone-client-kde.kcfg:242
+msgid "Automatically read label when an overlay is being displayed"
+msgstr "Ler automaticamente a legenda quando mostrar uma camada"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableReadDetails)
+#. i18n: ectx: label, entry (enableReadDetails), group (main)
+#: src/conf/dlgaccessibility.ui:66 src/klib/sflphone-client-kde.kcfg:246
+msgid "Automatically read the call details when it is selected"
+msgstr "Ler automaticamente os detalhes da chamada quando selecionada"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/dlgaccessibility.ui:82
+msgid "Macro"
+msgstr "Macro"
+
+#. i18n: ectx: property (text), widget (RightToolButton, m_pRemoveTB)
+#. i18n: ectx: property (text), widget (RightToolButton, m_pRemove)
+#: src/conf/dlgaccessibility.ui:112 src/conf/dlgpresence.ui:81
+msgid "Remove"
+msgstr "Remover"
+
+#. i18n: ectx: property (text), widget (LeftToolButton, m_pAddTB)
+#. i18n: ectx: property (text), widget (CenterToolButton, m_pAdd)
+#: src/conf/dlgaccessibility.ui:126 src/conf/dlgpresence.ui:71
+msgid "Add"
+msgstr "Adicionar"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pNameL)
+#: src/conf/dlgaccessibility.ui:210
+msgid "Name*"
+msgstr "Nome*"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pNameLE)
+#: src/conf/dlgaccessibility.ui:217
+msgid "Identifier for this macro (toolbar text)"
+msgstr "Identificador para esta macro (texto da barra de ferramentas)"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pCategoryL)
+#: src/conf/dlgaccessibility.ui:230
+msgid "Category*"
+msgstr "Categoria*"
+
+#. i18n: ectx: property (text), widget (QLabel, m_mSequenceL)
+#: src/conf/dlgaccessibility.ui:247
+msgid "Sequence*"
+msgstr "Sequência*"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pSequenceLE)
+#: src/conf/dlgaccessibility.ui:254
+msgid "The key sequence to be executed"
+msgstr "A sequência de chaves a ser executada"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pDelayL)
+#: src/conf/dlgaccessibility.ui:267
+msgid "Delay"
+msgstr "Atraso"
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, spinbox_tls_timeout_msec)
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_pDelaySB)
+#: src/conf/dlgaccessibility.ui:274 src/conf/dlgaccountsbase.ui:1505
+msgid "ms"
+msgstr "ms"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pDescriptionL)
+#: src/conf/dlgaccessibility.ui:290
+msgid "Description"
+msgstr "Descrição"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pDescriptionLE)
+#: src/conf/dlgaccessibility.ui:297
+msgid "A description for this macro"
+msgstr "Uma descrição para esta macro"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/conf/dlgaccessibility.ui:328
+msgid "Shortcut"
+msgstr "Atalho"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pInfoL)
+#: src/conf/dlgaccessibility.ui:361
+msgid "Info"
+msgstr "Informações"
+
+#: src/conf/dlgaccounts.cpp:110
+msgid ""
+"To add an account, press the \"Add\" button below. Use the ⬆ up and ⬇ down "
+"button to change the default account priority."
+msgstr ""
+"Para adicionar uma conta, clique no botão \"Adicionar\" abaixo. Use as "
+"teclas ⬆ (para cima) e ⬇ (para baixo) para mudar a prioridade da conta "
+"padrão."
+
+#: src/conf/dlgaccounts.cpp:118
+msgid "Usually called \"ca.crt\" or \"cacert.pem\""
+msgstr "Normalmente chamado de \"ca.crt\" ou \"cacert.pem\""
+
+#: src/conf/dlgaccounts.cpp:119
+msgid "A .pem or .crt"
+msgstr "Um arquivo .pem ou .crt"
+
+#: src/conf/dlgaccounts.cpp:120
+msgid "A .key file"
+msgstr "Um arquivo .key"
+
+#: src/conf/dlgaccounts.cpp:642
+msgid "New account"
+msgstr "Nova conta"
+
+#: src/conf/dlgaccounts.cpp:642
+#, kde-format
+msgid "New account%1"
+msgstr "Nova conta%1"
+
+#: src/conf/dlgaccounts.cpp:657
+#, kde-format
+msgid "Are you sure you want to remove %1?"
+msgstr "Deseja realmente remover %1?"
+
+#: src/conf/dlgaccounts.cpp:657
+msgid "Remove account"
+msgstr "Remover conta"
+
+#: src/conf/dlgaccounts.cpp:700
+msgid "Warning, caps lock is turned on!"
+msgstr "Aviso: o caps lock está ligado!"
+
+#. i18n: ectx: property (text), widget (QLabel, label_message)
+#: src/conf/dlgaccounts.cpp:704 src/conf/dlgaccountsbase.ui:460
+msgid "Fields marked with \"*\" are compulsory and required"
+msgstr "Os campos marcados com \"*\" são obrigatórios"
+
+#. i18n: ectx: property (whatsThis), widget (CategorizedTreeView, treeView_accountList)
+#: src/conf/dlgaccountsbase.ui:92
+msgid ""
+"By default, when you place a call, sflphone will use the first account in "
+"this list which is \"registered\". Change the order of the accounts using "
+"the \"Up\" and \"Down\" arrows. Enable/disable them by checking/unchecking "
+"them on the left of the item. Add or remove some with \"Plus\" and \"Sub\" "
+"buttons. Edit the selected account with the form on the right."
+msgstr ""
+"Por padrão, quando você faz uma chamada, o sflphone irá usar a primeira "
+"conta \"registrada\" nesta lista. Altere a ordem das contas com os botões "
+"\"Para cima\" e \"Para baixo\". Ative ou desative-as marcando/desmarcando à "
+"esquerda do item. Adicione ou remova-as com os botões \"Mais\" e \"Menos\". "
+"Edite a conta selecionada com o formulário à direita."
+
+#. i18n: ectx: property (toolTip), widget (LeftToolButton, button_accountUp)
+#: src/conf/dlgaccountsbase.ui:123
+msgid "Get this account up"
+msgstr "Move a conta para cima"
+
+#. i18n: ectx: property (whatsThis), widget (LeftToolButton, button_accountUp)
+#. i18n: ectx: property (whatsThis), widget (CenterToolButton, button_accountDown)
+#. i18n: ectx: property (whatsThis), widget (LeftToolButton, button_audiocodecUp)
+#. i18n: ectx: property (whatsThis), widget (RightToolButton, button_audiocodecDown)
+#: src/conf/dlgaccountsbase.ui:126 src/conf/dlgaccountsbase.ui:142
+#: src/conf/dlgaccountsbase.ui:861 src/conf/dlgaccountsbase.ui:877
+msgid ""
+"By default, when you place a call, sflphone will use the first account in "
+"this list which is \"registered\". Change the order of the accounts using "
+"the \"Up\" and \"Down\" arrows."
+msgstr ""
+"Por padrão, quando você faz uma chamada, o sflphone irá usar a primeira "
+"conta \"registrada\" nesta lista. Altere a ordem das contas com os botões "
+"\"Para cima\" e \"Para baixo\"."
+
+#. i18n: ectx: property (text), widget (LeftToolButton, button_accountUp)
+#: src/conf/dlgaccountsbase.ui:129
+msgctxt "Move account up"
+msgid "Up"
+msgstr "Para cima"
+
+#. i18n: ectx: property (toolTip), widget (CenterToolButton, button_accountDown)
+#: src/conf/dlgaccountsbase.ui:139
+msgid "Get this account down"
+msgstr "Move a conta para baixo"
+
+#. i18n: ectx: property (text), widget (CenterToolButton, button_accountDown)
+#: src/conf/dlgaccountsbase.ui:145
+msgctxt "Move account down"
+msgid "Down"
+msgstr "Para baixo"
+
+#. i18n: ectx: property (toolTip), widget (CenterToolButton, button_accountAdd)
+#: src/conf/dlgaccountsbase.ui:167
+msgid "Add a new account"
+msgstr "Adicionar uma nova conta"
+
+#. i18n: ectx: property (whatsThis), widget (CenterToolButton, button_accountAdd)
+#: src/conf/dlgaccountsbase.ui:170
+msgid ""
+"This button enables you to initialize a new account. You will then be able "
+"to edit it using the form on the right."
+msgstr ""
+"Este botão permite-lhe inicializar uma nova conta. Então, você será capaz de "
+"editá-la usando o formulário à direita."
+
+#. i18n: ectx: property (text), widget (CenterToolButton, button_accountAdd)
+#: src/conf/dlgaccountsbase.ui:173
+msgctxt "Add new account"
+msgid "Add"
+msgstr "Adicionar"
+
+#. i18n: ectx: property (toolTip), widget (RightToolButton, button_accountRemove)
+#: src/conf/dlgaccountsbase.ui:189
+msgid "Remove the selected account"
+msgstr "Remove a conta selecionada"
+
+#. i18n: ectx: property (whatsThis), widget (RightToolButton, button_accountRemove)
+#: src/conf/dlgaccountsbase.ui:192
+msgid ""
+"This button will remove the selected account in the list below. Be sure you "
+"really don't need it anymore. If you think you might use it again later, "
+"just uncheck it."
+msgstr ""
+"Este botão irá remover a conta selecionada na lista abaixo. Certifique-se de "
+"que realmente não precisa mais dela. Se você acha que poderá usá-la mais "
+"tarde, basta desmarcá-la."
+
+#. i18n: ectx: property (text), widget (RightToolButton, button_accountRemove)
+#: src/conf/dlgaccountsbase.ui:198
+msgctxt "Remove selected account"
+msgid "Remove"
+msgstr "Remover"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_basic)
+#: src/conf/dlgaccountsbase.ui:229
+msgctxt "Basic settings"
+msgid "Basic"
+msgstr "Básico"
+
+#. i18n: ectx: property (text), widget (QLabel, label1_alias)
+#: src/conf/dlgaccountsbase.ui:240
+msgid "Alias*"
+msgstr "Nome de exibição*"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit1_alias)
+#: src/conf/dlgaccountsbase.ui:262
+msgid "Anything, used only to select the account"
+msgstr "Tudo, usado apenas para selecionar a conta"
+
+#. i18n: ectx: property (text), widget (QLabel, label2_protocol)
+#: src/conf/dlgaccountsbase.ui:269
+msgid "Protocol"
+msgstr "Protocolo"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, edit2_protocol)
+#: src/conf/dlgaccountsbase.ui:280
+msgid "SIP"
+msgstr "SIP"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, edit2_protocol)
+#: src/conf/dlgaccountsbase.ui:285
+msgid "IAX"
+msgstr "IAX"
+
+#. i18n: ectx: property (text), widget (QLabel, label3_server)
+#: src/conf/dlgaccountsbase.ui:293
+msgctxt "SIP server"
+msgid "Server*"
+msgstr "Servidor*"
+
+#. i18n: ectx: property (text), widget (QLabel, label4_user)
+#: src/conf/dlgaccountsbase.ui:319
+msgctxt "Account username"
+msgid "Username*"
+msgstr "Nome de usuário*"
+
+#. i18n: ectx: property (text), widget (QLabel, label5_password)
+#: src/conf/dlgaccountsbase.ui:336
+msgctxt "Account password"
+msgid "Password*"
+msgstr "Senha*"
+
+#. i18n: ectx: property (text), widget (QLabel, label6_mailbox)
+#: src/conf/dlgaccountsbase.ui:356
+msgctxt "Account voice mail address"
+msgid "Voicemail"
+msgstr "Correio de voz"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pDefaultAccount)
+#: src/conf/dlgaccountsbase.ui:373
+msgid "Default account for contact with only extensions as phone number"
+msgstr ""
+"Conta padrão para o contato quando só marcar a extensão como número de "
+"telefone"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pAutoAnswer)
+#: src/conf/dlgaccountsbase.ui:380
+msgid "Auto answer"
+msgstr "Resposta automática"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pPresenceCK)
+#: src/conf/dlgaccountsbase.ui:390
+msgid "Enable presence support"
+msgstr "Ativar o suporte a presença"
+
+#. i18n: ectx: property (text), widget (QLabel, label7_state)
+#: src/conf/dlgaccountsbase.ui:397
+msgid "Status"
+msgstr "Status"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_advanced)
+#: src/conf/dlgaccountsbase.ui:471
+msgctxt "Advanced settings"
+msgid "Advanced"
+msgstr "Avançado"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/dlgaccountsbase.ui:477
+msgid "Registration"
+msgstr "Registro"
+
+#. i18n: ectx: property (text), widget (QLabel, label_regExpire)
+#: src/conf/dlgaccountsbase.ui:483
+msgid "Registration expire"
+msgstr "Expiração do registro"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pUserAgentL)
+#: src/conf/dlgaccountsbase.ui:513
+msgid "User agent"
+msgstr "Agente do usuário"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: src/conf/dlgaccountsbase.ui:526
+msgid "STUN"
+msgstr "STUN"
+
+#. i18n: ectx: property (text), widget (QLabel, label_commonSettings)
+#: src/conf/dlgaccountsbase.ui:532
+msgid "STUN parameters will be applied on each SIP account created."
+msgstr "Os parâmetros do STUN serão aplicados em cada conta SIP criada."
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, line_stun)
+#: src/conf/dlgaccountsbase.ui:552
+msgid "Choose STUN server (example: stunserver.org)"
+msgstr "Escolha o servidor STUN (exemplo: stunserver.org)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
+#: src/conf/dlgaccountsbase.ui:562
+msgid "DTMF"
+msgstr "DTMF"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pDTMFOverRTP)
+#: src/conf/dlgaccountsbase.ui:568
+msgid "Over RTP"
+msgstr "Sobre RTP"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pDTMFOverSIP)
+#: src/conf/dlgaccountsbase.ui:575
+msgid "Over SIP"
+msgstr "Sobre SIP"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: src/conf/dlgaccountsbase.ui:599
+msgid "Network"
+msgstr "Rede"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/conf/dlgaccountsbase.ui:605
+msgid "Network Interface"
+msgstr "Interface de rede"
+
+#. i18n: ectx: property (text), widget (QLabel, label_ni_local_address)
+#: src/conf/dlgaccountsbase.ui:614
+msgid "Local address"
+msgstr "Endereço local"
+
+#. i18n: ectx: property (text), widget (QLabel, label_ni_local_port)
+#: src/conf/dlgaccountsbase.ui:624
+msgid "Local port"
+msgstr "Porta local"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pProxyLE)
+#: src/conf/dlgaccountsbase.ui:638
+msgid "SIP proxy server (if none, leave blank)"
+msgstr "Servidor de proxy SIP (se não existir, deixe em branco)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pProxyCK)
+#: src/conf/dlgaccountsbase.ui:645
+msgid "Proxy"
+msgstr "Proxy"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: ectx: property (text), widget (QLabel, label_published_address)
+#: src/conf/dlgaccountsbase.ui:655 src/conf/dlgaccountsbase.ui:675
+msgid "Published address"
+msgstr "Endereço público"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_pa_same_as_local)
+#: src/conf/dlgaccountsbase.ui:661
+msgid "Same as local parameters"
+msgstr "Igual aos parâmetros locais"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_pa_custom)
+#: src/conf/dlgaccountsbase.ui:668
+msgid "Set published address and port"
+msgstr "Definir o endereço e porta públicos"
+
+#. i18n: ectx: property (text), widget (QLabel, label_pa_published_port)
+#: src/conf/dlgaccountsbase.ui:682
+msgid "Published port"
+msgstr "Porta publicada"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, lineEdit_pa_published_address)
+#: src/conf/dlgaccountsbase.ui:696
+msgid "IP address or hostname"
+msgstr "Endereço IP ou nome da máquina"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_7)
+#: src/conf/dlgaccountsbase.ui:719
+msgid "RTP configuration"
+msgstr "Configuração do RTP"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMinAudioPortL)
+#: src/conf/dlgaccountsbase.ui:732
+msgid "Minimum audio port"
+msgstr "Porta de áudio mínima"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMinVideoPortL)
+#. i18n: ectx: property (text), widget (QLabel, m_pMaxVideoPortL)
+#: src/conf/dlgaccountsbase.ui:773 src/conf/dlgaccountsbase.ui:787
+msgid "Minimum video port"
+msgstr "Porta de vídeo mínima"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMaxAudioPortL)
+#: src/conf/dlgaccountsbase.ui:780
+msgid "Maximum audio port"
+msgstr "Porta de áudio máxima"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_codec)
+#: src/conf/dlgaccountsbase.ui:811
+msgid "Codecs"
+msgstr "Codecs"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#: src/conf/dlgaccountsbase.ui:817
+msgid "Audio codecs"
+msgstr "Codecs de áudio"
+
+#. i18n: ectx: property (text), widget (QLabel, label_frequency)
+#: src/conf/dlgaccountsbase.ui:826
+msgid "Sample rate:"
+msgstr "Taxa de amostragem:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_frequency_value)
+#. i18n: ectx: property (text), widget (QLabel, label_bitrate_value)
+#: src/conf/dlgaccountsbase.ui:833 src/conf/dlgaccountsbase.ui:899
+msgid "-"
+msgstr "-"
+
+#. i18n: ectx: property (toolTip), widget (LeftToolButton, button_audiocodecUp)
+#. i18n: ectx: property (toolTip), widget (LeftToolButton, m_pVCodecUpPB)
+#: src/conf/dlgaccountsbase.ui:858 src/conf/dlgaccountsbase.ui:956
+msgid "Increase codec priority"
+msgstr "Aumenta a prioridade do codec"
+
+#. i18n: ectx: property (text), widget (LeftToolButton, button_audiocodecUp)
+#: src/conf/dlgaccountsbase.ui:864
+msgctxt "Move audio codec up"
+msgid "Up"
+msgstr "Para cima"
+
+#. i18n: ectx: property (toolTip), widget (RightToolButton, button_audiocodecDown)
+#. i18n: ectx: property (toolTip), widget (RightToolButton, m_pVCodecDownPB)
+#: src/conf/dlgaccountsbase.ui:874 src/conf/dlgaccountsbase.ui:966
+msgid "Decrease codec priority"
+msgstr "Diminui a prioridade do codec"
+
+#. i18n: ectx: property (text), widget (RightToolButton, button_audiocodecDown)
+#: src/conf/dlgaccountsbase.ui:880
+msgctxt "Move audio codec down"
+msgid "Down"
+msgstr "Para baixo"
+
+#. i18n: ectx: property (text), widget (QLabel, label_bitrate)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/conf/dlgaccountsbase.ui:892 src/conf/dlgaccountsbase.ui:924
+msgid "Bitrate:"
+msgstr "Taxa de bits:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_pVideoCodecGB)
+#: src/conf/dlgaccountsbase.ui:909
+msgid "Video codecs"
+msgstr "Codecs de vídeo"
+
+#. i18n: ectx: property (text), widget (LeftToolButton, m_pVCodecUpPB)
+#: src/conf/dlgaccountsbase.ui:959
+msgctxt "Move video codec up"
+msgid "Up"
+msgstr "Para cima"
+
+#. i18n: ectx: property (text), widget (RightToolButton, m_pVCodecDownPB)
+#: src/conf/dlgaccountsbase.ui:969
+msgctxt "Move video codec down"
+msgid "Down"
+msgstr "Para baixo"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pEnableVideo)
+#: src/conf/dlgaccountsbase.ui:981
+msgid "Enable video when supported"
+msgstr "Ativar o vídeo quando suportado"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_credentials)
+#: src/conf/dlgaccountsbase.ui:1005
+msgid "Credential"
+msgstr "Credencial"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pInfoL)
+#: src/conf/dlgaccountsbase.ui:1036
+msgid ""
+"This tab help manage accounts with multiple credentials. If you have "
+"multiple accounts. Do not use this feature, just create multiple accounts in "
+"SFLPhone. Nor use this dialog if you only have one set of credentials. In "
+"that case, the \"Basic\" tab will provide everything you need."
+msgstr ""
+"Esta aba ajuda a gerenciar as contas com várias credenciais. Se tiver várias "
+"contas, não use esta funcionalidade. Basta criar várias contas no SFLPhone. "
+"Também não use esta janela se tiver apenas um conjunto de credenciais. Nesse "
+"caso, a aba \"Básico\" lhe fornecerá tudo o que precisa."
+
+#. i18n: ectx: property (text), widget (LeftToolButton, button_add_credential)
+#: src/conf/dlgaccountsbase.ui:1080
+msgctxt "Add new credential"
+msgid "Add"
+msgstr "Adicionar"
+
+#. i18n: ectx: property (text), widget (RightToolButton, button_remove_credential)
+#: src/conf/dlgaccountsbase.ui:1087
+msgctxt "Remove selected credential"
+msgid "Remove"
+msgstr "Remover"
+
+#. i18n: ectx: property (title), widget (QGroupBox, group_credential)
+#: src/conf/dlgaccountsbase.ui:1102
+msgid "Details"
+msgstr "Detalhes"
+
+#. i18n: ectx: property (text), widget (QLabel, label_credential_realm)
+#: src/conf/dlgaccountsbase.ui:1108
+msgid "Realm"
+msgstr "Domínio"
+
+#. i18n: ectx: property (text), widget (QLabel, labe_credential_auth)
+#: src/conf/dlgaccountsbase.ui:1115
+msgid "Auth. name"
+msgstr "Nome da autenticação"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit_credential_realm)
+#: src/conf/dlgaccountsbase.ui:1132
+msgid "Usually *"
+msgstr "Normalmente *"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_security)
+#: src/conf/dlgaccountsbase.ui:1185
+msgid "Security"
+msgstr "Segurança"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupbox_STRP_keyexchange)
+#: src/conf/dlgaccountsbase.ui:1224
+msgid "Encrypt media streams (SRTP)"
+msgstr "Criptografar as transmissões de mídia (SRTP)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_ZTRP_send_hello)
+#: src/conf/dlgaccountsbase.ui:1243
+msgid "Send Hello Hash in SDP"
+msgstr "Enviar o código 'Olá' no SDP"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_ZRTP_warn_supported)
+#: src/conf/dlgaccountsbase.ui:1250
+msgid "Ask user to confirm SAS"
+msgstr "Solicitar ao usuário para confirmar o SAS"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_ZRTP_Ask_user)
+#: src/conf/dlgaccountsbase.ui:1257
+msgid "Warn if ZRTP is not supported"
+msgstr "Avisar se o ZRTP não for suportado"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_ZRTP_display_SAS)
+#: src/conf/dlgaccountsbase.ui:1264
+msgid "Display SAS once for hold events"
+msgstr "Mostrar o SAS uma vez para os eventos de suspensão"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_SDES_fallback_rtp)
+#: src/conf/dlgaccountsbase.ui:1271
+msgid "Fallback on RTP on SDES failure"
+msgstr "Alternativa em caso de falha do RTP em SDES"
+
+#. i18n: ectx: property (title), widget (QGroupBox, group_security_tls)
+#: src/conf/dlgaccountsbase.ui:1287
+msgid "Encrypt negotiation (TLS)"
+msgstr "Negociação de criptografia (TLS)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_listener)
+#: src/conf/dlgaccountsbase.ui:1299
+msgid "Global TLS listener port"
+msgstr "Porta de escuta de TLS global"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_authority)
+#: src/conf/dlgaccountsbase.ui:1326
+msgid "Authority certificate list"
+msgstr "Lista de certificados da autoridade"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_endpoint)
+#: src/conf/dlgaccountsbase.ui:1336
+msgid "Public endpoint certificate"
+msgstr "Certificado final público"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_private_key)
+#: src/conf/dlgaccountsbase.ui:1346
+msgid "Private key"
+msgstr "Chave privada"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_private_key_password)
+#: src/conf/dlgaccountsbase.ui:1356
+msgid "Private key password"
+msgstr "Senha da chave privada"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit_tls_private_key_password)
+#: src/conf/dlgaccountsbase.ui:1376
+msgid "Only necessary if the key have a password"
+msgstr "Necessário apenas se a chave tiver uma senha"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_method)
+#: src/conf/dlgaccountsbase.ui:1386
+msgid "TLS protocol method"
+msgstr "Método do protocolo TLS"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_cipher)
+#: src/conf/dlgaccountsbase.ui:1409
+msgid "TLS cipher list"
+msgstr "Lista de cifras do TLS"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_outgoing)
+#: src/conf/dlgaccountsbase.ui:1419
+msgid "Outgoing TLS server name"
+msgstr "Nome do servidor de envio TLS"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit_tls_outgoing)
+#: src/conf/dlgaccountsbase.ui:1426
+msgid "Usually the SIP server hostname"
+msgstr "Normalmente o nome do servidor de SIP"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_timeout)
+#: src/conf/dlgaccountsbase.ui:1433
+msgid "Negotiation timeout"
+msgstr "Tempo-limite da negociação"
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, spinbox_tls_timeout_sec)
+#: src/conf/dlgaccountsbase.ui:1452
+msgid "s"
+msgstr "s"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_tls_incoming)
+#: src/conf/dlgaccountsbase.ui:1459
+msgid "Verify incoming certificates (server side)"
+msgstr "Verificar os certificados recebidos (do servidor)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_tls_answer)
+#: src/conf/dlgaccountsbase.ui:1466
+msgid "Verify answer certificates (client side)"
+msgstr "Verificar os certificados de resposta (do cliente)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_tls_requier_cert)
+#: src/conf/dlgaccountsbase.ui:1473
+msgid "Require a certificate for incoming TLS connections"
+msgstr "Precisa de um certificado para as conexões TLS recebidas"
+
+#. i18n: ectx: property (text), widget (QLabel, label_timeout2)
+#: src/conf/dlgaccountsbase.ui:1533
+msgid "<center>:</center>"
+msgstr "<center>:</center>"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMoveCertL)
+#: src/conf/dlgaccountsbase.ui:1585
+msgid ""
+"A good security practice is to move the certificates to a common directory. "
+"SELinux recommend ~/.cert for this. Do you wish to move the certificate "
+"there?"
+msgstr ""
+"Uma boa medida de segurança é mover os certificados para uma pasta comum. O "
+"SELinux recomenda a ~/.cert para esse fim. Deseja mover o certificado para "
+"esse local?"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pMoveCertPB)
+#: src/conf/dlgaccountsbase.ui:1599
+msgid "Move to ~/.cert"
+msgstr "Mover para ~/.cert"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pCancelMove)
+#. i18n: ectx: property (text), widget (QPushButton, m_pCancelFix)
+#: src/conf/dlgaccountsbase.ui:1606 src/conf/dlgaccountsbase.ui:1684
+msgid "No thanks"
+msgstr "Não, obrigado"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMoveCertL_2)
+#: src/conf/dlgaccountsbase.ui:1663
+msgid ""
+"Your certification access is too permissive. Certificates should only be "
+"readable by the owner."
+msgstr ""
+"Seu acesso de certificação é muito permissivo. Os certificados só deverão "
+"ser legíveis pelo proprietário."
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pFixCertPB)
+#: src/conf/dlgaccountsbase.ui:1677
+msgid "Fix the permissions"
+msgstr "Corrigir as permissões"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_ringtone)
+#. i18n: ectx: property (title), widget (QGroupBox, m_pEnableRingtoneGB)
+#. i18n: ectx: property (text), widget (QLabel, alsaRingtoneDeviceL)
+#: src/conf/dlgaccountsbase.ui:1735 src/conf/dlgaccountsbase.ui:1741
+#: src/conf/dlgaudiobase.ui:130
+msgid "Ringtone"
+msgstr "Toque de chamada"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pUseCustomFileCK)
+#: src/conf/dlgaccountsbase.ui:1750
+msgid "Use custom file"
+msgstr "Usar um arquivo personalizado"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/conf/dlgaddressbookbase.ui:30
+msgid "Collections"
+msgstr "Coleções"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pEditCollection)
+#: src/conf/dlgaddressbookbase.ui:61
+msgid "Edit collection"
+msgstr "Editar coleção"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pAddCollection)
+#: src/conf/dlgaddressbookbase.ui:68
+msgid "Add collection"
+msgstr "Adicionar coleção"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/dlgaddressbookbase.ui:78
+msgid "Contact Filter"
+msgstr "Filtro de contatos"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_hideContactWithoutPhone)
+#: src/conf/dlgaddressbookbase.ui:84
+msgid "Hide contacts without phone numbers"
+msgstr "Ocultar os contatos sem número de telefone"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pPhonetypeL)
+#: src/conf/dlgaddressbookbase.ui:91
+msgid "Use contact from the following phone number category:"
+msgstr "Usar o contato da seguinte categoria de números de telefone:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: src/conf/dlgaddressbookbase.ui:109
+msgid "Visible Contact Details"
+msgstr "Detalhes visíveis do contato"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOrganisation)
+#: src/conf/dlgaddressbookbase.ui:115 src/conf/dlgdisplay.cpp:40
+msgid "Display organisation"
+msgstr "Mostrar a organização"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayEmail)
+#: src/conf/dlgaddressbookbase.ui:122
+msgid "Display email address"
+msgstr "Mostrar o endereço de e-mail"
+
+#. i18n: ectx: property (text), widget (QLabel, label_interface)
+#: src/conf/dlgaudiobase.ui:32
+msgid "Sound manager"
+msgstr "Gerenciador de som"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_alsa)
+#: src/conf/dlgaudiobase.ui:64
+msgid "ALSA Settings"
+msgstr "Configurações do ALSA"
+
+#. i18n: ectx: property (text), widget (QLabel, label1_alsaPugin)
+#: src/conf/dlgaudiobase.ui:79
+msgid "ALSA plugin"
+msgstr "Plugin ALSA"
+
+#. i18n: ectx: property (text), widget (QLabel, label2_in)
+#: src/conf/dlgaudiobase.ui:96
+msgid "Input"
+msgstr "Entrada"
+
+#. i18n: ectx: property (text), widget (QLabel, label3_out)
+#: src/conf/dlgaudiobase.ui:113
+msgid "Output"
+msgstr "Saída"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_pulseAudio)
+#: src/conf/dlgaudiobase.ui:153
+msgid "PulseAudio Settings"
+msgstr "Configurações do PulseAudio"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_pulseAudioVolumeAlter)
+#: src/conf/dlgaudiobase.ui:162
+msgid "Mute other applications during a call"
+msgstr "Silenciar os outros aplicativos durante uma chamada"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1_recordGeneral)
+#: src/conf/dlgaudiobase.ui:182
+msgid "Recording"
+msgstr "Gravando"
+
+#. i18n: ectx: property (clickMessage), widget (KUrlRequester, KUrlRequester_destinationFolder)
+#: src/conf/dlgaudiobase.ui:194
+msgid "Destination folder"
+msgstr "Pasta de destino"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pAlwaysRecordCK)
+#: src/conf/dlgaudiobase.ui:201
+msgid "Always record calls"
+msgstr "Sempre gravar as chamadas"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/dlgaudiobase.ui:211
+msgid "Audio settings"
+msgstr "Configurações de áudio"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pSuppressNoise)
+#: src/conf/dlgaudiobase.ui:217
+msgid "Enable noise reduction"
+msgstr "Ativar a redução de ruído"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableRoomTone)
+#: src/conf/dlgaudiobase.ui:224
+msgid "Enable dial tone"
+msgstr "Ativar o tom de discagem"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pCPlayDTMFCk)
+#: src/conf/dlgaudiobase.ui:231
+msgid "Mute DTMF"
+msgstr "Silenciar o DTMF"
+
+#: src/conf/dlgdisplay.cpp:36
+msgid "Display Icon"
+msgstr "Mostrar o ícone"
+
+#: src/conf/dlgdisplay.cpp:37
+msgid "Display Security"
+msgstr "Mostrar a segurança"
+
+#: src/conf/dlgdisplay.cpp:38
+msgid "Display Call Number"
+msgstr "Mostrar o número de chamada"
+
+#: src/conf/dlgdisplay.cpp:39
+msgid "Display Peer Name"
+msgstr "Mostrar o nome do contato"
+
+#: src/conf/dlgdisplay.cpp:41
+msgid "Display department"
+msgstr "Mostrar o departamento"
+
+#: src/conf/dlgdisplay.cpp:42
+msgid "Display e-mail"
+msgstr "Mostrar o e-mail"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/conf/dlgdisplaybase.ui:26
+msgid "Display Main Window"
+msgstr "Exibir a janela principal"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOnStart)
+#: src/conf/dlgdisplaybase.ui:35
+msgid "On start"
+msgstr "Ao iniciar"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOnCalls)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_notifOnCalls)
+#: src/conf/dlgdisplaybase.ui:45 src/conf/dlgdisplaybase.ui:74
+msgid "On incoming calls"
+msgstr "Nas chamadas recebidas"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/dlgdisplaybase.ui:65
+msgid "Notifications"
+msgstr "Notificações"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_notifOnMessages)
+#: src/conf/dlgdisplaybase.ui:84
+msgid "On messages"
+msgstr "Nas mensagens"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: src/conf/dlgdisplaybase.ui:94
+msgid "Visible Call Details"
+msgstr "Detalhes visíveis das chamadas"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_limitMinimumRowHeight)
+#: src/conf/dlgdisplaybase.ui:105
+msgid "Minimum item height"
+msgstr "Altura mínima do item"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1_history_2)
+#: src/conf/dlggeneralbase.ui:26
+msgid "Call History"
+msgstr "Histórico de chamadas"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pKeepHistory)
+#: src/conf/dlggeneralbase.ui:35
+msgid "Keep history forever"
+msgstr "Manter o histórico para sempre"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/conf/dlggeneralbase.ui:61
+msgid "Automatically remove calls after"
+msgstr "Remover as chamadas automaticamente após"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/conf/dlggeneralbase.ui:93
+msgid "days"
+msgstr "dias"
+
+#. i18n: ectx: property (text), widget (QPushButton, toolButton_historyClear)
+#: src/conf/dlggeneralbase.ui:115
+msgid "Clear History"
+msgstr "Limpar histórico"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/dlggeneralbase.ui:140
+msgid "Display"
+msgstr "Visualização"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayHistoryStatus)
+#: src/conf/dlggeneralbase.ui:146
+msgid "Display incoming, outgoing and missed for history items"
+msgstr "Mostrar as chamadas recebidas, efetuadas e perdidas no histórico"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_highlightMissedOutgoingCalls)
+#: src/conf/dlggeneralbase.ui:153
+msgid "Highlight missed outgoing calls"
+msgstr "Realçar as chamadas efetuadas e perdidas"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_highlightMissedIncomingCalls)
+#: src/conf/dlggeneralbase.ui:160
+msgid "Highlight missed incoming calls"
+msgstr "Realçar as chamadas recebidas e perdidas"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_urlArgument)
+#: src/conf/dlghooksbase.ui:20
+msgid "URL Argument"
+msgstr "Argumento de URL"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/conf/dlghooksbase.ui:26
+msgid "Custom commands on incoming calls with URL"
+msgstr "Comandos personalizados nas chamadas recebidas por URL"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableHooksSIP)
+#: src/conf/dlghooksbase.ui:63
+msgid "Trigger on specific SIP header"
+msgstr "Ativar com um cabeçalho específico de SIP"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableHooksIAX)
+#: src/conf/dlghooksbase.ui:83
+msgid "Trigger on IAX2 URL"
+msgstr "Ativar com uma URL de IAX2"
+
+#. i18n: ectx: property (text), widget (QLabel, label_command)
+#: src/conf/dlghooksbase.ui:105
+msgid "Command to run"
+msgstr "Comando a executar"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/conf/dlghooksbase.ui:128
+#, no-c-format
+msgid "%s will be replaced with the passed URL."
+msgstr "O %s será substituído pela URL indicada."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_phoneNumberFormatting)
+#: src/conf/dlghooksbase.ui:138
+msgid "Phone Number Rewriting"
+msgstr "Modificação do número de telefone"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_addPrefix)
+#: src/conf/dlghooksbase.ui:159
+msgid "Prefix dialed numbers with"
+msgstr "Prefixo dos números discados com"
+
+#: src/conf/dlgpresence.cpp:51
+msgid ""
+"In this table, it is possible to manage different presence states. The "
+"\"Message\" and \"Present\" values will be exported to the server for every "
+"accounts that support it. The other fields are designed to make presence "
+"status management easier. Please note that some SIP registrar have "
+"incomplete presence status (publishing) support."
+msgstr ""
+"Nesta tabela é possível gerenciar os diferentes status de presença. Os "
+"valores da \"Mensagem\" e \"Presente\" serão exportados para o servidor, "
+"para todas as contas que o suportem. Os outros campos são desenhados para "
+"tornar o gerenciamento do status de presença mais simples. Lembre-se de que "
+"alguns registros de SIP têm suporte do status de presença (publicação) "
+"incompleto."
+
+#. i18n: ectx: property (text), widget (LeftToolButton, m_pDown)
+#: src/conf/dlgpresence.ui:51
+msgid "Move Down"
+msgstr "Mover para baixo"
+
+#. i18n: ectx: property (text), widget (CenterToolButton, m_pUp)
+#: src/conf/dlgpresence.ui:61
+msgid "Move Up"
+msgstr "Mover para cima"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_trackBookmarkPresence)
+#: src/conf/dlgpresence.ui:90
+msgid "Track bookmarked number presence"
+msgstr "Registrar a presença de números favoritos"
+
+#: src/conf/dlgvideo.cpp:51 src/conf/dlgvideo.cpp:85
+msgid "Stop preview"
+msgstr "Parar a visualização"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pPreviewPB)
+#: src/conf/dlgvideo.cpp:88 src/conf/dlgvideobase.ui:58
+msgid "Start preview"
+msgstr "Iniciar a visualização"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DlgVideoBase)
+#: src/conf/dlgvideobase.ui:14
+msgid "Video settings"
+msgstr "Configurações de vídeo"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_pConfGB)
+#: src/conf/dlgvideobase.ui:23
+msgid "Device Configuration"
+msgstr "Configuração do dispositivo"
+
+#: src/delegates/historydelegate.cpp:269
+msgid "Conference"
+msgstr "Conferência"
+
+#: src/errormessage.cpp:22
+msgid ""
+"An unknown error occurred. SFLPhone KDE will now exit. If the problem "
+"persist, please report a bug.\n"
+"\n"
+"It is known that this message can be caused by trying to open SFLPhone KDE "
+"while the SFLPhone daemon is exiting. If so, waiting 15 seconds and trying "
+"again will solve the issue."
+msgstr ""
+"Ocorreu um erro desconhecido. O SFLPhone para KDE irá finalizar agora. Se o "
+"problema persistir, por favor, cadastre um relatório de erro.\n"
+"\n"
+"É sabido que esta mensagem pode ser causada pela tentativa de abrir o "
+"SFLPhone para KDE enquanto o servidor do SFLPhone está sendo finalizado. Se "
+"for o caso, aguardar 15 segundos e tentar novamente resolverá o problema."
+
+#: src/errormessage.cpp:27
+msgid ""
+"The SFLPhone daemon (sflphoned) is not available. Please be sure it is "
+"installed correctly or launch it manually. \n"
+"\n"
+"Check in your distribution repository if the sflphone daemon (sometime "
+"called \"sflphone-common\") is available.\n"
+"Help for building SFLPhone daemon from source are present at https://"
+"projects.savoirfairelinux.com/projects/sflphone/wiki/How_to_build"
+msgstr ""
+"O servidor do SFLPhone (sflphoned) não está disponível. Certifique-se de que "
+"está instalado corretamente ou carregue-o manualmente.\n"
+"\n"
+"Verifique no repositório da sua distribuição se o servidor do sflphone está "
+"disponível (às vezes chamado de \"sflphone-common\").\n"
+"Está disponível algumas informações de como compilar o servidor do SFLPhone "
+"a partir do código-fonte em https://projects.savoirfairelinux.com/projects/"
+"sflphone/wiki/How_to_build"
+
+#: src/eventmanager.cpp:200 src/eventmanager.cpp:220
+#: src/widgets/tips/removeconferencetip.cpp:29
+msgid "Remove the call from the conference, the call will be put on hold"
+msgstr "Remover a chamada da conferência, para colocá-la em espera"
+
+#: src/eventmanager.cpp:205 src/eventmanager.cpp:225
+#, kde-format
+msgid "Call %1 using %2"
+msgstr "Chamada de %1, usando %2"
+
+#: src/eventmanager.cpp:211 src/eventmanager.cpp:215 src/eventmanager.cpp:231
+#: src/eventmanager.cpp:235
+#, kde-format
+msgid "Call %1"
+msgstr "Chamada %1"
+
+#: src/eventmanager.cpp:520
+msgid "Missed"
+msgstr "Não atendidas"
+
+#: src/eventmanager.cpp:522
+msgid "Cancelled"
+msgstr "Cancelada"
+
+#: src/eventmanager.cpp:525 src/widgets/tips/tipcollection.cpp:123
+msgid "Call ended"
+msgstr "Chamada encerrada"
+
+#: src/eventmanager.cpp:572
+#, kde-format
+msgid "%1 is not unregistered"
+msgstr "O %1 não está registrado"
+
+#: src/implementation.cpp:335
+msgid "Online"
+msgstr "Conectado"
+
+#: src/implementation.cpp:336
+msgid "I am available"
+msgstr "Estou disponível"
+
+#: src/implementation.cpp:341
+msgid "Away"
+msgstr "Ausente"
+
+#: src/implementation.cpp:342
+msgid "I am away"
+msgstr "Estou ausente"
+
+#: src/implementation.cpp:346
+msgid "Busy"
+msgstr "Ocupado"
+
+#: src/implementation.cpp:347
+msgid "I am busy"
+msgstr "Estou ocupado"
+
+#: src/implementation.cpp:351
+msgid "DND"
+msgstr "Não incomodar"
+
+#: src/implementation.cpp:352
+msgid "Please do not disturb me"
+msgstr "Por favor, não me incomode"
+
+#: src/klib/dataengine/sflphoneengine.cpp:283
+msgid "Current_account"
+msgstr "Conta_atual"
+
+#: src/klib/helperfunctions.cpp:62
+msgid "No registered accounts"
+msgstr "Nenhuma conta registrada"
+
+#: src/klib/macromodel.cpp:97 src/klib/macromodel.cpp:298
+msgctxt "Other category"
+msgid "Other"
+msgstr "Outra"
+
+#: src/klib/macromodel.cpp:193
+msgid "Macros"
+msgstr "Macros"
+
+#: src/klib/macromodel.cpp:297
+msgctxt "New macro"
+msgid "New"
+msgstr "Nova"
+
+#: src/klib/minimalhistorybackend.cpp:188
+msgid "Are you sure you want to clear history?"
+msgstr "Deseja realmente limpar o histórico?"
+
+#: src/klib/minimalhistorybackend.cpp:188
+msgid "Clear history"
+msgstr "Limpar histórico"
+
+#. i18n: ectx: label, entry (enableHistory), group (main)
+#. i18n: ectx: label, entry (requireLegacyHistoryImport), group (main)
+#: src/klib/sflphone-client-kde.kcfg:12 src/klib/sflphone-client-kde.kcfg:15
+msgid "Defines whether sflphone should keep a history of calls."
+msgstr "Define se o sflphone deve manter um histórico de chamadas."
+
+#. i18n: ectx: label, entry (historyMax), group (main)
+#: src/klib/sflphone-client-kde.kcfg:19
+msgid "Defines the number of days the history has to be kept."
+msgstr "Define o número de dias que o histórico será mantido."
+
+#. i18n: ectx: label, entry (displayCallIcon), group (main)
+#: src/klib/sflphone-client-kde.kcfg:25
+msgid "Should CallIcon be visible by default for calls"
+msgstr "Se o ícone da chamada deve ficar visível por padrão para chamadas"
+
+#. i18n: ectx: label, entry (displayCallPeer), group (main)
+#: src/klib/sflphone-client-kde.kcfg:29
+msgid "Should CallPeer be visible by default for calls"
+msgstr "Se o outro contato deve estar visível por padrão para chamadas"
+
+#. i18n: ectx: label, entry (displayCallNumber), group (main)
+#: src/klib/sflphone-client-kde.kcfg:33
+msgid "Should CallNumber be visible by default for calls"
+msgstr "Se o número da chamada deve estar visível por padrão para chamadas"
+
+#. i18n: ectx: label, entry (displayCallSecure), group (main)
+#: src/klib/sflphone-client-kde.kcfg:37
+msgid "Should CallSecure be visible by default for calls"
+msgstr "Se a chamada segura deve estar visível por padrão para chamadas"
+
+#. i18n: ectx: label, entry (displayCallOrganisation), group (main)
+#: src/klib/sflphone-client-kde.kcfg:41
+msgid "If a contact is present, display the organisation"
+msgstr "Se um contato estiver presente, mostrar a organização"
+
+#. i18n: ectx: label, entry (displayCallDepartment), group (main)
+#: src/klib/sflphone-client-kde.kcfg:45
+msgid "If a contact is present, display the department"
+msgstr "Se um contato estiver presente, mostrar o departamento"
+
+#. i18n: ectx: label, entry (displayCallEmail), group (main)
+#: src/klib/sflphone-client-kde.kcfg:49
+msgid "If a contact is present, display the email"
+msgstr "Se um contato estiver presente, mostrar o e-mail"
+
+#. i18n: ectx: label, entry (limitMinimumRowHeight), group (main)
+#. i18n: ectx: label, entry (minimumRowHeight), group (main)
+#: src/klib/sflphone-client-kde.kcfg:53 src/klib/sflphone-client-kde.kcfg:57
+msgid "The minimum number of pixel for a call item"
+msgstr "O número mínimo de pixels para um item de chamada"
+
+#. i18n: ectx: label, entry (displayHistoryStatus), group (main)
+#: src/klib/sflphone-client-kde.kcfg:61
+msgid "Display incoming, outgoing or missed"
+msgstr "Mostrar as recebidas, efetuadas e perdidas"
+
+#. i18n: ectx: label, entry (displayAccountWizard), group (main)
+#: src/klib/sflphone-client-kde.kcfg:65
+msgid "Display the account wizard when there is no configured accounts"
+msgstr ""
+"Mostrar o assistente de contas quando não existirem contas configuradas"
+
+#. i18n: ectx: label, entry (notifOnCalls), group (main)
+#: src/klib/sflphone-client-kde.kcfg:72
+msgid "Defines whether user should be notified when receiving a call."
+msgstr "Define se o usuário deve ser notificado ao receber uma chamada."
+
+#. i18n: ectx: label, entry (notifOnMessages), group (main)
+#: src/klib/sflphone-client-kde.kcfg:76
+msgid "Defines whether user should be notified when receiving a message."
+msgstr "Define se o usuário deve ser notificado ao receber uma mensagem."
+
+#. i18n: ectx: label, entry (displayOnStart), group (main)
+#: src/klib/sflphone-client-kde.kcfg:80
+msgid "Defines whether the main window should be displayed on start."
+msgstr "Define se a janela principal deve ser apresentada ao iniciar."
+
+#. i18n: ectx: label, entry (displayOnCalls), group (main)
+#: src/klib/sflphone-client-kde.kcfg:84
+msgid ""
+"Defines whether the main window should be displayed when receiving a message."
+msgstr ""
+"Define se a janela principal deve ser apresentada ao receber uma mensagem."
+
+#. i18n: ectx: label, entry (displayDialpad), group (main)
+#: src/klib/sflphone-client-kde.kcfg:88
+msgid "Defines whether the dialpad is being shown by default"
+msgstr "Define se o teclado deve estar visível por padrão"
+
+#. i18n: ectx: label, entry (displayMessageBox), group (main)
+#: src/klib/sflphone-client-kde.kcfg:92
+msgid "Defines whether the text message box is visible"
+msgstr "Define se o campo da mensagem deve estar visível"
+
+#. i18n: ectx: label, entry (displayVolume), group (main)
+#: src/klib/sflphone-client-kde.kcfg:96
+msgid "Defines whether the volume widgets are visible by default"
+msgstr "Define se os controles do volume estão visíveis por padrão"
+
+#. i18n: ectx: label, entry (displayMenu), group (main)
+#: src/klib/sflphone-client-kde.kcfg:100
+msgid ""
+"Defines whether the main menu is visible by default, it can be restored with "
+"\"Ctrl+m\""
+msgstr ""
+"Define se o menu principal está visível por padrão; ele pode ser restaurado "
+"com \"Ctrl+M\""
+
+#. i18n: ectx: label, entry (displayDataRange), group (main)
+#: src/klib/sflphone-client-kde.kcfg:103
+msgid "Defines whether call history is restricted to a specific date range"
+msgstr ""
+"Define se o histórico de chamadas está restrito a um intervalo de datas "
+"definido"
+
+#. i18n: ectx: label, entry (displayPopularAsBookmark), group (main)
+#: src/klib/sflphone-client-kde.kcfg:107
+msgid ""
+"Defines whether or not to display the 10 most popular phone number as "
+"bookmark automagically"
+msgstr ""
+"Define se deve mostrar ou não os 10 números de telefone mais populares como "
+"favoritos"
+
+#. i18n: ectx: label, entry (historySortMode), group (main)
+#: src/klib/sflphone-client-kde.kcfg:110
+msgid "Define sorting order for history list"
+msgstr "Definir o critério de ordenação do histórico"
+
+#. i18n: ectx: label, entry (contactSortMode), group (main)
+#: src/klib/sflphone-client-kde.kcfg:113
+msgid "Define sorting order for contact list"
+msgstr "Definir o critério de ordenação da lista de contatos"
+
+#. i18n: ectx: label, entry (displayContactCallHistory), group (main)
+#: src/klib/sflphone-client-kde.kcfg:116
+msgid "Defines if the individual contact history list is visible"
+msgstr "Define se a lista individual do histórico de contatos está visível"
+
+#. i18n: ectx: label, entry (keepVideoAspectRatio), group (main)
+#. i18n: ectx: label, entry (displayVideoPreview), group (main)
+#: src/klib/sflphone-client-kde.kcfg:122 src/klib/sflphone-client-kde.kcfg:126
+msgid "Enforce video aspect ratio or allow stretching"
+msgstr "Aplicar a proporção do vídeo ou permitir o ajuste"
+
+#. i18n: ectx: label, entry (autoHideDiapadForVideo), group (main)
+#: src/klib/sflphone-client-kde.kcfg:130
+msgid "Save main window space by hiding the dialpad when the video is docked"
+msgstr ""
+"Economizar espaço na janela principal, ocultando o discador quando o vídeo "
+"estiver acoplado"
+
+#. i18n: ectx: label, entry (interface), group (main)
+#: src/klib/sflphone-client-kde.kcfg:138
+msgid "Defines the audio output to use."
+msgstr "Define a saída de áudio a ser usada."
+
+#. i18n: ectx: label, entry (alsaPlugin), group (main)
+#: src/klib/sflphone-client-kde.kcfg:145
+msgid "Defines which ALSA plugin to use."
+msgstr "Define o plugin do ALSA a ser usado."
+
+#. i18n: ectx: label, entry (alsaInputDevice), group (main)
+#: src/klib/sflphone-client-kde.kcfg:148
+msgid "Defines which ALSA Input device to use."
+msgstr "Define o dispositivo de entrada do ALSA a ser usado."
+
+#. i18n: ectx: label, entry (alsaOutputDevice), group (main)
+#: src/klib/sflphone-client-kde.kcfg:151
+msgid "Defines which ALSA Output device to use."
+msgstr "Define o dispositivo de saída do ALSA a ser usado."
+
+#. i18n: ectx: label, entry (alsaRingtoneDevice), group (main)
+#: src/klib/sflphone-client-kde.kcfg:154
+msgid "Defines which ALSA Ringtone device to use."
+msgstr "Define o dispositivo de toque de chamada do ALSA a ser usado."
+
+#. i18n: ectx: label, entry (pulseAudioVolumeAlter), group (main)
+#: src/klib/sflphone-client-kde.kcfg:157
+msgid "Defines whether pulse audio can mute other applications during a call."
+msgstr ""
+"Define se o PulseAudio pode silenciar os outros aplicativos durante uma "
+"chamada."
+
+#. i18n: ectx: label, entry (enableRoomTone), group (main)
+#: src/klib/sflphone-client-kde.kcfg:160
+msgid "Enable or disables the \"buzzzzz\" sound"
+msgstr "Ativa ou desativa o som \"buzzzzz\""
+
+#. i18n: ectx: label, entry (enableAddressBook), group (main)
+#. i18n: ectx: label, entry (phoneTypeList), group (main)
+#: src/klib/sflphone-client-kde.kcfg:168 src/klib/sflphone-client-kde.kcfg:176
+msgid "Defines whether the search in KDE Address Book is enabled"
+msgstr "Define se a pesquisa no livro de endereços do KDE está ativa"
+
+#. i18n: ectx: label, entry (disabledCollectionList), group (main)
+#: src/klib/sflphone-client-kde.kcfg:172
+msgid "List of disabled address book collections"
+msgstr "Lista das coleções de livros de endereços desativadas"
+
+#. i18n: ectx: label, entry (displayOrganisation), group (main)
+#. i18n: ectx: label, entry (displayEmail), group (main)
+#. i18n: ectx: label, entry (hideContactWithoutPhone), group (main)
+#: src/klib/sflphone-client-kde.kcfg:181 src/klib/sflphone-client-kde.kcfg:186
+#: src/klib/sflphone-client-kde.kcfg:191
+msgid "Defines whether to display the organisation of the contact list item"
+msgstr "Define se deve mostrar a organização no item da lista de contatos"
+
+#. i18n: ectx: label, entry (defaultAccountId), group (main)
+#: src/klib/sflphone-client-kde.kcfg:196
+msgid ""
+"Default account used for contact lookup if only partial (only extension) "
+"contacts info is available"
+msgstr ""
+"Conta padrão usada na pesquisa de contatos, caso esteja disponível somente a "
+"informação parcial (apenas extensões) dos contatos"
+
+#. i18n: ectx: label, entry (bookmarkList), group (main)
+#: src/klib/sflphone-client-kde.kcfg:212
+msgid "List of bookmarked clients"
+msgstr "Lista de clientes favoritos"
+
+#. i18n: ectx: label, entry (enableHooksSIP), group (main)
+#: src/klib/sflphone-client-kde.kcfg:218
+msgid "Defines whether to enable hooks for SIP accounts."
+msgstr "Define se deve ativar as rotinas de captura das contas SIP."
+
+#. i18n: ectx: label, entry (enableHooksIAX), group (main)
+#: src/klib/sflphone-client-kde.kcfg:221
+msgid "Defines whether to enable hooks for IAX accounts."
+msgstr "Define se deve ativar as rotinas de captura das contas IAX."
+
+#. i18n: ectx: label, entry (hooksSIPHeader), group (main)
+#: src/klib/sflphone-client-kde.kcfg:224
+msgid "Defines which header to catch for SIP accounts hooks."
+msgstr "Define o cabeçalho a capturar nas rotinas das contas SIP."
+
+#. i18n: ectx: label, entry (hooksCommand), group (main)
+#: src/klib/sflphone-client-kde.kcfg:227
+msgid "Defines which command to execute."
+msgstr "Define qual o comando a executar."
+
+#. i18n: ectx: label, entry (addPrefix), group (main)
+#: src/klib/sflphone-client-kde.kcfg:230
+msgid "Defines whether to add a prefix for outgoing calls."
+msgstr "Define se deve adicionar um prefixo às chamadas efetuadas."
+
+#. i18n: ectx: label, entry (prepend), group (main)
+#: src/klib/sflphone-client-kde.kcfg:233
+msgid "Defines the prefix to add."
+msgstr "Define o prefixo a adicionar."
+
+#. i18n: ectx: label, entry (enableAutoCompletion), group (main)
+#: src/klib/sflphone-client-kde.kcfg:252
+msgid "Enable auto completion widget"
+msgstr "Ativar o widget de complementação automática"
+
+#. i18n: ectx: label, entry (autoCompleteMergeNumbers), group (main)
+#: src/klib/sflphone-client-kde.kcfg:256
+msgid ""
+"If there is multiple instance of the same number, merge them and use the "
+"default account"
+msgstr ""
+"Se existirem várias instâncias do mesmo número, mesclar e usas a conta padrão"
+
+#. i18n: ectx: label, entry (autoCompleteUseAccount), group (main)
+#: src/klib/sflphone-client-kde.kcfg:260
+msgid ""
+"Call numbers back with their original account instead of the default one"
+msgstr ""
+"Ligar para os números novamente com a sua conta original em vez da padrão"
+
+#. i18n: ectx: label, entry (trackBookmarkPresence), group (main)
+#: src/klib/sflphone-client-kde.kcfg:266
+msgid "Track bookmarked contacts presence"
+msgstr "Registrar a presença de contatos favoritos"
+
+#. i18n: ectx: label, entry (presenceStatusList), group (main)
+#: src/klib/sflphone-client-kde.kcfg:271
+msgid "List of presence status"
+msgstr "Lista de status de presença"
+
+#. i18n: ectx: label, entry (presenceAutoTrackedCollections), group (main)
+#: src/klib/sflphone-client-kde.kcfg:274
+msgid "List of item collections automatically tracked"
+msgstr "Lista de coleções de itens monitorados automaticamente"
+
+#: src/main.cpp:58
+msgid "SFLPhone-KDE"
+msgstr "SFLPhone-KDE"
+
+#: src/main.cpp:60
+msgid "An enterprise grade KDE SIP and IAX phone"
+msgstr "Um telefone empresarial de SIP e IAX para o KDE"
+
+#: src/main.cpp:62
+msgid "(C) 2009-2014 Savoir-faire Linux"
+msgstr "(C) 2009-2014 Savoir-faire Linux"
+
+#: src/main.cpp:67
+msgid "Emmanuel Lepage Vallée"
+msgstr "Emmanuel Lepage Vallée"
+
+#: src/main.cpp:68
+msgid "Jérémy Quentin"
+msgstr "Jérémy Quentin"
+
+#: src/sflphone.cpp:110
+msgid "Home"
+msgstr "Residencial"
+
+#: src/sflphone.cpp:111
+msgid "Work"
+msgstr "Comercial"
+
+#: src/sflphone.cpp:112
+msgid "Msg"
+msgstr "Mensagem"
+
+#: src/sflphone.cpp:113
+msgid "Pref"
+msgstr "Preferido"
+
+#: src/sflphone.cpp:114
+msgid "Voice"
+msgstr "Voz"
+
+#: src/sflphone.cpp:115
+msgid "Fax"
+msgstr "Fax"
+
+#: src/sflphone.cpp:116
+msgid "Cell"
+msgstr "Celular"
+
+#: src/sflphone.cpp:117
+msgid "Video"
+msgstr "Vídeo"
+
+#: src/sflphone.cpp:118
+msgid "Bbs"
+msgstr "BBS"
+
+#: src/sflphone.cpp:119
+msgid "Modem"
+msgstr "Modem"
+
+#: src/sflphone.cpp:120
+msgid "Car"
+msgstr "Carro"
+
+#: src/sflphone.cpp:121
+msgid "Isdn"
+msgstr "ISDN"
+
+#: src/sflphone.cpp:122
+msgid "Pcs"
+msgstr "PCS"
+
+#: src/sflphone.cpp:123
+msgid "Pager"
+msgstr "Pager"
+
+#: src/sflphone.cpp:124
+msgid "Preferred"
+msgstr "Preferido"
+
+#: src/sflphone.cpp:188
+msgctxt "Call tab"
+msgid "Call"
+msgstr "Chamada"
+
+#: src/sflphone.cpp:238
+msgid "SFLphone"
+msgstr "SFLphone"
+
+#: src/sflphone.cpp:289
+msgctxt "The presence state is \"Online\""
+msgid "Online"
+msgstr "Conectado"
+
+#: src/sflphone.cpp:308
+msgid "Account:"
+msgstr "Conta:"
+
+#: src/sflphone.cpp:326
+msgid ""
+"The SFLPhone daemon (sflphoned) is not available. Please be sure it is "
+"installed correctly or launch it manually"
+msgstr ""
+"O servidor do SFLPhone (sflphoned) não está disponível. Certifique-se de que "
+"está instalado corretamente ou execute-o manualmente"
+
+#: src/sflphone.cpp:515 src/sflphone.cpp:517
+msgid "New incoming call"
+msgstr "Nova chamada recebida"
+
+#: src/sflphone.cpp:515 src/sflphone.cpp:517
+#, kde-format
+msgid ""
+"New call from:\n"
+"%1"
+msgstr ""
+"Nova chamada de:\n"
+"%1"
+
+#: src/sflphone.cpp:557 src/sflphone.cpp:618
+msgid "Call"
+msgstr "Chamada"
+
+#: src/sflphone.cpp:560 src/widgets/contactdock.cpp:264
+#: src/widgets/historydock.cpp:346 src/widgets/historydock.cpp:348
+msgid "Bookmark"
+msgstr "Favoritos"
+
+#: src/sflphone.cpp:563
+msgid "Contact"
+msgstr "Contato"
+
+#: src/sflphone.cpp:566
+msgid "History"
+msgstr "Histórico"
+
+#: src/sflphoneaccessibility.cpp:42
+msgid "List all current calls"
+msgstr "Lista todas as chamadas atuais"
+
+#: src/sflphoneaccessibility.cpp:50
+msgid "Get current call details"
+msgstr "Obter os detalhes da chamada atual"
+
+#: src/sflphoneaccessibility.cpp:76
+#, kde-format
+msgid "You currently have <numid>%1</numid> call"
+msgid_plural "You currently have <numid>%1</numid> calls"
+msgstr[0] "Você tem no momento <numid>%1</numid> chamada"
+msgstr[1] "Você tem no momento <numid>%1</numid> chamadas"
+
+#: src/sflphoneaccessibility.cpp:78
+#, kde-format
+msgid "Call from %1, number %2"
+msgstr "Chamada de %1, número %2"
+
+#: src/sflphoneaccessibility.cpp:82
+msgid "You currently have no call"
+msgstr "No momento, você não tem nenhuma chamada"
+
+#: src/sflphoneaccessibility.cpp:104
+#, kde-format
+msgid "The current call is %1"
+msgstr "A chamada atual está %1"
+
+#: src/sflphoneaccessibility.cpp:106
+#, kde-format
+msgid ",Your peer is %1"
+msgstr ", a outra pessoa está %1"
+
+#: src/sflphoneaccessibility.cpp:108
+#, kde-format
+msgid ", the peer phone number is %1 "
+msgstr ", o número da outra pessoa é %1 "
+
+#: src/sflphoneaccessibility.cpp:110
+#, kde-format
+msgid ", the phone number is %1 "
+msgstr ", o número de telefone é %1 "
+
+#: src/sflphoneaccessibility.cpp:114
+#, kde-format
+msgid " and you have been talking since %1 seconds"
+msgstr " e você está falando há %1 segundos"
+
+#: src/sflphonecmd.cpp:51
+msgid "Place a call to a given number"
+msgstr "Fazer uma chamada para o número indicado"
+
+#: src/sflphonecmd.cpp:52
+msgid ""
+"Send a text to &lt;number&gt;, use --message to set the content, then hangup"
+msgstr ""
+"Envia um texto para &lt;número&gt;, use a opção --message para definir o "
+"conteúdo e depois desligar"
+
+#: src/sflphonecmd.cpp:53
+msgid "Used in combination with --send-text"
+msgstr "Usado em conjunto com a opção --send-text"
+
+#: src/sflphoneview.cpp:81
+msgid "New call"
+msgstr "Nova chamada"
+
+#: src/sflphoneview.cpp:82
+msgid "Place call"
+msgstr "Colocar a chamada"
+
+#: src/sflphoneview.cpp:84
+msgid "Hold on"
+msgstr "Aguardar"
+
+#: src/sflphoneview.cpp:87
+msgid "Pick up"
+msgstr "Selecionar"
+
+#: src/sflphoneview.cpp:89
+msgid "Hold off"
+msgstr "Rejeitar"
+
+#: src/sflphoneview.cpp:90
+msgid "Give up transfer"
+msgstr "Desistir da transferência"
+
+#: src/sflphoneview.cpp:91
+msgid "Voicemail"
+msgstr "Correio de voz"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pSendMessageLE)
+#: src/ui/SFLPhoneView_base.ui:69
+msgid "Send text message"
+msgstr "Enviar uma mensagem de texto"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_pSendMessagePB)
+#: src/ui/SFLPhoneView_base.ui:79
+msgid "Send"
+msgstr "Enviar"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, slider_recVol)
+#: src/ui/SFLPhoneView_base.ui:124
+msgid "Mic volume"
+msgstr "Volume do microfone"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, slider_sndVol)
+#: src/ui/SFLPhoneView_base.ui:174
+msgid "Speakers volume"
+msgstr "Volume do alto-falante"
+
+#: src/widgets/autocompletion.cpp:48
+msgid "Use ⬆ up and ⬇ down arrows to select one of these numbers"
+msgstr "Use as setas ⬆ e ⬇ para selecionar um desses números"
+
+#. i18n: ectx: property (placeholderText), widget (FilterLineEdit, m_pFilterLE)
+#: src/widgets/bookmarkdock.cpp:91 src/widgets/contactdock.cpp:108
+#: src/widgets/historydock.cpp:178 src/widgets/ui/contactdock.ui:90
+#: src/widgets/ui/dockbase.ui:90
+msgid "Filter"
+msgstr "Filtro"
+
+#: src/widgets/bookmarkdock.cpp:97
+msgid "Show most called contacts"
+msgstr "Mostrar os contatos mais chamados"
+
+#: src/widgets/bookmarkdock.cpp:103
+msgctxt "Bookmark dock"
+msgid "Bookmark"
+msgstr "Favorito"
+
+#: src/widgets/bookmarkdock.cpp:158 src/widgets/contactdock.cpp:237
+#: src/widgets/historydock.cpp:324
+msgid "Call Again"
+msgstr "Chamar novamente"
+
+#: src/widgets/bookmarkdock.cpp:162 src/widgets/contactdock.cpp:242
+msgid "Edit contact"
+msgstr "Editar contato"
+
+#: src/widgets/bookmarkdock.cpp:166 src/widgets/contactdock.cpp:247
+#: src/widgets/historydock.cpp:337
+msgid "Copy"
+msgstr "Copiar"
+
+#: src/widgets/bookmarkdock.cpp:170 src/widgets/contactdock.cpp:252
+#: src/widgets/historydock.cpp:341
+msgid "Send Email"
+msgstr "Enviar e-mail"
+
+#: src/widgets/bookmarkdock.cpp:175 src/widgets/contactdock.cpp:258
+msgid "Add Phone Number"
+msgstr "Adicionar número de telefone"
+
+#: src/widgets/bookmarkdock.cpp:180
+msgid "Remove Bookmark"
+msgstr "Remover favorito"
+
+#: src/widgets/bookmarkdock.cpp:296 src/widgets/contactdock.cpp:372
+msgid "Enter a new number"
+msgstr "Digite um novo número"
+
+#: src/widgets/bookmarkdock.cpp:296 src/widgets/contactdock.cpp:372
+msgid "New number:"
+msgstr "Novo número:"
+
+#: src/widgets/contactdock.cpp:101 src/widgets/historydock.cpp:182
+msgctxt "Sort by Name"
+msgid "Name"
+msgstr "Nome"
+
+#: src/widgets/contactdock.cpp:101
+msgctxt "Sort by Organisation"
+msgid "Organisation"
+msgstr "Organização"
+
+#: src/widgets/contactdock.cpp:101
+msgctxt "Sort by Recently used"
+msgid "Recently used"
+msgstr "Usados recentemente"
+
+#: src/widgets/contactdock.cpp:101
+msgctxt "Sort by Group"
+msgid "Group"
+msgstr "Grupo"
+
+#: src/widgets/contactdock.cpp:101
+msgctxt "Sort by Department"
+msgid "Department"
+msgstr "Departamento"
+
+#: src/widgets/contactdock.cpp:147
+msgctxt "Contact tab"
+msgid "Contact"
+msgstr "Contato"
+
+#: src/widgets/contactdock.cpp:269
+msgid "Delete"
+msgstr "Excluir"
+
+#: src/widgets/contactdock.cpp:392
+#, kde-format
+msgid "Are you sure you want to permanently delete %1?"
+msgstr "Deseja excluir %1 permanentemente?"
+
+#: src/widgets/contactdock.cpp:393
+msgid "Delete contact"
+msgstr "Excluir contato"
+
+#: src/widgets/groupedtoolbutton.cpp:105
+#, kde-format
+msgctxt "@info:tooltip of custom toolbar button"
+msgid "%1"
+msgstr "%1"
+
+#: src/widgets/historydock.cpp:137
+msgid "From:"
+msgstr "De:"
+
+#: src/widgets/historydock.cpp:138
+msgctxt "To date:"
+msgid "To:"
+msgstr "Até:"
+
+#: src/widgets/historydock.cpp:141
+msgid "Display all"
+msgstr "Mostrar tudo"
+
+#: src/widgets/historydock.cpp:182
+msgctxt "Sort by date"
+msgid "Date"
+msgstr "Data"
+
+#: src/widgets/historydock.cpp:182
+msgctxt "Sort by Popularity"
+msgid "Popularity"
+msgstr "Popularidade"
+
+#: src/widgets/historydock.cpp:182
+msgctxt "Sort by Length"
+msgid "Length"
+msgstr "Duração"
+
+#: src/widgets/historydock.cpp:182
+msgctxt "sort by spent time"
+msgid "Spent time"
+msgstr "Tempo decorrido"
+
+#: src/widgets/historydock.cpp:198
+msgctxt "History tab"
+msgid "History"
+msgstr "Histórico"
+
+#: src/widgets/historydock.cpp:328
+msgid "Add Number to Contact"
+msgstr "Adicionar o número ao contato"
+
+#: src/widgets/historydock.cpp:333
+msgid "Add Contact"
+msgstr "Adicionar contato"
+
+#: src/widgets/historydock.cpp:352
+msgid "Remove bookmark"
+msgstr "Remover favorito"
+
+#: src/widgets/kphonenumberselector.cpp:48
+msgid "Select phone number"
+msgstr "Selecionar o número de telefone"
+
+#: src/widgets/kphonenumberselector.cpp:48
+msgid ""
+"This contact has many phone numbers, please select the one you wish to call"
+msgstr ""
+"Este contato tem muitos números de telefone, selecione o que deseja chamar"
+
+#: src/widgets/playeroverlay.cpp:46
+msgid "Are you sure you want to delete this recording?"
+msgstr "Deseja realmente excluir esta gravação?"
+
+#: src/widgets/playeroverlay.cpp:46
+msgid "Delete recording"
+msgstr "Excluir gravação"
+
+#: src/widgets/securityprogress.cpp:237
+#, kde-format
+msgid "%1 tip"
+msgid_plural "%1 tips"
+msgstr[0] "%1 dica"
+msgstr[1] "%1 dicas"
+
+#: src/widgets/securityprogress.cpp:238
+#, kde-format
+msgid "%1 warning"
+msgid_plural "%1 warnings"
+msgstr[0] "%1 aviso"
+msgstr[1] "%1 avisos"
+
+#: src/widgets/securityprogress.cpp:242
+#, kde-format
+msgid "%1 issue"
+msgid_plural "%1 issues"
+msgstr[0] "%1 questão"
+msgstr[1] "%1 questões"
+
+#: src/widgets/securityprogress.cpp:243
+#, kde-format
+msgid "%1 error"
+msgid_plural "%1 errors"
+msgstr[0] "%1 erro"
+msgstr[1] "%1 erros"
+
+#: src/widgets/tips/conftip.cpp:32
+msgid ""
+"Do you know you can create conferences or transfer the call by drag and "
+"dropping one call on an other one?"
+msgstr ""
+"Você sabia que pode criar conferências ou transferir a chamada arrastando-a "
+"para cima de outra?"
+
+#: src/widgets/tips/connectionlosttip.cpp:33
+msgid "There was a network error, trying to reconnect in 60 seconds."
+msgstr "Ocorreu um erro na rede, tentando reconectar em 60 segundos."
+
+#: src/widgets/tips/dialpadtip.cpp:32
+msgid ""
+"Use the dialpad below or start typing a number. Press enter or double click "
+"on the call to launch the call. Press escape or \"Hang Up\" to end the call."
+msgstr ""
+"Use o teclado abaixo ou comece a digitar um número. Pressione Enter ou "
+"clique duas vezes em Chamada para iniciar uma. Pressione Esc ou \"Desligar\" "
+"para encerrar a chamada."
+
+#: src/widgets/tips/tipcollection.cpp:133
+msgid "Peer is busy"
+msgstr "Contato ocupado"
+
+#: src/widgets/tips/tipcollection.cpp:167
+msgid "An account went down"
+msgstr "Uma conta desligou-se"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ContactDock)
+#. i18n: ectx: property (windowTitle), widget (QWidget, DockBase)
+#: src/widgets/ui/contactdock.ui:14 src/widgets/ui/dockbase.ui:14
+msgid "Dock"
+msgstr "Acoplar"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pSortByL)
+#: src/widgets/ui/contactdock.ui:26 src/widgets/ui/dockbase.ui:26
+msgid "Sort by:"
+msgstr "Ordenar por:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pElapsed)
+#. i18n: ectx: property (text), widget (QLabel, m_pLeft)
+#: src/widgets/ui/player.ui:28 src/widgets/ui/player.ui:42
+msgid "0:00"
+msgstr "0:00"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_pDelete)
+#. i18n: ectx: property (text), widget (QToolButton, m_pPlay)
+#. i18n: ectx: property (text), widget (QToolButton, m_pPlayPause)
+#. i18n: ectx: property (text), widget (QToolButton, m_pStop)
+#: src/widgets/ui/player.ui:64 src/widgets/ui/player.ui:71
+#: src/widgets/ui/playeroverlay.ui:54 src/widgets/ui/playeroverlay.ui:77
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pPresentRB)
+#: src/widgets/ui/presence.ui:17
+msgid "Present"
+msgstr "Presente"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pAbsentRB)
+#: src/widgets/ui/presence.ui:27
+msgid "Absent"
+msgstr "Ausente"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pCustomMessageCK)
+#: src/widgets/ui/presence.ui:34 src/widgets/videodock.cpp:109
+msgid "Custom"
+msgstr "Personalizado"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/widgets/ui/screensharingwidget.ui:35
+msgid "Display id:"
+msgstr "ID da visualização:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/widgets/ui/screensharingwidget.ui:42
+msgid "x"
+msgstr "x"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: src/widgets/ui/screensharingwidget.ui:62
+msgid ","
+msgstr ","
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/widgets/ui/screensharingwidget.ui:69
+msgid "Offset (x,y):"
+msgstr "Deslocamento (x,y):"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/widgets/ui/screensharingwidget.ui:79
+msgid "Size (width,height):"
+msgstr "Tamanho (largura,altura):"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: src/widgets/ui/screensharingwidget.ui:95
+msgid "Screen:"
+msgstr "Tela:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pTitleL)
+#: src/widgets/ui/transfer.ui:20
+msgid ""
+"<html><head/><body><p align=\"center\"><span style=\" font-size:xx-large; "
+"font-weight:600;\">Transfer</span></p></body></html>"
+msgstr ""
+"<html><head/><body><p align=\"center\"><span style=\" font-size:xx-large; "
+"font-weight:600;\">Transferir</span></p></body></html>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_pTransferGB)
+#: src/widgets/ui/transfer.ui:66
+msgid "Transfer to:"
+msgstr "Transferir para:"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pNumberLE)
+#: src/widgets/ui/transfer.ui:128
+msgid "Enter a number"
+msgstr "Digite um número"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_pAttTransferGB)
+#: src/widgets/ui/transfer.ui:196
+msgid "Transfer to existing calls:"
+msgstr "Transferir para as chamadas existentes:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/widgets/ui/videodevicesetting.ui:33
+msgid "Rate"
+msgstr "Taxa"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/widgets/ui/videodevicesetting.ui:40
+msgid "Channel"
+msgstr "Canal"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/widgets/ui/videodevicesetting.ui:67
+msgid "Resolution"
+msgstr "Resolução"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/widgets/ui/videodevicesetting.ui:77
+msgid "Device"
+msgstr "Dispositivo"
+
+#: src/widgets/videodock.cpp:158
+msgid "Device:"
+msgstr "Dispositivo:"
+
+#: src/widgets/videodock.cpp:257
+msgid "Full screen video"
+msgstr "Vídeo em tela inteira"

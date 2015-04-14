@@ -1,0 +1,2769 @@
+# Translation of sflphone-client-kde.po to Ukrainian
+# Copyright (C) 2012-2014 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2012, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: sflphone-client-kde\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-09-12 02:05+0000\n"
+"PO-Revision-Date: 2014-07-23 09:07+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Юрій Чорноіван"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "yurchor@ukr.net"
+
+#. i18n: ectx: Menu (Actions)
+#: data/sflphone-client-kdeui.rc:5
+msgid "Actions"
+msgstr "Дії"
+
+#. i18n: ectx: Menu (View)
+#: data/sflphone-client-kdeui.rc:20
+msgid "View"
+msgstr "Перегляд"
+
+#. i18n: ectx: Menu (Settings)
+#: data/sflphone-client-kdeui.rc:30
+msgid "Settings"
+msgstr "Параметри"
+
+#: src/accountwizard.cpp:190 src/accountwizard.cpp:352
+#: src/actioncollection.cpp:202
+msgid "Account creation wizard"
+msgstr "Майстер створення облікових записів"
+
+#: src/accountwizard.cpp:247 src/accountwizard.cpp:268
+#: src/accountwizard.cpp:283 src/accountwizard.cpp:619
+msgid "This assistant is now finished."
+msgstr "Роботу цього майстра завершено."
+
+#: src/accountwizard.cpp:264
+#, kde-format
+msgid ""
+"Creation of account has failed for the reason:\n"
+"%1"
+msgstr ""
+"Спроба створення облікового запису завершилася невдало з такої причини:\n"
+"%1"
+
+#: src/accountwizard.cpp:324
+#, kde-format
+msgid "Alias: %1"
+msgstr "Псевдонім: %1"
+
+#: src/accountwizard.cpp:325
+#, kde-format
+msgid "Server: %1"
+msgstr "Сервер: %1"
+
+#: src/accountwizard.cpp:326
+#, kde-format
+msgid "Password: %1"
+msgstr "Пароль: %1"
+
+#: src/accountwizard.cpp:327
+#, kde-format
+msgid "Protocol: %1"
+msgstr "Протокол: %1"
+
+#: src/accountwizard.cpp:328
+#, kde-format
+msgid "Voicemail number: %1"
+msgstr "Номер голосової пошти: %1"
+
+#: src/accountwizard.cpp:329
+#, kde-format
+msgctxt "SIP Account username"
+msgid "Username: %1"
+msgstr "Користувач: %1"
+
+#: src/accountwizard.cpp:353
+msgid "Welcome to the Account creation wizard of SFLphone"
+msgstr "Вітаємо у майстрі створення облікових записів SFLphone"
+
+#: src/accountwizard.cpp:355
+msgid "This installation wizard will help you configure an account."
+msgstr ""
+"За допомогою цього майстра встановлення ви зможете налаштувати ваш обліковий "
+"запис."
+
+#: src/accountwizard.cpp:358
+msgid "Always display this dialog when there is no accounts"
+msgstr "Завжди показувати це діалогове вікно, якщо немає облікових записів"
+
+#: src/accountwizard.cpp:390
+msgid "VoIP Protocols"
+msgstr "Протоколи VoIP"
+
+#: src/accountwizard.cpp:391
+msgid "Select an account type"
+msgstr "Виберіть тип облікового запису"
+
+#: src/accountwizard.cpp:393
+msgid "SIP (Session Initiation Protocol)"
+msgstr "SIP (Session Initiation Protocol)"
+
+#: src/accountwizard.cpp:394
+msgid "IAX2 (InterAsterix Exchange)"
+msgstr "IAX2 (InterAsterix Exchange)"
+
+#: src/accountwizard.cpp:430
+msgid "SIP account settings"
+msgstr "Параметри облікового запису SIP"
+
+#: src/accountwizard.cpp:431 src/accountwizard.cpp:512
+msgid "Please fill the following information"
+msgstr "Будь ласка, вкажіть дані з наведеного нижче списку"
+
+#: src/accountwizard.cpp:433 src/accountwizard.cpp:514
+msgid "Alias"
+msgstr "Псевдонім"
+
+#: src/accountwizard.cpp:434 src/accountwizard.cpp:515
+msgid "Server"
+msgstr "Сервер"
+
+#. i18n: ectx: property (text), widget (QLabel, label_credential_password)
+#: src/accountwizard.cpp:435 src/accountwizard.cpp:516
+#: src/conf/dlgaccountsbase.ui:1122
+msgid "Password"
+msgstr "Пароль"
+
+#: src/accountwizard.cpp:436 src/accountwizard.cpp:517
+msgid "Voicemail number"
+msgstr "Номер голосової пошти"
+
+#: src/accountwizard.cpp:437
+msgid "Secure with ZRTP"
+msgstr "Захистити за допомогою ZRTP"
+
+#: src/accountwizard.cpp:438 src/accountwizard.cpp:518
+msgctxt "SIP Account Username"
+msgid "Username"
+msgstr "Користувач"
+
+#: src/accountwizard.cpp:447
+msgid "Anything, used only locally"
+msgstr "Будь-що, використовується лише локально"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit3_server)
+#: src/accountwizard.cpp:448 src/conf/dlgaccountsbase.ui:309
+msgid "Example: sip.sflphone.org or 192.168.0.2"
+msgstr "Приклад: sip.sflphone.org або 192.168.0.2"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit4_user)
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit_credential_auth)
+#: src/accountwizard.cpp:449 src/conf/dlgaccountsbase.ui:329
+#: src/conf/dlgaccountsbase.ui:1142
+msgid "Usually your extension number"
+msgstr "Зазвичай, ваш додатковий номер"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit5_password)
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit_credential_password)
+#: src/accountwizard.cpp:450 src/conf/dlgaccountsbase.ui:349
+#: src/conf/dlgaccountsbase.ui:1158
+msgid "SIP password, ask your network administrator"
+msgstr "Пароль SIP. Запитайте про нього у адміністратора мережі."
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit6_mailbox)
+#: src/accountwizard.cpp:451 src/conf/dlgaccountsbase.ui:366
+msgid "Usually the same as the username"
+msgstr "Зазвичай, збігається з іменем користувача"
+
+#: src/accountwizard.cpp:511
+msgid "IAX2 account settings"
+msgstr "Параметри облікового запису IAX2"
+
+#: src/accountwizard.cpp:578
+msgid "Network Address Translation (NAT)"
+msgstr "Network Address Translation (NAT)"
+
+#: src/accountwizard.cpp:579
+msgid "You should probably enable this if you are behind a firewall."
+msgstr "Вам варто позначити цей пункт, якщо ви користуєтеся брандмауером."
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_stun)
+#: src/accountwizard.cpp:581 src/conf/dlgaccountsbase.ui:542
+msgid "Enable STUN"
+msgstr "Увімкнути STUN"
+
+#: src/accountwizard.cpp:582
+msgid "STUN Server"
+msgstr "Сервер STUN"
+
+#: src/accountwizard.cpp:620
+msgid ""
+"After checking the settings you chose, click \"Finish\" to create the "
+"account. This may take a while to complete."
+msgstr ""
+"Щойно буде вказано відповідні параметри, натисніть кнопку «Завершити», щоб "
+"створити обліковий запис. Створення облікового запису може бути доволі "
+"тривалою справою."
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pTransferB)
+#: src/actioncollection.cpp:91 src/delegates/contactdelegate.cpp:182
+#: src/delegates/historydelegate.cpp:270 src/delegates/historydelegate.cpp:271
+#: src/sflphoneview.cpp:85 src/widgets/ui/transfer.ui:105
+msgid "Transfer"
+msgstr "Передавання"
+
+#: src/actioncollection.cpp:92 src/sflphoneview.cpp:86
+msgid "Record"
+msgstr "Записати"
+
+#: src/actioncollection.cpp:93
+msgid "Hold"
+msgstr "Призупинити"
+
+#: src/actioncollection.cpp:94
+msgid "Refuse"
+msgstr "Відкинути"
+
+#: src/actioncollection.cpp:95 src/sflphoneview.cpp:83 src/sflphoneview.cpp:88
+msgid "Hang up"
+msgstr "Покласти трубку"
+
+#: src/actioncollection.cpp:96
+msgid "Unhold"
+msgstr "Поновити"
+
+#: src/actioncollection.cpp:97
+msgid "Pickup"
+msgstr "Підняти"
+
+#: src/actioncollection.cpp:98
+msgctxt "Mute the current audio capture device"
+msgid "Mute"
+msgstr "Вимкнути звук"
+
+#: src/actioncollection.cpp:99
+msgctxt "Mute the current audio playback device"
+msgid "Mute Playback"
+msgstr "Вимкнути відтворення звуку"
+
+#: src/actioncollection.cpp:100
+msgid "Dial"
+msgstr "Набрати"
+
+#: src/actioncollection.cpp:111
+msgid "Rotate left"
+msgstr "Обернути ліворуч"
+
+#: src/actioncollection.cpp:112
+msgid "Rotate right"
+msgstr "Обернути праворуч"
+
+#: src/actioncollection.cpp:113 src/actioncollection.cpp:114
+msgid "Flip"
+msgstr "Віддзеркалити"
+
+#: src/actioncollection.cpp:115
+msgid "Mute"
+msgstr "Вимкнути звук"
+
+#: src/actioncollection.cpp:116
+msgid "Preview"
+msgstr "Перегляд"
+
+#: src/actioncollection.cpp:117
+msgid "Keep aspect ratio"
+msgstr "Зберігати співвідношення розмірів"
+
+#: src/actioncollection.cpp:118
+msgid "Fullscreen"
+msgstr "На весь екран"
+
+#: src/actioncollection.cpp:192
+msgid "Configure SFLPhone-KDE"
+msgstr "Налаштувати SFLPhone-KDE"
+
+#: src/actioncollection.cpp:194
+msgid "Display dialpad"
+msgstr "Показати панель набирання"
+
+#: src/actioncollection.cpp:195
+msgid "Display text message box"
+msgstr "Показати панель текстового повідомлення"
+
+#: src/actioncollection.cpp:196
+msgid "Display volume controls"
+msgstr "Показати елементи керування гучністю"
+
+#: src/actioncollection.cpp:197
+msgid "Paste"
+msgstr "Вставити"
+
+#: src/actioncollection.cpp:198
+msgid "Display Contact"
+msgstr "Показати запис контакту"
+
+#: src/actioncollection.cpp:199
+msgid "Display history"
+msgstr "Показати журнал"
+
+#: src/actioncollection.cpp:200
+msgid "Display bookmark"
+msgstr "Показати закладку"
+
+#: src/actioncollection.cpp:201
+msgid "Configure Toolbars"
+msgstr "Налаштувати пенали"
+
+#: src/actioncollection.cpp:203
+msgid "Add new contact"
+msgstr "Додати новий контакт"
+
+#: src/actioncollection.cpp:209
+msgid "Configure SFLphone"
+msgstr "Налаштувати SFLphone"
+
+#: src/actioncollection.cpp:237
+msgid "Configure Shortcut"
+msgstr "Налаштування скорочень"
+
+#: src/canvasobjectmanager.cpp:224
+msgid "SFLPhone"
+msgstr "SFLPhone"
+
+#: src/conf/configurationdialog.cpp:115
+msgid "Accounts"
+msgstr "Облікові записи"
+
+#: src/conf/configurationdialog.cpp:126
+msgctxt "History settings"
+msgid "History"
+msgstr "Журнал"
+
+#: src/conf/configurationdialog.cpp:135
+msgctxt "User interterface settings"
+msgid "Display"
+msgstr "Показ"
+
+#: src/conf/configurationdialog.cpp:144
+msgid "Audio"
+msgstr "Звук"
+
+#: src/conf/configurationdialog.cpp:153
+msgid "Address Book"
+msgstr "Адресна книга"
+
+#: src/conf/configurationdialog.cpp:162
+msgid "Hooks"
+msgstr "Допоміжні скрипти"
+
+#: src/conf/configurationdialog.cpp:171
+msgid "Accessibility"
+msgstr "Доступність"
+
+#: src/conf/configurationdialog.cpp:181 src/widgets/videodock.cpp:129
+msgctxt "Video conversation"
+msgid "Video"
+msgstr "Відео"
+
+#: src/conf/configurationdialog.cpp:191
+msgctxt "SIP Presence"
+msgid "Presence"
+msgstr "Присутність"
+
+#: src/conf/dlgaccessibility.cpp:45
+msgid ""
+"This page allows to create macros that can then be called using keyboard "
+"shortcuts or added to the toolbar. To create one, assign a name and a "
+"character sequence. The sequence can be numeric or any character than can be "
+"interpreted as one (ex: \"A\" would be interpreted as 2)"
+msgstr ""
+"За допомогою цієї сторінки ви можете створити макроси, які згодом можна буде "
+"викликати за допомогою натискання комбінацій клавіш або кнопок панелі "
+"інструментів. Щоб створити подібний макрос, вкажіть його назву і "
+"послідовність символів. Послідовність може бути цифровою або символьною "
+"(символи інтерпретуються як цифри, наприклад «A» є еквівалентом 2)."
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DlgAccessibility)
+#: src/conf/dlgaccessibility.ui:14
+msgid "Accessibility settings"
+msgstr "Параметри доступності"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_enableAutoCompletion)
+#: src/conf/dlgaccessibility.ui:20
+msgid "Auto completion"
+msgstr "Автодоповнення"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoCompleteMergeNumbers)
+#: src/conf/dlgaccessibility.ui:29
+msgid "Merge numbers from different accounts"
+msgstr "Об’єднувати номери з різних облікових записів"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoCompleteUseAccount)
+#: src/conf/dlgaccessibility.ui:36
+msgid "Call number using their original accounts"
+msgstr "Викликати номери за початковими обліковими записами"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_pT2SBG)
+#: src/conf/dlgaccessibility.ui:46
+msgid "Text to Speech"
+msgstr "Синтез мовлення з тексту"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableVoiceFeedback)
+#. i18n: ectx: label, entry (enableVoiceFeedback), group (main)
+#. i18n: ectx: label, entry (displayContactDock), group (main)
+#. i18n: ectx: label, entry (displayHistoryDock), group (main)
+#. i18n: ectx: label, entry (displayBookmarkDock), group (main)
+#: src/conf/dlgaccessibility.ui:52 src/klib/sflphone-client-kde.kcfg:238
+#: src/klib/sflphone-client-kde.kcfg:279 src/klib/sflphone-client-kde.kcfg:283
+#: src/klib/sflphone-client-kde.kcfg:287
+msgid "Enable audio feedback from common actions"
+msgstr "Увімкнути звуковий супровід типових дій"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableReadLabel)
+#. i18n: ectx: label, entry (enableReadLabel), group (main)
+#: src/conf/dlgaccessibility.ui:59 src/klib/sflphone-client-kde.kcfg:242
+msgid "Automatically read label when an overlay is being displayed"
+msgstr "Автоматично читати мітку, якщо показано панель накладки"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableReadDetails)
+#. i18n: ectx: label, entry (enableReadDetails), group (main)
+#: src/conf/dlgaccessibility.ui:66 src/klib/sflphone-client-kde.kcfg:246
+msgid "Automatically read the call details when it is selected"
+msgstr "Автоматично читати параметри виклику, якщо його позначено"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/dlgaccessibility.ui:82
+msgid "Macro"
+msgstr "Макрос"
+
+#. i18n: ectx: property (text), widget (RightToolButton, m_pRemoveTB)
+#. i18n: ectx: property (text), widget (RightToolButton, m_pRemove)
+#: src/conf/dlgaccessibility.ui:112 src/conf/dlgpresence.ui:81
+msgid "Remove"
+msgstr "Вилучити"
+
+#. i18n: ectx: property (text), widget (LeftToolButton, m_pAddTB)
+#. i18n: ectx: property (text), widget (CenterToolButton, m_pAdd)
+#: src/conf/dlgaccessibility.ui:126 src/conf/dlgpresence.ui:71
+msgid "Add"
+msgstr "Додати"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pNameL)
+#: src/conf/dlgaccessibility.ui:210
+msgid "Name*"
+msgstr "Назва*"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pNameLE)
+#: src/conf/dlgaccessibility.ui:217
+msgid "Identifier for this macro (toolbar text)"
+msgstr "Ідентифікатор цього макросу (текст на панелі інструментів)"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pCategoryL)
+#: src/conf/dlgaccessibility.ui:230
+msgid "Category*"
+msgstr "Категорія*"
+
+#. i18n: ectx: property (text), widget (QLabel, m_mSequenceL)
+#: src/conf/dlgaccessibility.ui:247
+msgid "Sequence*"
+msgstr "Послідовність*"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pSequenceLE)
+#: src/conf/dlgaccessibility.ui:254
+msgid "The key sequence to be executed"
+msgstr "Послідовність символів, яку буде введено"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pDelayL)
+#: src/conf/dlgaccessibility.ui:267
+msgid "Delay"
+msgstr "Затримка"
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, spinbox_tls_timeout_msec)
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_pDelaySB)
+#: src/conf/dlgaccessibility.ui:274 src/conf/dlgaccountsbase.ui:1505
+msgid "ms"
+msgstr "мс"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pDescriptionL)
+#: src/conf/dlgaccessibility.ui:290
+msgid "Description"
+msgstr "Опис"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pDescriptionLE)
+#: src/conf/dlgaccessibility.ui:297
+msgid "A description for this macro"
+msgstr "Опис цього макросу"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/conf/dlgaccessibility.ui:328
+msgid "Shortcut"
+msgstr "Скорочення"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pInfoL)
+#: src/conf/dlgaccessibility.ui:361
+msgid "Info"
+msgstr "Відомості"
+
+#: src/conf/dlgaccounts.cpp:110
+msgid ""
+"To add an account, press the \"Add\" button below. Use the ⬆ up and ⬇ down "
+"button to change the default account priority."
+msgstr ""
+"Щоб додати обліковий запис, натисніть кнопку «Додати», розташовану нижче. "
+"Скористайтеся кнопками ⬆ і ⬇, щоб змінити пріоритетність типового облікового "
+"запису."
+
+#: src/conf/dlgaccounts.cpp:118
+msgid "Usually called \"ca.crt\" or \"cacert.pem\""
+msgstr "Зазвичай, називається «ca.crt» або «cacert.pem»"
+
+#: src/conf/dlgaccounts.cpp:119
+msgid "A .pem or .crt"
+msgstr ".pem або .crt"
+
+#: src/conf/dlgaccounts.cpp:120
+msgid "A .key file"
+msgstr "Файл .key"
+
+#: src/conf/dlgaccounts.cpp:642
+msgid "New account"
+msgstr "Новий обліковий запис"
+
+#: src/conf/dlgaccounts.cpp:642
+#, kde-format
+msgid "New account%1"
+msgstr "Новий обліковий запис%1"
+
+#: src/conf/dlgaccounts.cpp:657
+#, kde-format
+msgid "Are you sure you want to remove %1?"
+msgstr "Ви справді бажаєте вилучити %1?"
+
+#: src/conf/dlgaccounts.cpp:657
+msgid "Remove account"
+msgstr "Вилучення облікового запису"
+
+#: src/conf/dlgaccounts.cpp:700
+msgid "Warning, caps lock is turned on!"
+msgstr "Попередження, увімкнено Caps Lock!"
+
+#. i18n: ectx: property (text), widget (QLabel, label_message)
+#: src/conf/dlgaccounts.cpp:704 src/conf/dlgaccountsbase.ui:460
+msgid "Fields marked with \"*\" are compulsory and required"
+msgstr "Поля, позначені символом «*» є обов’язковими до заповнення"
+
+#. i18n: ectx: property (whatsThis), widget (CategorizedTreeView, treeView_accountList)
+#: src/conf/dlgaccountsbase.ui:92
+msgid ""
+"By default, when you place a call, sflphone will use the first account in "
+"this list which is \"registered\". Change the order of the accounts using "
+"the \"Up\" and \"Down\" arrows. Enable/disable them by checking/unchecking "
+"them on the left of the item. Add or remove some with \"Plus\" and \"Sub\" "
+"buttons. Edit the selected account with the form on the right."
+msgstr ""
+"Типово, під час виклику sflphone використовує перший з облікових записів у "
+"списку зареєстрованих. Змінити порядок записів можна за допомогою кнопок зі "
+"стрілками «Вище» і «Нижче». Увімкнути або вимкнути облікові записи можна "
+"позначенням або зняттям позначки у полі, розташованому ліворуч від пункту. "
+"Додати або вилучити запис можна за допомогою кнопок з символами «Плюс» і "
+"«Мінус». Змінити параметри облікового запису можна за допомогою форми, "
+"розташованої праворуч."
+
+#. i18n: ectx: property (toolTip), widget (LeftToolButton, button_accountUp)
+#: src/conf/dlgaccountsbase.ui:123
+msgid "Get this account up"
+msgstr "Підняти цей обліковий запис"
+
+#. i18n: ectx: property (whatsThis), widget (LeftToolButton, button_accountUp)
+#. i18n: ectx: property (whatsThis), widget (CenterToolButton, button_accountDown)
+#. i18n: ectx: property (whatsThis), widget (LeftToolButton, button_audiocodecUp)
+#. i18n: ectx: property (whatsThis), widget (RightToolButton, button_audiocodecDown)
+#: src/conf/dlgaccountsbase.ui:126 src/conf/dlgaccountsbase.ui:142
+#: src/conf/dlgaccountsbase.ui:861 src/conf/dlgaccountsbase.ui:877
+msgid ""
+"By default, when you place a call, sflphone will use the first account in "
+"this list which is \"registered\". Change the order of the accounts using "
+"the \"Up\" and \"Down\" arrows."
+msgstr ""
+"Типово, під час створення виклику sflphone використовує перший зі списку "
+"зареєстрованих облікових записів. Змінити порядок облікових записів можна за "
+"допомогою натискання кнопок «Вище» і «Нижче»."
+
+#. i18n: ectx: property (text), widget (LeftToolButton, button_accountUp)
+#: src/conf/dlgaccountsbase.ui:129
+msgctxt "Move account up"
+msgid "Up"
+msgstr "Підняти"
+
+#. i18n: ectx: property (toolTip), widget (CenterToolButton, button_accountDown)
+#: src/conf/dlgaccountsbase.ui:139
+msgid "Get this account down"
+msgstr "Опустити цей обліковий запис"
+
+#. i18n: ectx: property (text), widget (CenterToolButton, button_accountDown)
+#: src/conf/dlgaccountsbase.ui:145
+msgctxt "Move account down"
+msgid "Down"
+msgstr "Опустити"
+
+#. i18n: ectx: property (toolTip), widget (CenterToolButton, button_accountAdd)
+#: src/conf/dlgaccountsbase.ui:167
+msgid "Add a new account"
+msgstr "Додати новий обліковий запис"
+
+#. i18n: ectx: property (whatsThis), widget (CenterToolButton, button_accountAdd)
+#: src/conf/dlgaccountsbase.ui:170
+msgid ""
+"This button enables you to initialize a new account. You will then be able "
+"to edit it using the form on the right."
+msgstr ""
+"За допомогою цієї кнопки ви зможете започаткувати новий обліковий запис. "
+"Пізніше ви зможете вносити зміни до запису за допомогою форми, розташованої "
+"праворуч."
+
+#. i18n: ectx: property (text), widget (CenterToolButton, button_accountAdd)
+#: src/conf/dlgaccountsbase.ui:173
+msgctxt "Add new account"
+msgid "Add"
+msgstr "Додати"
+
+#. i18n: ectx: property (toolTip), widget (RightToolButton, button_accountRemove)
+#: src/conf/dlgaccountsbase.ui:189
+msgid "Remove the selected account"
+msgstr "Вилучити позначений обліковий запис"
+
+#. i18n: ectx: property (whatsThis), widget (RightToolButton, button_accountRemove)
+#: src/conf/dlgaccountsbase.ui:192
+msgid ""
+"This button will remove the selected account in the list below. Be sure you "
+"really don't need it anymore. If you think you might use it again later, "
+"just uncheck it."
+msgstr ""
+"За допомогою натискання цієї кнопки можна вилучити позначений у списку нижче "
+"обліковий запис. Переконайтеся, що цей обліковий запис справді вам більше не "
+"потрібен. Якщо ви вважаєте, що можете скористатися ним пізніше, зніміть "
+"позначку з його пункту."
+
+#. i18n: ectx: property (text), widget (RightToolButton, button_accountRemove)
+#: src/conf/dlgaccountsbase.ui:198
+msgctxt "Remove selected account"
+msgid "Remove"
+msgstr "Вилучити"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_basic)
+#: src/conf/dlgaccountsbase.ui:229
+msgctxt "Basic settings"
+msgid "Basic"
+msgstr "Основні"
+
+#. i18n: ectx: property (text), widget (QLabel, label1_alias)
+#: src/conf/dlgaccountsbase.ui:240
+msgid "Alias*"
+msgstr "Псевдонім*"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit1_alias)
+#: src/conf/dlgaccountsbase.ui:262
+msgid "Anything, used only to select the account"
+msgstr "Будь-що, використовується лише для вибору облікового запису"
+
+#. i18n: ectx: property (text), widget (QLabel, label2_protocol)
+#: src/conf/dlgaccountsbase.ui:269
+msgid "Protocol"
+msgstr "Протокол"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, edit2_protocol)
+#: src/conf/dlgaccountsbase.ui:280
+msgid "SIP"
+msgstr "SIP"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, edit2_protocol)
+#: src/conf/dlgaccountsbase.ui:285
+msgid "IAX"
+msgstr "IAX"
+
+#. i18n: ectx: property (text), widget (QLabel, label3_server)
+#: src/conf/dlgaccountsbase.ui:293
+msgctxt "SIP server"
+msgid "Server*"
+msgstr "Сервер*"
+
+#. i18n: ectx: property (text), widget (QLabel, label4_user)
+#: src/conf/dlgaccountsbase.ui:319
+msgctxt "Account username"
+msgid "Username*"
+msgstr "Користувач*"
+
+#. i18n: ectx: property (text), widget (QLabel, label5_password)
+#: src/conf/dlgaccountsbase.ui:336
+msgctxt "Account password"
+msgid "Password*"
+msgstr "Пароль*"
+
+#. i18n: ectx: property (text), widget (QLabel, label6_mailbox)
+#: src/conf/dlgaccountsbase.ui:356
+msgctxt "Account voice mail address"
+msgid "Voicemail"
+msgstr "Голосова пошта"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pDefaultAccount)
+#: src/conf/dlgaccountsbase.ui:373
+msgid "Default account for contact with only extensions as phone number"
+msgstr ""
+"Типовий обліковий запис для контактів, для яких відомий лише додатковий номер"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pAutoAnswer)
+#: src/conf/dlgaccountsbase.ui:380
+msgid "Auto answer"
+msgstr "Автовідповідь"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pPresenceCK)
+#: src/conf/dlgaccountsbase.ui:390
+msgid "Enable presence support"
+msgstr "Увімкнути підтримку присутності"
+
+#. i18n: ectx: property (text), widget (QLabel, label7_state)
+#: src/conf/dlgaccountsbase.ui:397
+msgid "Status"
+msgstr "Стан"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_advanced)
+#: src/conf/dlgaccountsbase.ui:471
+msgctxt "Advanced settings"
+msgid "Advanced"
+msgstr "Додатково"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/dlgaccountsbase.ui:477
+msgid "Registration"
+msgstr "Реєстрація"
+
+#. i18n: ectx: property (text), widget (QLabel, label_regExpire)
+#: src/conf/dlgaccountsbase.ui:483
+msgid "Registration expire"
+msgstr "Строк дії реєстрації"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pUserAgentL)
+#: src/conf/dlgaccountsbase.ui:513
+msgid "User agent"
+msgstr "Агент користувача"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: src/conf/dlgaccountsbase.ui:526
+msgid "STUN"
+msgstr "STUN"
+
+#. i18n: ectx: property (text), widget (QLabel, label_commonSettings)
+#: src/conf/dlgaccountsbase.ui:532
+msgid "STUN parameters will be applied on each SIP account created."
+msgstr ""
+"Параметри STUN буде застосовано до всіх створених облікових записів SIP."
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, line_stun)
+#: src/conf/dlgaccountsbase.ui:552
+msgid "Choose STUN server (example: stunserver.org)"
+msgstr "Виберіть сервер STUN (приклад: stunserver.org)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
+#: src/conf/dlgaccountsbase.ui:562
+msgid "DTMF"
+msgstr "DTMF"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pDTMFOverRTP)
+#: src/conf/dlgaccountsbase.ui:568
+msgid "Over RTP"
+msgstr "За допомогою RTP"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pDTMFOverSIP)
+#: src/conf/dlgaccountsbase.ui:575
+msgid "Over SIP"
+msgstr "За допомогою SIP"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: src/conf/dlgaccountsbase.ui:599
+msgid "Network"
+msgstr "Мережа"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/conf/dlgaccountsbase.ui:605
+msgid "Network Interface"
+msgstr "Інтерфейс мережі"
+
+#. i18n: ectx: property (text), widget (QLabel, label_ni_local_address)
+#: src/conf/dlgaccountsbase.ui:614
+msgid "Local address"
+msgstr "Локальна адреса"
+
+#. i18n: ectx: property (text), widget (QLabel, label_ni_local_port)
+#: src/conf/dlgaccountsbase.ui:624
+msgid "Local port"
+msgstr "Локальний порт"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pProxyLE)
+#: src/conf/dlgaccountsbase.ui:638
+msgid "SIP proxy server (if none, leave blank)"
+msgstr "Проксі-сервер SIP (якщо немає, не вказуйте)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pProxyCK)
+#: src/conf/dlgaccountsbase.ui:645
+msgid "Proxy"
+msgstr "Проксі"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: ectx: property (text), widget (QLabel, label_published_address)
+#: src/conf/dlgaccountsbase.ui:655 src/conf/dlgaccountsbase.ui:675
+msgid "Published address"
+msgstr "Відкрита адреса"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_pa_same_as_local)
+#: src/conf/dlgaccountsbase.ui:661
+msgid "Same as local parameters"
+msgstr "Те саме, що і у локальних параметрах"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_pa_custom)
+#: src/conf/dlgaccountsbase.ui:668
+msgid "Set published address and port"
+msgstr "Встановити відкриту адресу і порт"
+
+#. i18n: ectx: property (text), widget (QLabel, label_pa_published_port)
+#: src/conf/dlgaccountsbase.ui:682
+msgid "Published port"
+msgstr "Відкритий порт"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, lineEdit_pa_published_address)
+#: src/conf/dlgaccountsbase.ui:696
+msgid "IP address or hostname"
+msgstr "IP-адреса або назва вузла"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_7)
+#: src/conf/dlgaccountsbase.ui:719
+msgid "RTP configuration"
+msgstr "Налаштування RTP"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMinAudioPortL)
+#: src/conf/dlgaccountsbase.ui:732
+msgid "Minimum audio port"
+msgstr "Мінімальний номер звукового порту"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMinVideoPortL)
+#. i18n: ectx: property (text), widget (QLabel, m_pMaxVideoPortL)
+#: src/conf/dlgaccountsbase.ui:773 src/conf/dlgaccountsbase.ui:787
+msgid "Minimum video port"
+msgstr "Мінімальний номер відеопорту"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMaxAudioPortL)
+#: src/conf/dlgaccountsbase.ui:780
+msgid "Maximum audio port"
+msgstr "Максимальний номер звукового порту"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_codec)
+#: src/conf/dlgaccountsbase.ui:811
+msgid "Codecs"
+msgstr "Кодеки"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#: src/conf/dlgaccountsbase.ui:817
+msgid "Audio codecs"
+msgstr "Звукові кодеки"
+
+#. i18n: ectx: property (text), widget (QLabel, label_frequency)
+#: src/conf/dlgaccountsbase.ui:826
+msgid "Sample rate:"
+msgstr "Частота дискретизації:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_frequency_value)
+#. i18n: ectx: property (text), widget (QLabel, label_bitrate_value)
+#: src/conf/dlgaccountsbase.ui:833 src/conf/dlgaccountsbase.ui:899
+msgid "-"
+msgstr "-"
+
+#. i18n: ectx: property (toolTip), widget (LeftToolButton, button_audiocodecUp)
+#. i18n: ectx: property (toolTip), widget (LeftToolButton, m_pVCodecUpPB)
+#: src/conf/dlgaccountsbase.ui:858 src/conf/dlgaccountsbase.ui:956
+msgid "Increase codec priority"
+msgstr "Збільшити пріоритетність кодека"
+
+#. i18n: ectx: property (text), widget (LeftToolButton, button_audiocodecUp)
+#: src/conf/dlgaccountsbase.ui:864
+msgctxt "Move audio codec up"
+msgid "Up"
+msgstr "Вище"
+
+#. i18n: ectx: property (toolTip), widget (RightToolButton, button_audiocodecDown)
+#. i18n: ectx: property (toolTip), widget (RightToolButton, m_pVCodecDownPB)
+#: src/conf/dlgaccountsbase.ui:874 src/conf/dlgaccountsbase.ui:966
+msgid "Decrease codec priority"
+msgstr "Зменшити пріоритетність кодека"
+
+#. i18n: ectx: property (text), widget (RightToolButton, button_audiocodecDown)
+#: src/conf/dlgaccountsbase.ui:880
+msgctxt "Move audio codec down"
+msgid "Down"
+msgstr "Нижче"
+
+#. i18n: ectx: property (text), widget (QLabel, label_bitrate)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/conf/dlgaccountsbase.ui:892 src/conf/dlgaccountsbase.ui:924
+msgid "Bitrate:"
+msgstr "Бітова швидкість:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_pVideoCodecGB)
+#: src/conf/dlgaccountsbase.ui:909
+msgid "Video codecs"
+msgstr "Відеокодеки"
+
+#. i18n: ectx: property (text), widget (LeftToolButton, m_pVCodecUpPB)
+#: src/conf/dlgaccountsbase.ui:959
+msgctxt "Move video codec up"
+msgid "Up"
+msgstr "Вище"
+
+#. i18n: ectx: property (text), widget (RightToolButton, m_pVCodecDownPB)
+#: src/conf/dlgaccountsbase.ui:969
+msgctxt "Move video codec down"
+msgid "Down"
+msgstr "Нижче"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pEnableVideo)
+#: src/conf/dlgaccountsbase.ui:981
+msgid "Enable video when supported"
+msgstr "Увімкнути відео, якщо є підтримка"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_credentials)
+#: src/conf/dlgaccountsbase.ui:1005
+msgid "Credential"
+msgstr "Реєстраційні дані"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pInfoL)
+#: src/conf/dlgaccountsbase.ui:1036
+msgid ""
+"This tab help manage accounts with multiple credentials. If you have "
+"multiple accounts. Do not use this feature, just create multiple accounts in "
+"SFLPhone. Nor use this dialog if you only have one set of credentials. In "
+"that case, the \"Basic\" tab will provide everything you need."
+msgstr ""
+"За допомогою цієї вкладки можна керувати обліковими записами з декількома "
+"наборами реєстраційних даних. Якщо у вас декілька облікових записів, не "
+"користуйтеся цією можливістю, краще створіть декілька облікових записів у "
+"SFLPhone. Також не користуйтеся цим діалоговим вікном, якщо у вас лише один "
+"набір реєстраційних даних (у такому разі вам достатньо скористатися вкладкою "
+"«Основні»)."
+
+#. i18n: ectx: property (text), widget (LeftToolButton, button_add_credential)
+#: src/conf/dlgaccountsbase.ui:1080
+msgctxt "Add new credential"
+msgid "Add"
+msgstr "Додати"
+
+#. i18n: ectx: property (text), widget (RightToolButton, button_remove_credential)
+#: src/conf/dlgaccountsbase.ui:1087
+msgctxt "Remove selected credential"
+msgid "Remove"
+msgstr "Вилучити"
+
+#. i18n: ectx: property (title), widget (QGroupBox, group_credential)
+#: src/conf/dlgaccountsbase.ui:1102
+msgid "Details"
+msgstr "Подробиці"
+
+#. i18n: ectx: property (text), widget (QLabel, label_credential_realm)
+#: src/conf/dlgaccountsbase.ui:1108
+msgid "Realm"
+msgstr "Область"
+
+#. i18n: ectx: property (text), widget (QLabel, labe_credential_auth)
+#: src/conf/dlgaccountsbase.ui:1115
+msgid "Auth. name"
+msgstr "Назва обл. запису"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit_credential_realm)
+#: src/conf/dlgaccountsbase.ui:1132
+msgid "Usually *"
+msgstr "Зазвичай, *"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_security)
+#: src/conf/dlgaccountsbase.ui:1185
+msgid "Security"
+msgstr "Захист"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupbox_STRP_keyexchange)
+#: src/conf/dlgaccountsbase.ui:1224
+msgid "Encrypt media streams (SRTP)"
+msgstr "Шифрувати потоки даних (SRTP)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_ZTRP_send_hello)
+#: src/conf/dlgaccountsbase.ui:1243
+msgid "Send Hello Hash in SDP"
+msgstr "Надсилати вітальний код до SDP"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_ZRTP_warn_supported)
+#: src/conf/dlgaccountsbase.ui:1250
+msgid "Ask user to confirm SAS"
+msgstr "Просити користувача підтвердити SAS"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_ZRTP_Ask_user)
+#: src/conf/dlgaccountsbase.ui:1257
+msgid "Warn if ZRTP is not supported"
+msgstr "Попереджати, якщо ZRTP не підтримується"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_ZRTP_display_SAS)
+#: src/conf/dlgaccountsbase.ui:1264
+msgid "Display SAS once for hold events"
+msgstr "Показувати SAS один раз для подій підняття"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_SDES_fallback_rtp)
+#: src/conf/dlgaccountsbase.ui:1271
+msgid "Fallback on RTP on SDES failure"
+msgstr "Повертатися до RTP у разі помилки SDES"
+
+#. i18n: ectx: property (title), widget (QGroupBox, group_security_tls)
+#: src/conf/dlgaccountsbase.ui:1287
+msgid "Encrypt negotiation (TLS)"
+msgstr "Узгодження шифрування (TLS)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_listener)
+#: src/conf/dlgaccountsbase.ui:1299
+msgid "Global TLS listener port"
+msgstr "Загальний порт очікування з’єднань TLS"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_authority)
+#: src/conf/dlgaccountsbase.ui:1326
+msgid "Authority certificate list"
+msgstr "Список сертифікатів служб сертифікації"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_endpoint)
+#: src/conf/dlgaccountsbase.ui:1336
+msgid "Public endpoint certificate"
+msgstr "Сертифікат відкритої кінцевої точки"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_private_key)
+#: src/conf/dlgaccountsbase.ui:1346
+msgid "Private key"
+msgstr "Закритий ключ"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_private_key_password)
+#: src/conf/dlgaccountsbase.ui:1356
+msgid "Private key password"
+msgstr "Пароль закритого ключа"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit_tls_private_key_password)
+#: src/conf/dlgaccountsbase.ui:1376
+msgid "Only necessary if the key have a password"
+msgstr "Потрібне, лише якщо ваш ключ захищено паролем"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_method)
+#: src/conf/dlgaccountsbase.ui:1386
+msgid "TLS protocol method"
+msgstr "Метод, використаний у протоколі TLS"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_cipher)
+#: src/conf/dlgaccountsbase.ui:1409
+msgid "TLS cipher list"
+msgstr "Список шифрувань TLS"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_outgoing)
+#: src/conf/dlgaccountsbase.ui:1419
+msgid "Outgoing TLS server name"
+msgstr "Вихідна назва сервера TLS"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, edit_tls_outgoing)
+#: src/conf/dlgaccountsbase.ui:1426
+msgid "Usually the SIP server hostname"
+msgstr "Зазвичай, назва вузла сервера SIP"
+
+#. i18n: ectx: property (text), widget (QLabel, label_tls_timeout)
+#: src/conf/dlgaccountsbase.ui:1433
+msgid "Negotiation timeout"
+msgstr "Час очікування на узгодження"
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, spinbox_tls_timeout_sec)
+#: src/conf/dlgaccountsbase.ui:1452
+msgid "s"
+msgstr "с"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_tls_incoming)
+#: src/conf/dlgaccountsbase.ui:1459
+msgid "Verify incoming certificates (server side)"
+msgstr "Перевірка вхідних сертифікатів (на боці сервера)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_tls_answer)
+#: src/conf/dlgaccountsbase.ui:1466
+msgid "Verify answer certificates (client side)"
+msgstr "Перевірка сертифікатів відповідей (на боці клієнта)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_tls_requier_cert)
+#: src/conf/dlgaccountsbase.ui:1473
+msgid "Require a certificate for incoming TLS connections"
+msgstr "Вимагати сертифікат для вхідних з’єднань TLS"
+
+#. i18n: ectx: property (text), widget (QLabel, label_timeout2)
+#: src/conf/dlgaccountsbase.ui:1533
+msgid "<center>:</center>"
+msgstr "<center>:</center>"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMoveCertL)
+#: src/conf/dlgaccountsbase.ui:1585
+msgid ""
+"A good security practice is to move the certificates to a common directory. "
+"SELinux recommend ~/.cert for this. Do you wish to move the certificate "
+"there?"
+msgstr ""
+"Сертифікати варто зберігати у одній теці. Розробники SELinux рекомендують "
+"використовувати для цього теку ~/.cert. Хочете пересунути сертифікат до цієї "
+"теки?"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pMoveCertPB)
+#: src/conf/dlgaccountsbase.ui:1599
+msgid "Move to ~/.cert"
+msgstr "Пересунути до ~/.cert"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pCancelMove)
+#. i18n: ectx: property (text), widget (QPushButton, m_pCancelFix)
+#: src/conf/dlgaccountsbase.ui:1606 src/conf/dlgaccountsbase.ui:1684
+msgid "No thanks"
+msgstr "Ні, дякую"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pMoveCertL_2)
+#: src/conf/dlgaccountsbase.ui:1663
+msgid ""
+"Your certification access is too permissive. Certificates should only be "
+"readable by the owner."
+msgstr ""
+"Доступ до ваших сертифікатів є надто простим. Доступ до читання сертифіката "
+"повинен мати лише його власник."
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pFixCertPB)
+#: src/conf/dlgaccountsbase.ui:1677
+msgid "Fix the permissions"
+msgstr "Виправити права доступу"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_ringtone)
+#. i18n: ectx: property (title), widget (QGroupBox, m_pEnableRingtoneGB)
+#. i18n: ectx: property (text), widget (QLabel, alsaRingtoneDeviceL)
+#: src/conf/dlgaccountsbase.ui:1735 src/conf/dlgaccountsbase.ui:1741
+#: src/conf/dlgaudiobase.ui:130
+msgid "Ringtone"
+msgstr "Мелодія дзвінка"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pUseCustomFileCK)
+#: src/conf/dlgaccountsbase.ui:1750
+msgid "Use custom file"
+msgstr "Використовувати нетиповий файл"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/conf/dlgaddressbookbase.ui:30
+msgid "Collections"
+msgstr "Збірки"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pEditCollection)
+#: src/conf/dlgaddressbookbase.ui:61
+msgid "Edit collection"
+msgstr "Змінити збірку"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pAddCollection)
+#: src/conf/dlgaddressbookbase.ui:68
+msgid "Add collection"
+msgstr "Додати збірку"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/dlgaddressbookbase.ui:78
+msgid "Contact Filter"
+msgstr "Фільтр контактів"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_hideContactWithoutPhone)
+#: src/conf/dlgaddressbookbase.ui:84
+msgid "Hide contacts without phone numbers"
+msgstr "Приховати записи контактів без номерів телефонів"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pPhonetypeL)
+#: src/conf/dlgaddressbookbase.ui:91
+msgid "Use contact from the following phone number category:"
+msgstr "Використовувати контакт з такої категорії номерів:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: src/conf/dlgaddressbookbase.ui:109
+msgid "Visible Contact Details"
+msgstr "Видимі параметри контактів"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOrganisation)
+#: src/conf/dlgaddressbookbase.ui:115 src/conf/dlgdisplay.cpp:40
+msgid "Display organisation"
+msgstr "Показувати установу"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayEmail)
+#: src/conf/dlgaddressbookbase.ui:122
+msgid "Display email address"
+msgstr "Показувати адресу ел. пошти"
+
+#. i18n: ectx: property (text), widget (QLabel, label_interface)
+#: src/conf/dlgaudiobase.ui:32
+msgid "Sound manager"
+msgstr "Керування звуком"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_alsa)
+#: src/conf/dlgaudiobase.ui:64
+msgid "ALSA Settings"
+msgstr "Параметри ALSA"
+
+#. i18n: ectx: property (text), widget (QLabel, label1_alsaPugin)
+#: src/conf/dlgaudiobase.ui:79
+msgid "ALSA plugin"
+msgstr "Додаток ALSA"
+
+#. i18n: ectx: property (text), widget (QLabel, label2_in)
+#: src/conf/dlgaudiobase.ui:96
+msgid "Input"
+msgstr "Вхід"
+
+#. i18n: ectx: property (text), widget (QLabel, label3_out)
+#: src/conf/dlgaudiobase.ui:113
+msgid "Output"
+msgstr "Вихід"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_pulseAudio)
+#: src/conf/dlgaudiobase.ui:153
+msgid "PulseAudio Settings"
+msgstr "Параметри PulseAudio"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_pulseAudioVolumeAlter)
+#: src/conf/dlgaudiobase.ui:162
+msgid "Mute other applications during a call"
+msgstr "Вимкнути звук у інших програмах на час викликів"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1_recordGeneral)
+#: src/conf/dlgaudiobase.ui:182
+msgid "Recording"
+msgstr "Запис"
+
+#. i18n: ectx: property (clickMessage), widget (KUrlRequester, KUrlRequester_destinationFolder)
+#: src/conf/dlgaudiobase.ui:194
+msgid "Destination folder"
+msgstr "Тека призначення"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pAlwaysRecordCK)
+#: src/conf/dlgaudiobase.ui:201
+msgid "Always record calls"
+msgstr "Завжди записувати виклики"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/dlgaudiobase.ui:211
+msgid "Audio settings"
+msgstr "Параметри звуку"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pSuppressNoise)
+#: src/conf/dlgaudiobase.ui:217
+msgid "Enable noise reduction"
+msgstr "Увімкнути придушення шуму"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableRoomTone)
+#: src/conf/dlgaudiobase.ui:224
+msgid "Enable dial tone"
+msgstr "Увімкнути звуковий супровід набирання"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pCPlayDTMFCk)
+#: src/conf/dlgaudiobase.ui:231
+msgid "Mute DTMF"
+msgstr "Вимкнути тони кнопок"
+
+#: src/conf/dlgdisplay.cpp:36
+msgid "Display Icon"
+msgstr "Показувати піктограму"
+
+#: src/conf/dlgdisplay.cpp:37
+msgid "Display Security"
+msgstr "Показувати захист"
+
+#: src/conf/dlgdisplay.cpp:38
+msgid "Display Call Number"
+msgstr "Показувати номер виклику"
+
+#: src/conf/dlgdisplay.cpp:39
+msgid "Display Peer Name"
+msgstr "Показувати ім’я співрозмовника"
+
+#: src/conf/dlgdisplay.cpp:41
+msgid "Display department"
+msgstr "Показувати відділ"
+
+#: src/conf/dlgdisplay.cpp:42
+msgid "Display e-mail"
+msgstr "Показувати адресу ел. пошти"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/conf/dlgdisplaybase.ui:26
+msgid "Display Main Window"
+msgstr "Показувати головне вікно"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOnStart)
+#: src/conf/dlgdisplaybase.ui:35
+msgid "On start"
+msgstr "Під час запуску"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOnCalls)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_notifOnCalls)
+#: src/conf/dlgdisplaybase.ui:45 src/conf/dlgdisplaybase.ui:74
+msgid "On incoming calls"
+msgstr "Для вхідних дзвінків"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/dlgdisplaybase.ui:65
+msgid "Notifications"
+msgstr "Сповіщення"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_notifOnMessages)
+#: src/conf/dlgdisplaybase.ui:84
+msgid "On messages"
+msgstr "Для повідомлень"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: src/conf/dlgdisplaybase.ui:94
+msgid "Visible Call Details"
+msgstr "Видимі параметри виклику"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_limitMinimumRowHeight)
+#: src/conf/dlgdisplaybase.ui:105
+msgid "Minimum item height"
+msgstr "Мінімальна висота пункту"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1_history_2)
+#: src/conf/dlggeneralbase.ui:26
+msgid "Call History"
+msgstr "Журнал дзвінків"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pKeepHistory)
+#: src/conf/dlggeneralbase.ui:35
+msgid "Keep history forever"
+msgstr "Зберігати записи журналу без обмежень щодо часу"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/conf/dlggeneralbase.ui:61
+msgid "Automatically remove calls after"
+msgstr "Автоматично вилучати виклики за"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/conf/dlggeneralbase.ui:93
+msgid "days"
+msgstr "днів"
+
+#. i18n: ectx: property (text), widget (QPushButton, toolButton_historyClear)
+#: src/conf/dlggeneralbase.ui:115
+msgid "Clear History"
+msgstr "Спорожнити журнал"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/conf/dlggeneralbase.ui:140
+msgid "Display"
+msgstr "Показ"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayHistoryStatus)
+#: src/conf/dlggeneralbase.ui:146
+msgid "Display incoming, outgoing and missed for history items"
+msgstr ""
+"Показувати у журналі записи щодо вхідних, вихідних і пропущених викликів"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_highlightMissedOutgoingCalls)
+#: src/conf/dlggeneralbase.ui:153
+msgid "Highlight missed outgoing calls"
+msgstr "Підсвічувати пропущені вихідні виклики"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_highlightMissedIncomingCalls)
+#: src/conf/dlggeneralbase.ui:160
+msgid "Highlight missed incoming calls"
+msgstr "Підсвічувати пропущені вхідні виклики"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_urlArgument)
+#: src/conf/dlghooksbase.ui:20
+msgid "URL Argument"
+msgstr "Параметр адреси"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/conf/dlghooksbase.ui:26
+msgid "Custom commands on incoming calls with URL"
+msgstr "Нетипові команди для вхідних викликів з адресою"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableHooksSIP)
+#: src/conf/dlghooksbase.ui:63
+msgid "Trigger on specific SIP header"
+msgstr "Використовувати за певного заголовка SIP"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableHooksIAX)
+#: src/conf/dlghooksbase.ui:83
+msgid "Trigger on IAX2 URL"
+msgstr "Використовувати для адреси IAX2"
+
+#. i18n: ectx: property (text), widget (QLabel, label_command)
+#: src/conf/dlghooksbase.ui:105
+msgid "Command to run"
+msgstr "Команда, яку слід виконати"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/conf/dlghooksbase.ui:128
+#, no-c-format
+msgid "%s will be replaced with the passed URL."
+msgstr "%s буде замінено переданою адресою"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_phoneNumberFormatting)
+#: src/conf/dlghooksbase.ui:138
+msgid "Phone Number Rewriting"
+msgstr "Перезапис номерів телефонів"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_addPrefix)
+#: src/conf/dlghooksbase.ui:159
+msgid "Prefix dialed numbers with"
+msgstr "Додавати до набраних номерів префікс"
+
+#: src/conf/dlgpresence.cpp:51
+msgid ""
+"In this table, it is possible to manage different presence states. The "
+"\"Message\" and \"Present\" values will be exported to the server for every "
+"accounts that support it. The other fields are designed to make presence "
+"status management easier. Please note that some SIP registrar have "
+"incomplete presence status (publishing) support."
+msgstr ""
+"За допомогою цієї таблиці можна керувати станами присутності. Значення "
+"«Повідомлення» і «Присутній» буде експортовано до усіх облікових записів на "
+"сервері, де передбачено підтримку таких записів. Інші поля призначено для "
+"того, щоб спростити керування станами присутності. Зауважте, що у деяких зі "
+"служб реєстрації SIP передбачено неповну підтримку станів присутності та "
+"їхнього оприлюднення."
+
+#. i18n: ectx: property (text), widget (LeftToolButton, m_pDown)
+#: src/conf/dlgpresence.ui:51
+msgid "Move Down"
+msgstr "Опустити"
+
+#. i18n: ectx: property (text), widget (CenterToolButton, m_pUp)
+#: src/conf/dlgpresence.ui:61
+msgid "Move Up"
+msgstr "Підняти"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_trackBookmarkPresence)
+#: src/conf/dlgpresence.ui:90
+msgid "Track bookmarked number presence"
+msgstr "Стежити за присутністю номерів з закладками"
+
+#: src/conf/dlgvideo.cpp:51 src/conf/dlgvideo.cpp:85
+msgid "Stop preview"
+msgstr "Припинити тестування"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pPreviewPB)
+#: src/conf/dlgvideo.cpp:88 src/conf/dlgvideobase.ui:58
+msgid "Start preview"
+msgstr "Почати тестування"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DlgVideoBase)
+#: src/conf/dlgvideobase.ui:14
+msgid "Video settings"
+msgstr "Параметри відео"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_pConfGB)
+#: src/conf/dlgvideobase.ui:23
+msgid "Device Configuration"
+msgstr "Налаштування пристрою"
+
+#: src/delegates/historydelegate.cpp:269
+msgid "Conference"
+msgstr "Конференція"
+
+#: src/errormessage.cpp:22
+msgid ""
+"An unknown error occurred. SFLPhone KDE will now exit. If the problem "
+"persist, please report a bug.\n"
+"\n"
+"It is known that this message can be caused by trying to open SFLPhone KDE "
+"while the SFLPhone daemon is exiting. If so, waiting 15 seconds and trying "
+"again will solve the issue."
+msgstr ""
+"Сталася невідома помилка. SFLPhone KDE доведеться завершити роботу. Якщо ви "
+"постійно стикаєтеся з цією проблемою, будь ласка, повідомте про неї "
+"розробників програми.\n"
+"\n"
+"Відомо, що серед причин появи цього повідомлення може бути спроба відкрити "
+"SFLPhone KDE у той час, коли фонова служба SFLPhone завершує роботу. Якщо це "
+"саме той випадок, спробуйте зачекати 15 секунд і повторити спробу, — це може "
+"усунути проблеми."
+
+#: src/errormessage.cpp:27
+msgid ""
+"The SFLPhone daemon (sflphoned) is not available. Please be sure it is "
+"installed correctly or launch it manually. \n"
+"\n"
+"Check in your distribution repository if the sflphone daemon (sometime "
+"called \"sflphone-common\") is available.\n"
+"Help for building SFLPhone daemon from source are present at https://"
+"projects.savoirfairelinux.com/projects/sflphone/wiki/How_to_build"
+msgstr ""
+"Не вдалося отримати доступ до фонової служби SFLPhone (sflphoned). Будь "
+"ласка, переконайтеся, що службу встановлено належним чином або запустіть "
+"службу вручну. \n"
+"\n"
+"Встановіть пакунок фонової служби sflphone (його типовою назвою є «sflphone-"
+"common»).\n"
+"Довідкові дані щодо збирання фонової служби SFLPhone з початкових кодів "
+"можна знайти за адресою https://projects.savoirfairelinux.com/projects/"
+"sflphone/wiki/How_to_build"
+
+#: src/eventmanager.cpp:200 src/eventmanager.cpp:220
+#: src/widgets/tips/removeconferencetip.cpp:29
+msgid "Remove the call from the conference, the call will be put on hold"
+msgstr "Вилучити виклик з конференції, виклик буде призупинено"
+
+#: src/eventmanager.cpp:205 src/eventmanager.cpp:225
+#, kde-format
+msgid "Call %1 using %2"
+msgstr "Виклик %1 з використанням %2"
+
+#: src/eventmanager.cpp:211 src/eventmanager.cpp:215 src/eventmanager.cpp:231
+#: src/eventmanager.cpp:235
+#, kde-format
+msgid "Call %1"
+msgstr "Виклик %1"
+
+#: src/eventmanager.cpp:520
+msgid "Missed"
+msgstr "Пропущено"
+
+#: src/eventmanager.cpp:522
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#: src/eventmanager.cpp:525 src/widgets/tips/tipcollection.cpp:123
+msgid "Call ended"
+msgstr "Виклик завершено"
+
+#: src/eventmanager.cpp:572
+#, kde-format
+msgid "%1 is not unregistered"
+msgstr "%1 не зареєстровано"
+
+#: src/implementation.cpp:335
+msgid "Online"
+msgstr "У мережі"
+
+#: src/implementation.cpp:336
+msgid "I am available"
+msgstr "Можу розмовляти"
+
+#: src/implementation.cpp:341
+msgid "Away"
+msgstr "Відсутній"
+
+#: src/implementation.cpp:342
+msgid "I am away"
+msgstr "Мене немає"
+
+#: src/implementation.cpp:346
+msgid "Busy"
+msgstr "Зайнятий"
+
+#: src/implementation.cpp:347
+msgid "I am busy"
+msgstr "Зараз не можу розмовляти"
+
+#: src/implementation.cpp:351
+msgid "DND"
+msgstr "Не турбувати"
+
+#: src/implementation.cpp:352
+msgid "Please do not disturb me"
+msgstr "Будь ласка, не турбуйте мене"
+
+#: src/klib/dataengine/sflphoneengine.cpp:283
+msgid "Current_account"
+msgstr "Поточний_запис"
+
+#: src/klib/helperfunctions.cpp:62
+msgid "No registered accounts"
+msgstr "Немає зареєстрованих записів"
+
+#: src/klib/macromodel.cpp:97 src/klib/macromodel.cpp:298
+msgctxt "Other category"
+msgid "Other"
+msgstr "Інше"
+
+#: src/klib/macromodel.cpp:193
+msgid "Macros"
+msgstr "Макрос"
+
+#: src/klib/macromodel.cpp:297
+msgctxt "New macro"
+msgid "New"
+msgstr "Створити"
+
+#: src/klib/minimalhistorybackend.cpp:188
+msgid "Are you sure you want to clear history?"
+msgstr "Ви справді хочете спорожнити журнал?"
+
+#: src/klib/minimalhistorybackend.cpp:188
+msgid "Clear history"
+msgstr "Спорожнити журнал"
+
+#. i18n: ectx: label, entry (enableHistory), group (main)
+#. i18n: ectx: label, entry (requireLegacyHistoryImport), group (main)
+#: src/klib/sflphone-client-kde.kcfg:12 src/klib/sflphone-client-kde.kcfg:15
+msgid "Defines whether sflphone should keep a history of calls."
+msgstr "Визначає, чи слід sflphone зберігати журнал викликів."
+
+#. i18n: ectx: label, entry (historyMax), group (main)
+#: src/klib/sflphone-client-kde.kcfg:19
+msgid "Defines the number of days the history has to be kept."
+msgstr "Визначає кількість днів, протягом яких зберігатимуться дані журналу."
+
+#. i18n: ectx: label, entry (displayCallIcon), group (main)
+#: src/klib/sflphone-client-kde.kcfg:25
+msgid "Should CallIcon be visible by default for calls"
+msgstr "Чи слід показувати піктограму виклику типово для всіх викликів."
+
+#. i18n: ectx: label, entry (displayCallPeer), group (main)
+#: src/klib/sflphone-client-kde.kcfg:29
+msgid "Should CallPeer be visible by default for calls"
+msgstr "Чи слід показувати вузол викликів типово для всіх викликів."
+
+#. i18n: ectx: label, entry (displayCallNumber), group (main)
+#: src/klib/sflphone-client-kde.kcfg:33
+msgid "Should CallNumber be visible by default for calls"
+msgstr "Чи слід показувати номер виклику типово для всіх викликів."
+
+#. i18n: ectx: label, entry (displayCallSecure), group (main)
+#: src/klib/sflphone-client-kde.kcfg:37
+msgid "Should CallSecure be visible by default for calls"
+msgstr "Чи слід показувати захист виклику типово для всіх викликів."
+
+#. i18n: ectx: label, entry (displayCallOrganisation), group (main)
+#: src/klib/sflphone-client-kde.kcfg:41
+msgid "If a contact is present, display the organisation"
+msgstr "Якщо запис контакту є, показувати дані установи"
+
+#. i18n: ectx: label, entry (displayCallDepartment), group (main)
+#: src/klib/sflphone-client-kde.kcfg:45
+msgid "If a contact is present, display the department"
+msgstr "Якщо запис контакту є, показувати дані відділу"
+
+#. i18n: ectx: label, entry (displayCallEmail), group (main)
+#: src/klib/sflphone-client-kde.kcfg:49
+msgid "If a contact is present, display the email"
+msgstr "Якщо запис контакту є, показувати дані електронної пошти"
+
+#. i18n: ectx: label, entry (limitMinimumRowHeight), group (main)
+#. i18n: ectx: label, entry (minimumRowHeight), group (main)
+#: src/klib/sflphone-client-kde.kcfg:53 src/klib/sflphone-client-kde.kcfg:57
+msgid "The minimum number of pixel for a call item"
+msgstr "Мінімальна кількість пікселів для запису виклику"
+
+#. i18n: ectx: label, entry (displayHistoryStatus), group (main)
+#: src/klib/sflphone-client-kde.kcfg:61
+msgid "Display incoming, outgoing or missed"
+msgstr "Показувати вхідні, вихідні і пропущені"
+
+#. i18n: ectx: label, entry (displayAccountWizard), group (main)
+#: src/klib/sflphone-client-kde.kcfg:65
+msgid "Display the account wizard when there is no configured accounts"
+msgstr ""
+"Показувати майстер створення облікового запису, якщо не налаштовано жодних "
+"облікових записів"
+
+#. i18n: ectx: label, entry (notifOnCalls), group (main)
+#: src/klib/sflphone-client-kde.kcfg:72
+msgid "Defines whether user should be notified when receiving a call."
+msgstr "Визначає, чи слід сповіщати користувача щодо отримання виклику."
+
+#. i18n: ectx: label, entry (notifOnMessages), group (main)
+#: src/klib/sflphone-client-kde.kcfg:76
+msgid "Defines whether user should be notified when receiving a message."
+msgstr "Визначає, чи слід сповіщати користувача щодо отримання повідомлення."
+
+#. i18n: ectx: label, entry (displayOnStart), group (main)
+#: src/klib/sflphone-client-kde.kcfg:80
+msgid "Defines whether the main window should be displayed on start."
+msgstr "Визначає, чи слід показувати головне вікно після запуску."
+
+#. i18n: ectx: label, entry (displayOnCalls), group (main)
+#: src/klib/sflphone-client-kde.kcfg:84
+msgid ""
+"Defines whether the main window should be displayed when receiving a message."
+msgstr ""
+"Визначає, чи слід показувати головне вікно після отримання повідомлення."
+
+#. i18n: ectx: label, entry (displayDialpad), group (main)
+#: src/klib/sflphone-client-kde.kcfg:88
+msgid "Defines whether the dialpad is being shown by default"
+msgstr "Визначає, чи слід типово показувати панель набирання номерів"
+
+#. i18n: ectx: label, entry (displayMessageBox), group (main)
+#: src/klib/sflphone-client-kde.kcfg:92
+msgid "Defines whether the text message box is visible"
+msgstr "Визначає, чи слід показувати панель текстових повідомлень."
+
+#. i18n: ectx: label, entry (displayVolume), group (main)
+#: src/klib/sflphone-client-kde.kcfg:96
+msgid "Defines whether the volume widgets are visible by default"
+msgstr "Визначає, чи слід типово показувати віджети гучності."
+
+#. i18n: ectx: label, entry (displayMenu), group (main)
+#: src/klib/sflphone-client-kde.kcfg:100
+msgid ""
+"Defines whether the main menu is visible by default, it can be restored with "
+"\"Ctrl+m\""
+msgstr ""
+"Визначає, чи буде типово показано головне меню. Увімкнути показ меню можна "
+"за допомогою комбінації клавіш «Ctrl+M»."
+
+#. i18n: ectx: label, entry (displayDataRange), group (main)
+#: src/klib/sflphone-client-kde.kcfg:103
+msgid "Defines whether call history is restricted to a specific date range"
+msgstr "Визначає, чи слід обмежувати записи журналу певним діапазоном дат."
+
+#. i18n: ectx: label, entry (displayPopularAsBookmark), group (main)
+#: src/klib/sflphone-client-kde.kcfg:107
+msgid ""
+"Defines whether or not to display the 10 most popular phone number as "
+"bookmark automagically"
+msgstr ""
+"Визначає, чи слід автоматично показувати 10 номерів з найбільшою кількістю "
+"викликів у списку закладок."
+
+#. i18n: ectx: label, entry (historySortMode), group (main)
+#: src/klib/sflphone-client-kde.kcfg:110
+msgid "Define sorting order for history list"
+msgstr "Визначає критерій впорядковування списку журналу."
+
+#. i18n: ectx: label, entry (contactSortMode), group (main)
+#: src/klib/sflphone-client-kde.kcfg:113
+msgid "Define sorting order for contact list"
+msgstr "Визначає критерій впорядковування списку контактів."
+
+#. i18n: ectx: label, entry (displayContactCallHistory), group (main)
+#: src/klib/sflphone-client-kde.kcfg:116
+msgid "Defines if the individual contact history list is visible"
+msgstr "Визначає, чи слід показувати журнал для окремих записів контактів."
+
+#. i18n: ectx: label, entry (keepVideoAspectRatio), group (main)
+#. i18n: ectx: label, entry (displayVideoPreview), group (main)
+#: src/klib/sflphone-client-kde.kcfg:122 src/klib/sflphone-client-kde.kcfg:126
+msgid "Enforce video aspect ratio or allow stretching"
+msgstr "Примусово зберегти співвідношення розмірів або дозволити розтягування"
+
+#. i18n: ectx: label, entry (autoHideDiapadForVideo), group (main)
+#: src/klib/sflphone-client-kde.kcfg:130
+msgid "Save main window space by hiding the dialpad when the video is docked"
+msgstr ""
+"Зекономити місце у головному вікні, приховуючи панель набирання номеру, якщо "
+"зафіксовано відео"
+
+#. i18n: ectx: label, entry (interface), group (main)
+#: src/klib/sflphone-client-kde.kcfg:138
+msgid "Defines the audio output to use."
+msgstr "Визначає канал відтворення звуку, який слід використовувати."
+
+#. i18n: ectx: label, entry (alsaPlugin), group (main)
+#: src/klib/sflphone-client-kde.kcfg:145
+msgid "Defines which ALSA plugin to use."
+msgstr "Визначає, який з додатків ALSA слід використовувати."
+
+#. i18n: ectx: label, entry (alsaInputDevice), group (main)
+#: src/klib/sflphone-client-kde.kcfg:148
+msgid "Defines which ALSA Input device to use."
+msgstr "Визначає, який пристрій отримання звуку ALSA слід використовувати."
+
+#. i18n: ectx: label, entry (alsaOutputDevice), group (main)
+#: src/klib/sflphone-client-kde.kcfg:151
+msgid "Defines which ALSA Output device to use."
+msgstr "Визначає, який пристрій виведення звуку ALSA слід використовувати."
+
+#. i18n: ectx: label, entry (alsaRingtoneDevice), group (main)
+#: src/klib/sflphone-client-kde.kcfg:154
+msgid "Defines which ALSA Ringtone device to use."
+msgstr ""
+"Визначає, який пристрій відтворення дзвінків ALSA слід використовувати."
+
+#. i18n: ectx: label, entry (pulseAudioVolumeAlter), group (main)
+#: src/klib/sflphone-client-kde.kcfg:157
+msgid "Defines whether pulse audio can mute other applications during a call."
+msgstr ""
+"Визначає, чи слід PulseAudio вимикати звук у всіх програмах на час виклику."
+
+#. i18n: ectx: label, entry (enableRoomTone), group (main)
+#: src/klib/sflphone-client-kde.kcfg:160
+msgid "Enable or disables the \"buzzzzz\" sound"
+msgstr "Увімкнути або вимкнути звук зумера"
+
+#. i18n: ectx: label, entry (enableAddressBook), group (main)
+#. i18n: ectx: label, entry (phoneTypeList), group (main)
+#: src/klib/sflphone-client-kde.kcfg:168 src/klib/sflphone-client-kde.kcfg:176
+msgid "Defines whether the search in KDE Address Book is enabled"
+msgstr "Визначає, чи слід вмикати пошук у адресній книзі KDE"
+
+#. i18n: ectx: label, entry (disabledCollectionList), group (main)
+#: src/klib/sflphone-client-kde.kcfg:172
+msgid "List of disabled address book collections"
+msgstr "Список вимкнених збірок адресних книг"
+
+#. i18n: ectx: label, entry (displayOrganisation), group (main)
+#. i18n: ectx: label, entry (displayEmail), group (main)
+#. i18n: ectx: label, entry (hideContactWithoutPhone), group (main)
+#: src/klib/sflphone-client-kde.kcfg:181 src/klib/sflphone-client-kde.kcfg:186
+#: src/klib/sflphone-client-kde.kcfg:191
+msgid "Defines whether to display the organisation of the contact list item"
+msgstr ""
+"Визначає, чи слід показувати установу, де працює особа зі списку контактів"
+
+#. i18n: ectx: label, entry (defaultAccountId), group (main)
+#: src/klib/sflphone-client-kde.kcfg:196
+msgid ""
+"Default account used for contact lookup if only partial (only extension) "
+"contacts info is available"
+msgstr ""
+"Типовий обліковий запис, який використовуватиметься для пошуку, якщо відома "
+"лише частина даних контакту (лише додатковий номер)."
+
+#. i18n: ectx: label, entry (bookmarkList), group (main)
+#: src/klib/sflphone-client-kde.kcfg:212
+msgid "List of bookmarked clients"
+msgstr "Список закладок клієнтів"
+
+#. i18n: ectx: label, entry (enableHooksSIP), group (main)
+#: src/klib/sflphone-client-kde.kcfg:218
+msgid "Defines whether to enable hooks for SIP accounts."
+msgstr "Визначає, чи слід вмикати допоміжні скрипти для облікових записів SIP."
+
+#. i18n: ectx: label, entry (enableHooksIAX), group (main)
+#: src/klib/sflphone-client-kde.kcfg:221
+msgid "Defines whether to enable hooks for IAX accounts."
+msgstr "Визначає, чи слід вмикати допоміжні скрипти для облікових записів IAX."
+
+#. i18n: ectx: label, entry (hooksSIPHeader), group (main)
+#: src/klib/sflphone-client-kde.kcfg:224
+msgid "Defines which header to catch for SIP accounts hooks."
+msgstr ""
+"Визначає, який з заголовків слід перехоплювати для допоміжних скриптів "
+"записів SIP."
+
+#. i18n: ectx: label, entry (hooksCommand), group (main)
+#: src/klib/sflphone-client-kde.kcfg:227
+msgid "Defines which command to execute."
+msgstr "Визначає, яку команду слід виконати."
+
+#. i18n: ectx: label, entry (addPrefix), group (main)
+#: src/klib/sflphone-client-kde.kcfg:230
+msgid "Defines whether to add a prefix for outgoing calls."
+msgstr "Визначає, чи слід додавати префікс до номерів вихідних викликів."
+
+#. i18n: ectx: label, entry (prepend), group (main)
+#: src/klib/sflphone-client-kde.kcfg:233
+msgid "Defines the prefix to add."
+msgstr "Визначає префікс, який слід додати."
+
+#. i18n: ectx: label, entry (enableAutoCompletion), group (main)
+#: src/klib/sflphone-client-kde.kcfg:252
+msgid "Enable auto completion widget"
+msgstr "Увімкнути віджет автодоповнення"
+
+#. i18n: ectx: label, entry (autoCompleteMergeNumbers), group (main)
+#: src/klib/sflphone-client-kde.kcfg:256
+msgid ""
+"If there is multiple instance of the same number, merge them and use the "
+"default account"
+msgstr ""
+"Якщо існує декілька записів того самого номеру, об’єднати запис і "
+"використовувати типовий обліковий запис"
+
+#. i18n: ectx: label, entry (autoCompleteUseAccount), group (main)
+#: src/klib/sflphone-client-kde.kcfg:260
+msgid ""
+"Call numbers back with their original account instead of the default one"
+msgstr "Викликати номери за початковим обліковим записом замість типового"
+
+#. i18n: ectx: label, entry (trackBookmarkPresence), group (main)
+#: src/klib/sflphone-client-kde.kcfg:266
+msgid "Track bookmarked contacts presence"
+msgstr "Стежити за присутністю контактів з закладками"
+
+#. i18n: ectx: label, entry (presenceStatusList), group (main)
+#: src/klib/sflphone-client-kde.kcfg:271
+msgid "List of presence status"
+msgstr "Список станів присутності"
+
+#. i18n: ectx: label, entry (presenceAutoTrackedCollections), group (main)
+#: src/klib/sflphone-client-kde.kcfg:274
+msgid "List of item collections automatically tracked"
+msgstr "Список збірок записів, за якими ведеться автоматичне спостереження"
+
+#: src/main.cpp:58
+msgid "SFLPhone-KDE"
+msgstr "SFLPhone-KDE"
+
+#: src/main.cpp:60
+msgid "An enterprise grade KDE SIP and IAX phone"
+msgstr "Телефон SIP та IAX промислового рівня для KDE"
+
+#: src/main.cpp:62
+msgid "(C) 2009-2014 Savoir-faire Linux"
+msgstr "© Savoir-faire Linux, 2009–2014"
+
+#: src/main.cpp:67
+msgid "Emmanuel Lepage Vallée"
+msgstr "Emmanuel Lepage Vallée"
+
+#: src/main.cpp:68
+msgid "Jérémy Quentin"
+msgstr "Jérémy Quentin"
+
+#: src/sflphone.cpp:110
+msgid "Home"
+msgstr "Домівка"
+
+#: src/sflphone.cpp:111
+msgid "Work"
+msgstr "Робота"
+
+#: src/sflphone.cpp:112
+msgid "Msg"
+msgstr "Повідомлення"
+
+#: src/sflphone.cpp:113
+msgid "Pref"
+msgstr "Осн."
+
+#: src/sflphone.cpp:114
+msgid "Voice"
+msgstr "Голос"
+
+#: src/sflphone.cpp:115
+msgid "Fax"
+msgstr "Факс"
+
+#: src/sflphone.cpp:116
+msgid "Cell"
+msgstr "Стіл."
+
+#: src/sflphone.cpp:117
+msgid "Video"
+msgstr "Відео"
+
+#: src/sflphone.cpp:118
+msgid "Bbs"
+msgstr "BBS"
+
+#: src/sflphone.cpp:119
+msgid "Modem"
+msgstr "Модем"
+
+#: src/sflphone.cpp:120
+msgid "Car"
+msgstr "Автомобіль"
+
+#: src/sflphone.cpp:121
+msgid "Isdn"
+msgstr "ISDN"
+
+#: src/sflphone.cpp:122
+msgid "Pcs"
+msgstr "PCS"
+
+#: src/sflphone.cpp:123
+msgid "Pager"
+msgstr "Пейджер"
+
+#: src/sflphone.cpp:124
+msgid "Preferred"
+msgstr "Основний"
+
+#: src/sflphone.cpp:188
+msgctxt "Call tab"
+msgid "Call"
+msgstr "Виклик"
+
+#: src/sflphone.cpp:238
+msgid "SFLphone"
+msgstr "SFLphone"
+
+#: src/sflphone.cpp:289
+msgctxt "The presence state is \"Online\""
+msgid "Online"
+msgstr "У мережі"
+
+#: src/sflphone.cpp:308
+msgid "Account:"
+msgstr "Обліковий запис:"
+
+#: src/sflphone.cpp:326
+msgid ""
+"The SFLPhone daemon (sflphoned) is not available. Please be sure it is "
+"installed correctly or launch it manually"
+msgstr ""
+"Не вдалося зв’язатися з фоновою службою SFLPhone (sflphoned). Будь ласка, "
+"переконайтеся, що її встановлено належним чином, або запустіть службу вручну."
+
+#: src/sflphone.cpp:515 src/sflphone.cpp:517
+msgid "New incoming call"
+msgstr "Новий вхідний виклик"
+
+#: src/sflphone.cpp:515 src/sflphone.cpp:517
+#, kde-format
+msgid ""
+"New call from:\n"
+"%1"
+msgstr ""
+"Новий виклик від:\n"
+"%1"
+
+#: src/sflphone.cpp:557 src/sflphone.cpp:618
+msgid "Call"
+msgstr "Виклик"
+
+#: src/sflphone.cpp:560 src/widgets/contactdock.cpp:264
+#: src/widgets/historydock.cpp:346 src/widgets/historydock.cpp:348
+msgid "Bookmark"
+msgstr "Закладка"
+
+#: src/sflphone.cpp:563
+msgid "Contact"
+msgstr "Контакт"
+
+#: src/sflphone.cpp:566
+msgid "History"
+msgstr "Журнал"
+
+#: src/sflphoneaccessibility.cpp:42
+msgid "List all current calls"
+msgstr "Список всіх поточних викликів"
+
+#: src/sflphoneaccessibility.cpp:50
+msgid "Get current call details"
+msgstr "Отримати параметри поточного виклику"
+
+#: src/sflphoneaccessibility.cpp:76
+#, kde-format
+msgid "You currently have <numid>%1</numid> call"
+msgid_plural "You currently have <numid>%1</numid> calls"
+msgstr[0] "Зараз у вас <numid>%1</numid> виклик"
+msgstr[1] "Зараз у вас <numid>%1</numid> виклики"
+msgstr[2] "Зараз у вас <numid>%1</numid> викликів"
+msgstr[3] "Зараз у вас <numid>%1</numid> виклик"
+
+#: src/sflphoneaccessibility.cpp:78
+#, kde-format
+msgid "Call from %1, number %2"
+msgstr "Виклик від %1, номер %2"
+
+#: src/sflphoneaccessibility.cpp:82
+msgid "You currently have no call"
+msgstr "Зараз у вас немає викликів"
+
+#: src/sflphoneaccessibility.cpp:104
+#, kde-format
+msgid "The current call is %1"
+msgstr "Поточний виклик — %1"
+
+#: src/sflphoneaccessibility.cpp:106
+#, kde-format
+msgid ",Your peer is %1"
+msgstr ", ваш вузол — %1"
+
+#: src/sflphoneaccessibility.cpp:108
+#, kde-format
+msgid ", the peer phone number is %1 "
+msgstr ", номер вузлового телефону — %1 "
+
+#: src/sflphoneaccessibility.cpp:110
+#, kde-format
+msgid ", the phone number is %1 "
+msgstr ", номер телефону — %1 "
+
+#: src/sflphoneaccessibility.cpp:114
+#, kde-format
+msgid " and you have been talking since %1 seconds"
+msgstr " ви розмовляли %1 секунд"
+
+#: src/sflphonecmd.cpp:51
+msgid "Place a call to a given number"
+msgstr "Передати виклик на вказаний номер"
+
+#: src/sflphonecmd.cpp:52
+msgid ""
+"Send a text to &lt;number&gt;, use --message to set the content, then hangup"
+msgstr ""
+"Надіслати текст на вказаний номер, потім повісити слухавку, для визначення "
+"тексту скористайтеся параметром --message"
+
+#: src/sflphonecmd.cpp:53
+msgid "Used in combination with --send-text"
+msgstr "Використовується у поєднанні з --send-text"
+
+#: src/sflphoneview.cpp:81
+msgid "New call"
+msgstr "Новий виклик"
+
+#: src/sflphoneview.cpp:82
+msgid "Place call"
+msgstr "Розташувати виклик"
+
+#: src/sflphoneview.cpp:84
+msgid "Hold on"
+msgstr "Затримати"
+
+#: src/sflphoneview.cpp:87
+msgid "Pick up"
+msgstr "Підняти трубку"
+
+#: src/sflphoneview.cpp:89
+msgid "Hold off"
+msgstr "Знову підняти"
+
+#: src/sflphoneview.cpp:90
+msgid "Give up transfer"
+msgstr "Скасувати передавання"
+
+#: src/sflphoneview.cpp:91
+msgid "Voicemail"
+msgstr "Голосова пошта"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pSendMessageLE)
+#: src/ui/SFLPhoneView_base.ui:69
+msgid "Send text message"
+msgstr "Надіслати текстове повідомлення"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_pSendMessagePB)
+#: src/ui/SFLPhoneView_base.ui:79
+msgid "Send"
+msgstr "Надіслати"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, slider_recVol)
+#: src/ui/SFLPhoneView_base.ui:124
+msgid "Mic volume"
+msgstr "Гучність мікрофона"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, slider_sndVol)
+#: src/ui/SFLPhoneView_base.ui:174
+msgid "Speakers volume"
+msgstr "Гучність динаміків"
+
+#: src/widgets/autocompletion.cpp:48
+msgid "Use ⬆ up and ⬇ down arrows to select one of these numbers"
+msgstr "Скористайтеся стрілками ⬆ і ⬇, щоб позначити один з цих номерів"
+
+#. i18n: ectx: property (placeholderText), widget (FilterLineEdit, m_pFilterLE)
+#: src/widgets/bookmarkdock.cpp:91 src/widgets/contactdock.cpp:108
+#: src/widgets/historydock.cpp:178 src/widgets/ui/contactdock.ui:90
+#: src/widgets/ui/dockbase.ui:90
+msgid "Filter"
+msgstr "Фільтр"
+
+#: src/widgets/bookmarkdock.cpp:97
+msgid "Show most called contacts"
+msgstr "Показати контакти з найбільшою кількістю викликів"
+
+#: src/widgets/bookmarkdock.cpp:103
+msgctxt "Bookmark dock"
+msgid "Bookmark"
+msgstr "Закладка"
+
+#: src/widgets/bookmarkdock.cpp:158 src/widgets/contactdock.cpp:237
+#: src/widgets/historydock.cpp:324
+msgid "Call Again"
+msgstr "Повторити виклик"
+
+#: src/widgets/bookmarkdock.cpp:162 src/widgets/contactdock.cpp:242
+msgid "Edit contact"
+msgstr "Змінити контакт"
+
+#: src/widgets/bookmarkdock.cpp:166 src/widgets/contactdock.cpp:247
+#: src/widgets/historydock.cpp:337
+msgid "Copy"
+msgstr "Копіювати"
+
+#: src/widgets/bookmarkdock.cpp:170 src/widgets/contactdock.cpp:252
+#: src/widgets/historydock.cpp:341
+msgid "Send Email"
+msgstr "Надіслати листа"
+
+#: src/widgets/bookmarkdock.cpp:175 src/widgets/contactdock.cpp:258
+msgid "Add Phone Number"
+msgstr "Додати номер телефону"
+
+#: src/widgets/bookmarkdock.cpp:180
+msgid "Remove Bookmark"
+msgstr "Вилучити закладку"
+
+#: src/widgets/bookmarkdock.cpp:296 src/widgets/contactdock.cpp:372
+msgid "Enter a new number"
+msgstr "Введіть новий номер"
+
+#: src/widgets/bookmarkdock.cpp:296 src/widgets/contactdock.cpp:372
+msgid "New number:"
+msgstr "Новий номер:"
+
+#: src/widgets/contactdock.cpp:101 src/widgets/historydock.cpp:182
+msgctxt "Sort by Name"
+msgid "Name"
+msgstr "Назва"
+
+#: src/widgets/contactdock.cpp:101
+msgctxt "Sort by Organisation"
+msgid "Organisation"
+msgstr "Установа"
+
+#: src/widgets/contactdock.cpp:101
+msgctxt "Sort by Recently used"
+msgid "Recently used"
+msgstr "Недавно використані"
+
+#: src/widgets/contactdock.cpp:101
+msgctxt "Sort by Group"
+msgid "Group"
+msgstr "Група"
+
+#: src/widgets/contactdock.cpp:101
+msgctxt "Sort by Department"
+msgid "Department"
+msgstr "Відділ"
+
+#: src/widgets/contactdock.cpp:147
+msgctxt "Contact tab"
+msgid "Contact"
+msgstr "Контакт"
+
+#: src/widgets/contactdock.cpp:269
+msgid "Delete"
+msgstr "Вилучити"
+
+#: src/widgets/contactdock.cpp:392
+#, kde-format
+msgid "Are you sure you want to permanently delete %1?"
+msgstr "Ви справді бажаєте остаточно вилучити %1?"
+
+#: src/widgets/contactdock.cpp:393
+msgid "Delete contact"
+msgstr "Вилучити контакт"
+
+#: src/widgets/groupedtoolbutton.cpp:105
+#, kde-format
+msgctxt "@info:tooltip of custom toolbar button"
+msgid "%1"
+msgstr "%1"
+
+#: src/widgets/historydock.cpp:137
+msgid "From:"
+msgstr "Від:"
+
+#: src/widgets/historydock.cpp:138
+msgctxt "To date:"
+msgid "To:"
+msgstr "Кому:"
+
+#: src/widgets/historydock.cpp:141
+msgid "Display all"
+msgstr "Показати всі"
+
+#: src/widgets/historydock.cpp:182
+msgctxt "Sort by date"
+msgid "Date"
+msgstr "Дата"
+
+#: src/widgets/historydock.cpp:182
+msgctxt "Sort by Popularity"
+msgid "Popularity"
+msgstr "Популярність"
+
+#: src/widgets/historydock.cpp:182
+msgctxt "Sort by Length"
+msgid "Length"
+msgstr "Тривалість"
+
+#: src/widgets/historydock.cpp:182
+msgctxt "sort by spent time"
+msgid "Spent time"
+msgstr "Витрачений час"
+
+#: src/widgets/historydock.cpp:198
+msgctxt "History tab"
+msgid "History"
+msgstr "Журнал"
+
+#: src/widgets/historydock.cpp:328
+msgid "Add Number to Contact"
+msgstr "Додати номер до запису контакту"
+
+#: src/widgets/historydock.cpp:333
+msgid "Add Contact"
+msgstr "Додати контакт"
+
+#: src/widgets/historydock.cpp:352
+msgid "Remove bookmark"
+msgstr "Вилучити закладку"
+
+#: src/widgets/kphonenumberselector.cpp:48
+msgid "Select phone number"
+msgstr "Виберіть номер телефону"
+
+#: src/widgets/kphonenumberselector.cpp:48
+msgid ""
+"This contact has many phone numbers, please select the one you wish to call"
+msgstr ""
+"У цього контакту декілька телефонних номерів. Будь ласка, виберіть той, який "
+"ви хочете викликати."
+
+#: src/widgets/playeroverlay.cpp:46
+msgid "Are you sure you want to delete this recording?"
+msgstr "Ви справді хочете вилучити цей запис?"
+
+#: src/widgets/playeroverlay.cpp:46
+msgid "Delete recording"
+msgstr "Вилучити запис"
+
+#: src/widgets/securityprogress.cpp:237
+#, kde-format
+msgid "%1 tip"
+msgid_plural "%1 tips"
+msgstr[0] "%1 підказка"
+msgstr[1] "%1 підказки"
+msgstr[2] "%1 підказок"
+msgstr[3] "%1 підказка"
+
+#: src/widgets/securityprogress.cpp:238
+#, kde-format
+msgid "%1 warning"
+msgid_plural "%1 warnings"
+msgstr[0] "%1 попередження"
+msgstr[1] "%1 попередження"
+msgstr[2] "%1 попереджень"
+msgstr[3] "%1 попередження"
+
+#: src/widgets/securityprogress.cpp:242
+#, kde-format
+msgid "%1 issue"
+msgid_plural "%1 issues"
+msgstr[0] "%1 вада"
+msgstr[1] "%1 вади"
+msgstr[2] "%1 вад"
+msgstr[3] "%1 вада"
+
+#: src/widgets/securityprogress.cpp:243
+#, kde-format
+msgid "%1 error"
+msgid_plural "%1 errors"
+msgstr[0] "%1 помилка"
+msgstr[1] "%1 помилки"
+msgstr[2] "%1 помилок"
+msgstr[3] "%1 помилка"
+
+#: src/widgets/tips/conftip.cpp:32
+msgid ""
+"Do you know you can create conferences or transfer the call by drag and "
+"dropping one call on an other one?"
+msgstr ""
+"Чи знаєте ви, що можна створювати конференції або передавати виклик простим "
+"перетягуванням зі скиданням одного пункту виклику на інший?"
+
+#: src/widgets/tips/connectionlosttip.cpp:33
+msgid "There was a network error, trying to reconnect in 60 seconds."
+msgstr ""
+"У мережі сталася помилка. Повторну спробу з’єднання буде виконано за 60 "
+"секунд."
+
+#: src/widgets/tips/dialpadtip.cpp:32
+msgid ""
+"Use the dialpad below or start typing a number. Press enter or double click "
+"on the call to launch the call. Press escape or \"Hang Up\" to end the call."
+msgstr ""
+"Скористайтеся клавіатурою, показаною нижче, або наберіть номер на клавіатурі "
+"комп’ютера. Натисніть Enter або двічі клацніть на кнопці виклику, щоб "
+"розпочати дзвінок. Натисніть клавішу Esc або кнопку «Покласти трубку», щоб "
+"завершити дзвінок."
+
+#: src/widgets/tips/tipcollection.cpp:133
+msgid "Peer is busy"
+msgstr "Вузол зайнято"
+
+#: src/widgets/tips/tipcollection.cpp:167
+msgid "An account went down"
+msgstr "Обліковий запис не працює"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ContactDock)
+#. i18n: ectx: property (windowTitle), widget (QWidget, DockBase)
+#: src/widgets/ui/contactdock.ui:14 src/widgets/ui/dockbase.ui:14
+msgid "Dock"
+msgstr "Панель"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pSortByL)
+#: src/widgets/ui/contactdock.ui:26 src/widgets/ui/dockbase.ui:26
+msgid "Sort by:"
+msgstr "Критерій впорядкування:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pElapsed)
+#. i18n: ectx: property (text), widget (QLabel, m_pLeft)
+#: src/widgets/ui/player.ui:28 src/widgets/ui/player.ui:42
+msgid "0:00"
+msgstr "0:00"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_pDelete)
+#. i18n: ectx: property (text), widget (QToolButton, m_pPlay)
+#. i18n: ectx: property (text), widget (QToolButton, m_pPlayPause)
+#. i18n: ectx: property (text), widget (QToolButton, m_pStop)
+#: src/widgets/ui/player.ui:64 src/widgets/ui/player.ui:71
+#: src/widgets/ui/playeroverlay.ui:54 src/widgets/ui/playeroverlay.ui:77
+msgid "..."
+msgstr "…"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pPresentRB)
+#: src/widgets/ui/presence.ui:17
+msgid "Present"
+msgstr "Присутній"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pAbsentRB)
+#: src/widgets/ui/presence.ui:27
+msgid "Absent"
+msgstr "Відсутній"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pCustomMessageCK)
+#: src/widgets/ui/presence.ui:34 src/widgets/videodock.cpp:109
+msgid "Custom"
+msgstr "Нетипове"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/widgets/ui/screensharingwidget.ui:35
+msgid "Display id:"
+msgstr "Ід. дисплея:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/widgets/ui/screensharingwidget.ui:42
+msgid "x"
+msgstr "⨯"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: src/widgets/ui/screensharingwidget.ui:62
+msgid ","
+msgstr ","
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/widgets/ui/screensharingwidget.ui:69
+msgid "Offset (x,y):"
+msgstr "Відступ (x,y):"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/widgets/ui/screensharingwidget.ui:79
+msgid "Size (width,height):"
+msgstr "Розміри (ширина,висота):"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: src/widgets/ui/screensharingwidget.ui:95
+msgid "Screen:"
+msgstr "Екран:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_pTitleL)
+#: src/widgets/ui/transfer.ui:20
+msgid ""
+"<html><head/><body><p align=\"center\"><span style=\" font-size:xx-large; "
+"font-weight:600;\">Transfer</span></p></body></html>"
+msgstr ""
+"<html><head/><body><p align=\"center\"><span style=\" font-size:xx-large; "
+"font-weight:600;\">Передавання</span></p></body></html>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_pTransferGB)
+#: src/widgets/ui/transfer.ui:66
+msgid "Transfer to:"
+msgstr "Передавання до: "
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pNumberLE)
+#: src/widgets/ui/transfer.ui:128
+msgid "Enter a number"
+msgstr "Введіть номер"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_pAttTransferGB)
+#: src/widgets/ui/transfer.ui:196
+msgid "Transfer to existing calls:"
+msgstr "Передавання до наявних викликів:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/widgets/ui/videodevicesetting.ui:33
+msgid "Rate"
+msgstr "Частота"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/widgets/ui/videodevicesetting.ui:40
+msgid "Channel"
+msgstr "Канал"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/widgets/ui/videodevicesetting.ui:67
+msgid "Resolution"
+msgstr "Роздільна здатність"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/widgets/ui/videodevicesetting.ui:77
+msgid "Device"
+msgstr "Пристрій"
+
+#: src/widgets/videodock.cpp:158
+msgid "Device:"
+msgstr "Пристрій:"
+
+#: src/widgets/videodock.cpp:257
+msgid "Full screen video"
+msgstr "Повноекранне відео"
+
+#~ msgid "Account"
+#~ msgstr "Обліковий запис"
+
+#~ msgid "Please select one of the following options"
+#~ msgstr "Будь ласка, виберіть один з наведених нижче варіантів"
+
+#~ msgid "Create a free SIP/IAX2 account on sflphone.org"
+#~ msgstr "Створити обліковий запис SIP/IAX2 на sflphone.org"
+
+#~ msgid "Register an existing SIP or IAX2 account"
+#~ msgstr "Зареєструвати вже створений обліковий запис SIP або IAX2"
+
+#~ msgid "Optional email address"
+#~ msgstr "Додаткова адреса ел. пошти"
+
+#~ msgid "This email address will be used to send your voicemail messages."
+#~ msgstr ""
+#~ "Цю адресу електронної пошти буде використано для надсилання ваших "
+#~ "голосових повідомлень."
+
+#~ msgid "Email address"
+#~ msgstr "Адреса ел. пошти"
+
+#~ msgid "Form"
+#~ msgstr "Форма"
+
+#~ msgid "Should CallCodec be visible by default for calls"
+#~ msgstr "Чи слід показувати кодек виклику типово для всіх викликів."
+
+#~ msgid "Up"
+#~ msgstr "Підняти"
+
+#~ msgid "Down"
+#~ msgstr "Опустити"
+
+#~ msgid "Server*"
+#~ msgstr "Сервер*"
+
+#~ msgid "Username*"
+#~ msgstr "Користувач*"
+
+#~ msgid "Password*"
+#~ msgstr "Пароль*"
+
+#~ msgid "Basic"
+#~ msgstr "Основні"
+
+#~ msgid "Advanced"
+#~ msgstr "Додатково"
+
+#~ msgid ""
+#~ "TLS transport can be used along with UDP for those calls that would "
+#~ "require secure sip transactions (aka SIPS). You can configure a different "
+#~ "TLS transport for each account. However each of them will run on a "
+#~ "dedicated port, different one from each other."
+#~ msgstr ""
+#~ "Для викликів, передавання даних у яких виконується у безпечний спосіб "
+#~ "(SIPS), можна скористатися розширенням TLS протоколу UDP. Ви можете "
+#~ "налаштувати TLS окремо для кожного з облікових записів. Після такого "
+#~ "налаштовування кожен з облікових записів працюватиме на окремому порті, "
+#~ "відмінному від портів інших записів."
+
+#~ msgid "Enable TLS"
+#~ msgstr "Увімкнути TLS"
+
+#~ msgid "Global TLS listener*"
+#~ msgstr "Загальне очікування з’єднань TLS*"
+
+#~ msgid "Negotiation timeout (s:ms)"
+#~ msgstr "Час очікування на узгодження (с:мс)"
+
+#~ msgid "*Apply to all accounts"
+#~ msgstr "*Застосувати до всіх облікових записів"
+
+#~ msgid "SRTP key exchange"
+#~ msgstr "Обмін ключами SRTP"
+
+#~ msgid "SFLphone KDE Client"
+#~ msgstr "Клієнт SFLphone для KDE"
+
+#~ msgctxt "Mute the current audio device"
+#~ msgid "Mute"
+#~ msgstr "Вимкнути звук"
+
+#~ msgctxt "Unmute the current audio device"
+#~ msgid "Unmute"
+#~ msgstr "Увімкнути звук"
+
+#~ msgid "%1 number"
+#~ msgid_plural "%1 numbers"
+#~ msgstr[0] "%1 номер"
+#~ msgstr[1] "%1 номери"
+#~ msgstr[2] "%1 номерів"
+#~ msgstr[3] "%1 номер"
+
+#~ msgid "Enable buddy subscription"
+#~ msgstr "Увімкнути підписування для приятелів"
+
+#~ msgid "Publish status"
+#~ msgstr "Оприлюднити повідомлення про стан"
+
+#~ msgid "ALSA"
+#~ msgstr "ALSA"
+
+#~ msgid "PulseAudio"
+#~ msgstr "PulseAudio"
+
+#~ msgid "Using account '%1' (%2)"
+#~ msgstr "Використовуємо обліковий запис «%1» (%2)"
+
+#~ msgid "Default account"
+#~ msgstr "Типовий обліковий запис"
+
+#~ msgctxt "Default TLS method"
+#~ msgid "Default"
+#~ msgstr "Типовий"
+
+#~ msgid "TLSv1"
+#~ msgstr "TLSv1"
+
+#~ msgid "SSLv2"
+#~ msgstr "SSLv2"
+
+#~ msgid "SSLv3"
+#~ msgstr "SSLv3"
+
+#~ msgid "SSLv23"
+#~ msgstr "SSLv23"
+
+#~ msgctxt "Disabled security"
+#~ msgid "Disabled"
+#~ msgstr "Вимкнено"
+
+#~ msgid "ZRTP"
+#~ msgstr "ZRTP"
+
+#~ msgid "SDES"
+#~ msgstr "SDES"
+
+#~ msgid "Enable address book"
+#~ msgstr "Увімкнути адресну книгу"
+
+#~ msgid "Always display phone number"
+#~ msgstr "Завжди показувати номер"
+
+#~ msgid "%1 phone number"
+#~ msgid_plural "%1 phone numbers"
+#~ msgstr[0] "%1 телефонний номер"
+#~ msgstr[1] "%1 телефонних номери"
+#~ msgstr[2] "%1 телефонних номерів"
+#~ msgstr[3] "%1 телефонний номер"
+
+#~ msgid ""
+#~ "Defines if the contact tree should be expanded by default to show all "
+#~ "numbers"
+#~ msgstr ""
+#~ "Визначає, чи слід типово розгортати ієрархію контактів так, щоб було "
+#~ "показано всі номери."
+
+#~ msgid "Current account:"
+#~ msgstr "Поточний обліковий запис:"
+
+#~ msgid "Call back"
+#~ msgstr "Передзвонити"
+
+#~ msgid "Player"
+#~ msgstr "Програвач"
+
+#~ msgid "PlayerOverlay"
+#~ msgstr "Накладка програвача"
+
+#~ msgid "Enter transfer number"
+#~ msgstr "Вкажіть номер передавання"
+
+#~ msgid ""
+#~ "Please enter a transfer number and press Enter, press Escape to cancel"
+#~ msgstr ""
+#~ "Будь ласка, вкажіть номер для передавання і натисніть клавішу Enter. "
+#~ "Натисніть Esc, щоб скасувати дію."
+
+#~ msgctxt "Unknown peer"
+#~ msgid "Unknown"
+#~ msgstr "Невідомо"
+
+#~ msgid "Your call have been transferred to %1"
+#~ msgstr "Ваш виклик передано до %1"
+
+#~ msgid "Calls"
+#~ msgstr "Виклики"
+
+#~ msgid "Popular"
+#~ msgstr "Популярні"
+
+#~ msgid "<b>Conference</b>"
+#~ msgstr "<b>Конференція</b>"
+
+#~ msgid "<b>Unknown</b>"
+#~ msgstr "<b>Невідомо</b>"
+
+#~ msgid "Contacts"
+#~ msgstr "Контакти"
+
+#~ msgctxt "Unknown category"
+#~ msgid "Unknown"
+#~ msgstr "Невідома"
+
+#~ msgid "TODO"
+#~ msgstr "ЩЕ НЕ НАПИСАНО"
+
+#~ msgid ""
+#~ "Use the dialpad below or start typing a number. Use the dialpad below or "
+#~ "start typing a number. Use the dialpad below or start typing a number. "
+#~ "Use the dialpad below or start typing a number. "
+#~ msgstr ""
+#~ "Скористайтеся панеллю введення номеру, розташованою нижче, або вкажіть "
+#~ "номер за допомогою клавіатури. Скористайтеся панеллю введення номеру, "
+#~ "розташованою нижче, або вкажіть номер за допомогою клавіатури."
+
+#~ msgctxt "SIP server"
+#~ msgid "Server"
+#~ msgstr "Сервер"
+
+#~ msgctxt "Account password"
+#~ msgid "Password"
+#~ msgstr "Пароль"
+
+#~ msgid ""
+#~ "An unknown error occurred. SFLPhone KDE will now restart. If the problem "
+#~ "persist, please report a bug."
+#~ msgstr ""
+#~ "Сталася невідома помилка. Зараз SFLPhone KDE буде перезапущено. Якщо "
+#~ "проблема не зникне, будь ласка, повідомте про неї розробників."
+
+#~ msgid "New call from:%1\n"
+#~ msgstr "Новий виклик від: %1\n"
+
+#~ msgctxt "General settings"
+#~ msgid "General"
+#~ msgstr "Загальні"
+
+#~ msgid "Enter new account's alias"
+#~ msgstr "Введіть псевдонім для нового облікового запису"
+
+#~ msgid "Stun"
+#~ msgstr "Stun"
+
+#~ msgid "Contact list details"
+#~ msgstr "Параметри списку контактів"
+
+#~ msgid "Show main window"
+#~ msgstr "Показати головне вікно"
+
+#~ msgctxt "Sort by name"
+#~ msgid "Name"
+#~ msgstr "Ім’я"

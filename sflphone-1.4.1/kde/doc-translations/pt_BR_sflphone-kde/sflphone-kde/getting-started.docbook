@@ -1,0 +1,262 @@
+<chapter id="getting-started">
+
+<chapterinfo>
+<authorgroup>
+   <author
+><firstname
+>Jérémy</firstname
+> <surname
+>Quentin</surname
+> </author>
+   <author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+<othercredit role="translator"
+><firstname
+>Marcus</firstname
+><surname
+>Gama</surname
+><affiliation
+><address
+><email
+>marcus.gama@gmail.com</email
+></address
+></affiliation
+><contrib
+>Tradução</contrib
+></othercredit
+> 
+</authorgroup>
+</chapterinfo>
+
+<title
+>Introdução ao &sflphone-client-kde;</title>
+
+<para
+>Quando iniciar o &sflphone-client-kde; pela primeira vez, você irá obter um assistente de configuração de contas. Este assistente irá ajudá-lo a configurar uma conta para o &sflphone; usar. Você deverá terminar o assistente antes de ir para a janela principal do &sflphone-client-kde;, caso contrário ele não irá funcionar sem ter pelo menos uma conta configurada. Você ainda poderá alterar todas as definições da conta a partir da janela principal, após terminar o assistente. Poderá também iniciar o assistente a partir da janela principal a qualquer momento. Iremos agora descrever as diferentes opções deste assistente. </para>
+
+<simplelist>
+<member
+><link linkend="gettingstarted-wizard-welcome"
+>A página de introdução do assistente.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-createorregister"
+>A página do tipo de registro.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-create"
+>Criar uma nova conta.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-register"
+>Registrar uma conta existente.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-stun"
+>A configuração do STUN.</link
+></member>
+<member
+><link linkend="gettingstarted-wizard-finish"
+>A página de conclusão.</link
+></member>
+</simplelist>
+
+<sect1 id="gettingstarted-wizard-welcome">
+<title
+>Página de boas-vindas</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-welcome.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>A página de introdução ao assistente</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+
+<para
+>Você poderá navegar por este assistente com os botões <guibutton
+>Seguinte</guibutton
+>, <guibutton
+>Anterior</guibutton
+> e <guibutton
+>Cancelar</guibutton
+>. Se clicar no botão <guibutton
+>Cancelar</guibutton
+>, o assistente irá encerrar sem adicionar a conta. Clique no botão <guibutton
+>Seguinte</guibutton
+> para iniciar a configuração da conta.</para>
+
+</sect1>
+
+
+<sect1 id="gettingstarted-wizard-createorregister">
+<title
+>Criar ou registrar</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-createorregister.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>A página do tipo de registro</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Você poderá optar por criar uma nova conta alojada no 'sflphone.org' ou registrar uma conta existente que possua. Se usar o &sflphone; pela primeira vez e quiser que as coisas funcionem da forma mais simples, deverá escolher a opção <guilabel
+>criar uma nova conta</guilabel
+>. Irá criar uma conta e adicioná-la ao &sflphone;. Se já tiver uma conta de SIP ou IAX criada com o &sflphone; ou de outra forma qualquer, poderá adicioná-la ao &sflphone; se escolher <guilabel
+>registrar uma conta existente</guilabel
+>. </para>
+
+</sect1>
+
+<sect1 id="gettingstarted-wizard-create">
+<title
+>Criar uma nova conta</title>
+
+<para
+>Se optar por criar uma conta no 'sflphone.org', o assistente irá precisar de algumas informações para criar a conta, irá criá-la automaticamente e irá adicionar as informações da nova conta ao &sflphone;. Isto cria uma conta de SIP, para que possa então usar essa conta nova a partir de qualquer outro sistema, com qualquer aplicação que lide com contas de SIP, usando as informações da nova conta que aparece no fim do processo ou que poderá acessar a partir da janela principal.</para>
+
+<sect2 id="gettingstarted-wizard-create-email">
+<title
+>Endereço de e-mail</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-create-email.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>A página do endereço de e-mail</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>A primeira informação que será pedida é o seu endereço de e-mail. Isto não é obrigatório, assim você poderá saltar esse passo com o botão <guibutton
+>Seguinte</guibutton
+>. Contudo, esta configuração permitirá que você receba algumas notificações sobre as mensagens de voz ou de texto que recebe enquanto estiver ausente.</para>
+
+
+</sect2>
+
+</sect1>
+
+<sect1 id="gettingstarted-wizard-register">
+<title
+>Registrar uma conta existente</title>
+
+<para
+>Se você já tiver criado uma conta de SIP ou IAX com o &sflphone; em outro computador ou em outra aplicação, ou ainda se quiser usar uma conta existente, poderá registá-la com este assistente para poder usá-la com esta instância do &sflphone;. O assistente pedirá as informações básicas desta conta para descobri-la novamente. Esta informação está descrita nesta seção.</para>
+
+
+
+<sect2 id="gettingstarted-wizard-register-siporiax">
+<title
+>SIP ou IAX</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-register-siporiax.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>A página do tipo de conta</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>O &sflphone; lida com dois protocolos para as chamadas, o SIP e o IAX2. O assistente irá pedir-lhe agora qual deles corresponde à sua conta. Se já tiver criado uma conta, basta escolher o tipo correto. Se quiser criar uma conta sem o &sflphone; e não sabe qual o tipo a escolher, poderá consultar <ulink url="http://www.voip-info.org/wiki/view/IAX+versus+SIP"
+>este documento</ulink
+> para saber qual atente melhor as suas necessidades.</para>
+
+</sect2>
+
+<sect2 id="gettingstarted-wizard-register-settings">
+<title
+>Configurações da conta</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-register-settings.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>A página de configurações</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>O assistente precisa de alguns dados para encontrar a sua conta. O nome alternativo serve apenas para conveniência, assim você poderá escolher qualquer um. Será aplicado apenas no &sflphone; deste sistema, não na conta. O servidor é o que hospeda a sua conta. O usuário corresponde à sua conta propriamente dita. Ao contrário do nome alternativo, terá que ser o nome do usuário escolhido ao criar a conta. A senha também é a escolhida para a conta. O número da caixa de correio será usado pelo botão da caixa de correio para evitar que tenha de escrever esse número com muita frequência. Normalmente é o 888.</para>
+
+</sect2>
+
+</sect1>
+
+<sect1 id="gettingstarted-wizard-stun">
+<title
+>Configuração do STUN</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-stun.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>A página do STUN</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Se registrar uma conta ou criá-la no sflphone.org (que também corresponde a registrar uma conta de SIP, no final das contas), o assistente irá pedir-lhe para ativar o STUN. Você poderá fazê-lo se estiver atrás de uma 'firewall'. De fato, esta não é uma opção desta conta em particular, mas de todo o &sflphone;; será aplicada em qualquer conta. Se ativar esta opção, terá que escolher o servidor de STUN que deseja usar (&eg;: servidorstun.org).</para>
+
+</sect1>
+
+
+<sect1 id="gettingstarted-wizard-finish">
+<title
+>A página de conclusão</title>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="wizard-finish.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>A página final</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>A página de conclusão resume as informações que tiver enviado durante o processo do assistente. Nada foi feito ainda de fato, assim você ainda poderá desistir com o botão <guibutton
+>Cancelar</guibutton
+>. Se clicar em <guibutton
+>Terminar</guibutton
+>, irá enviar todas as informações e criar a conta, caso opte por criá-la, ou registrá-la caso já exista previamente. Como não enviou a informação neste passo, você não consegue saber se o registro será bem sucedido. Para verificar isso, assim que estiver na janela principal, vá à página de configuração da conta para ver o estado das suas contas.</para>
+
+</sect1>
+
+</chapter>
+

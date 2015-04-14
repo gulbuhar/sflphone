@@ -1,0 +1,288 @@
+<chapter id="basic-use">
+
+<chapterinfo>
+<authorgroup>
+<author
+><firstname
+>Jérémy</firstname
+><surname
+>Quentin</surname
+></author>
+<author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+&ged.vertaald;&Freek.de.Kruijf; 
+</authorgroup>
+</chapterinfo>
+
+<title
+>Basis gebruik van &sflphone-client-kde;</title>
+
+<para
+>Hoewel &sflphone; is gericht op bedrijven is zijn interface erg gemakkelijk te gebruiken en kunt u de basis functies zonder enige speciale vaardigheden of kennis gebruiken.</para>
+
+<sect1 id="basic-use-mainwindow">
+<title
+>Presentatie van het hoofdvenster</title>
+
+<para
+>The main window is composed of four main parts: the current call list, the history list, the bookmark list and the contact list. By default, they are stacked, but it is possible to separate them by using the drag and drop handle on top of each "tab" of the application. Note that this handle is disabled in the current call list. </para>
+<sect2 id="basic-use-call-page">
+<title
+>De pagina met oproepen</title>
+<para
+>To switch between those windows, click on the <guilabel
+>History</guilabel
+>, <guilabel
+>Bookmark</guilabel
+> and <guilabel
+>Address Book</guilabel
+> tabs on the bottom of the screen. Each tab page can be docked on the left or right of the call page and tabbed in various configurations. </para>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-list.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>De standaard lijst met oproepen</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+
+<para
+>The current call list is composed on the list itself, hosting call and conferences. There is also an optional dialpad, instant message box and volume controls. They can be enabled or disabled from the <guimenu
+>View</guimenu
+> menu. <screenshot
+> <mediaobject>
+<imageobject>
+<imagedata fileref="menu-view.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Het menu Beeld</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+</para>
+</sect2>
+
+<sect2 id="basic-use-history-page">
+<title
+>The History page</title>
+<para
+>The history list host the previous calls. It is possible to sort it in multiple ways. By default, it ordered from the most recent to the most ancient call with "smart" categories. A filter text box is available for quick searches. </para>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="history.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>The History tab</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>By default, each call display if the call is incoming, outgoing or missed as emblems in the bottom right of the widget. It also display the peer name using the contact information or the name provided by the phone server. If a call has a recording, the play and remove buttons will be displayed. </para>
+</sect2>
+
+<sect2 id="basic-use-contact-page">
+<title
+>The Contact page</title>
+<para
+>The contact list provide an easy access to KDE addressbook contacts. By default, it is sorted by alphabetical order, but can also be displayed in various other orders. A quick search text field is also provided. Contacts with multiple phone numbers are collapsed by default. To display all numbers it is possible to double click on the collapsed item in the list or activate the option in the <guilabel
+>Display</guilabel
+> page of the configuration dialog. The information being displayed are also configurable from that same page. Users with many contacts might want to display minimal details to reduce the size of the contacts. </para>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="contact-list.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>The Contact tab</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+</sect2>
+
+<sect2 id="basic-use-bookmark-page">
+<title
+>The Bookmark page</title>
+<para
+>The <guilabel
+>Bookmark</guilabel
+> page allow to save some phone numbers to be more accessible. This is done by clicking with the &RMB; on a contact or a history item and pressing the <guimenuitem
+>Bookmark</guimenuitem
+> option. It also displays the 10 most used numbers. </para>
+</sect2>
+
+</sect1>
+
+
+<sect1 id="basic-use-call">
+<title
+>Een oproep doen</title>
+
+<sect2 id="basic-use-call-current">
+<title
+>Iemands nummer bellen</title>
+
+
+<para
+>If you know the number of the people you want to call, you may just type it on the dialpad or on your keyboard while you are in the &i18n-current-w;, then click on the <guibutton
+>Accept</guibutton
+> button in the &i18n-actions-p;'s toolbar or in the <guimenu
+>Actions</guimenu
+> menu, or press &Enter; on your keyboard, or even double-click on the number to call once you have finished dialing it.</para>
+
+<para
+>Hoe het verder gaat, algemeen gedeelte...</para>
+
+</sect2>
+
+<sect2 id="basic-use-call-history">
+<title
+>Opbellen vanuit de geschiedenis</title>
+
+
+<para
+>If you want to call somebody from whom you missed a call, or you already called earlier, you may go to the &i18n-history-w;. The detailed use of this window and its features (search, &etc;) is described in this section. Once you are in it, find the number or name of the person you want to call, then select it and click on the <guibutton
+>Accept</guibutton
+> button in the &i18n-actions-p;'s toolbar or in the <guimenu
+>Actions</guimenu
+> menu, or press &Enter; on your keyboard, or double-click on the number.</para>
+
+<para
+>The screen will come back to the &i18n-current-w; with a new ringing call with the number you chose in the &i18n-history-w;.</para>
+
+<para
+>Note that you can also click with the &RMB; and select <guimenuitem
+>Edit</guimenuitem
+> before call to modify the number in the history before calling it.</para>
+
+<para
+>Hoe het verder gaat, algemeen gedeelte...</para>
+
+</sect2>
+
+<sect2 id="basic-use-call-address">
+<title
+>Calling from address book</title>
+
+
+<para
+>If you have your KAddressBook configured and filled with some phone numbers, you can go to the &i18n-address-w;. The detailed use of this window and its features (search, &etc;) is described in this section. Once you are in it, find the name of the person you want to call with the right phone number (&i18n-pt-home;, &i18n-pt-work; or &i18n-pt-cell;), then select it and click on the <guibutton
+>Accept</guibutton
+> button in the &i18n-actions-p;'s toolbar or in the <guimenu
+>Actions</guimenu
+> menu, or press &Enter; on your keyboard, or double-click on the number.</para>
+
+<para
+>The screen will come back to the &i18n-current-w; with a new ringing call with the number you chose in the &i18n-address-w;.</para>
+
+<para
+>Note that you can also click with the &RMB; and select <guimenuitem
+>Edit</guimenuitem
+> before call to modify the number in the address book before calling it.</para>
+
+<para
+>Hoe het verder gaat, algemeen gedeelte...</para>
+
+</sect2>
+
+</sect1>
+
+<sect1 id="basic-use-becalled">
+<title
+>Receiving a call</title>
+
+
+<para
+>When one of the account registered in &sflphone; receives an incoming call, it will be displayed as a new item in the &i18n-current-w; with the "incoming" icon. You can either accept or refuse it. To accept it, select the item and click on the <guibutton
+>Accept</guibutton
+> button which replaced the <guibutton
+>Call</guibutton
+> button in toolbar and <guimenu
+>Actions</guimenu
+> menu, or double click the item, or press &Enter;. To refuse it, select it and click on the refuse button that replaced the <guibutton
+>Hang up</guibutton
+> button in toolbar and Actions menu or press &Esc;.</para>
+
+<para
+>Hoe het verder gaat, algemeen gedeelte...</para>
+
+</sect1>
+
+
+<sect1 id="basic-use-ringing">
+<title
+>The call is ringing</title>
+
+
+<para
+>Once you called a number, the call is normally in ringing state. It will then pass to Current or Busy state, according to the decision of the called peer to accept or refuse the call. If it is in Busy state, you can just hang it up with the <guibutton
+>Hang up</guibutton
+> button or pressing &Esc;. </para>
+
+<para
+>If the number does not exist or if any other error occurred (see the list of common errors here), it is in failure state, then you can hang it up with the <guibutton
+>Hang up</guibutton
+> button or pressing &Esc;.</para>
+
+<para
+>Hoe het verder gaat, algemeen gedeelte...</para>
+
+</sect1>
+
+<sect1 id="basic-use-current">
+<title
+>The call is current</title>
+
+
+<para
+>Once the call is in current state, you can now communicate with your peer. You have a bunch of useful features when in current state that are described in the common use chapter. To end the call, select it and click on <guibutton
+>Hang up</guibutton
+> button in toolbar or pressing &Esc;.</para>
+
+</sect1>
+
+
+
+<sect1 id="basic-use-config">
+<title
+>Configuration panel</title>
+
+<para
+>The configuration panel is built in accordance with &kde; specifications. It is divided by options type. The panel at left shows the different option pages you can reach. Click on one of them to access to the corresponding page. The changes you make are not applied until you click <guibutton
+>OK</guibutton
+> or <guibutton
+>Apply</guibutton
+>. Clicking <guibutton
+>Cancel</guibutton
+> will cancel and forget every change you made since the last <guibutton
+>Apply</guibutton
+> or <guibutton
+>OK</guibutton
+> command. Be careful not to forget some changes you made in some other pages if you wanted to cancel it.</para>
+
+<para
+>There is also a specific <guibutton
+>Apply</guibutton
+> button just for the account list which is useful to manage these accounts and valid your changes to see if the accounts are well registered.</para>
+
+</sect1>
+
+
+</chapter>

@@ -1,0 +1,663 @@
+<chapter id="basic-use">
+
+<chapterinfo>
+<authorgroup>
+<author
+><firstname
+>Jérémy</firstname
+><surname
+>Quentin</surname
+></author>
+<author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+<othercredit role="translator"
+><firstname
+>Burkhard</firstname
+><surname
+>Lück</surname
+><affiliation
+><address
+><email
+>lueck@hube-lueck.de</email
+></address
+></affiliation
+><contrib
+>Übersetzung</contrib
+></othercredit
+> 
+</authorgroup>
+</chapterinfo>
+
+<title
+>Grundlagen der Bedienung von &sflphone-client-kde;</title>
+
+<para
+>Obwohl &sflphone; für den Unternehmensbereich gedacht ist, kann die Benutzeroberfläche einfach benutzt werden, so können Sie wesentlichen Funktionen ohne bestimmte Fähigkeiten oder Kenntnisse benutzen.</para>
+
+<sect1 id="basic-use-mainwindow">
+<title
+>Das Hauptfenster</title>
+
+<para
+>Das Hauptfenster besteht aus vier Teilen: der Liste der aktuellen Anrufe, dem Anrufverlauf, der Lesezeichenliste und der Kontaktliste. In der Voreinstellung sind die Listen gestapelt, aber Sie können sie trennen, indem Sie oben in jeder Karteikarte ziehen. Dies ist für die Liste der aktuellen Anrufe nicht möglich. </para>
+<sect2 id="basic-use-call-page">
+<title
+>Die Karteikarte Anruf</title>
+<para
+>Um zwischen diesen Fenstern zu wechseln, klicken Sie auf die Karteireiter <guilabel
+>Verlauf</guilabel
+>, <guilabel
+>Lesezeichen</guilabel
+> und <guilabel
+>Adressbuch</guilabel
+> unten im Hauptfenster. Jede Karteikarte kann links oder rechts von der Anrufseite in verschiedenen Konfigurationen angeordnet werden. </para>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-list.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Die Standard-Anrufliste</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+
+<para
+>Die Liste der aktuellen Anrufe besteht aus der Liste selbst, den gehaltenen Anrufen und Konferenzen. Es gibt auch ein optionales Wählfeld, ein Feld für Nachrichten und die Lautstärkeregelung. Sie können im Menü <guimenu
+>Ansicht</guimenu
+> ein- oder ausgeschaltet werden. <screenshot
+> <mediaobject>
+<imageobject>
+<imagedata fileref="menu-view.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Das Menü Ansicht</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+</para>
+</sect2>
+
+<sect2 id="basic-use-history-page">
+<title
+>Die Karteikarte Verlauf</title>
+<para
+>In dieser Liste finden Sie die vorherigen Anrufe, diese können auf verschiedene Arten sortiert werden. Als Voreinstellung sind die Anrufe von den neuesten bis zu den ältesten Anrufen mit intelligenten Kategorien sortiert. Ein Filterfeld ermöglicht eine schnelle Suche. </para>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="history.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Die Karteikarte Verlauf</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+<para
+>Als Voreinstellung wird für jeden Anruf durch Symbole in der oben rechts im Fenster angezeigt, ob er eingehend, ausgehend oder nicht angenommen wurde. Es wird auch der Name der Gegenstelle gezeigt, dazu werden die Kontaktinformationen oder der von Telefonserver gelieferte Name benutzt. Wird ein Anruf aufgenommen, dann werden Knöpfe für die Wiedergabe und das Anhalten angezeigt. </para>
+</sect2>
+
+<sect2 id="basic-use-contact-page">
+<title
+>Die Karteikarte Kontakt</title>
+<para
+>Die Kontaktliste erlaubt einen leichten Zugriff auf die Kontakte im KDE-Adressbuch. In der Voreinstellung ist die Liste alphabetisch sortiert, dies kann aber angepasst werden. Ein Feld zur schnellen Suche ist ebenfalls vorhanden. Kontakte mit mehreren Telefonnummern werden als Standard eingeklappt angezeigt. Um alle Nummern anzuzeigen, doppelklicken Sie auf den eingeklappten Eintrag in der Liste oder aktivieren Sie diese Einstellung auf der Seite <guilabel
+>Anzeige</guilabel
+> des Einrichtungsdialogs. Die angezeigte Information kann auf dieser Seite eingerichtet werden. Haben Sie viele Kontakte, möchten vielleicht nur wenige Daten anzeigen lassen, um die Anzeigegröße der Kontakte zu verringern. </para>
+
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="contact-list.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Die Karteikarte Kontakt</para>
+</caption>
+</mediaobject>
+</screenshot>
+
+</sect2>
+
+<sect2 id="basic-use-bookmark-page">
+<title
+>Die Karteikarte Lesezeichen</title>
+<para
+>Auf der Seite <guilabel
+>Lesezeichen</guilabel
+> können Telefonnummern gesichert werden, um schneller wieder darauf zuzugreifen. Klicken Sie dazu mit der &RMBn; auf einen Kontakt oder einen Eintrag im Verlauf und wählen Sie dann im Kontextmenü <guilabel
+>Lesezeichen</guilabel
+>. Hier werden auch die 10 am häufigsten verwendeten Nummern angezeigt. </para>
+</sect2>
+
+</sect1>
+
+
+<sect1 id="basic-use-call">
+<title
+>Telefonanrufe ausführen</title>
+
+<sect2 id="basic-use-call-current">
+<title
+>Telefonnummern wählen</title>
+
+
+<para
+>Kennen Sie die Telefonnummer der Person, die Sie anrufen möchten, geben Sie sie auf der Karteikarte Anruf direkt über das Wählfeld oder mit der Tastatur ein und klicken dann auf den Knopf <guibutton
+>Anruf durchführen</guibutton
+> in der Werkzeugleiste, wählen Sie dies im Menü <guimenu
+>Aktionen</guimenu
+> oder drücken Sie die Taste &Enter; auf der Tastatur. Sie können auch auf die Telefonnummer doppelklicken, wenn Sie die vollständige Nummer eingegeben haben.</para>
+
+<para
+>.</para>
+
+</sect2>
+
+<sect2 id="basic-use-call-history">
+<title
+>Anrufen mit dem Anruf-Verlauf</title>
+
+
+  <para
+>Möchten Sie jemanden anrufen, dessen Anruf Sie nicht angenommen oder verpasst haben, oder den Sie bereits vorher angerufen haben, gehen Sie zur Karteikarte Verlauf. Die Benutzung dieser Karteikarte und die Funktionen wie Suchen &etc; werden in diesem Abschnitt erläutert. Suchen Sie als erstes die Nummer oder den Namen der Person, die Sie anrufen möchten. Doppelklicken Sie auf den Eintrag im Verlauf, ziehen Sie einen Eintrag aus dem Verlauf in die Karteikarte Anruf, drücken Sie die &Enter;taste oder wählen Sie aus dem Kontextmenü eines Eintrags <guimenuitem
+>Wieder anrufen</guimenuitem
+>.</para>
+
+</sect2>
+
+<sect2 id="basic-use-call-contact">
+<title
+>Anrufen mit dem Adressbuch</title>
+
+
+<para
+>Wenn Sie Kontakte entweder in KAddressBook oder Akonadi eingerichtet haben, werden sie automatisch durch &sflphone-client-kde; importiert. Um einen Kontakt anzurufen, doppelklicken sie darauf, ziehen Sie ihn auf die Liste der aktuellen Anrufe, drücken Sie die &Enter;taste oder wählen Sie im Kontextmenü eines Eintrags <guimenuitem
+>Anrufen</guimenuitem
+>.</para>
+
+<para
+>Wenn es mehrere Telefonnummern für einen Kontakt gibt, wird ein Dialog zur Auswahl der richtigen Nummer angezeigt. </para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="multiple-number.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Aufklappfenster für mehrere Telefonnummern</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Wenn Ihr Adressbuch unvollständige Telefonnummern oder nur eine Durchwahlnummer enthält, können Sie ein Standardkonto auf der Karteikarte <guilabel
+>Allgemein</guilabel
+> im Einrichtungsdialog des Kontos festlegen. Dieses Konto wird dann für diese Nummern verwendet. Gehören unvollständige Telefonnummern zu mehreren Konten, sollten Sie diese Kontakte bearbeiten und die Nummern vervollständigen oder „@<replaceable
+>hostname</replaceable
+>“ an die Nummer anhängen und dabei <replaceable
+>hostname</replaceable
+> mit dem gültigen Rechnernamen eines Servers ersetzen.</para>
+
+</sect2>
+
+</sect1>
+
+
+
+<sect1 id="basic-call-state">
+<title
+>Einfache Anruffunktionen</title>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-action.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Anruffunktionen</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<sect2 id="basic-use-becalled">
+<title
+>Anrufe annehmen</title>
+
+<para
+>Wenn für eines der in &sflphone; registrierten Konten ein Anruf eingeht, wird er als neuer Eintrag mit dem Symbol „Eingehend“ auf der Karteikarte Anruf angezeigt. Sie können den Anruf entweder annehmen oder ablehnen. Um ihn anzunehmen wählen Sie den Eintrag aus und klicken auf den Knopf <guibutton
+>Abheben</guibutton
+>, der den Knopf <guibutton
+>Anrufen</guibutton
+> in der Werkzeugleiste ersetzt, wählen diese Aktion aus dem Menü <guimenu
+>Aktionen</guimenu
+>, doppelklicken auf den Eintrag oder drücken die &Enter;taste. Um den Anruf abzulehnen, wählen Sie ihn aus, klicken auf den den Knopf <guibutton
+>Ablehnen</guibutton
+>, der den Knopf <guibutton
+>Auflegen</guibutton
+> in der Werkzeugleiste ersetzt, wählen diese Aktion aus dem Menü <guimenu
+>Aktionen</guimenu
+> oder drücken die &Esc;-Taste;</para>
+
+<para
+>.</para>
+
+</sect2>
+
+
+<sect2 id="basic-use-ringing">
+<title
+>Das Telefon klingelt</title>
+
+
+<para
+>Wenn Sie eine Nummer gewählt haben, ist der Anruf im Klingelstatus. Dieser Status ändert sich zu Aktuell oder Besetzt, je nach dem Verhalten der Gegenstelle. Ist besetzt, benutzen Sie den Knopf <guibutton
+>Auflegen</guibutton
+> oder drücken Sie die &Esc;-Taste, um den Anruf zu beenden. </para>
+
+<para
+>Ist die Telefonnummer ungültig oder ist ein anderer Fehler aufgetreten, dann können Sie den Anruf mit <guibutton
+>Auflegen</guibutton
+> oder mit der &Esc;-Taste beenden.</para>
+
+<para
+>.</para>
+
+</sect2>
+
+<sect2 id="basic-use-current">
+<title
+>Der Anruf wird ausgeführt</title>
+
+
+<para
+>Wenn ein Anruf ausgeführt wird, können Sie mit Ihrem Gesprächspartner kommunizieren. Viele nützliche Funktionen beim Ausführen eines Anrufs werden im Kapitel Allgemeine Anwendung beschrieben. Um einen Anruf zu beenden, wählen Sie ihn aus und klicken dann auf <guibutton
+>Auflegen</guibutton
+> in der Werkzeugleiste oder drücken Sie die &Esc;-Taste.</para>
+
+</sect2>
+
+<sect2 id="basic-use-recording">
+<title
+>Der Telefonanruf wird aufgenommen</title>
+
+<para
+>Beim Aufnehmen eines Anrufs wird eine <filename
+>.wav</filename
+>-Datei im Ordner erzeugt, der in den Audio-Einstellungen ausgewählt wurde. Die Aufnahme starten Sie durch Drücken auf den Knopf <guibutton
+>Aufnehmen</guibutton
+> in der Werkzeugleiste. Das Symbol für den Anruf wird dann geändert:</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-record.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Das Symbol Aufnahme</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Wenn der Anruf beendet ist, können Sie die Aufnahme aus der Verlaufseite abspielen, indem Sie auf den Knopf Wiedergabe drücken. Das folgende Symbol wird dann angezeigt.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-play-record.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Das Symbol Aufnahme</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+</sect2>
+
+<sect2 id="basic-use-transfer">
+<title
+>Der Anruf wird weitergestellt</title>
+
+
+<para
+>SFLPhone unterstützt zwei Arten von Weiterleitung, direkt und angekündigt. Bei einer direkten Weiterleitung wird der Anruf an eine andere Telefonnummer weitergegeben. Dann ist der Anruf für SFLPhone beendet und es klingelt bei der Telefonnummer, an die weitergeleitet wurde. Drücken Sie für diese Aktion den Knopf <guibutton
+>Weiterleiten</guibutton
+> in der Werkzeugleiste. Folgendes Symbol wird dann angezeigt:</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-transfer.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Das Symbol Weiterleitung</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+</sect2>
+
+
+</sect1>
+
+<sect1 id="basic-managing-calls">
+<title
+>Telefonanrufe verwalten</title>
+
+<para
+>Mit SFLPhone können Sie mehrere Telefonate gleichzeitig führen. Die Verwaltung von mehreren Anrufen bietet viele Funktionen, aber dazu müssen Sie die Beziehung zwischen den Anrufen verstehen. In der Theorie kann nur ein Anruf oder eine Gruppe von Anrufen, hier „Konferenz“ genannt, aktiv sein. Alle anderen Anrufe werden gehalten. Über einen gehaltenen Anruf kann nicht kommuniziert werden, weder über einen Instant Messenger noch über Sprache, bis der Anruf wieder aktiviert wird. Doppelklicken Sie auf einen gehaltenen Anruf oder drücken Sie die &Enter;taste, um den Anruf wieder zu aktivieren. Aktive Anrufe werden durch ein grünes Symbol in intensiverer Farbe als inaktive Anrufe gekennzeichnet.</para>
+
+<para
+>Konferenzen sind Gruppen von miteinander verbunden Anrufen. Jeder Teilnehmen an einer Konferenz kann alle anderen Teilnehmer hören. Da eine in SFLPhone erstellte Konferenz für andere Teilnehmer nicht erkennbar ist, sollten Sie ihnen mitteilen, dass sie sich gerade in einer Telefonkonferenz befinden. </para>
+
+<para
+>Die Verwaltung von Anrufen kann meistens durch Ziehen und Ablegen erfolgen. Ziehen Sie einen Anruf auf einen anderen Anruf, dann wird dieses Symbol angezeigt.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="call-drop.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Das Symbol Anruf</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Ziehen Sie einen Anruf auf eine „Konferenz“, dann wird er darin aufgenommen. Ist das Ablageziel noch keine Konferenz, so wird sie dadurch erstellt. Angekündigte Weiterleitungen übergeben den Anruf an das Ablageziel. Sie sollten die Person vorher benachrichtigen, eher Sie die Weiterleitung tatsächlich ausführen. Sie halten den ersten Anruf, rufen die zweite Person an und führen dann die Weiterleitung durch. Der Anruf wird dann entfernt und ist damit beendet.</para>
+
+<para
+>Legen Sie einen Anruf auf einen Anruf in der Verlaufliste ab, sehen Sie diese Symbol:</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="history-drop.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Das Symbol Verlauf</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Dies löst eine direkte Weiterleitung aus. Das Telefon, zu der der Anruf weitergeleitet wird, klingelt. Der Anruf wird entfernt und ist beendet. Diese Funktion ist auch für Kontakte verfügbar:</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="contact-transfer.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Das Symbol Kontakt</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+</sect1>
+
+<sect1 id="basic-use-config">
+<title
+>Einrichtung des Kontos</title>
+
+<para
+>Hinweise zum Einrichtungsassistenten finden Sie im Kapitel <link linkend="getting-started"
+>Einführung</link
+> dieses Handbuchs.</para>
+
+<para
+>Erweiterte Einstellungen für Konten sind auf der Seite <guibutton
+>Konto</guibutton
+> des Einrichtungsdialogs verfügbar. Die Seite besteht aus zwei Bereichen, der Kontenliste und den Karteikarten für die Einstellungen.</para>
+
+<sect2 id="account-list">
+<title
+>Die Kontenliste</title>
+
+<para
+>In der Kontenliste können Sie durch Ankreuzen Konten aktivieren oder deaktivieren, die Priorität von Konten mit den Knöpfen <guibutton
+>nach oben</guibutton
+> und <guibutton
+>nach unten</guibutton
+> ändern und Konten mit den entsprechenden Knöpfen hinzufügen und entfernen.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-list.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Die Kontenliste</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Der eingefärbte Hintergrund kennzeichnet den Status eines Kontos. Keine Hintergrundfarbe zeigt ein deaktiviertes Konto, Rot ein ungültiges oder nicht zugängliches Konto, Gelb ein Konto, das gerade registriert wird und Grün ein gültiges registriertes Konto. Symbole kennzeichnen den aktuellen lokalen Status eines Kontos. Ein Diskettensymbol wird für ein geändertes aber noch nicht gespeichertes Konto angezeigt. Wurde ein Konto auf dem Server durch eine anderes Programm wie zum Beispiel durch das Plasmoid geändert, wird diese durch ein Symbol „Neu laden“ angezeigt und das Konto muss erneut geladen werden.</para>
+
+</sect2>
+
+<sect2 id="basic-configuration">
+<title
+>Grundeinstellungen</title>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-basic.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Allgemeiner Kontendialog</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Auf dieser Karteikarte können Sie die allgemeinen Anmeldedaten für ein SIP-Konto eingeben. Das Ankreuzfeld wird benutzt, um die Priorität für ein Konto bei der Suche nach Kontaktinformationen festzulegen.</para>
+
+<para
+>Die Einstellungen auf der Karteikarte <guilabel
+>Allgemein</guilabel
+> können auf den anderen Karteikarten noch ergänzt werden. Auf der Karteikarte <guilabel
+>Authentifizierung</guilabel
+> können Sie verbundene Anmeldungsdaten eingerichtet werden, eine Funktion, die aber selten benötigt wird.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-credentials.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Verbundene Anmeldungsdaten</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Sie können auch „Secure SIP“ im Sicherheitsdialog einschalten. Die meisten Konten werden im Intranet oder in einem VPN genutzt, daher müssen sie nicht abgesichert werden. Auf der Karteikarte <guilabel
+>Sicherheit</guilabel
+> können Sie, falls nötig, weitere Funktionen zur Sicherheit einstellen.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-security.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Sicherheit des Kontos</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Im Dialog Erweiterte Einstellungen enthält selten benutzte Einstellungen wie die Standard-Netzwerkschnittstelle, alternative Ports und den STUN-Server.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-advanced.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Erweiterte Einstellungen</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Im Dialog Klingelton können Sie einen Klingelton aus der Standardliste auswählen oder eine Datei von der Festplatte wählen.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="account-ringtone.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Einstellungen für den Klingelton</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Auf der Karteikarte Codec können Codecs ein- oder abgeschaltet werden oder ihre Priorität ändern. Damit können Sie entweder eine bessere Qualität für Ihre Anrufe oder weniger Bandbreite einstellen. Für einige Video-Codecs gibt es eigene Einstellungs-Parameter.</para>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="audio-codecs.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Codec-Einstellungen</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+</sect2>
+
+</sect1>
+
+<sect1 id="other-config">
+<title
+>Sonstige Einstellungen</title>
+
+<para
+>Für SFLPhone-KDE gibt es auch Einstellungen, die nichts mit SIP-Konten zu tun haben. Mit diesen Einstellungen können Sie das Aussehen und Verhalten de Anwendung bestimmen.</para>
+
+<sect2 id="display-config">
+<title
+>Anzeige</title>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="display.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Anzeige-Einstellungen</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Auf der Seite <guilabel
+>Anzeige</guilabel
+> finden Sie mehrere Einstellungen zum Aussehen des Programms. Im ersten Abschnitt <guilabel
+>Hauptfenster anzeigen</guilabel
+> können Sie auswählen, wann das Hauptfenster angezeigt wird, wenn SFLPhone im Systemabschnitt der Kontrollleiste minimiert ist. Im Abschnitt <guilabel
+>Benachrichtigungen</guilabel
+> legen Sie fest, wann Benachrichtigungen angezeigt werden. Im dritten Abschnitt <guilabel
+>Sichtbare Anrufdetails</guilabel
+> können Sie mehrere Informationen zu einem angezeigten Eintrag anzeigen oder ausblenden lassen. Hier kann auch eine minimale Höhe für Einträge in der Anrufliste eingestellt werden, damit sie leichter mit dem Mauszeiger getroffen werden. Im letzten Abschnitt <guilabel
+>Sichtbare Kontaktdetails</guilabel
+> finden Sie die gleichen Einstellungen für Kontakte.</para>
+
+</sect2>
+
+<sect2 id="audio-config">
+<title
+>Audio</title>
+
+<para>
+<screenshot>
+<mediaobject>
+<imageobject>
+<imagedata fileref="audio.png" format="PNG"/>
+</imageobject>
+<caption>
+<para
+>Anzeige-Einstellungen</para>
+</caption>
+</mediaobject>
+</screenshot>
+</para>
+
+<para
+>In der Audio-Einstellung können Sie zwischen PulseAudio und ALSA wählen. Außerdem ist es möglich, Geräte für verschiedene Operationen wie das Klingeln einzustellen.</para>
+
+</sect2>
+
+</sect1>
+
+
+</chapter>

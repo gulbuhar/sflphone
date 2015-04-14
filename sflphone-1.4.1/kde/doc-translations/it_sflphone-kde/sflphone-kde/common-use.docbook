@@ -1,0 +1,201 @@
+<chapter id="common-use">
+
+<chapterinfo>
+<authorgroup>
+   <author
+><firstname
+>Jérémy</firstname
+> <surname
+>Quentin</surname
+> </author>
+   <author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+<othercredit role="translator"
+><firstname
+>Innocenzo</firstname
+><surname
+>Ventre</surname
+><affiliation
+><address
+><email
+>innocenzo.ventre@gmail.com</email
+></address
+></affiliation
+><contrib
+>Traduzione italiana</contrib
+></othercredit
+> 
+</authorgroup>
+</chapterinfo>
+
+<title
+>Uso comune di &sflphone-client-kde;</title>
+
+<sect1 id="common-use-current">
+<title
+>Gestione di una chiamata</title>
+
+<para
+>Ci sono svariate funzioni a disposizione da poter applicare ad una chiamata in corso con &sflphone;. Qui le loro descrizioni. </para>
+
+<sect2 id="common-use-current-new">
+<title
+>Effettua una chiamata</title>
+
+<para
+>Puoi avere molteplici chiamate in parallelo, anche se solo una in corso (&ie;: tramite cui puoi parlare) e le altre in attesa. Per effettuare una nuova chiamata quando hai una chiamata in corso, fai clic sul nuovo pulsante di chiamata «Place», verrà creato un nuovo elemento vuoto e selezionato automaticamente, quindi digita il numero di telefono che desideri chiamare e fai clic su <guibutton
+>Chiama</guibutton
+> o premi &Enter; per effettuare la chiamata.Puoi anche vedere in &i18n-history-w; o in &i18n-address-w; valido per una chiamata, e inizierà a squillare in &i18n-current-w;. Quando effettui una nuova chiamata, ogni altra viene messa in attesa, quindi non puoi mixare le due chiamate. Se vuoi tornare ad una chiamata in attesa, fai doppio clic sulla voce corrispondente e tornerà allo stato di in corso, mentre la precedente viene messa in attesa. </para>
+
+</sect2>
+
+<sect2 id="common-use-current-hold">
+<title
+>Mettere in attesa una chiamata</title>
+
+<para
+>Se desideri mettere la chiamata corrente in attesa, è sufficiente che clicchi sulpulsante Trattieni. L'icona della chiamata verrà quindi cambiata e la comunicazione in corso viene messa in pausa. È quindi possibile effettuare una nuova chiamata, trasferire quella in attesa (vedi <xref linkend="common-use-current-transfer"/>) ... Per riprendere la comunicazione, fai doppio clic sulla voce o clicca il pulsante Sblocca. </para>
+
+</sect2>
+
+<sect2 id="common-use-current-transfer">
+<title
+>Trasferire una chiamata</title>
+
+<para
+>Se vuoi trasferire la chiamata in corso ad un altro numero di telefono, clicca sul pulsante <guibutton
+>Trasferisci</guibutton
+>, l'elemento cambierà e potrai inserire il numero al quale vuoi trasferire la tua chiamata. una volta inserito, fai clic sul pulsante trasferimento valido o premi &Enter; per trasferire effettivamente la chiamata. Puoi mettere in attesa la chiamata mentre inserisci il numero (vedi <xref linkend="common-use-current-hold"/>). </para>
+
+</sect2>
+
+<sect2 id="common-use-current-record">
+<title
+>Registrare una chiamata</title>
+
+<para
+>Se vuoi registrare la chiamata in corso, fai clic sul pulsante <guibutton
+>Registra</guibutton
+>, il pulsante diventerà attivo e può evidenziarsi. Dato che &sflphone; registra solo le chiamate in corso (&ie;: non in attesa), se è la chiamata in questione è nello stato in corso e può essere registrata verrà evidenziata. non altrimenti. Ma se il pulsante è attivo, &sflphone; registrerà non appena sarà in comunicazione. </para>
+
+</sect2>
+
+</sect1>
+
+<sect1 id="common-use-mailbox">
+<title
+>Casella di posta vocale</title>
+
+<para
+>È possibile chiamare la segreteria digitando il numero della casella di posta vocale del tuo account. Se invece hai registrato questo numero nelle impostazioni dell'account, è sufficiente fare clic sul pulsante Mailbox. Verrà Chiamata la casella di posta vocale del primo account registrato.</para>
+
+<para
+>In entrambi i casi, puoi digitare la password della casella postale senza preoccuparti di chi ti sta intorno, dato che &sflphone; non visualizza cosa scrivi nel caso che il numero rappresenti il numero registrato della casella di posta per l'account della chiamata in corso. </para>
+
+</sect1>
+
+<sect1 id="common-use-address">
+<title
+>Uso della rubrica</title>
+
+<para
+>&sflphone-client-kde; comunica con la rubrica di &kde; e acquisisce tutti i numeri corrispondenti alla tua richiesta e alle opzioni scelte. Qui verrà spiegato come configurarla e come usarla.</para>
+
+
+<sect2 id="common-use-address-kde">
+<title
+>Configurazione della rubrica di &kde;</title>
+
+<para
+>Essendo integrato con &kde;, &sflphone-client-kde; cerca i contatti all'interno della rubrica &kde;. Quindi devi prima configurarla. Seleziona dal menu &kmenu; <menuchoice
+><guimenu
+>Applicazioni</guimenu
+><guisubmenu
+>Ufficio</guisubmenu
+><guimenuitem
+>Rubrica</guimenuitem
+></menuchoice
+>. Ora hai davanti la finestra principale della rubrica di &kde;. Puoi aggiungere nuovi contatti o gestirli da qui. Premi <keycap
+>F1</keycap
+> per visualizzare la pagina di aiuto dell'applicazione se riscontri qualche problema. </para>
+
+<para
+>&sflphone-client-kde; cerca nella rubrica standard, il che significa che cercherà tra i contatti visualizzati nell'elenco alla sinistra della finestra. La ricerca viene effettuata tra le rubriche selezionate in basso a sinistra della finestra. Se aggiungi qualche contatto, dovresti riavviare &sflphone-client-kde; prima di poterli visualizzare. </para>
+
+
+</sect2>
+
+
+<sect2 id="common-use-address-config">
+<title
+>Configurare &sflphone-client-kde;</title>
+
+<para
+>Puoi procedere quindi con la finestra di dialogo di configurazione per scegliere come &sflphone; gestirà le ricerche nella rubrica. Questo passaggio è però facoltativo, le impostazioni predefinite consentono di utilizzare le funzionalità senza ulteriori impostazioni. </para>
+
+<para
+>L'impostazione del massimo numero di risultati ti permette di scegliere quanti numeri di telefono puoi visualizzare quando cerchi un contatto. La rubrica di &kde; può contenere molti elementi, specialmente se connessa alle cartelle di <acronym
+>LDAP</acronym
+>, e se non vuoi visualizzare molti contatti non appena inserisci qualche lettera come termine di ricerca.</para>
+
+<para
+>La rubrica di &kde; può contenere anche le foto dei tuoi contatti. &sflphone-client-kde; le può visualizzare nel risultato delle tue ricerche, ma dato che può impiegare più tempo, potresti voler disattivare questa funzione.</para>
+
+<para
+>Ogni numero di telefono della rubrica di &kde; è collegato ad un contatto, e ha un tipo di numero di telefono per differenziare i numeri di lavoro, i numeri di casa, ed i numeri di cellulare. Puoi scegliere di visualizzare solo alcuni di questi numeri. Seleziona i tipi di tuo interesse e deseleziona gli altri.</para>
+
+</sect2>
+
+<sect2 id="common-use-address-use">
+<title
+>Ricerca nella rubrica</title>
+
+<para
+>Ora che tutto è impostato, puoi passare al &i18n-address-w;, e quindi digitarealcune lettere del nome che si desidera chiamare. Vedrai tutti i numeri telefonici che corrispondono alla tua richiesta e il loro tipo. Quando le dimensioni dell'elenco risultante è maggiore di quella massima impostata nella configurazione, visualizzerà solo l'inizio della lista, fino alla dimensione massima, e viene poi visualizzato un messaggio di avviso per farti sapere che il numero desiderato può essere nel resto dell'elenco e quindi non visualizzato. In quel caso puoi digitare altre lettere per migliorare la precisione della ricerca. Quando hai trovato il numero giusto, fai doppio clic per chiamarlo. </para>
+
+</sect2>
+
+
+</sect1>
+
+
+
+<sect1 id="common-use-config">
+<title
+>Finestra di dialogo per la configurazione</title>
+
+<para
+>Ci sono molte opzioni in &sflphone; Tutte queste sono raggruppate e ordinate nella finestra di dialogo di configurazione. Puoi raggiungerle da <menuchoice
+><guimenu
+>Impostazioni</guimenu
+><guimenuitem
+>Configura &sflphone;...</guimenuitem
+></menuchoice
+>. Qui vengono presentate alcune opzioni comunemente utili.</para>
+
+<sect2 id="common-use-config-address">
+<title
+>Impostazioni generali</title>
+
+<para
+>Qui puoi scegliere la dimensione della cronologia. </para>
+
+</sect2>
+
+</sect1>
+
+
+
+
+
+
+
+
+
+
+
+</chapter>

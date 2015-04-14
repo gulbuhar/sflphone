@@ -1,0 +1,197 @@
+<chapter id="common-use">
+
+<chapterinfo>
+<authorgroup>
+   <author
+><firstname
+>Jérémy</firstname
+> <surname
+>Quentin</surname
+> </author>
+   <author
+><firstname
+>Emmanuel</firstname
+> <surname
+>Lepage Vallee</surname
+> </author>
+&traductor.Antoni.Bella; 
+</authorgroup>
+</chapterinfo>
+
+<title
+>Ús comú del &sflphone-client-kde;</title>
+
+<sect1 id="common-use-current">
+<title
+>Gestionar una trucada</title>
+
+<para
+>Hi ha un munt de característiques que es poden aplicar sobre una trucada en curs amb el &sflphone;. Aquí teniu les descripcions. </para>
+
+<sect2 id="common-use-current-new">
+<title
+>Fer una trucada nova</title>
+
+<para
+>Podeu tenir un munt de trucades en paral·lel, tot i que només una estarà en curs (&ead;: podeu parlar amb algú) i les altres estaran en espera. Per fer una trucada nova mentre esteu amb una trucada en curs, feu clic al botó <guibutton
+>Fes una trucada nova</guibutton
+>, es crearà un nou element buit i obtindrà el focus automàticament, a continuació, escriviu el número de telèfon al qual voleu trucar i premeu <guibutton
+>Truca</guibutton
+> o premeu &Intro; per a realitzar la trucada. També podeu anar a la &i18n-history-w; o a la &i18n-address-w; i validar una trucada, i aquesta serà afegida per sonar el timbre a la &i18n-current-w;. Quan es col·loca una trucada nova, qualsevol altre serà posada en espera, de manera que no es poden barrejar dues trucades. Si voleu tornar a una de les trucades posades en espera, només cal fer doble clic sobre l'element corresponent i tornarà a l'estat en curs, mentre que l'anterior es posarà en espera. </para>
+
+</sect2>
+
+<sect2 id="common-use-current-hold">
+<title
+>Posar en espera una trucada</title>
+
+<para
+>Si voleu posar en espera la trucada en curs, només haureu de fer clic al botó <guibutton
+>En espera</guibutton
+>. La icona de la trucada canviarà i la comunicació farà una pausa amb el que truca. A continuació, podeu posar una trucada nova, transferir la realitzada (vegeu <xref linkend="common-use-current-transfer"/>)... Per prendre la comunicació de nou, només cal fer doble clic sobre l'element o feu clic al botó <guibutton
+>Recupera</guibutton
+>. </para>
+
+</sect2>
+
+<sect2 id="common-use-current-transfer">
+<title
+>Transferir una trucada</title>
+
+<para
+>Si voleu transferir la trucada en curs a un altre número de telèfon, feu clic al botó <guibutton
+>Transfereix</guibutton
+>, l'element canviarà i podreu escriure el número al qual voleu transferir la trucada. Una vegada escrit, feu clic al botó <guibutton
+>Transfereix</guibutton
+> o premeu &Intro; per a transferir eficaçment la trucada. Podeu posar la trucada en espera mentre escriviu el número (vegeu <xref linkend="common-use-current-hold"/>). </para>
+
+</sect2>
+
+<sect2 id="common-use-current-record">
+<title
+>Enregistrar una trucada</title>
+
+<para
+>Si voleu enregistrar la trucada en curs, feu clic al botó <guibutton
+>Enregistra</guibutton
+>, el botó s'activarà i s'encendrà la llum. El &sflphone; només enregistrarà les trucades quan es trobin en curs (&ead;: no en espera), la llum s'encendrà si la trucada seleccionada està en curs i es pot gravar. De no ser així, la llum restarà apagada. Però si s'activa el botó, el &sflphone; enregistrarà tan aviat com establiu la comunicació. </para>
+
+</sect2>
+
+</sect1>
+
+<sect1 id="common-use-mailbox">
+<title
+>Bústia de trucades</title>
+
+<para
+>Podeu trucar a la bústia de veu escrivint el número de la bústia de veu pel vostre compte. Però si heu registrat aquest número a la configuració del compte, podeu fer clic al botó <guibutton
+>Bústia de veu</guibutton
+>. Es trucarà a la bústia de veu del primer compte registrat.</para>
+
+<para
+>En ambdós casos, a continuació podreu escriure la contrasenya de la bústia de veu sense preocupar-vos per la gent al vostre voltant, ja que &sflphone; no mostrarà el que escriviu, si el número trucat és el número de la bústia de veu registrat al compte de la trucada en curs. </para>
+
+</sect1>
+
+<sect1 id="common-use-address">
+<title
+>Usar la llibreta d'adreces</title>
+
+<para
+>El &sflphone-client-kde; es comunica amb la llibreta d'adreces del &kde; i recull tots els números de telèfon que coincideixin amb la vostra sol·licitud i opcions triades. Aquí us explicarem com configurar-la i usar-la.</para>
+
+
+<sect2 id="common-use-address-kde">
+<title
+>Configurar la llibreta d'adreces del &kde;</title>
+
+<para
+>Ja que està completament dissenyat pel &kde;, el &sflphone-client-kde; veu els vostres contactes a la llibreta d'adreces del &kde;. De manera que primer l'haureu de configurar. Escolliu <menuchoice
+><guimenu
+>Aplicacions</guimenu
+><guisubmenu
+>Oficina</guisubmenu
+><guimenuitem
+>Llibreta d'adreces</guimenuitem
+></menuchoice
+> des del &kmenu;. Ara veureu la finestra principal de la llibreta d'adreces del &kde;. Hi podeu afegir contactes i gestionar-los des d'aquí. Si teniu cap problema amb aquesta, premeu <keycap
+>F1</keycap
+> per a veure la pàgina d'ajuda d'aquesta aplicació. </para>
+
+<para
+>El &sflphone-client-kde; veurà la llibreta d'adreces estàndard, el qual vol dir que veurà els contactes que apareixen a la llista de contactes a l'esquerra de la finestra. Es cercarà a les llibretes d'adreces seleccionades a la part inferior esquerra de la finestra. Si afegiu alguns contactes, és possible que hagueu de tornar a iniciar el &sflphone-client-kde; abans que les pugui veure. </para>
+
+
+</sect2>
+
+
+<sect2 id="common-use-address-config">
+<title
+>Configurar el &sflphone-client-kde;</title>
+
+<para
+>Ara podeu anar al diàleg de configuració per triar com gestionarà el &sflphone; les seves cerques a la llibreta d'adreces. Aquest pas és opcional, però, a causa dels ajustaments per omissió, podeu utilitzar aquesta característica sense més ajustaments. </para>
+
+<para
+>L'ajustament pel màxim de resultats, us permet escollir la quantitat de números de telèfon que es podran mostrar quan cerqueu un contacte. La llibreta d'adreces del &kde; pot contenir una gran quantitat de contactes, sobretot si esteu connectat als directoris <acronym
+>LDAP</acronym
+>, i no voleu veure milers de contactes mostrats tan aviat com escriviu una lletra a cercar.</para>
+
+<para
+>La llibreta d'adreces del &kde; pot contenir una fotografia pels vostres contactes. El &sflphone-client-kde; la pot mostrar en el resultat de les vostres recerques, però com pot prendre una mica més de temps, podeu optar per deshabilitar aquesta característica.</para>
+
+<para
+>Cada número de telèfon a la llibreta d'adreces del &kde; està vinculat amb un contacte, i disposa d'un tipus de número de telèfon per a diferenciar els telèfons de la feina, els telèfons de casa i els telèfons mòbils. Podeu optar per només mostrar alguns d'aquests números. Marqueu els tipus que us interessen i desmarqueu els altres.</para>
+
+</sect2>
+
+<sect2 id="common-use-address-use">
+<title
+>Cercar a la llibreta d'adreces</title>
+
+<para
+>Ara que tot està configurat, podeu anar a la &i18n-address-w;, a continuació escriviu algunes lletres del nom de qui voleu el telèfon. Veureu tots els números de telèfon que coincideixin amb la vostra sol·licitud i el seu tipus. Quan la mida de la llista resultant sigui major que el màxim seleccionat a la configuració, només es mostrarà el començament de la llista amb la mida màxima, i mostrarà un missatge d'avís per a fer-vos saber que el vostre número desitjat es podria trobar a la resta del llistat que no es mostra. En aquest cas, escriviu algunes lletres més per tal de millorar la precisió de la cerca. Una vegada trobat el número correcte, feu doble clic sobre l'element per a realitzar la trucada. </para>
+
+</sect2>
+
+
+</sect1>
+
+
+
+<sect1 id="common-use-config">
+<title
+>Diàleg de configuració</title>
+
+<para
+>Hi ha un munt d'opcions al &sflphone;. Totes estan recollides i ordenades al diàleg de configuració. Hi podeu arribar escollint <menuchoice
+><guimenu
+>Arranjament</guimenu
+><guimenuitem
+>Configura el &sflphone;...</guimenuitem
+></menuchoice
+>. Aquí es presenten algunes de les opcions més útils.</para>
+
+<sect2 id="common-use-config-address">
+<title
+>Arranjament general</title>
+
+<para
+>Aquí podeu triar la capacitat per a l'historial de les trucades. </para>
+
+</sect2>
+
+</sect1>
+
+
+
+
+
+
+
+
+
+
+
+</chapter>
